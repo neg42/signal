@@ -1,55 +1,12 @@
 {
-  "updatedAt": "2026-05-12T21:16:33.236Z",
-  "elapsedSeconds": 12.5,
+  "updatedAt": "2026-05-12T21:19:34.782Z",
   "counts": {
-    "society": 65,
+    "society": 55,
     "tech": 80,
-    "business": 40,
-    "entertainment": 58,
-    "politics": 58,
+    "business": 30,
+    "entertainment": 56,
+    "politics": 60,
     "custom": 0,
     "all": 120
-  },
-  "requires_registration": false,
-  "external_services": "none — GitHub Actions only",
-  "sources": {
-    "scraped_tv": [
-      "ANN テレ朝",
-      "TBS NEWS DIG",
-      "FNN",
-      "日テレ NEWS",
-      "テレ東BIZ",
-      "MBS NEWS"
-    ],
-    "rss": [
-      "NHK ニュース",
-      "NHK 社会",
-      "朝日新聞",
-      "毎日新聞",
-      "読売新聞",
-      "TechCrunch",
-      "Ars Technica",
-      "WIRED Japan",
-      "GIGAZINE",
-      "Engadget Japan",
-      "Gizmodo Japan",
-      "NHK 経済",
-      "東洋経済オンライン",
-      "Reuters Business",
-      "ダイヤモンド・オンライン",
-      "ファミ通",
-      "電撃オンライン",
-      "ORICON NEWS",
-      "ナタリー 音楽",
-      "ナタリー コミック",
-      "IGN Japan",
-      "NHK 政治",
-      "NHK 国際",
-      "BBC World",
-      "Reuters Politics"
-    ],
-    "api_no_key": [
-      "Hacker News Firebase API"
-    ]
   }
 }
