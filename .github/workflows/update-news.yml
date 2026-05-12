@@ -2,13 +2,16 @@ name: 📡 SIGNAL ニュース自動収集
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # 15分ごと
+    - cron: '*/15 * * * *'
   workflow_dispatch:
   push:
     branches: [ main ]
 
 permissions:
   contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   fetch:
