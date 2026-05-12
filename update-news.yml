@@ -1,0 +1,43 @@
+name: 📡 SIGNAL ニュース自動収集
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # 15分ごと
+  workflow_dispatch:           # 手動実行ボタン
+  push:
+    branches: [ main ]        # push時にも即実行
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}   # GitHubが自動生成・登録不要
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # package.json に依存パッケージがないので npm install は実質スキップ
+      - name: セットアップ確認
+        run: cd scripts && npm install
+
+      - name: ニュース収集
+        run: cd scripts && node fetch-news.js
+
+      - name: コミット & プッシュ
+        run: |
+          git config user.email "signal-bot@github.com"
+          git config user.name "SIGNAL News Bot"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "変更なし。スキップ。"
+          else
+            git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST 自動更新"
+            git push
+          fi
