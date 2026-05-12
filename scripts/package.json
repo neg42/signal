@@ -1,0 +1,11 @@
+{
+  "name": "signal-news-fetcher",
+  "version": "1.0.0",
+  "description": "SIGNAL ニュース収集スクリプト（GitHub Actions用）",
+  "main": "fetch-news.js",
+  "scripts": {
+    "fetch": "node fetch-news.js",
+    "dev": "node fetch-news.js"
+  },
+  "dependencies": {}
+}
