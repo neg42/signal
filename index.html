@@ -2,12 +2,21 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <title>SIGNAL — パーソナルニュース</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <style>
+    /* ティッカーのはみ出しを絶対に防ぐ */
+    html, body { overflow-x: hidden; max-width: 100%; }
+    .ticker-wrap {
+      contain: strict;
+      width: 100%;
+      max-width: 100%;
+    }
+  </style>
 </head>
 <body>
 
@@ -36,19 +45,22 @@
       <div class="topbar-actions">
         <button class="view-btn active" id="viewGrid" title="グリッド">▦</button>
         <button class="view-btn" id="viewList" title="リスト">☰</button>
-        <input class="search-input" id="searchInput" type="text" placeholder="キーワード検索…" />
+        <input class="search-input" id="searchInput" type="text" placeholder="検索…" />
       </div>
     </header>
 
-    <div class="ticker-wrap" id="tickerWrap">
-      <div class="ticker-label">LIVE</div>
-      <div class="ticker-track" id="tickerTrack"></div>
+    <!-- ティッカーを独立したコンテナで完全に閉じ込める -->
+    <div class="ticker-outer">
+      <div class="ticker-wrap" id="tickerWrap">
+        <div class="ticker-label">LIVE</div>
+        <div class="ticker-track" id="tickerTrack"></div>
+      </div>
     </div>
 
     <section class="feed" id="feed">
       <div class="loading-state">
         <div class="spinner"></div>
-        <p id="loadingMsg">準備中…</p>
+        <p>読み込み中…</p>
       </div>
     </section>
   </main>
@@ -61,24 +73,8 @@
       <button class="modal-close" id="closeSettings">✕</button>
     </div>
     <div class="modal-body">
-      <p class="modal-desc">取得するRSSフィードを選択できます。カスタムRSSを追加することも可能です。</p>
+      <p class="modal-desc">GitHub Actionsが15分ごとに自動収集します。</p>
       <div class="source-categories" id="sourceCategories"></div>
-      <div class="add-source-form">
-        <div class="form-label">カスタムRSSを追加</div>
-        <div class="form-row">
-          <input type="text" id="newFeedName" placeholder="名前" />
-          <input type="text" id="newFeedUrl" placeholder="RSS URL" />
-          <select id="newFeedCategory">
-            <option value="tech">テクノロジー・AI</option>
-            <option value="business">ビジネス・経済</option>
-            <option value="entertainment">エンタメ・ゲーム</option>
-            <option value="politics">政治</option>
-            <option value="society">社会</option>
-            <option value="custom">カスタム</option>
-          </select>
-          <button class="add-btn" id="addFeedBtn">追加</button>
-        </div>
-      </div>
     </div>
   </div>
 
