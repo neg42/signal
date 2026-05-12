@@ -1,0 +1,38 @@
+name: 📡 SIGNAL ニュース自動収集
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # 15分ごと
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: ニュース収集
+        run: node scripts/fetch-news.js
+
+      - name: コミット & プッシュ
+        run: |
+          git config user.email "signal-bot@github.com"
+          git config user.name "SIGNAL Bot"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
+            git push
+          fi
