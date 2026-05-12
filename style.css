@@ -315,3 +315,45 @@ body {
 ::-webkit-scrollbar-track { background: var(--paper2); }
 ::-webkit-scrollbar-thumb { background: var(--paper3); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--ink3); }
+
+/* ══ ティッカー（完全封じ込め版）══════════════════════ */
+.ticker-outer {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  border-bottom: 2px solid var(--ink);
+  background: var(--paper);
+  /* 横幅を親に合わせて絶対に超えさせない */
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;        /* ← これが核心 */
+  position: relative;
+  z-index: 10;             /* topbarより下、コンテンツより上 */
+}
+.ticker-label {
+  padding: 0 13px;
+  font-family: var(--ff-mono); font-size: 9px; font-weight: 500;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--paper); background: var(--red);
+  height: 100%; display: flex; align-items: center;
+  white-space: nowrap; flex-shrink: 0;
+}
+.ticker-scroll {
+  flex: 1;
+  overflow: hidden;        /* 二重ガード */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+.ticker-track {
+  display: flex; align-items: center;
+  white-space: nowrap;
+  animation: ticker 60s linear infinite;
+  font-family: var(--ff-body); font-size: 12px; color: var(--ink2);
+  will-change: transform;
+  padding-left: 16px;
+}
+.ticker-item { padding: 0 20px; }
+.ticker-item::after { content: '—'; margin-left: 20px; color: var(--paper3); }
+@keyframes ticker { from{transform:translateX(0)} to{transform:translateX(-50%)} }

@@ -8,15 +8,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Noto+Sans+JP:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <style>
-    /* ティッカーのはみ出しを絶対に防ぐ */
-    html, body { overflow-x: hidden; max-width: 100%; }
-    .ticker-wrap {
-      contain: strict;
-      width: 100%;
-      max-width: 100%;
-    }
-  </style>
 </head>
 <body>
 
@@ -49,10 +40,10 @@
       </div>
     </header>
 
-    <!-- ティッカーを独立したコンテナで完全に閉じ込める -->
+    <!-- ティッカーを専用コンテナで完全に封じ込める -->
     <div class="ticker-outer">
-      <div class="ticker-wrap" id="tickerWrap">
-        <div class="ticker-label">LIVE</div>
+      <div class="ticker-label">LIVE</div>
+      <div class="ticker-scroll">
         <div class="ticker-track" id="tickerTrack"></div>
       </div>
     </div>
@@ -65,7 +56,6 @@
     </section>
   </main>
 
-  <!-- 設定モーダル -->
   <div class="modal-backdrop" id="modalBackdrop"></div>
   <div class="modal" id="settingsModal">
     <div class="modal-header">
@@ -73,12 +63,10 @@
       <button class="modal-close" id="closeSettings">✕</button>
     </div>
     <div class="modal-body">
-      <p class="modal-desc">GitHub Actionsが15分ごとに自動収集します。</p>
       <div class="source-categories" id="sourceCategories"></div>
     </div>
   </div>
 
-  <!-- 記事モーダル -->
   <div class="modal-backdrop" id="articleBackdrop"></div>
   <div class="modal article-modal" id="articleModal">
     <div class="modal-header">
