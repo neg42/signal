@@ -1,66 +1,50 @@
 /**
- * SIGNAL fetch-news.js v6
- * 
- * GitHub Actions で動く確実な収集スクリプト。
- * 
- * 戦略:
- *  1. User-Agentをgooglebotに設定 → ほぼ全サイトが許可するクローラー
- *  2. Refererを設定して一般クローラーと見なさせる
- *  3. 接続失敗したソースはスキップ（全体を止めない）
- *  4. data/news.json に書き出す
+ * SIGNAL fetch-news.js v7
+ *
+ * 設計方針:
+ * ① Google News RSS（登録不要）をメイン収集源に採用
+ *    - 日本語: https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja
+ *    - カテゴリ別トピックIDも使用
+ * ② 個別サイトRSSは補完として使用（Google Botで取得）
+ * ③ Hacker News API（完全無料・CORS不要）
+ * ④ 取得失敗してもスキップして続行
  */
-
 'use strict';
 
-const fs   = require('fs');
-const path = require('path');
+const fs    = require('fs');
+const path  = require('path');
 const https = require('https');
 const http  = require('http');
 const { URL } = require('url');
 
-const OUT_DIR = path.resolve(__dirname, '../data');
+const OUT = path.resolve(__dirname, '../data');
 
-// ─── HTTP取得（複数UAを試す）─────────────────────────
-const USER_AGENTS = [
-  // Googlebotは最も通りやすい
-  'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
-  // 次点: 一般的なブラウザUA
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-  // フィードリーダー
-  'FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)',
-];
-
-function httpGet(rawUrl, uaIndex = 0) {
-  return new Promise((resolve) => {
+// ─── HTTP取得 ─────────────────────────────────────────
+function httpGet(rawUrl, ua) {
+  return new Promise(resolve => {
     let parsed;
-    try { parsed = new URL(rawUrl); }
-    catch { return resolve(null); }
-
+    try { parsed = new URL(rawUrl); } catch { return resolve(null); }
     const mod = parsed.protocol === 'https:' ? https : http;
     const req = mod.request({
       hostname: parsed.hostname,
       path: parsed.pathname + parsed.search,
       headers: {
-        'User-Agent': USER_AGENTS[uaIndex] || USER_AGENTS[0],
-        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
+        'User-Agent': ua || 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+        'Accept': 'application/rss+xml,application/xml,text/xml,*/*',
         'Accept-Language': 'ja,en;q=0.9',
         'Accept-Encoding': 'identity',
-        'Cache-Control': 'no-cache',
       },
       timeout: 15000,
     }, res => {
       if ([301,302,307,308].includes(res.statusCode) && res.headers.location) {
         res.resume();
-        let next = res.headers.location;
-        if (!next.startsWith('http')) next = `${parsed.protocol}//${parsed.hostname}${next}`;
-        return httpGet(next, uaIndex).then(resolve);
+        const loc = res.headers.location;
+        const next = loc.startsWith('http') ? loc : `${parsed.protocol}//${parsed.hostname}${loc}`;
+        return httpGet(next, ua).then(resolve);
       }
-      const chunks = [];
-      res.on('data', d => chunks.push(d));
-      res.on('end', () => resolve({
-        status: res.statusCode,
-        body: Buffer.concat(chunks).toString('utf8'),
-      }));
+      const c = [];
+      res.on('data', d => c.push(d));
+      res.on('end', () => resolve({ status: res.statusCode, body: Buffer.concat(c).toString('utf8') }));
     });
     req.on('error', () => resolve(null));
     req.on('timeout', () => { req.destroy(); resolve(null); });
@@ -68,112 +52,150 @@ function httpGet(rawUrl, uaIndex = 0) {
   });
 }
 
-// UAを変えながらリトライ
-async function fetchWithRetry(url) {
-  for (let i = 0; i < USER_AGENTS.length; i++) {
-    const r = await httpGet(url, i);
-    if (r && r.status === 200 && r.body.length > 100) return r.body;
-    if (r && r.status === 200) return r.body; // 空でも200なら使う
-  }
-  return null;
-}
-
 // ─── RSS パーサー ─────────────────────────────────────
-function parseRSS(xml, source, category) {
-  const items = [];
-  const re = /<item[^>]*>([\s\S]*?)<\/item>|<entry[^>]*>([\s\S]*?)<\/entry>/gi;
-  let m;
-  while ((m = re.exec(xml)) !== null) {
-    const chunk = m[1] || m[2];
-
-    const txt = tag => {
-      const r = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>|<${tag}[^>]*>([^<]*)<\\/${tag}>`, 'i');
-      const h = r.exec(chunk);
-      return h ? (h[1] || h[2] || '').trim() : '';
-    };
-    const attr = (tag, a) => {
-      const r = new RegExp(`<${tag}[^>]+${a}=["']([^"']+)["']`, 'i');
-      const h = r.exec(chunk);
-      return h ? h[1] : '';
-    };
-
-    const title = strip(txt('title'));
-    const link  = txt('link') || attr('link', 'href') || attr('enclosure', 'url');
-    if (!title || !link || title.length < 3) continue;
-
-    const desc = strip(txt('description') || txt('summary') || txt('content')).slice(0, 280);
-    const date = parseDate(txt('pubDate') || txt('published') || txt('updated'));
-
-    // 画像: media:thumbnail > enclosure > content内img > description内img
-    const image =
-      attr('media:thumbnail', 'url') ||
-      attr('media:content', 'url')   ||
-      (attr('enclosure', 'type').startsWith('image') ? attr('enclosure', 'url') : '') ||
-      attr('enclosure', 'url')       ||
-      extractImg(txt('content') || txt('description') || chunk) ||
-      '';
-
-    items.push({ id: link, title, description: desc, url: link, image, date, source, category });
-  }
-  return items.slice(0, 25);
-}
-
-function strip(h = '') {
-  return h.replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim();
-}
-function extractImg(html = '') {
-  const m = html.match(/<img[^>]+src=["']([^"']+)["']/i);
-  return m ? m[1] : '';
-}
 function parseDate(s) {
   if (!s) return new Date().toISOString();
   try { const d = new Date(s); return isNaN(d) ? new Date().toISOString() : d.toISOString(); }
   catch { return new Date().toISOString(); }
 }
+function clean(h = '') {
+  return h.replace(/<[^>]*>/g,' ').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim();
+}
+function firstImg(html = '') {
+  const m = html.match(/<img[^>]+src=["']([^"']+)["']/i);
+  return m ? m[1] : '';
+}
 
-// ─── RSSソース定義 ────────────────────────────────────
-const SOURCES = [
-  // 社会
-  { name: 'NHK トップ',          url: 'https://www3.nhk.or.jp/rss/news/cat0.xml',         cat: 'society' },
-  { name: 'NHK 社会',            url: 'https://www3.nhk.or.jp/rss/news/cat1.xml',          cat: 'society' },
-  { name: '朝日新聞',             url: 'https://www.asahi.com/rss/asahi/newsheadlines.rdf', cat: 'society' },
-  { name: '毎日新聞',             url: 'https://mainichi.jp/rss/etc/mainichi-flash.rss',    cat: 'society' },
-  { name: '読売新聞',             url: 'https://www.yomiuri.co.jp/feed/top/',               cat: 'society' },
+function parseRSS(xml, defaultSource, category) {
+  const items = [];
+  const re = /<item[^>]*>([\s\S]*?)<\/item>|<entry[^>]*>([\s\S]*?)<\/entry>/gi;
+  let m;
+  while ((m = re.exec(xml)) !== null) {
+    const chunk = m[1] || m[2];
+    const txt = tag => {
+      const r = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>|<${tag}[^>]*>([^<]*)<\\/${tag}>`, 'i');
+      const h = r.exec(chunk);
+      return h ? (h[1] || h[2] || '').trim() : '';
+    };
+    const atr = (tag, a) => {
+      const r = new RegExp(`<${tag}[^>]+${a}=["']([^"']+)["']`, 'i');
+      const h = r.exec(chunk);
+      return h ? h[1] : '';
+    };
+
+    const title = clean(txt('title'));
+    const link  = txt('link') || atr('link','href');
+    if (!title || !link || title.length < 3) continue;
+
+    // Google Newsのsource要素からソース名を取得
+    const sourceEl = chunk.match(/<source[^>]*>([^<]*)<\/source>/i);
+    const source = sourceEl ? sourceEl[1].trim() : defaultSource;
+
+    const desc  = clean(txt('description') || txt('summary') || txt('content')).slice(0, 280);
+    const date  = parseDate(txt('pubDate') || txt('published') || txt('updated'));
+    const image = atr('media:thumbnail','url') || atr('media:content','url') ||
+      (atr('enclosure','type').startsWith('image') ? atr('enclosure','url') : '') ||
+      atr('enclosure','url') ||
+      firstImg(txt('content') || txt('description') || chunk);
+
+    items.push({ id: link, title, description: desc, url: link, image, date, source, category });
+  }
+  return items.slice(0, 30);
+}
+
+// ─── Google News RSS ──────────────────────────────────
+// 登録不要・APIキー不要・公式RSS
+// カテゴリトピックIDはURLから確認できる固定値
+const GOOGLE_NEWS_SOURCES = [
+  // トップニュース（日本語）
+  {
+    name: 'Google News トップ',
+    url: 'https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja',
+    category: 'society',
+  },
+  // 日本のニュース
+  {
+    name: 'Google News 日本',
+    url: 'https://news.google.com/rss/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE5mTTJRU0FtcGhLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja',
+    category: 'society',
+  },
   // テクノロジー
-  { name: 'TechCrunch',         url: 'https://techcrunch.com/feed/',                       cat: 'tech'    },
-  { name: 'Ars Technica',       url: 'https://feeds.arstechnica.com/arstechnica/index',    cat: 'tech'    },
-  { name: 'WIRED Japan',        url: 'https://wired.jp/rss/',                              cat: 'tech'    },
-  { name: 'GIGAZINE',           url: 'https://gigazine.net/news/rss_2.0/',                 cat: 'tech'    },
-  { name: 'Engadget Japan',     url: 'https://japanese.engadget.com/rss.xml',              cat: 'tech'    },
+  {
+    name: 'Google News テクノロジー',
+    url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtcGhLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja',
+    category: 'tech',
+  },
   // ビジネス
-  { name: 'NHK 経済',           url: 'https://www3.nhk.or.jp/rss/news/cat5.xml',          cat: 'business'},
-  { name: '東洋経済オンライン',   url: 'https://toyokeizai.net/list/feed/rss',              cat: 'business'},
-  { name: 'Reuters Business',   url: 'https://feeds.reuters.com/reuters/businessNews',     cat: 'business'},
-  { name: 'ダイヤモンドOnline',  url: 'https://diamond.jp/list/feed/rss',                  cat: 'business'},
-  // エンタメ・ゲーム
-  { name: 'ファミ通',            url: 'https://www.famitsu.com/feed',                      cat: 'entertainment' },
-  { name: '電撃オンライン',       url: 'https://dengekionline.com/rss/all.rss',              cat: 'entertainment' },
-  { name: 'ORICON NEWS',        url: 'https://www.oricon.co.jp/rss/news.rdf',              cat: 'entertainment' },
-  { name: 'ナタリー 音楽',       url: 'https://natalie.mu/music/feed/news',                 cat: 'entertainment' },
-  { name: 'ナタリー コミック',    url: 'https://natalie.mu/comic/feed/news',                cat: 'entertainment' },
-  { name: 'IGN Japan',          url: 'https://jp.ign.com/feed.xml',                        cat: 'entertainment' },
-  // 政治
-  { name: 'NHK 政治',           url: 'https://www3.nhk.or.jp/rss/news/cat4.xml',          cat: 'politics'},
-  { name: 'NHK 国際',           url: 'https://www3.nhk.or.jp/rss/news/cat6.xml',          cat: 'politics'},
-  { name: 'BBC World',          url: 'https://feeds.bbci.co.uk/news/world/rss.xml',        cat: 'politics'},
-  { name: 'Reuters Politics',   url: 'https://feeds.reuters.com/Reuters/PoliticsNews',     cat: 'politics'},
+  {
+    name: 'Google News ビジネス',
+    url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtcGhLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja&topic=b',
+    category: 'business',
+  },
+  // エンタメ
+  {
+    name: 'Google News エンタメ',
+    url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtcGhLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja',
+    category: 'entertainment',
+  },
+  // スポーツ（エンタメに含める）
+  {
+    name: 'Google News スポーツ',
+    url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp1ZEdvU0FtcGhLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja',
+    category: 'entertainment',
+  },
+  // 科学技術（techへ）
+  {
+    name: 'Google News サイエンス',
+    url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp0Y1RjU0FtcGhLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja',
+    category: 'tech',
+  },
+  // 検索: AI
+  {
+    name: 'Google News AI',
+    url: 'https://news.google.com/rss/search?q=AI+人工知能&hl=ja&gl=JP&ceid=JP:ja',
+    category: 'tech',
+  },
+  // 検索: 政治
+  {
+    name: 'Google News 政治',
+    url: 'https://news.google.com/rss/search?q=政治+国会&hl=ja&gl=JP&ceid=JP:ja',
+    category: 'politics',
+  },
+  // 検索: 経済
+  {
+    name: 'Google News 経済',
+    url: 'https://news.google.com/rss/search?q=経済+株価&hl=ja&gl=JP&ceid=JP:ja',
+    category: 'business',
+  },
+  // 検索: ゲーム
+  {
+    name: 'Google News ゲーム',
+    url: 'https://news.google.com/rss/search?q=ゲーム+Nintendo+PlayStation&hl=ja&gl=JP&ceid=JP:ja',
+    category: 'entertainment',
+  },
 ];
 
-// ─── Hacker News ──────────────────────────────────────
+// ─── 補完RSS（個別サイト）────────────────────────────
+const SUPPLEMENT_SOURCES = [
+  { name: 'Hacker News (via RSS)', url: 'https://news.ycombinator.com/rss', category: 'tech' },
+  { name: 'TechCrunch',  url: 'https://techcrunch.com/feed/',                     category: 'tech'     },
+  { name: 'Ars Technica',url: 'https://feeds.arstechnica.com/arstechnica/index',  category: 'tech'     },
+  { name: 'BBC World',   url: 'https://feeds.bbci.co.uk/news/world/rss.xml',      category: 'politics' },
+  { name: 'Reuters',     url: 'https://feeds.reuters.com/reuters/businessNews',    category: 'business' },
+  { name: 'IGN Japan',   url: 'https://jp.ign.com/feed.xml',                      category: 'entertainment' },
+  { name: 'GIGAZINE',    url: 'https://gigazine.net/news/rss_2.0/',               category: 'tech'     },
+];
+
+// ─── Hacker News API ─────────────────────────────────
 async function fetchHN() {
   try {
-    const body = await fetchWithRetry('https://hacker-news.firebaseio.com/topstories.json');
-    if (!body) return [];
-    const ids = JSON.parse(body).slice(0, 20);
-    const stories = await Promise.all(
-      ids.map(id => fetchWithRetry(`https://hacker-news.firebaseio.com/item/${id}.json`)
-        .then(b => b ? JSON.parse(b) : null).catch(() => null))
-    );
+    const r = await httpGet('https://hacker-news.firebaseio.com/topstories.json');
+    if (!r || r.status !== 200) return [];
+    const ids = JSON.parse(r.body).slice(0, 15);
+    const stories = await Promise.all(ids.map(id =>
+      httpGet(`https://hacker-news.firebaseio.com/item/${id}.json`)
+        .then(r => r ? JSON.parse(r.body) : null).catch(() => null)
+    ));
     return stories.filter(s => s?.title && s?.url).map(s => ({
       id: `hn-${s.id}`, title: s.title,
       description: `▲ ${s.score} points · ${s.descendants||0} comments · by ${s.by}`,
@@ -184,11 +206,33 @@ async function fetchHN() {
   } catch { return []; }
 }
 
-// ─── 重複除去 ─────────────────────────────────────────
+// ─── まとめて取得 ─────────────────────────────────────
+async function fetchAll(sources, ua) {
+  const BATCH = 4;
+  const all = [];
+  for (let i = 0; i < sources.length; i += BATCH) {
+    const batch = sources.slice(i, i + BATCH);
+    const results = await Promise.all(batch.map(async src => {
+      const r = await httpGet(src.url, ua);
+      if (!r || r.status !== 200 || !r.body) {
+        console.log(`  SKIP [${r?.status||'ERR'}] ${src.name}`);
+        return [];
+      }
+      const items = parseRSS(r.body, src.name, src.category);
+      const withImg = items.filter(a => a.image).length;
+      console.log(`  OK   ${src.name}: ${items.length}件 (img:${withImg})`);
+      return items;
+    }));
+    all.push(...results.flat());
+    await new Promise(r => setTimeout(r, 300));
+  }
+  return all;
+}
+
 function dedup(arts, limit = 80) {
   const seen = new Set();
   return arts.filter(a => {
-    if (!a?.title) return false;
+    if (!a?.title || a.title.length < 4) return false;
     const k = a.title.replace(/\s+/g,'').slice(0,40);
     if (seen.has(k)) return false;
     seen.add(k); return true;
@@ -197,46 +241,37 @@ function dedup(arts, limit = 80) {
 
 // ─── メイン ───────────────────────────────────────────
 async function main() {
-  console.log('SIGNAL fetch-news v6\n');
+  console.log('SIGNAL v7 — Google News RSS + 補完ソース\n');
 
-  const byCat = { society:[], tech:[], business:[], entertainment:[], politics:[], all:[], custom:[] };
+  // Google Newsはブラウザ風UAで
+  const browserUA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+  const botUA = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)';
 
-  // RSS 4並行
-  const BATCH = 4;
-  for (let i = 0; i < SOURCES.length; i += BATCH) {
-    const batch = SOURCES.slice(i, i + BATCH);
-    await Promise.all(batch.map(async src => {
-      const xml = await fetchWithRetry(src.url);
-      if (!xml) { console.log(`  SKIP ${src.name}`); return; }
-      const items = parseRSS(xml, src.name, src.cat);
-      byCat[src.cat].push(...items);
-      // 画像取得数を表示
-      const withImg = items.filter(a => a.image).length;
-      console.log(`  OK   ${src.name}: ${items.length}件 (画像${withImg}件)`);
-    }));
-    await new Promise(r => setTimeout(r, 200));
-  }
+  console.log('=== Google News RSS ===');
+  const gnItems = await fetchAll(GOOGLE_NEWS_SOURCES, browserUA);
 
-  // Hacker News
+  console.log('\n=== 補完RSS ===');
+  const suppItems = await fetchAll(SUPPLEMENT_SOURCES, botUA);
+
+  console.log('\n=== Hacker News API ===');
   const hn = await fetchHN();
-  byCat.tech.push(...hn);
-  console.log(`  OK   Hacker News: ${hn.length}件`);
+  console.log(`  OK   Hacker News API: ${hn.length}件`);
 
-  // 重複除去・ソート
-  for (const k of Object.keys(byCat)) {
-    if (k !== 'all' && k !== 'custom') byCat[k] = dedup(byCat[k]);
-  }
-  byCat.all = dedup(Object.entries(byCat).filter(([k])=>k!=='all'&&k!=='custom').flatMap(([,v])=>v), 120);
+  const all = [...gnItems, ...suppItems, ...hn];
 
-  // 書き出し
-  if (!fs.existsSync(OUT_DIR)) fs.mkdirSync(OUT_DIR, { recursive: true });
-  fs.writeFileSync(path.join(OUT_DIR,'news.json'), JSON.stringify(byCat, null, 2));
-  fs.writeFileSync(path.join(OUT_DIR,'meta.json'), JSON.stringify({
+  const cats = ['society','tech','business','entertainment','politics'];
+  const byCat = Object.fromEntries(cats.map(c => [c, dedup(all.filter(a=>a.category===c))]));
+  byCat.custom = [];
+  byCat.all = dedup(all, 120);
+
+  if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
+  fs.writeFileSync(path.join(OUT,'news.json'), JSON.stringify(byCat, null, 2));
+  fs.writeFileSync(path.join(OUT,'meta.json'), JSON.stringify({
     updatedAt: new Date().toISOString(),
     counts: Object.fromEntries(Object.entries(byCat).map(([k,v])=>[k,v.length])),
   }, null, 2));
 
-  console.log('\n結果:');
+  console.log('\n=== 結果 ===');
   Object.entries(byCat).forEach(([k,v]) => console.log(`  ${k}: ${v.length}件`));
 }
 
