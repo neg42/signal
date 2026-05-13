@@ -309,9 +309,25 @@ function openSettings() {
 
   document.getElementById('sourceCategories').innerHTML = `
     <div class="source-group">
-      <div class="source-group-title">収集の仕組み</div>
-      <div style="padding:12px;background:#fff;border:1px solid var(--paper3);border-radius:4px;font-size:12.5px;line-height:1.8;color:var(--ink2)">
-        GitHub Actionsが15分ごとに<strong>Google News RSS</strong>と日本語メディアを収集し、本文冒頭も取得します。
+      <div class="source-group-title">最新ニュースを取得</div>
+      <div class="refresh-actions">
+        <button class="refresh-action-btn primary" onclick="window.open('https://github.com/neg42/signal/actions/workflows/update-news.yml','_blank')">
+          <span class="icon">🔄</span>
+          <div>
+            <div class="btn-title">サーバーで最新を収集</div>
+            <div class="btn-sub">GitHub Actionsを開いて Run workflow をクリック</div>
+          </div>
+        </button>
+        <button class="refresh-action-btn" onclick="closeSettings();load();">
+          <span class="icon">↻</span>
+          <div>
+            <div class="btn-title">画面を再読み込み</div>
+            <div class="btn-sub">最後に収集されたデータを取得</div>
+          </div>
+        </button>
+      </div>
+      <div style="padding:10px 12px;background:var(--paper2);border-radius:4px;font-size:11.5px;line-height:1.7;color:var(--ink3);margin-top:10px">
+        💡 自動収集は30分ごとに実行されます。すぐに最新ニュースが必要な場合は上のボタンを使ってください。
       </div>
     </div>
     <div class="source-group">
@@ -323,13 +339,7 @@ function openSettings() {
       </div>
       <div class="src-list">${sourceList}</div>
     </div>
-    <div class="source-group">
-      <div class="source-group-title">手動実行</div>
-      <a href="https://github.com/neg42/signal/actions" target="_blank" rel="noopener"
-         style="display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:var(--paper);padding:9px 16px;border-radius:4px;font-size:13px;text-decoration:none">
-        GitHub Actions を開く →
-      </a>
-    </div>`;
+`;
 
   // チェックボックスのイベント
   document.querySelectorAll('input[data-src]').forEach(cb=>{
@@ -411,7 +421,16 @@ function setupEvents() {
   document.getElementById('modalBackdrop').addEventListener('click',closeSettings);
   document.getElementById('closeArticle').addEventListener('click',closeArticle);
   document.getElementById('articleBackdrop').addEventListener('click',closeArticle);
-  document.getElementById('refreshBtn').addEventListener('click',()=>{closeSettings();load();});
+  document.getElementById('refreshBtn').addEventListener('click', async () => {
+    closeSettings();
+    showToast('最新データを取得中...');
+    await load();
+    showToast('更新完了', 'success');
+  });
+  // GitHub Actionsを開くボタン
+  document.getElementById('fetchNewBtn')?.addEventListener('click', () => {
+    window.open('https://github.com/neg42/signal/actions/workflows/update-news.yml', '_blank');
+  });
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeArticle();closeSettings();}});
 }
 
@@ -419,6 +438,23 @@ function toggleSidebar() {
   const sb=document.getElementById('sidebar');
   if(window.innerWidth<=768) sb.classList.toggle('mobile-open');
   else{sb.classList.toggle('hidden');document.querySelector('.main').classList.toggle('expanded');}
+}
+
+
+// ─── トースト通知 ─────────────────────────────────────
+function showToast(msg, type='info') {
+  const existing = document.getElementById('signal-toast');
+  if (existing) existing.remove();
+  const t = document.createElement('div');
+  t.id = 'signal-toast';
+  t.className = 'signal-toast' + (type==='success'?' toast-success':'');
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(()=>t.classList.add('show'), 10);
+  setTimeout(()=>{
+    t.classList.remove('show');
+    setTimeout(()=>t.remove(), 300);
+  }, 2200);
 }
 
 // ─── スタイル ─────────────────────────────────────────
@@ -480,4 +516,21 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .src-row label{flex:1;font-size:12.5px;color:var(--ink2);cursor:pointer}
 .src-row input[type=checkbox]{accent-color:var(--red);width:14px;height:14px;cursor:pointer}
 .src-count{font-family:var(--ff-mono);font-size:10px;color:var(--ink3);background:var(--paper2);padding:1px 6px;border-radius:10px;min-width:24px;text-align:center}
+
+
+/* リフレッシュアクション */
+.refresh-actions{display:flex;flex-direction:column;gap:8px}
+.refresh-action-btn{display:flex;align-items:center;gap:12px;padding:12px 14px;background:#fff;border:1px solid var(--paper3);border-radius:6px;cursor:pointer;text-align:left;font-family:var(--ff-body);transition:all .15s;width:100%}
+.refresh-action-btn:hover{border-color:var(--ink2);background:var(--paper)}
+.refresh-action-btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.refresh-action-btn.primary:hover{opacity:.9;background:var(--ink)}
+.refresh-action-btn .icon{font-size:18px;flex-shrink:0}
+.refresh-action-btn .btn-title{font-size:13px;font-weight:600;margin-bottom:2px}
+.refresh-action-btn .btn-sub{font-size:11px;color:var(--ink3);font-family:var(--ff-mono)}
+.refresh-action-btn.primary .btn-sub{color:rgba(247,245,240,.6)}
+
+/* トースト */
+.signal-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);padding:10px 20px;border-radius:24px;font-size:13px;font-family:var(--ff-body);box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:1000;opacity:0;transition:all .3s ease;pointer-events:none}
+.signal-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.signal-toast.toast-success{background:#2d6a4f}
 </style>`);
