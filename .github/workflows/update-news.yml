@@ -36,7 +36,7 @@ jobs:
         run: cd scripts && npm install
 
       - name: ニュース収集
-        run: node scripts/fetch-news.js
+        run: cd scripts && node fetch-news.js
 
       - name: コミット & プッシュ（コンフリクト時は自動上書き）
         run: |
