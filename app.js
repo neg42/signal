@@ -79,7 +79,20 @@ async function load() {
       raw = JSON.parse(text);
     } catch (e) {
       console.error('[SIGNAL] JSON parse error:', e);
-      throw new Error('JSON parse: ' + e.message);
+      console.log('[SIGNAL] trying backup file...');
+      // バックアップから再取得を試みる
+      try {
+        const br = await fetch('./data/news.backup.json?v='+Date.now(), {cache:'no-store'});
+        if (br.ok) {
+          const bt = await br.text();
+          raw = JSON.parse(bt);
+          console.log('[SIGNAL] backup loaded OK');
+        } else {
+          throw new Error('backup not found');
+        }
+      } catch (e2) {
+        throw new Error('JSON parse: ' + e.message + ' (backup also failed: ' + e2.message + ')');
+      }
     }
     console.log('[SIGNAL] JSON parsed, keys:', Object.keys(raw));
 
