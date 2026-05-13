@@ -1,17 +1,11 @@
 /**
- * SIGNAL fetch-news.js — カテゴリURL版
+ * SIGNAL fetch-news.js
  *
- * キーワード検索を廃止。Google NewsのカテゴリRSSを直接使用。
- * これにより「政治のニュース全般」「社会のニュース全般」を
- * キーワードに依存せず安定して取得できる。
- *
- * Google News カテゴリRSS (ned=jp形式):
- *   国内: /news/rss/headlines/section/topic/NATION.ja_jp/国内
- *   政治: /news/rss/headlines/section/topic/POLITICS.ja_jp/政治
- *   ビジネス: /news/rss/headlines/section/topic/BUSINESS.ja_jp/ビジネス
- *   エンタメ: /news/rss/headlines/section/topic/ENTERTAINMENT.ja_jp/エンタメ
- *   テクノロジー: /news/rss/headlines/section/topic/SCITECH.ja_jp/テクノロジー
- *   スポーツ: /news/rss/headlines/section/topic/SPORTS.ja_jp/スポーツ
+ * 修正点:
+ *  - カテゴリ0件バグ修正（interleaveSources内のカテゴリ引継ぎ問題）
+ *  - ナタリーRSS URL修正
+ *  - YouTubeチャンネルRSS追加（ANN・FNN・TBS NEWS DIG）
+ *  - Google Newsカテゴリ別URL方式を維持
  */
 'use strict';
 
@@ -21,19 +15,18 @@ const https = require('https');
 const http  = require('http');
 const { URL } = require('url');
 
-const OUT            = path.resolve(__dirname, '../data');
-const FETCH_DESC     = true;
+const OUT              = path.resolve(__dirname, '../data');
+const FETCH_DESC       = true;
 const DESC_CONCURRENCY = 6;
-const PER_SOURCE_CAT_LIMIT = 12; // 1カテゴリあたり同一ソース最大件数
+const PER_SOURCE_LIMIT = 12;
 
 // ─── HTTP ─────────────────────────────────────────────
-function httpGet(rawUrl, timeout = 12000) {
+function httpGet(rawUrl, timeout = 13000) {
   return new Promise(resolve => {
     let p; try { p = new URL(rawUrl); } catch { return resolve(null); }
     const mod = p.protocol === 'https:' ? https : http;
     const req = mod.request({
-      hostname: p.hostname,
-      path: p.pathname + p.search,
+      hostname: p.hostname, path: p.pathname + p.search,
       headers: {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/124.0 Safari/537.36',
         'Accept': 'text/html,application/rss+xml,application/xml,*/*',
@@ -57,7 +50,6 @@ function httpGet(rawUrl, timeout = 12000) {
   });
 }
 
-// ─── テキスト化 ───────────────────────────────────────
 function toText(raw = '') {
   return String(raw)
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -88,7 +80,7 @@ function splitTitle(raw) {
 }
 
 // ─── Google News RSS パーサー ─────────────────────────
-function parseGN(xml, category) {
+function parseGN(xml, _name, category) {
   const items = [];
   const itemRe = /<item[^>]*>([\s\S]*?)<\/item>/gi;
   let m;
@@ -107,20 +99,23 @@ function parseGN(xml, category) {
     const sEl = /<source[^>]*>([\s\S]*?)<\/source>/i.exec(chunk);
     const source = sEl ? toText(sEl[1]) : sourceHint || 'Google News';
     const dEl = /<pubDate[^>]*>([^<]*)<\/pubDate>/i.exec(chunk);
-    const date = parseDate(dEl ? dEl[1] : '');
 
-    items.push({ id: link, title, description: '', url: link, image: '', date, source, category });
+    items.push({
+      id: link, title, description: '',
+      url: link, image: '', source, category,
+      date: parseDate(dEl ? dEl[1] : ''),
+    });
   }
-  return items.slice(0, 50); // 1URLあたり最大50件
+  return items.slice(0, 50);
 }
 
-// ─── 個別RSS パーサー（descriptionあり） ─────────────
+// ─── 個別RSS パーサー ─────────────────────────────────
 function parseJpRSS(xml, sourceName, category) {
   const items = [];
-  const itemRe = /<item[^>]*>([\s\S]*?)<\/item>/gi;
+  const itemRe = /<item[^>]*>([\s\S]*?)<\/item>|<entry[^>]*>([\s\S]*?)<\/entry>/gi;
   let m;
   while ((m = itemRe.exec(xml)) !== null) {
-    const chunk = m[1];
+    const chunk = m[1] || m[2];
     const get = tag => {
       const c = new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>`, 'i').exec(chunk);
       if (c) return c[1];
@@ -135,54 +130,83 @@ function parseJpRSS(xml, sourceName, category) {
     const link  = get('link') || atr('link','href');
     if (!title || !link || title.length < 3 || !isJP(title)) continue;
 
-    let rawDesc = get('description') || get('summary') || '';
-    rawDesc = rawDesc.replace(/<img[^>]*>/gi, '').replace(/<a[\s\S]*?<\/a>/gi, '');
+    // description: imgタグ・aタグを中身ごと除去
+    let rawDesc = get('description') || get('summary') || get('content') || '';
+    rawDesc = rawDesc.replace(/<img[^>]*\/?>|<img[^>]*>[\s\S]*?<\/img>/gi, '');
+    rawDesc = rawDesc.replace(/<a[\s\S]*?<\/a>/gi, '');
     const desc = toText(rawDesc).slice(0, 140);
-    const finalDesc = (desc.length >= 20 && !desc.includes('<') && !desc.includes('src=')) ? desc : '';
+    const finalDesc = (desc.length >= 20 && !/<|src=/.test(desc)) ? desc : '';
 
-    items.push({ id: link, title, description: finalDesc, url: link, image: '',
-      date: parseDate(get('pubDate') || get('published')), source: sourceName, category });
+    items.push({
+      id: link, title, description: finalDesc,
+      url: link, image: '',
+      date: parseDate(get('pubDate') || get('published') || get('updated')),
+      source: sourceName, category,
+    });
   }
   return items.slice(0, 15);
 }
 
-// ─── ソース定義（カテゴリURL方式）───────────────────
-// Google News カテゴリRSS (ned=jp 形式) — キーワード不要
-const GN_BASE = 'https://news.google.com/news/rss/headlines/section/topic';
+// ─── YouTube RSS パーサー ─────────────────────────────
+// YouTubeはAtom形式: <entry>タグ
+function parseYouTubeRSS(xml, channelName, category) {
+  const items = [];
+  const entryRe = /<entry[^>]*>([\s\S]*?)<\/entry>/gi;
+  let m;
+  while ((m = entryRe.exec(xml)) !== null) {
+    const chunk = m[1];
+    const title  = toText(chunk.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || '');
+    const link   = chunk.match(/<link[^>]+href=["']([^"']+)["']/i)?.[1] || '';
+    const date   = chunk.match(/<published[^>]*>([\s\S]*?)<\/published>/i)?.[1] || '';
+    const desc   = toText(chunk.match(/<media:description[^>]*>([\s\S]*?)<\/media:description>/i)?.[1] || '').slice(0, 140);
+    const thumb  = chunk.match(/<media:thumbnail[^>]+url=["']([^"']+)["']/i)?.[1] || '';
+
+    if (!title || !link || !isJP(title)) continue;
+
+    items.push({
+      id: link, title, description: desc,
+      url: link, image: thumb,
+      date: parseDate(date),
+      source: channelName, category,
+    });
+  }
+  return items.slice(0, 15);
+}
+
+// ─── ソース定義 ───────────────────────────────────────
+const GN_BASE   = 'https://news.google.com/news/rss/headlines/section/topic';
 const GN_PARAMS = '?ned=jp&hl=ja&gl=JP';
 
 const GN_SOURCES = [
-  // ── 社会（国内ニュース全般）─────────────────────
-  { url: `${GN_BASE}/NATION.ja_jp/国内${GN_PARAMS}`,        cat: 'society' },
-  // トップニュースも社会に含める（緊急性の高いニュースが多い）
-  { url: 'https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja', cat: 'society' },
-
-  // ── 政治 ────────────────────────────────────────
-  { url: `${GN_BASE}/POLITICS.ja_jp/政治${GN_PARAMS}`,      cat: 'politics' },
-  // 国際ニュースも政治に含める
-  { url: `${GN_BASE}/WORLD.ja_jp/国際${GN_PARAMS}`,         cat: 'politics' },
-
-  // ── ビジネス・経済 ────────────────────────────
-  { url: `${GN_BASE}/BUSINESS.ja_jp/ビジネス${GN_PARAMS}`,  cat: 'business' },
-
-  // ── エンタメ・ゲーム ──────────────────────────
+  { url: `${GN_BASE}/NATION.ja_jp/国内${GN_PARAMS}`,            cat: 'society'       },
+  { url: 'https://news.google.com/rss?hl=ja&gl=JP&ceid=JP:ja',  cat: 'society'       },
+  { url: `${GN_BASE}/POLITICS.ja_jp/政治${GN_PARAMS}`,          cat: 'politics'      },
+  { url: `${GN_BASE}/WORLD.ja_jp/国際${GN_PARAMS}`,             cat: 'politics'      },
+  { url: `${GN_BASE}/BUSINESS.ja_jp/ビジネス${GN_PARAMS}`,      cat: 'business'      },
   { url: `${GN_BASE}/ENTERTAINMENT.ja_jp/エンタメ${GN_PARAMS}`, cat: 'entertainment' },
-  { url: `${GN_BASE}/SPORTS.ja_jp/スポーツ${GN_PARAMS}`,    cat: 'entertainment' },
-
-  // ── テクノロジー ──────────────────────────────
-  { url: `${GN_BASE}/SCITECH.ja_jp/テクノロジー${GN_PARAMS}`, cat: 'tech' },
+  { url: `${GN_BASE}/SPORTS.ja_jp/スポーツ${GN_PARAMS}`,        cat: 'entertainment' },
+  { url: `${GN_BASE}/SCITECH.ja_jp/テクノロジー${GN_PARAMS}`,   cat: 'tech'          },
 ];
 
-// 個別RSS（日本語メディア）
+// YouTubeチャンネルRSS（登録不要・公式API不要）
+const YT_BASE = 'https://www.youtube.com/feeds/videos.xml?channel_id=';
+const YT_SOURCES = [
+  { url: `${YT_BASE}UCGCZAYq5Xxojl_tSXcVJhiQ`, cat: 'society', name: 'ANN テレ朝（YouTube）' },
+  { url: `${YT_BASE}UCoQBJMzcwmXrRSHBFAlTsIw`,  cat: 'society', name: 'FNN プライムオンライン（YouTube）' },
+  { url: `${YT_BASE}UC6AG81pAkf6Lbi_1VC5NmPA`,  cat: 'society', name: 'TBS NEWS DIG（YouTube）' },
+];
+
+// 個別RSS
 const JP_RSS = [
-  { url: 'https://gigazine.net/news/rss_2.0/',                         cat: 'tech',          name: 'GIGAZINE'        },
-  { url: 'https://www.itmedia.co.jp/rss/2.0/news/subtop/aiplus.xml',   cat: 'tech',          name: 'ITmedia AI+'     },
-  { url: 'https://jp.ign.com/feed.xml',                                 cat: 'entertainment', name: 'IGN Japan'       },
-  { url: 'https://natalie.mu/music/feed/news',                          cat: 'entertainment', name: 'ナタリー音楽'    },
-  { url: 'https://natalie.mu/eiga/feed/news',                           cat: 'entertainment', name: 'ナタリー映画'    },
-  { url: 'https://natalie.mu/comic/feed/news',                          cat: 'entertainment', name: 'コミックナタリー' },
-  { url: 'https://natalie.mu/game/feed/news',                           cat: 'entertainment', name: 'ナタリーゲーム'  },
-  { url: 'https://www.cinematoday.jp/rss',                              cat: 'entertainment', name: 'シネマトゥデイ'  },
+  { url: 'https://gigazine.net/news/rss_2.0/',            cat: 'tech',          name: 'GIGAZINE'       },
+  { url: 'https://jp.ign.com/feed.xml',                    cat: 'entertainment', name: 'IGN Japan'      },
+  // ナタリー: /feed 形式に変更（旧 /feed/news は廃止）
+  { url: 'https://natalie.mu/music/feed',                  cat: 'entertainment', name: 'ナタリー音楽'    },
+  { url: 'https://natalie.mu/comic/feed',                  cat: 'entertainment', name: 'コミックナタリー' },
+  { url: 'https://natalie.mu/eiga/feed',                   cat: 'entertainment', name: 'ナタリー映画'    },
+  { url: 'https://natalie.mu/game/feed',                   cat: 'entertainment', name: 'ナタリーゲーム'  },
+  { url: 'https://www.4gamer.net/rss/index.xml',           cat: 'entertainment', name: '4Gamer'         },
+  { url: 'https://automaton-media.com/feed/',               cat: 'entertainment', name: 'AUTOMATON'      },
 ];
 
 async function fetchBatch(sources, parser) {
@@ -193,11 +217,11 @@ async function fetchBatch(sources, parser) {
     const results = await Promise.all(batch.map(async src => {
       const r = await httpGet(src.url, 14000);
       if (!r || r.status !== 200) {
-        console.log(`  SKIP [${r?.status||'ERR'}] ${(src.name||src.url.slice(40,80))}`);
+        console.log(`  SKIP [${r?.status||'ERR'}] ${src.name||src.url.slice(40,75)}`);
         return [];
       }
       const items = parser(r.body, src.name || 'Google News', src.cat);
-      console.log(`  OK [${src.cat}] ${(src.name||src.url.slice(40,75))}: ${items.length}件`);
+      console.log(`  OK [${src.cat}] ${src.name||src.url.slice(40,70)}: ${items.length}件`);
       return items;
     }));
     all.push(...results.flat());
@@ -207,68 +231,72 @@ async function fetchBatch(sources, parser) {
 }
 
 // ─── 本文取得 ─────────────────────────────────────────
-const BAD_DESC_PATTERNS = [
+const BAD_DESC = [
   /Google ?ニュース/, /世界中のニュース提供元/, /集約した広範囲/,
   /news\.google\.com/, /^https?:\/\//, /comprehensive up-to-date/i,
 ];
-function isValidDesc(text) {
-  if (!text || text.length < 20) return false;
-  return !BAD_DESC_PATTERNS.some(p => p.test(text));
-}
+const isValidDesc = t => t && t.length >= 20 && !BAD_DESC.some(p => p.test(t));
 
 function extractDesc(html) {
-  const patterns = [
+  const pats = [
     /<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']{20,}?)["']/i,
     /<meta[^>]+content=["']([^"']{20,}?)["'][^>]+property=["']og:description["']/i,
     /<meta[^>]+name=["']description["'][^>]+content=["']([^"']{20,}?)["']/i,
     /<meta[^>]+content=["']([^"']{20,}?)["'][^>]+name=["']description["']/i,
     /<meta[^>]+name=["']twitter:description["'][^>]+content=["']([^"']{20,}?)["']/i,
   ];
-  for (const pat of patterns) {
-    const m = html.match(pat);
+  for (const p of pats) {
+    const m = html.match(p);
     if (m) { const t = toText(m[1]); if (isValidDesc(t)) return t.slice(0, 140); }
   }
-  const articleP = html.match(/<article[^>]*>([\s\S]*?)<\/article>/i);
-  const src = articleP ? articleP[1] : html;
-  const p = src.match(/<p[^>]*>([\s\S]{30,500}?)<\/p>/i);
-  if (p) { const t = toText(p[1]); if (isValidDesc(t)) return t.slice(0, 140); }
+  const artM = html.match(/<article[^>]*>([\s\S]*?)<\/article>/i);
+  const src = artM ? artM[1] : html;
+  const pM = src.match(/<p[^>]*>([\s\S]{30,500}?)<\/p>/i);
+  if (pM) { const t = toText(pM[1]); if (isValidDesc(t)) return t.slice(0, 140); }
   return '';
 }
 
-async function fetchArticleDesc(url) {
-  if (!FETCH_DESC) return '';
-  try {
-    const r = await httpGet(url, 8000);
-    if (!r || r.status !== 200) return '';
-    return extractDesc(r.body);
-  } catch { return ''; }
-}
-
 async function enrichDescriptions(articles) {
-  const directTargets = articles.filter(a => !a.description && !a.url.includes('news.google.com'));
-  const gnTargets     = articles.filter(a => !a.description &&  a.url.includes('news.google.com'));
-  const targets = [...directTargets, ...gnTargets.slice(0, 60)];
-  console.log(`\n本文取得: ${targets.length}件 (直リンク${directTargets.length} + GN${Math.min(gnTargets.length,60)})`);
+  const direct = articles.filter(a => !a.description && !a.url.includes('news.google.com'));
+  const gn     = articles.filter(a => !a.description &&  a.url.includes('news.google.com'));
+  const targets = [...direct, ...gn.slice(0, 60)];
+  console.log(`\n本文取得: ${targets.length}件 (直${direct.length} + GN${Math.min(gn.length,60)})`);
   let done = 0;
   for (let i = 0; i < targets.length; i += DESC_CONCURRENCY) {
     const batch = targets.slice(i, i + DESC_CONCURRENCY);
     await Promise.all(batch.map(async a => {
-      a.description = await fetchArticleDesc(a.url);
+      try {
+        const r = await httpGet(a.url, 8000);
+        if (r?.status === 200) a.description = extractDesc(r.body);
+      } catch {}
       done++;
     }));
     if (done % 30 === 0 || done === targets.length) console.log(`  ${done}/${targets.length}件`);
-    if (i + DESC_CONCURRENCY < targets.length) await new Promise(r => setTimeout(r, 120));
+    if (i + DESC_CONCURRENCY < targets.length) await new Promise(r => setTimeout(r, 100));
   }
 }
 
-// ─── 多様性確保：ラウンドロビン ──────────────────────
-function interleaveSources(articles, limit) {
+// ─── 重複除去 & ソース多様化 ──────────────────────────
+function dedup(arts, limit = 80) {
+  // タイトルで重複除去（日付降順）
+  const seen = new Set();
+  const unique = arts
+    .filter(a => {
+      if (!a?.title || a.title.length < 4 || !a.category) return false;
+      const k = a.title.replace(/\s+/g,'').slice(0,40);
+      if (seen.has(k)) return false;
+      seen.add(k); return true;
+    })
+    .sort((a,b) => new Date(b.date)-new Date(a.date));
+
+  // ソース別グループ化でラウンドロビン
   const bySource = {};
-  for (const a of articles) {
-    (bySource[a.source] = bySource[a.source] || []).push(a);
+  for (const a of unique) {
+    (bySource[a.source] = bySource[a.source]||[]).push(a);
   }
   const sources = Object.keys(bySource);
-  if (sources.length <= 1) return articles.slice(0, limit);
+  if (sources.length <= 1) return unique.slice(0, limit);
+
   const ptrs = {};
   sources.forEach(s => ptrs[s] = 0);
   const result = [];
@@ -286,43 +314,42 @@ function interleaveSources(articles, limit) {
   return result;
 }
 
-function dedup(arts, limit = 80) {
-  const seen = new Set();
-  const unique = arts.filter(a => {
-    if (!a?.title || a.title.length < 4) return false;
-    const k = a.title.replace(/\s+/g,'').slice(0,40);
-    if (seen.has(k)) return false;
-    seen.add(k); return true;
-  }).sort((a,b) => new Date(b.date)-new Date(a.date));
-  return interleaveSources(unique, limit);
-}
-
 // ─── メイン ───────────────────────────────────────────
 async function main() {
-  console.log('SIGNAL fetch-news — カテゴリURL版\n');
+  console.log('SIGNAL fetch-news\n');
 
   console.log('=== Google News（カテゴリRSS）===');
   const gnItems = await fetchBatch(GN_SOURCES, parseGN);
 
+  console.log('\n=== YouTube チャンネル ===');
+  const ytItems = await fetchBatch(YT_SOURCES, parseYouTubeRSS);
+
   console.log('\n=== 個別RSS ===');
   const jpItems = await fetchBatch(JP_RSS, parseJpRSS);
 
-  let all = [...gnItems, ...jpItems];
+  // 全記事をマージ
+  let all = [...gnItems, ...ytItems, ...jpItems];
 
-  // 重複除去
+  // デバッグ: カテゴリ分布確認
+  const preDist = {};
+  all.forEach(a => { preDist[a.category||'undefined'] = (preDist[a.category||'undefined']||0)+1; });
+  console.log('\n取得後カテゴリ分布:', JSON.stringify(preDist));
+
+  // 重複除去（全体）
   const seen = new Set();
   all = all.filter(a => {
+    if (!a.title || !a.category) return false;
     const k = a.title.replace(/\s+/g,'').slice(0,40);
     if (seen.has(k)) return false;
     seen.add(k); return true;
   });
 
-  // 1カテゴリあたり同一ソースの上限
+  // 1カテゴリあたり同一ソース上限
   const srcCatCount = {};
   all = all.filter(a => {
     const key = `${a.category}:${a.source}`;
-    srcCatCount[key] = (srcCatCount[key]||0) + 1;
-    return srcCatCount[key] <= PER_SOURCE_CAT_LIMIT;
+    srcCatCount[key] = (srcCatCount[key]||0)+1;
+    return srcCatCount[key] <= PER_SOURCE_LIMIT;
   });
 
   // 本文取得
@@ -331,38 +358,36 @@ async function main() {
   // カテゴリ別振り分け
   const cats = ['society','tech','business','entertainment','politics'];
   const byCat = {};
-  cats.forEach(c => { byCat[c] = dedup(all.filter(a=>a.category===c)); });
+  cats.forEach(c => {
+    byCat[c] = dedup(all.filter(a => a.category === c));
+  });
   byCat.custom = [];
   byCat.all = dedup(all, 120);
 
-  // 媒体一覧
-  const srcCount = {};
-  all.forEach(a => { srcCount[a.source] = (srcCount[a.source]||0)+1; });
-  const sortedSources = Object.entries(srcCount).sort((a,b)=>b[1]-a[1]);
-
-  // 書き込み（0件の場合はスキップ）
+  // 書き込み
   if (byCat.all.length === 0) {
-    console.error('\n⚠️ 全カテゴリ0件 — 既存データを保持してスキップ');
+    console.error('\n⚠️ 全0件 — 既存データ保持');
     process.exit(0);
   }
 
   if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
-
-  // バックアップ
   const newsPath = path.join(OUT,'news.json');
   if (fs.existsSync(newsPath)) fs.copyFileSync(newsPath, path.join(OUT,'news.backup.json'));
-
   fs.writeFileSync(newsPath, JSON.stringify(byCat, null, 2));
+
+  const srcCount = {};
+  all.forEach(a => { srcCount[a.source] = (srcCount[a.source]||0)+1; });
+  const sortedSrc = Object.entries(srcCount).sort((a,b)=>b[1]-a[1]);
   fs.writeFileSync(path.join(OUT,'meta.json'), JSON.stringify({
     updatedAt: new Date().toISOString(),
     counts: Object.fromEntries(Object.entries(byCat).map(([k,v])=>[k,v.length])),
-    sources: sortedSources,
+    sources: sortedSrc,
   }, null, 2));
 
   console.log('\n=== カテゴリ別 ===');
   Object.entries(byCat).forEach(([k,v]) => console.log(`  ${k}: ${v.length}件`));
   console.log('\n=== 媒体一覧（上位20）===');
-  sortedSources.slice(0,20).forEach(([n,c]) => console.log(`  ${String(c).padStart(3)} ${n}`));
+  sortedSrc.slice(0,20).forEach(([n,c]) => console.log(`  ${String(c).padStart(3)} ${n}`));
 }
 
 main().catch(e => { console.error('Fatal:', e); process.exit(1); });
