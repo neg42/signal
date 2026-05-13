@@ -32,6 +32,9 @@ jobs:
         with:
           node-version: '24'
 
+      - name: 依存パッケージインストール
+        run: cd scripts && npm install
+
       - name: ニュース収集
         run: node scripts/fetch-news.js
 
