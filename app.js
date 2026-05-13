@@ -68,9 +68,20 @@ document.addEventListener('DOMContentLoaded',()=>{
 async function load() {
   showLoading();
   try {
+    console.log('[SIGNAL] fetching news.json...');
     const res = await fetch('./data/news.json?v='+Date.now(),{cache:'no-store'});
+    console.log('[SIGNAL] response:', res.status);
     if (!res.ok) throw new Error('HTTP '+res.status);
-    const raw = await res.json();
+    const text = await res.text();
+    console.log('[SIGNAL] body length:', text.length);
+    let raw;
+    try {
+      raw = JSON.parse(text);
+    } catch (e) {
+      console.error('[SIGNAL] JSON parse error:', e);
+      throw new Error('JSON parse: ' + e.message);
+    }
+    console.log('[SIGNAL] JSON parsed, keys:', Object.keys(raw));
 
     newsData = {};
     const cats = ['all','society','tech','business','entertainment','politics','custom'];
@@ -104,21 +115,25 @@ async function load() {
       if(mr.ok) metaData = await mr.json();
     } catch{}
 
-    buildNav();
-    buildTicker();
-    if (activeCategory==='all'&&!searchQuery) renderTop();
-    else renderList();
+    try { buildNav(); } catch(e) { console.error('[SIGNAL] buildNav:', e); }
+    try { buildTicker(); } catch(e) { console.error('[SIGNAL] buildTicker:', e); }
+    try {
+      if (activeCategory==='all'&&!searchQuery) renderTop();
+      else renderList();
+    } catch(e) { console.error('[SIGNAL] render:', e); throw e; }
 
     if (metaData.updatedAt) {
       const t=new Date(metaData.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'});
       document.getElementById('lastUpdated').textContent='収集: '+t;
     }
   } catch(e) {
+    console.error('[SIGNAL] load failed:', e);
+    console.error('[SIGNAL] stack:', e.stack);
     document.getElementById('feed').innerHTML=`
       <div class="empty-state">
         <h3>データを取得できません</h3>
-        <p style="font-size:12px;margin-top:8px;color:var(--ink3)">Actionsから手動実行してください</p>
-        <p style="font-family:var(--ff-mono);font-size:10px;margin-top:8px;color:var(--ink3)">${esc(e.message)}</p>
+        <p style="font-size:12px;margin-top:8px;color:var(--ink3)">エラー内容: ${esc(e.message)}</p>
+        <p style="font-family:var(--ff-mono);font-size:10px;margin-top:12px;color:var(--ink3);text-align:left;white-space:pre-wrap;max-width:90%;margin-left:auto;margin-right:auto">${esc((e.stack||'').slice(0,400))}</p>
         <button onclick="load()" style="margin-top:16px;padding:9px 20px;background:var(--ink);color:var(--paper);border:none;border-radius:4px;cursor:pointer">再読み込み</button>
       </div>`;
   }
