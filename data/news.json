@@ -1,6 +1,127 @@
 {
-  "society": [],
+  "society": [
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRdnR4QlNPNkpKd2RvWDdtSVZiMVgwVlNsS2c2c29ySE9CanpyX25SZmtZaVRFdS1va0plVjh5cUQ4TEh2LXVzcEdHaWoxSnJMSXl4enBwZzJySkdPd2RBWDNrQUhjeEJKY1JUNkVMVzVtUmg0YWY3RDNwclVNTnc?oc=5",
+      "title": "JR東海道線スプレー噴射事件で逮捕の“16歳少年”…加害者本人に「資力なし」の場合、“親”に損害賠償請求することはできる？",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRdnR4QlNPNkpKd2RvWDdtSVZiMVgwVlNsS2c2c29ySE9CanpyX25SZmtZaVRFdS1va0plVjh5cUQ4TEh2LXVzcEdHaWoxSnJMSXl4enBwZzJySkdPd2RBWDNrQUhjeEJKY1JUNkVMVzVtUmg0YWY3RDNwclVNTnc?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:20:02.000Z",
+      "source": "Yahoo!ニュース",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05SHloYUFoNlpkN1R6NEZhY2pzcDU2X1NRTUxxS0ozUklVX3V0blZGYW4wTXNGZDBRYWQzU2V2MmJNNFZudEM3aWtqQTl1Umk5cHBBZ1RB?oc=5",
+      "title": "『機動警察パトレイバー』20年ぶり音楽商品発売 初期シリーズ音楽集復刻で「98式AV イングラム1号機」描き下ろし",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05SHloYUFoNlpkN1R6NEZhY2pzcDU2X1NRTUxxS0ozUklVX3V0blZGYW4wTXNGZDBRYWQzU2V2MmJNNFZudEM3aWtqQTl1Umk5cHBBZ1RB?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:00:00.000Z",
+      "source": "オリコンニュース",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4Nl9vUF9tNmtCUzlGRml5R01LN3gyRllCZUQ0SjdnVWllVnExa1pVakRnRHktNk9iUFNXeE5SSE1ZM2g5SXBwWjdkMmp4bjEyd3NnTHRuMkVJWklkcDQxUkpmSFlZdw?oc=5",
+      "title": "玄関出た女性、後ろから目出し帽の男に頭を押さえ込まれ口ふさがれる…複数による強盗致傷事件として捜査",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4Nl9vUF9tNmtCUzlGRml5R01LN3gyRllCZUQ0SjdnVWllVnExa1pVakRnRHktNk9iUFNXeE5SSE1ZM2g5SXBwWjdkMmp4bjEyd3NnTHRuMkVJWklkcDQxUkpmSFlZdw?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:46:00.000Z",
+      "source": "読売新聞",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZbV9ta2ctdXJNd0tOdU5ZVU84Q29DVEs4d2k4ZTRyLVY2aTAzNGN3Q2JETmFUT1c0MGdiWjZZcjNjdVp0SDdUcU93aU5LQWZXZFlpeFZiLUk?oc=5",
+      "title": "愛知 東海 路上で倒れていた男性が死亡 ひき逃げ事件か",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZbV9ta2ctdXJNd0tOdU5ZVU84Q29DVEs4d2k4ZTRyLVY2aTAzNGN3Q2JETmFUT1c0MGdiWjZZcjNjdVp0SDdUcU93aU5LQWZXZFlpeFZiLUk?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:35:00.000Z",
+      "source": "NHKニュース",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HTk12dDZXRWpTMUxFRkk2V2YxOTh4ZW11Vkp6b29SZmJIMllkd19BWnNKZXVDY3JGQTVkSXcxSVJTSjZFUUZOUE5fX2lDU3NPVXZkd1lZZnVvLWpxeXJTY19aVQ?oc=5",
+      "title": "高校と運行会社、食い違い埋まらず 「白バス」疑いでも捜査―磐越道事故１週間・福島県警",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HTk12dDZXRWpTMUxFRkk2V2YxOTh4ZW11Vkp6b29SZmJIMllkd19BWnNKZXVDY3JGQTVkSXcxSVJTSjZFUUZOUE5fX2lDU3NPVXZkd1lZZnVvLWpxeXJTY19aVQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:43:00.000Z",
+      "source": "時事ドットコム",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZjg5b25ZUWI5WTdpaVdxNXJNMm90WHFyN2FaYVY4QlhkZDZsTXptcWV3bkV1ZC1RaV9YVXI3VUFhSU81cFFDN3hCbmVXa3BubjV5Njl2V1ltMTlLYmhBSVdVNkh6YUl1Q2dHZnhna1QtR0hCb0FCNTZ6Vm5WODJMcVFpMHVvYUVMaTZN?oc=5",
+      "title": "オープンＡＩの公益目的違反をＣＥＯが全面否定、マスク氏提起の裁判で",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZjg5b25ZUWI5WTdpaVdxNXJNMm90WHFyN2FaYVY4QlhkZDZsTXptcWV3bkV1ZC1RaV9YVXI3VUFhSU81cFFDN3hCbmVXa3BubjV5Njl2V1ltMTlLYmhBSVdVNkh6YUl1Q2dHZnhna1QtR0hCb0FCNTZ6Vm5WODJMcVFpMHVvYUVMaTZN?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:38:53.000Z",
+      "source": "Reuters",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lV280dkRkekFobHVqakIzSDJ3ellWR014UGpXVzhka21FM2xxanlhdzg2bWIxaVVUR0hiQVVHTE5RUlpad0paTkV4Y1l1UFpYMHVSZTROdkxDSDdyWFJWVi1tenU4RWlrMDJpNFRpazJ4T2w5N2N0WmdlSWVlZ1k?oc=5",
+      "title": "【サッカー事件簿】南アＷ杯のメンバー入りは絶望。そのとき突然、川口能活の携帯が鳴った",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lV280dkRkekFobHVqakIzSDJ3ellWR014UGpXVzhka21FM2xxanlhdzg2bWIxaVVUR0hiQVVHTE5RUlpad0paTkV4Y1l1UFpYMHVSZTROdkxDSDdyWFJWVi1tenU4RWlrMDJpNFRpazJ4T2w5N2N0WmdlSWVlZ1k?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:45:00.000Z",
+      "source": "webスポルティーバ",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkN0xWWE5SYk9pRW5XbUFPcWdoQzJZQ0h3MW1Yei04NFRCYTlRQ09YRzZSUDQyd1lTMXNZUVRIRE8tVXBqZkNHZFU3S3ZvTXpQd1o0dXNqbllRcEw5X29MNEliVVU3UEJ4dXfSAW9BVV95cUxNanFFMmlLTTFuU21EV2p5LTFua05DRmdkMlBQb1BtcVVGYlIxYjNZS0d3WGxXT1BOcE1QZDdqQmlBUThkWjQ4WGQwMnBILUZRSDh5X19ZQXNJSkxwS3NSRWlJWnJwdnRlanBuRjltb0U?oc=5",
+      "title": "全国的に急な雷雨や激しい雨に注意 30℃に迫る暑さも 今日5月13日(水)の天気(気象予報士 日直主任 2026年05月13日)",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkN0xWWE5SYk9pRW5XbUFPcWdoQzJZQ0h3MW1Yei04NFRCYTlRQ09YRzZSUDQyd1lTMXNZUVRIRE8tVXBqZkNHZFU3S3ZvTXpQd1o0dXNqbllRcEw5X29MNEliVVU3UEJ4dXfSAW9BVV95cUxNanFFMmlLTTFuU21EV2p5LTFua05DRmdkMlBQb1BtcVVGYlIxYjNZS0d3WGxXT1BOcE1QZDdqQmlBUThkWjQ4WGQwMnBILUZRSDh5X19ZQXNJSkxwS3NSRWlJWnJwdnRlanBuRjltb0U?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:41:31.000Z",
+      "source": "tenki.jp",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DekppMklMNHFOMXVULThGWHc3T1FOdGFPMUlTLUtsVmoxQUFWbXBLbzJ0THVyRTBKQVU0d2xJTkJ0eXZ1ZjVDbXlTRXZrdzMzY2RfUVp5eUVLNE5qV0psQk1POHJlb1NNZGNlLV83ZHY3Yk5rZ3VfODR2dFA0YVE?oc=5",
+      "title": "京都・男児遺棄事件受け「販売台数、例年の約3倍、生産追いつかず」子ども見守りGPSのニーズが今、増える「自治体も活用」",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DekppMklMNHFOMXVULThGWHc3T1FOdGFPMUlTLUtsVmoxQUFWbXBLbzJ0THVyRTBKQVU0d2xJTkJ0eXZ1ZjVDbXlTRXZrdzMzY2RfUVp5eUVLNE5qV0psQk1POHJlb1NNZGNlLV83ZHY3Yk5rZ3VfODR2dFA0YVE?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:38:12.000Z",
+      "source": "Yahoo!ニュース",
+      "category": "society"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92cDhFbDU5RGhkQW1idkVaeTA5UXluQmQtUHJ2VktCOEhJTWpPTzVtY05xWHRjekdRWWxscG9rbTVjbDZPV2pfR1Q4anNPZnIxNHRuaVpR?oc=5",
+      "title": "生成AIがもたらす「申請の洪水」、行政は市民の声に押し流されるのか、届かなかった市民の声を可視化するのか 【生成AI事件簿】英国で始まったAI生成による請求対応、日本でも始まる「AI申請スパム」と求められる制度改革(1/6)",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92cDhFbDU5RGhkQW1idkVaeTA5UXluQmQtUHJ2VktCOEhJTWpPTzVtY05xWHRjekdRWWxscG9rbTVjbDZPV2pfR1Q4anNPZnIxNHRuaVpR?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:00:00.000Z",
+      "source": "JBpress",
+      "category": "society"
+    }
+  ],
   "tech": [
+    {
+      "id": "https://gigazine.net/news/20260513&#45;googlebook/",
+      "title": "GoogleがAndroidベースで動くノートPC「Googlebook」を発表、Gemini Intelligenceのためにゼロから設計",
+      "description": "GoogleがGemini Intelligence向けに設計されたノートPC「Googlebook」を発表しました。Googleは「オペレーティングシステムからインテリジェンスシステムへと移行する中で、ノートPCのあり方を改めて見直す機会が訪れた」と述べています。",
+      "url": "https://gigazine.net/news/20260513&#45;googlebook/",
+      "image": "",
+      "date": "2026-05-13T02:06:00.000Z",
+      "source": "GIGAZINE",
+      "category": "tech"
+    },
+    {
+      "id": "https://gigazine.net/news/20260513&#45;playstation&#45;scuf&#45;omega/",
+      "title": "PS5用の公式ライセンスコントローラー「SCUF Omega」が登場、ドリフトに強い磁気式アナログスティック搭載",
+      "description": "数多くのゲーム用コントローラーを開発してきたSCUF GamingがPlayStation 5のオフィシャルライセンスを取得したコントローラー「SCUF Omega(スカフオメガ)」を2026年5月12日に発売しました。SCUF Omegaは背面やグリップなどに追加のボタンを備え",
+      "url": "https://gigazine.net/news/20260513&#45;playstation&#45;scuf&#45;omega/",
+      "image": "",
+      "date": "2026-05-13T01:50:00.000Z",
+      "source": "GIGAZINE",
+      "category": "tech"
+    },
     {
       "id": "https://gigazine.net/news/20260513&#45;louis&#45;rossmann&#45;bambu&#45;lab/",
       "title": "3Dプリンターメーカーから圧力をかけられた開発者に対して「修理する権利」のため戦うルイス・ロスマンが費用支援を約束、クラウドファンディング呼びかけも",
@@ -230,29 +351,310 @@
       "date": "2026-05-12T02:33:00.000Z",
       "source": "GIGAZINE",
       "category": "tech"
-    },
-    {
-      "id": "https://gigazine.net/news/20260512&#45;game&#45;image&#45;ai&#45;sony&#45;patent/",
-      "title": "ソニーがゲームプレイのハイライトを取得してコラージュ画像をAI生成する特許を取得",
-      "description": "ソニーが、ユーザーのゲームプレイを分析して特別な瞬間を切り出しコラージュ画像を作成するAIシステムの特許を取得したことが分かりました。",
-      "url": "https://gigazine.net/news/20260512&#45;game&#45;image&#45;ai&#45;sony&#45;patent/",
-      "image": "",
-      "date": "2026-05-12T02:26:00.000Z",
-      "source": "GIGAZINE",
-      "category": "tech"
-    },
-    {
-      "id": "https://gigazine.net/news/20260512&#45;steve&#45;jobs&#45;innovation&#45;coin&#45;circulation/",
-      "title": "スティーブ・ジョブズが描かれた1ドル硬貨がアメリカ造幣局によりついに一般販売開始される",
-      "description": "現地時間の2026年5月12日から、Appleの創業者でありカリスマ経営者として世界中の人々から尊敬を集めるスティーブ・ジョブズが描かれた1ドル硬貨が一般販売されます。",
-      "url": "https://gigazine.net/news/20260512&#45;steve&#45;jobs&#45;innovation&#45;coin&#45;circulation/",
-      "image": "",
-      "date": "2026-05-12T02:24:00.000Z",
-      "source": "GIGAZINE",
-      "category": "tech"
     }
   ],
-  "business": [],
+  "business": [
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MOUJvbTJ0dENObmtjaFN2bk1jSGp1aFg1dUt3anVwNU9qX0tSemNsQXBHSFk1THJ1OGlTWXRybmFHNnFGTFJnRVVFaVRUZmR5cjBHUjNZU3ZscF84S25NeUkwSWlfQkZjbUNOdQ?oc=5",
+      "title": "ダイキン株価が年初来高値 10年ぶり自社株買い、今期配当積み増し",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MOUJvbTJ0dENObmtjaFN2bk1jSGp1aFg1dUt3anVwNU9qX0tSemNsQXBHSFk1THJ1OGlTWXRybmFHNnFGTFJnRVVFaVRUZmR5cjBHUjNZU3ZscF84S25NeUkwSWlfQkZjbUNOdQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:05:22.000Z",
+      "source": "日本経済新聞",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySXVpcHpDWWRwX3FBMjNDbng4cDdIOUlfTzdRUDladEFuUDYxTll3bzJDTUI0LTVVY1FCNW5WR3hSVGtLRHNkWkhkRjFRYms?oc=5",
+      "title": "経済産業省「製品安全対策優良企業表彰 （PSアワード2026・＋あんしん）」応募説明会のご案内",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySXVpcHpDWWRwX3FBMjNDbng4cDdIOUlfTzdRUDladEFuUDYxTll3bzJDTUI0LTVVY1FCNW5WR3hSVGtLRHNkWkhkRjFRYms?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:00:00.000Z",
+      "source": "Newscast.jp",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xOTUxYmVzZGI4bDJlX0E2U19pbW10d1VVanU4SUx5R0p5ZzV1UFY2eW42a0dSS2VZYkpuVGg0Y0ItdEM2bFFBTjRkTm5QOUtGWWJqNkY1UnNJVjBPek11Z1hmUElLa3FfdVpTbA?oc=5",
+      "title": "逃げる米国、追う中国 GDPからAIまで一目で分かる経済の特徴",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xOTUxYmVzZGI4bDJlX0E2U19pbW10d1VVanU4SUx5R0p5ZzV1UFY2eW42a0dSS2VZYkpuVGg0Y0ItdEM2bFFBTjRkTm5QOUtGWWJqNkY1UnNJVjBPek11Z1hmUElLa3FfdVpTbA?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:00:00.000Z",
+      "source": "日本経済新聞",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZXlMdlBHcjJodDdyd2t1ZDNYUWtiS3NKM1dSWnluTmJKaDg4Y2lzTlJ4TWp0N3NSLWZRMzFsUlROX29xT0FVTkRFb3J5U1ZsRXFQVUZxZlJWTW9qZjFCODF6emI?oc=5",
+      "title": "地方暮らしは経済的自立に最適 北見のFPがビジネス書「地方神速FIRE」を出版",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZXlMdlBHcjJodDdyd2t1ZDNYUWtiS3NKM1dSWnluTmJKaDg4Y2lzTlJ4TWp0N3NSLWZRMzFsUlROX29xT0FVTkRFb3J5U1ZsRXFQVUZxZlJWTW9qZjFCODF6emI?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:47:23.000Z",
+      "source": "北海道新聞デジタル",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SVll4cU04RWdmbGtwVXhteFh0MGlpbkpSamtiZC11RnVYQlZhTWQ3MTVDbTA2UWpldkM5N185TUpWWUN4RF83bUhsRmlfaWRSazdrNjdFaEpubEk2bGdZ?oc=5",
+      "title": "トランプ氏訪中、マスク氏同行へ テスラ上海工場「経済連携の象徴」：ニュース",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SVll4cU04RWdmbGtwVXhteFh0MGlpbkpSamtiZC11RnVYQlZhTWQ3MTVDbTA2UWpldkM5N185TUpWWUN4RF83bUhsRmlfaWRSazdrNjdFaEpubEk2bGdZ?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:44:00.000Z",
+      "source": "中日BIZナビ",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ybnVTWklSVkg4eUZDSDhvX2l3WWp6bF85Zjlya1UzLTVFRlQ4RjBnTVMwYnc0NjUweG9QVWp4dEpsWlJBc3ZZbmo5RHV1dHczenpwZFFreGdfOEhPelFHVkJ0bklycEdGVGc?oc=5",
+      "title": "地政学リスクを成長に変えた台湾経済「5つの転換期」とは？ワイズリサーチがサプライチェーン再構築のヒントを提示する最新レポートを公開 | 威志企管顧問股ｲ分有限公司（ワイズコンサルティンググループ）のプレスリリース",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ybnVTWklSVkg4eUZDSDhvX2l3WWp6bF85Zjlya1UzLTVFRlQ4RjBnTVMwYnc0NjUweG9QVWp4dEpsWlJBc3ZZbmo5RHV1dHczenpwZFFreGdfOEhPelFHVkJ0bklycEdGVGc?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:36:22.000Z",
+      "source": "PR TIMES",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pY25yWUhhTzBqbnNBOGUzc3NyOW84eU03ajdpUElmQ3RaUllCcGh0NExMY3ZpTDRjYlV2cjZDUzNuS3pFTEV4QlpiSVlJYXViLTg1VVRKZHdFVnhDVGktaVBaaUIwVTg0WGFGaTNCN3c4YjRuQ1MxTg?oc=5",
+      "title": "米インフレ率、約3年ぶりの大幅上昇 中間選挙控えるトランプ氏の政治的リスク高まる（字幕・13日）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pY25yWUhhTzBqbnNBOGUzc3NyOW84eU03ajdpUElmQ3RaUllCcGh0NExMY3ZpTDRjYlV2cjZDUzNuS3pFTEV4QlpiSVlJYXViLTg1VVRKZHdFVnhDVGktaVBaaUIwVTg0WGFGaTNCN3c4YjRuQ1MxTg?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:13:39.000Z",
+      "source": "Reuters",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUjF0LXFrcGhkQ0RqOWJfUnFTV2Jha0cxSlFYbWxHZFBtc0lteFVJcHhDYWExSEtra1JtMmlacElUOXdYMDJ3VG0zbkZ1V1BmTmViVzlXSnE4SlJkdlVYckR6bjhWdThrWEpuQmxyN1lhc0EwZWxMRnlEMGxBQVZ5ZjVWRG9PbHE4ZHRyeQ?oc=5",
+      "title": "日本のアニメ、ハリウッドで最も「熱い」ビジネスに",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUjF0LXFrcGhkQ0RqOWJfUnFTV2Jha0cxSlFYbWxHZFBtc0lteFVJcHhDYWExSEtra1JtMmlacElUOXdYMDJ3VG0zbkZ1V1BmTmViVzlXSnE4SlJkdlVYckR6bjhWdThrWEpuQmxyN1lhc0EwZWxMRnlEMGxBQVZ5ZjVWRG9PbHE4ZHRyeQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:03:00.000Z",
+      "source": "WSJ",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdFVISmNEMEFJWHdiUEo0b2pYVDNQbGhPNnlJUUZqR285TWdJVkRkWVlfbzFBR2tHWkhQbTU1M0tndEczaFdIajIzRWdCR01wakE?oc=5",
+      "title": "(株)マネーフォワード【3994】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdFVISmNEMEFJWHdiUEo0b2pYVDNQbGhPNnlJUUZqR285TWdJVkRkWVlfbzFBR2tHWkhQbTU1M0tndEczaFdIajIzRWdCR01wakE?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:56:58.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzLXFEd2Y3dkRXS2pHSC10U3RUa3h2ZmQ1UGU0YU1sZWlLeHZtSFgtMzlFNTRDN3E1ZHQxdVZoVEhiQ2lTZXFYSXV0RGxva3R6TXZORHdNbEt2WmE2MEtIZlV0MTc1akh1NUJXdFNUWmlidkxOYXZCVjJ3?oc=5",
+      "title": "トランプ氏、イラン核保有阻止が最優先 米国民の経済的痛み「考慮せず」",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzLXFEd2Y3dkRXS2pHSC10U3RUa3h2ZmQ1UGU0YU1sZWlLeHZtSFgtMzlFNTRDN3E1ZHQxdVZoVEhiQ2lTZXFYSXV0RGxva3R6TXZORHdNbEt2WmE2MEtIZlV0MTc1akh1NUJXdFNUWmlidkxOYXZCVjJ3?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:53:00.000Z",
+      "source": "Reuters",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41RDZ3TU9KcTJONXhRb2FrOXZrbjNxSEVwMzBQNTNsai1OX0dtMkQ5TlBsTWVTcEZScmlSQU1faF90dmhIVW1Ram1aWWpWWF9JNnNFVA?oc=5",
+      "title": "日経平均株価、344円55銭安で始まる - 寄り付き解説 きょうのトピック",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41RDZ3TU9KcTJONXhRb2FrOXZrbjNxSEVwMzBQNTNsai1OX0dtMkQ5TlBsTWVTcEZScmlSQU1faF90dmhIVW1Ram1aWWpWWF9JNnNFVA?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:26:38.000Z",
+      "source": "日経CNBC online",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoSXJOa2dkbWprTUdFYWNqMS1TUks2aF82bXFUblhxcThHSmY3S1I0cWJWeWlqc3QyalZoM3pUMFRpZVhQa3FidUcweFVhUFplRFE?oc=5",
+      "title": "(NEXT FUNDS)日経平均レバレッジ上場投信【1570】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoSXJOa2dkbWprTUdFYWNqMS1TUks2aF82bXFUblhxcThHSmY3S1I0cWJWeWlqc3QyalZoM3pUMFRpZVhQa3FidUcweFVhUFplRFE?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:22:12.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2OHAtMnBaZlpyUlVCMG1SeXR5X1BUZ05lM1BjdmFuaFpZS2k0UVVoRkoydDdMNnFIdE9CNlQ4UlVJcEZBMnRiRGN6VHl3cF9KejVaaVRCX05LWmF0d3lDNnlkdV9ab3Q3eUJueWtydi1hUQ?oc=5",
+      "title": "AI ツールで実現する継続収益ビジネス​ 〜開発力を資産に変える〜 – AWS Local Executive Roadshow 大阪編（#2/8）開催レポート | Amazon Web Services ブログ",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2OHAtMnBaZlpyUlVCMG1SeXR5X1BUZ05lM1BjdmFuaFpZS2k0UVVoRkoydDdMNnFIdE9CNlQ4UlVJcEZBMnRiRGN6VHl3cF9KejVaaVRCX05LWmF0d3lDNnlkdV9ab3Q3eUJueWtydi1hUQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:18:11.000Z",
+      "source": "Amazon Web Services (AWS)",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE80Tmg5Qk16U3lwR00ycm0yZEpTLXVIaUFVNW14TzJwQldQUTJkcmRaRGo0bVRvNkpycFNid1dZczJQUHdqNGJwREs0Nm1zS282OVVDeXJITXFGMVZuZm9jRURoS3B6X3RuSUQ3LVA3Y2pUdw?oc=5",
+      "title": "実践企業に学ぶ生成 AI 導入の勘所 〜眠るデータを企業価値に変える〜 – AWS Local Executive Roadshow 大阪編（#1/8）開催レポート | Amazon Web Services ブログ",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80Tmg5Qk16U3lwR00ycm0yZEpTLXVIaUFVNW14TzJwQldQUTJkcmRaRGo0bVRvNkpycFNid1dZczJQUHdqNGJwREs0Nm1zS282OVVDeXJITXFGMVZuZm9jRURoS3B6X3RuSUQ3LVA3Y2pUdw?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:15:18.000Z",
+      "source": "Amazon Web Services (AWS)",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zUnp1d3NCMzQ4TzNzWFlLNV9HTDBpeENNend1bzQybGYxTWVLT1d5MHlrNVpKYnFRcGFXQ0dKb3F0ZjhCNzFXWVF0bGF0S2M0NjYtNmh3?oc=5",
+      "title": "ドイツの経済大臣と環境大臣が「激突」 エネルギー政策の対立で 熊谷徹のヨーロッパSDGリポート【42】",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zUnp1d3NCMzQ4TzNzWFlLNV9HTDBpeENNend1bzQybGYxTWVLT1d5MHlrNVpKYnFRcGFXQ0dKb3F0ZjhCNzFXWVF0bGF0S2M0NjYtNmh3?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:02:54.000Z",
+      "source": "朝日新聞",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LZWozV0xWeFJBS0RuTHNFNFZCWGtONTU4V09EbHBvOGo3RldPdk1vVEw4TDJDTVU4ZVBjeHcyVnRqR0plLWVoREFHNmUxaWtPMFRJbVVuU2NpcjBPREpKRDBYQXQyZi1mbGN2el9DQzNmaVh4OVUwcGlQdDZmd3M?oc=5",
+      "title": "総合株価指数 129.50ポイント▼ 7513.65(寄り付き)（聯合ニュース）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LZWozV0xWeFJBS0RuTHNFNFZCWGtONTU4V09EbHBvOGo3RldPdk1vVEw4TDJDTVU4ZVBjeHcyVnRqR0plLWVoREFHNmUxaWtPMFRJbVVuU2NpcjBPREpKRDBYQXQyZi1mbGN2el9DQzNmaVh4OVUwcGlQdDZmd3M?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:01:25.000Z",
+      "source": "Yahoo!ニュース",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1vSWlYV1BPZFFSZTNra1pRZU1rNGZLUHZTVms3dHJqT2hGVVduQUVjV0JFblBvMzZXWXhEb082aGxVVUNmUlhz?oc=5",
+      "title": "１３日寄り付きの日経平均株価＝３４４円５５銭安の６万２３９８円０２銭 速報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1vSWlYV1BPZFFSZTNra1pRZU1rNGZLUHZTVms3dHJqT2hGVVduQUVjV0JFblBvMzZXWXhEb082aGxVVUNmUlhz?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:01:00.000Z",
+      "source": "kabushiki.jp",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2LWRnbGg5LUhHUTByRE12RHFkc0JvOGktOF84MThQQzNNcDF3eE93U0JuNTBnLThBbGFQZklNVG52a3YxUnh5OXAzNVRFdW9vejAyaGtWbHhCOWttbE5sMTBjMTl5RTJ6UmlMOQ?oc=5",
+      "title": "長期金利、一時29年ぶり2.59% 米金利上昇が波及",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2LWRnbGg5LUhHUTByRE12RHFkc0JvOGktOF84MThQQzNNcDF3eE93U0JuNTBnLThBbGFQZklNVG52a3YxUnh5OXAzNVRFdW9vejAyaGtWbHhCOWttbE5sMTBjMTl5RTJ6UmlMOQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:00:55.000Z",
+      "source": "日本経済新聞",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmQmxDYy1pVk1fMW9VZk14WWcxVk5GZFpnN1JyeUd2SnZyS00yeUc0NkNfQUVkMF9tMjhXaHZaOXBNZlBoWE13SWlLR3dPMjZzM3N3OGhuOW9fSzRkYzY2YVM5M0twcnJ1ZFo5YWZhREloVU9IWDZpWF81ZTBkVnM?oc=5",
+      "title": "「韓国経済の核心動力であるAIサイクル…原油高持続時は打撃受ける」（中央日報日本語版）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmQmxDYy1pVk1fMW9VZk14WWcxVk5GZFpnN1JyeUd2SnZyS00yeUc0NkNfQUVkMF9tMjhXaHZaOXBNZlBoWE13SWlLR3dPMjZzM3N3OGhuOW9fSzRkYzY2YVM5M0twcnJ1ZFo5YWZhREloVU9IWDZpWF81ZTBkVnM?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:56:02.000Z",
+      "source": "Yahoo!ニュース",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE02RVhETTBnVzR1VE9wbmZDbmtDcjZubWVfcDdOeDBXLW5ZeTVLdW1haUVhcWdiNUFHSzZQMEUtd0RGS09jTlJob1NaazZmVm5Y?oc=5",
+      "title": "トランプ氏、「米国民の経済状況は考えていない」 イランとの交渉で",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE02RVhETTBnVzR1VE9wbmZDbmtDcjZubWVfcDdOeDBXLW5ZeTVLdW1haUVhcWdiNUFHSzZQMEUtd0RGS09jTlJob1NaazZmVm5Y?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:39:00.000Z",
+      "source": "CNN.co.jp",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84OEdvVnNQcGtzbUdyQkl2SHZxUG5Id1RmTXlTTVQ3SElSY05PemtXN2UxcDVaWWI1Yy00WW5FRmtFM0h6bjFsQ0lYcjdXb0tfNmc?oc=5",
+      "title": "澁澤倉庫(株)【9304】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84OEdvVnNQcGtzbUdyQkl2SHZxUG5Id1RmTXlTTVQ3SElSY05PemtXN2UxcDVaWWI1Yy00WW5FRmtFM0h6bjFsQ0lYcjdXb0tfNmc?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:36:01.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zNEQ4c1NOVlpzVDhGekl6cFhlSGRfVnR4UUJsSkE1MUJlZGFGaVhVNzF1LUZCU1NFWE12SE9hWEczTzRPTFkyTW15TC1EU2pKbVE?oc=5",
+      "title": "(株)アイモバイル【6535】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0zNEQ4c1NOVlpzVDhGekl6cFhlSGRfVnR4UUJsSkE1MUJlZGFGaVhVNzF1LUZCU1NFWE12SE9hWEczTzRPTFkyTW15TC1EU2pKbVE?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:24:59.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2ZV9iYVU1ak96UktVdkVfQnAxMGNjNFdOV2ZRRXdaVG5MTWF5MnBUZlo2SlVlNlJqQ0MzbDZmaDN3a3hNeUdhdGdvd1QyS09yTjhQakpGRlY0MXFNT2xReg?oc=5",
+      "title": "【告知】 本日の「伊藤智洋が読む『日経平均株価・短期シナリオ』」は休載します",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2ZV9iYVU1ak96UktVdkVfQnAxMGNjNFdOV2ZRRXdaVG5MTWF5MnBUZlo2SlVlNlJqQ0MzbDZmaDN3a3hNeUdhdGdvd1QyS09yTjhQakpGRlY0MXFNT2xReg?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:19:31.000Z",
+      "source": "株探",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTWNrZkRSQUFXSFMyaElBeGJydXoxcXU5MzJwMWhjY3RUTDVLakNaMGJ3eWZIY0ZXcENmcGh1Nlk2NEw5S1MwMFdvNGRlR2VUdnVYc2NMbW1rUTM2U2JxYWpfUU9CM0FtcEJMcmFBOEJjWGJ1M0pqcFhQV3pISDFHeA?oc=5",
+      "title": "今日の株式見通し＝弱含み、米ハイテク株安が重し 決算受けた物色は支え",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTWNrZkRSQUFXSFMyaElBeGJydXoxcXU5MzJwMWhjY3RUTDVLakNaMGJ3eWZIY0ZXcENmcGh1Nlk2NEw5S1MwMFdvNGRlR2VUdnVYc2NMbW1rUTM2U2JxYWpfUU9CM0FtcEJMcmFBOEJjWGJ1M0pqcFhQV3pISDFHeA?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:11:23.000Z",
+      "source": "Reuters",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SeEY2QW5wQ0NsWDd6WjFNN0lmWkdRRjg4SnE0Q3RURVhkNDJhMWVPaUxJNjBXcS1sMWlBSGxqaDNwSTkzQjJpUjNkb1R1ME5oR0E?oc=5",
+      "title": "東武鉄道(株)【9001】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SeEY2QW5wQ0NsWDd6WjFNN0lmWkdRRjg4SnE0Q3RURVhkNDJhMWVPaUxJNjBXcS1sMWlBSGxqaDNwSTkzQjJpUjNkb1R1ME5oR0E?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:52:30.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KV3pvNlpuVmpBaWZTZkJxX1VqTmpBZTU0M0tkY0VqY0JSUVlpamM5V3pfR09hN2VuTGxLZ1kxeHYyM253MmJMV3hEdXBPTEFqN2gxdXdEa3VobjN3RG55RVJQdDhCX0gyN0h3Mw?oc=5",
+      "title": "日経平均株価、米イラン協議停滞が重荷（先読み株式相場）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KV3pvNlpuVmpBaWZTZkJxX1VqTmpBZTU0M0tkY0VqY0JSUVlpamM5V3pfR09hN2VuTGxLZ1kxeHYyM253MmJMV3hEdXBPTEFqN2gxdXdEa3VobjN3RG55RVJQdDhCX0gyN0h3Mw?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:30:00.000Z",
+      "source": "日本経済新聞",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PSTFVb0NhTkNhSHplLUdobW9PMEtyLUxMTm1Ja05qNExBM0FjTGU4dC1YOEpGellaY1BORXd3eTVydU1ZSFRtbzc4eWZLV0pUNFE?oc=5",
+      "title": "サイオス(株)【3744】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PSTFVb0NhTkNhSHplLUdobW9PMEtyLUxMTm1Ja05qNExBM0FjTGU4dC1YOEpGellaY1BORXd3eTVydU1ZSFRtbzc4eWZLV0pUNFE?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:28:01.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KNjFhazJKdUh0aTZKeU05MGxiY3hGN2VKUm95dFlZbDhLa0g5SDZ4RDlodHlreW1lQjI2LU1Bbzg3RDFrY01mMUNJYzZ3RlY5MlE?oc=5",
+      "title": "東邦チタニウム(株)【5727】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KNjFhazJKdUh0aTZKeU05MGxiY3hGN2VKUm95dFlZbDhLa0g5SDZ4RDlodHlreW1lQjI2LU1Bbzg3RDFrY01mMUNJYzZ3RlY5MlE?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:28:01.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wai0xQ0JEVl8xdXRaRzFWVlMzUzBJSEY3cy1Oc0V5Ynp3U2VwOFNtRmdTZjZ1UVBvN0RUTmJVQXBQNmY3djI2TnhiTmV2TEdqV21mQ2ZJdHNER1lCVzEtcEVvRThQc25jaDZEMzFRcHZGT3Ywd2tLWVJLcmNwQQ?oc=5",
+      "title": "マクロスコープ：米中首脳会談、日本政府内に渦巻く経済改善期待と安保への懸念",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wai0xQ0JEVl8xdXRaRzFWVlMzUzBJSEY3cy1Oc0V5Ynp3U2VwOFNtRmdTZjZ1UVBvN0RUTmJVQXBQNmY3djI2TnhiTmV2TEdqV21mQ2ZJdHNER1lCVzEtcEVvRThQc25jaDZEMzFRcHZGT3Ywd2tLWVJLcmNwQQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:15:20.000Z",
+      "source": "Reuters",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lSEhWTlljYjRSR2NnQUFIYVZuVE1UdDE1RmtPcUI4bjR2b3lwc0Z5Tl8wbkEyU25tUlN4UDlIRTFrSG1yN1h6cWFTVzNPWlRTRl9PVVplbw?oc=5",
+      "title": "3期連続増収増益でも｢株価300円以下｣で買える低位株31選",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9lSEhWTlljYjRSR2NnQUFIYVZuVE1UdDE1RmtPcUI4bjR2b3lwc0Z5Tl8wbkEyU25tUlN4UDlIRTFrSG1yN1h6cWFTVzNPWlRTRl9PVVplbw?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:00:00.000Z",
+      "source": "会社四季報オンライン",
+      "category": "business"
+    }
+  ],
   "entertainment": [
     {
       "id": "https://jp.ign.com/shaberisugi-gamer/83293/488-gamer",
@@ -475,9 +877,430 @@
       "category": "entertainment"
     }
   ],
-  "politics": [],
+  "politics": [
+    {
+      "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcmRrQkx4QTVLT0YxREhOYVhLUzhnZXYxaXFSTVhScWg0TllGcXRSc2xFNDdkU2NxemRmWFpWYXVJQlVMQ25wdm5XTk9NcWpXaWhqcXhmTnFQRXZ4dzlrOGpHczBzZjg1VWtQb0kyd21zV013YzhFakpxdXV4Uk92eUFB?oc=5",
+      "title": "米軍駐留拡大が議題の一つ、グリーンランド首相が対米交渉巡り説明",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcmRrQkx4QTVLT0YxREhOYVhLUzhnZXYxaXFSTVhScWg0TllGcXRSc2xFNDdkU2NxemRmWFpWYXVJQlVMQ25wdm5XTk9NcWpXaWhqcXhmTnFQRXZ4dzlrOGpHczBzZjg1VWtQb0kyd21zV013YzhFakpxdXV4Uk92eUFB?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:54:00.000Z",
+      "source": "Reuters",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwTzBFN2ZIdm4zU1l4SUZPcHZhUkozYklTaHdwTGpsM0FrMFJoRm90WU5OVmZxTzZWUXU1Yy1PdTE5RzFmNnBVWTN0Sjhob245ckNqSGp6TQ?oc=5",
+      "title": "緊張高まる中台関係◆中国、最大野党の取り込み目論む（台湾国立政治大学日本研究プログラム副教授・石原忠浩）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwTzBFN2ZIdm4zU1l4SUZPcHZhUkozYklTaHdwTGpsM0FrMFJoRm90WU5OVmZxTzZWUXU1Yy1PdTE5RzFmNnBVWTN0Sjhob245ckNqSGp6TQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:49:35.000Z",
+      "source": "時事ドットコム",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbHhGcVZnTE5fUTdudl9MS3R0VkNxY2w3aVdfNDRabzZIaDhPdzhaejVnWHNXNkpUTFoxbmNYa05tSlY3VmxDOVd4WnpvbGEyY0RZTEp6Wm5wNmRoMVRCWUdrX0ltT00tZHphMXU3UDhYVjZLU1VoV0w1c2FXWGg2RXhHN2FjYUtITFJqMExB?oc=5",
+      "title": "カンヌ国際映画祭2026開幕会見｜デミ・ムーアとパク・チャヌクが語る“政治と映画表現”（The Hollywood Reporter Japan）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbHhGcVZnTE5fUTdudl9MS3R0VkNxY2w3aVdfNDRabzZIaDhPdzhaejVnWHNXNkpUTFoxbmNYa05tSlY3VmxDOVd4WnpvbGEyY0RZTEp6Wm5wNmRoMVRCWUdrX0ltT00tZHphMXU3UDhYVjZLU1VoV0w1c2FXWGg2RXhHN2FjYUtITFJqMExB?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:29:01.000Z",
+      "source": "Yahoo!ニュース",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5yYnY1bFFFVmYtOXg1TUpRR1Zubi1Nd0FxWG5iTThIT0pveTh4dUR4VUxCSjBxemNpVGIxMVNubnJaaTZrVC0yUnZoYw?oc=5",
+      "title": "日テレNEWS NNN 5月12日(火) 20:55 今国会中で「詳細なルート」決定を 石田知事が初めて中央要請 北陸3県の知事が北陸新幹線の早期開業を求め要望活動 詳しいルートには触れず｜報道／ドキュメンタリー｜見逃し無料配信はTVer！人気の動画見放題",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5yYnY1bFFFVmYtOXg1TUpRR1Zubi1Nd0FxWG5iTThIT0pveTh4dUR4VUxCSjBxemNpVGIxMVNubnJaaTZrVC0yUnZoYw?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:24:48.000Z",
+      "source": "TVer",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pY25yWUhhTzBqbnNBOGUzc3NyOW84eU03ajdpUElmQ3RaUllCcGh0NExMY3ZpTDRjYlV2cjZDUzNuS3pFTEV4QlpiSVlJYXViLTg1VVRKZHdFVnhDVGktaVBaaUIwVTg0WGFGaTNCN3c4YjRuQ1MxTg?oc=5",
+      "title": "米インフレ率、約3年ぶりの大幅上昇 中間選挙控えるトランプ氏の政治的リスク高まる（字幕・13日）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pY25yWUhhTzBqbnNBOGUzc3NyOW84eU03ajdpUElmQ3RaUllCcGh0NExMY3ZpTDRjYlV2cjZDUzNuS3pFTEV4QlpiSVlJYXViLTg1VVRKZHdFVnhDVGktaVBaaUIwVTg0WGFGaTNCN3c4YjRuQ1MxTg?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:13:39.000Z",
+      "source": "Reuters",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52bHBHVmF6bkJHeGJaU2pJbDU2ZDREU0ZteE44SWMwVDNLVlZ6XzlZbHFVdEktUm5iVElvMi1YMzlSeHowWWdPQ1pWMTVGXzZJTk5Jbi1lR0lTXzhZY0x4dFEtazdBTWJGU2R0SA?oc=5",
+      "title": "駐日サウジアラビア大使、東京で元首相と面会",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52bHBHVmF6bkJHeGJaU2pJbDU2ZDREU0ZteE44SWMwVDNLVlZ6XzlZbHFVdEktUm5iVElvMi1YMzlSeHowWWdPQ1pWMTVGXzZJTk5Jbi1lR0lTXzhZY0x4dFEtazdBTWJGU2R0SA?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:09:15.000Z",
+      "source": "arabnews.jp",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GY1QybUVHRFBJRVNoMTI5UWRMbjh0NzM3N05aYzRSN0NaMU5nM3B3ZzdrZXF1UjU5VGM2enZfSkxmaEFFYkFxaDFneW1xN3Rnd2fSAVRBVV95cUxPN0IwemFDcWMtTzg1WXlVMDJDdkdZNmM5NTFEMy15cTkxUHNQa08yYjEwajlKNHNRMkFiamJQQmpvU1A4bXpmZ1o4bGhGNlhkSGxnVXI?oc=5",
+      "title": "イランはホルムズ海峡を「脅迫の材料」として利用すべきではない カタール首相",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GY1QybUVHRFBJRVNoMTI5UWRMbjh0NzM3N05aYzRSN0NaMU5nM3B3ZzdrZXF1UjU5VGM2enZfSkxmaEFFYkFxaDFneW1xN3Rnd2fSAVRBVV95cUxPN0IwemFDcWMtTzg1WXlVMDJDdkdZNmM5NTFEMy15cTkxUHNQa08yYjEwajlKNHNRMkFiamJQQmpvU1A4bXpmZ1o4bGhGNlhkSGxnVXI?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:05:00.000Z",
+      "source": "AFPBB News",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95R3hRdTY4a2x1MHVaLWpkOU40em9lOHJCTE5uajVYcXNoZlZEZThJbzZ6ZDh4UGpQQi1GNGswRmFwb3BVUEVvRXVDaXBKTkNYeXU2dFlHak5lSUVqTnpr?oc=5",
+      "title": "高市首相動静 2026年5月12日",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95R3hRdTY4a2x1MHVaLWpkOU40em9lOHJCTE5uajVYcXNoZlZEZThJbzZ6ZDh4UGpQQi1GNGswRmFwb3BVUEVvRXVDaXBKTkNYeXU2dFlHak5lSUVqTnpr?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:53:37.000Z",
+      "source": "NHKニュース",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmeE5RVXotVHZXblZlU29nRld1cVlnT1FUcFFhOUNGbkoxdGRTcFRqTHZlNzJxWXk3dTNhdUJkQ0RkSDEyOGdWbVRsSklhNFRZdlh1Z2JzS1p5Q2dYVXlEY04tdWVYNS14bENHSjRIbzdYay0x?oc=5",
+      "title": "民主的統制なく監視拡大/「国家情報会議」設置法案 大門氏が追及/参院内閣委 | しんぶん赤旗",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmeE5RVXotVHZXblZlU29nRld1cVlnT1FUcFFhOUNGbkoxdGRTcFRqTHZlNzJxWXk3dTNhdUJkQ0RkSDEyOGdWbVRsSklhNFRZdlh1Z2JzS1p5Q2dYVXlEY04tdWVYNS14bENHSjRIbzdYay0x?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:51:54.000Z",
+      "source": "jcp.or.jp",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRmhMY2hVMU9JVU1UUDhFV1RHZ0FrdUFYdURnb1JWRGdJWWFvTUtnTkxHWmo3N2d1Um96UTNXcFczVFNUY3R6RFNfbEFBWXFHOEQ5ZERJal9icE14YUtjWV8xcG5KY2ZSaWlFcUFVMkdzd1FyS2xjMndocUVMQQ?oc=5",
+      "title": "国会審議中の2027年度介護保険法改正法案のポイント",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRmhMY2hVMU9JVU1UUDhFV1RHZ0FrdUFYdURnb1JWRGdJWWFvTUtnTkxHWmo3N2d1Um96UTNXcFczVFNUY3R6RFNfbEFBWXFHOEQ5ZERJal9icE14YUtjWV8xcG5KY2ZSaWlFcUFVMkdzd1FyS2xjMndocUVMQQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:34:42.000Z",
+      "source": "メディカルサポネット",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJdFd6MVBsZGpmdm5sWnJTSHJSSmN1d1BMaURPR05qVHpVdENFNnFHLVRDc2l3N2NTSnpWR0pnaUFyaVExanJZbnF0V2UyTXdieU1oZTlQZkFyRmpsU2VN?oc=5",
+      "title": "支援者の皆さまと一緒に国会見学へ行ってまいりました。",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJdFd6MVBsZGpmdm5sWnJTSHJSSmN1d1BMaURPR05qVHpVdENFNnFHLVRDc2l3N2NTSnpWR0pnaUFyaVExanJZbnF0V2UyTXdieU1oZTlQZkFyRmpsU2VN?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:26:14.000Z",
+      "source": "選挙ドットコム",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mTHFYSnBoQnNTVF9ydm5pMXhyVmk1TWNqT0VoRHhmNjhzVTQtM2cwQVJxTnNrQjR4bVJiQS1iNFNJYzNsaGFLb0ZjSGRIU0VwY1lOWlhSYW9yOFU4djZuU2YtOW1MQWFmQktlenYycEVIUnNRRnp3MVFR?oc=5",
+      "title": "ベセント米財務長官、中国の何副首相と協議へ 米中首脳会談控え",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mTHFYSnBoQnNTVF9ydm5pMXhyVmk1TWNqT0VoRHhmNjhzVTQtM2cwQVJxTnNrQjR4bVJiQS1iNFNJYzNsaGFLb0ZjSGRIU0VwY1lOWlhSYW9yOFU4djZuU2YtOW1MQWFmQktlenYycEVIUnNRRnp3MVFR?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:22:00.000Z",
+      "source": "Reuters",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zUnp1d3NCMzQ4TzNzWFlLNV9HTDBpeENNend1bzQybGYxTWVLT1d5MHlrNVpKYnFRcGFXQ0dKb3F0ZjhCNzFXWVF0bGF0S2M0NjYtNmh3?oc=5",
+      "title": "ドイツの経済大臣と環境大臣が「激突」 エネルギー政策の対立で 熊谷徹のヨーロッパSDGリポート【42】",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zUnp1d3NCMzQ4TzNzWFlLNV9HTDBpeENNend1bzQybGYxTWVLT1d5MHlrNVpKYnFRcGFXQ0dKb3F0ZjhCNzFXWVF0bGF0S2M0NjYtNmh3?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:02:54.000Z",
+      "source": "朝日新聞",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaHZBa2lhS3FneTVBWWlYMXBhUU1TdllXczZvT1JzR3pfVk9pUEhRZnh0SmE5QnhmYlVEMk9OUURnQVVLalpDZkFQc052cWk3Vy0tWEpiZTg3Z3I4NjVNaFIzb0dja21tVWxBWURySGlEYkFxVFhvNVhpR0hNS1lRTmRNRk9MMHBO?oc=5",
+      "title": "首相が対策指示した封印された知能：『Claude Mythos』が投げかけるAI時代の倫理的境界線 #エキスパートトピ",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaHZBa2lhS3FneTVBWWlYMXBhUU1TdllXczZvT1JzR3pfVk9pUEhRZnh0SmE5QnhmYlVEMk9OUURnQVVLalpDZkFQc052cWk3Vy0tWEpiZTg3Z3I4NjVNaFIzb0dja21tVWxBWURySGlEYkFxVFhvNVhpR0hNS1lRTmRNRk9MMHBO?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:01:00.000Z",
+      "source": "Yahoo!ニュース",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wYUpHWGJGc1BvYUwxNTI4YmU1em5rcnFVSEdrdlZsNWVobHRNNUY2eU9NTzc1Y0hVeXZweGdhQ25oVFo4ZGVhNDN1V1dZYTh0aDQ4VHNmaHN2amJueUs2OHk0MUY4aEI0bGtnaQ?oc=5",
+      "title": "インド･モディ首相、燃料節約にかじ 在宅･旅行自粛要請で関連株急落",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wYUpHWGJGc1BvYUwxNTI4YmU1em5rcnFVSEdrdlZsNWVobHRNNUY2eU9NTzc1Y0hVeXZweGdhQ25oVFo4ZGVhNDN1V1dZYTh0aDQ4VHNmaHN2amJueUs2OHk0MUY4aEI0bGtnaQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:34:18.000Z",
+      "source": "日本経済新聞",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sOFBMeXF1OXYzT0xzcUFHa2FzbEtsSGZ1T0UxZ1hJckxUcFM0ckpheUhGRk1PZ1piRWxGSDYxNWYyZDF0SzlSRHZoNXF2REFSRW1ral8xWXNUem4wZXdyT0RJVE96aXJnVFprdVR1NmV0dE1vVldWUUVtYVFwdXM?oc=5",
+      "title": "インフルエンサー発信に疑念 暗殺未遂後に類似の政治主張 トランプ政権との関係に焦点・米（時事通信）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sOFBMeXF1OXYzT0xzcUFHa2FzbEtsSGZ1T0UxZ1hJckxUcFM0ckpheUhGRk1PZ1piRWxGSDYxNWYyZDF0SzlSRHZoNXF2REFSRW1ral8xWXNUem4wZXdyT0RJVE96aXJnVFprdVR1NmV0dE1vVldWUUVtYVFwdXM?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:18:15.000Z",
+      "source": "Yahoo!ニュース",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iLXN1TjBXM3NMMUZfY2IwM0dKNkVNSmFfblVuUWR5NkhFVElUemlxNlBIWkhGR1EyUTI2ajhvREdQVnlrZDlSd2NTY0JDZGhRekJKcUstUzBLSHN3bUU0c0oxRQ?oc=5",
+      "title": "インフルエンサー発信に疑念 暗殺未遂後に類似の政治主張―トランプ政権との関係に焦点・米",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iLXN1TjBXM3NMMUZfY2IwM0dKNkVNSmFfblVuUWR5NkhFVElUemlxNlBIWkhGR1EyUTI2ajhvREdQVnlrZDlSd2NTY0JDZGhRekJKcUstUzBLSHN3bUU0c0oxRQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:07:00.000Z",
+      "source": "時事ドットコム",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLTEFocy1XNFh6MVk2NWhEc3VOVE1IWWNqYzNYTkxKV3F6TFhFRDdEZ2JOd2ppVjRWemxpVE5NOHMtR3I0cjNIeGlMd3pWT3R1dnBZMGczUQ?oc=5",
+      "title": "【国会中継・ライブ】参議院本会議 高市総理が出席 健康保険法改正法案の趣旨説明、物流効率化法改正案の採決（2026年5月13日午前10時～ LIVE配信）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLTEFocy1XNFh6MVk2NWhEc3VOVE1IWWNqYzNYTkxKV3F6TFhFRDdEZ2JOd2ppVjRWemxpVE5NOHMtR3I0cjNIeGlMd3pWT3R1dnBZMGczUQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:30:00.000Z",
+      "source": "TBS NEWS DIG",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tWDVxZEY5T1pFcW95RGdjTV92bnVyM0JHajlTeDdDeE1panNOc2QyOXJqTk5fSGE1T2g2NGlfSEFMMHlqTHJ3ZmxyTDRfQ01ZMTdGRjlBU1FPQ0NTMlJKYUptZEVXS0tGVVk5UlQ1UlpnQQ?oc=5",
+      "title": "水曜7時台 けさの“聞きたい”「国会の議論にはいかなる意味があるのか」",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5tWDVxZEY5T1pFcW95RGdjTV92bnVyM0JHajlTeDdDeE1panNOc2QyOXJqTk5fSGE1T2g2NGlfSEFMMHlqTHJ3ZmxyTDRfQ01ZMTdGRjlBU1FPQ0NTMlJKYUptZEVXS0tGVVk5UlQ1UlpnQQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:27:26.000Z",
+      "source": "NHK",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wai0xQ0JEVl8xdXRaRzFWVlMzUzBJSEY3cy1Oc0V5Ynp3U2VwOFNtRmdTZjZ1UVBvN0RUTmJVQXBQNmY3djI2TnhiTmV2TEdqV21mQ2ZJdHNER1lCVzEtcEVvRThQc25jaDZEMzFRcHZGT3Ywd2tLWVJLcmNwQQ?oc=5",
+      "title": "マクロスコープ：米中首脳会談、日本政府内に渦巻く経済改善期待と安保への懸念",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wai0xQ0JEVl8xdXRaRzFWVlMzUzBJSEY3cy1Oc0V5Ynp3U2VwOFNtRmdTZjZ1UVBvN0RUTmJVQXBQNmY3djI2TnhiTmV2TEdqV21mQ2ZJdHNER1lCVzEtcEVvRThQc25jaDZEMzFRcHZGT3Ywd2tLWVJLcmNwQQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:15:20.000Z",
+      "source": "Reuters",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE01ZXVqY2RQVUlZV1J3R1VnTkh3VEZxWTV0V2ZiMjFWWkR1LVQzQXFNOHpTamRNaGJ0dThHcU0xRnNVSnVYMUJYZTVMbFA5Zw?oc=5",
+      "title": "トランプ大統領がベネズエラの政治犯全員を釈放する考え マドゥロ大統領拘束後に政治犯400人以上釈放と報道",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE01ZXVqY2RQVUlZV1J3R1VnTkh3VEZxWTV0V2ZiMjFWWkR1LVQzQXFNOHpTamRNaGJ0dThHcU0xRnNVSnVYMUJYZTVMbFA5Zw?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:50:00.000Z",
+      "source": "FNNプライムオンライン",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CSEMtOWhvdTBLeVBGVzg1bktNWk1XdVJtZEk4MlRxSERHTGFQMnJsNktPdDBmdVNia1JaWVpWa1J0aUo4b0FRbGkwVkttVGNHY2JiNGhoR3h5bjBfREpmb0h2WWRuc0s4d1BEWkVQUFZLcktMWnBicnY5cEg?oc=5",
+      "title": "身近な生活必需品が“品薄や有料”に？ 高市首相“今月は石油の備蓄放出行わず”（2026年5月12日掲載）｜日テレNEWS NNN",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CSEMtOWhvdTBLeVBGVzg1bktNWk1XdVJtZEk4MlRxSERHTGFQMnJsNktPdDBmdVNia1JaWVpWa1J0aUo4b0FRbGkwVkttVGNHY2JiNGhoR3h5bjBfREpmb0h2WWRuc0s4d1BEWkVQUFZLcktMWnBicnY5cEg?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:22:00.000Z",
+      "source": "日テレNEWS NNN",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13bFBqUmNZbHFhLXluOUdMOXFuSmk0ME05c1VGMGF2MGl5T0s4Z1BaVEN0UUtTckw0SXBQQWZXTkFLMzV2dy1YUnZxc2ZXaFU?oc=5",
+      "title": "たった“1日”で幕府から新政府に寝返り…政治権力に全く身を捧げない自由奔放な「大坂町人」の実像",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13bFBqUmNZbHFhLXluOUdMOXFuSmk0ME05c1VGMGF2MGl5T0s4Z1BaVEN0UUtTckw0SXBQQWZXTkFLMzV2dy1YUnZxc2ZXaFU?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:01:03.000Z",
+      "source": "現代ビジネス",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EanQtNlhia1dDbzVSYmtELUJVdzBqN3JjV0hBOS1GLUplWUVwa0dvdk12UkhCbGNDUTF3cjgxemJJSHdVTkoyVVc1ZGV6WjQ?oc=5",
+      "title": "退陣前の石破茂元首相のようなしぶとさ…不人気メルツ政権が失脚間近とされる理由",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5EanQtNlhia1dDbzVSYmtELUJVdzBqN3JjV0hBOS1GLUplWUVwa0dvdk12UkhCbGNDUTF3cjgxemJJSHdVTkoyVVc1ZGV6WjQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:01:03.000Z",
+      "source": "現代ビジネス",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XTmxGM1MwLUtvOU9GVUNBcEV4b2w0aWxFQ2gtZ2s5bE1XcVBPZ3BubFNpMUw0SXc3TDhFRDFYRjluRUJ0dTBnMlZMYW1xdkdpU1c0?oc=5",
+      "title": "〈政治まんが〉「圧をかけるか」 佐藤正明傑作選「一笑両断2」販売中",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5XTmxGM1MwLUtvOU9GVUNBcEV4b2w0aWxFQ2gtZ2s5bE1XcVBPZ3BubFNpMUw0SXc3TDhFRDFYRjluRUJ0dTBnMlZMYW1xdkdpU1c0?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:00:00.000Z",
+      "source": "東京新聞デジタル",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LMEpycEktRDRvQVZfb3ZEVktNTFJyY0FsSkM2cXR0VFg1Z1JLM3ZNZ0pqaXB4UzZpT3RBSzA2T2lhSU5wckplSWJlT0JrdmFWdW1j?oc=5",
+      "title": "韓国の情報機関が起こした不祥事…高市政権は「国家情報会議」の教訓に 「国会の監視が人権侵害を防ぐ」",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LMEpycEktRDRvQVZfb3ZEVktNTFJyY0FsSkM2cXR0VFg1Z1JLM3ZNZ0pqaXB4UzZpT3RBSzA2T2lhSU5wckplSWJlT0JrdmFWdW1j?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:00:00.000Z",
+      "source": "東京新聞デジタル",
+      "category": "politics"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3VGRtNm5ZR3NxS2stN3pBNEdPdUhaNGRBZlpGMF9kdnBPMlBYNlNkSVlFTXZxbTFKRFhfVXZ4NUFTdmwzSGdiMEc1bTFyWjRMRlZSQlh3?oc=5",
+      "title": "「米国の原潜は1隻も手に入らない」豪元首相が暴く“AUKUSの罠”と、西側諸国が米中“G2”時代に生き残る毒エビ戦略",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3VGRtNm5ZR3NxS2stN3pBNEdPdUhaNGRBZlpGMF9kdnBPMlBYNlNkSVlFTXZxbTFKRFhfVXZ4NUFTdmwzSGdiMEc1bTFyWjRMRlZSQlh3?oc=5",
+      "image": "",
+      "date": "2026-05-12T21:00:00.000Z",
+      "source": "JBpress",
+      "category": "politics"
+    }
+  ],
   "custom": [],
   "all": [
+    {
+      "id": "https://gigazine.net/news/20260513&#45;googlebook/",
+      "title": "GoogleがAndroidベースで動くノートPC「Googlebook」を発表、Gemini Intelligenceのためにゼロから設計",
+      "description": "GoogleがGemini Intelligence向けに設計されたノートPC「Googlebook」を発表しました。Googleは「オペレーティングシステムからインテリジェンスシステムへと移行する中で、ノートPCのあり方を改めて見直す機会が訪れた」と述べています。",
+      "url": "https://gigazine.net/news/20260513&#45;googlebook/",
+      "image": "",
+      "date": "2026-05-13T02:06:00.000Z",
+      "source": "GIGAZINE",
+      "category": "tech"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MOUJvbTJ0dENObmtjaFN2bk1jSGp1aFg1dUt3anVwNU9qX0tSemNsQXBHSFk1THJ1OGlTWXRybmFHNnFGTFJnRVVFaVRUZmR5cjBHUjNZU3ZscF84S25NeUkwSWlfQkZjbUNOdQ?oc=5",
+      "title": "ダイキン株価が年初来高値 10年ぶり自社株買い、今期配当積み増し",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MOUJvbTJ0dENObmtjaFN2bk1jSGp1aFg1dUt3anVwNU9qX0tSemNsQXBHSFk1THJ1OGlTWXRybmFHNnFGTFJnRVVFaVRUZmR5cjBHUjNZU3ZscF84S25NeUkwSWlfQkZjbUNOdQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:05:22.000Z",
+      "source": "日本経済新聞",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vVXM5MWl5dFRKYWM0ZnJhOUtId3laOGVha09LeWZYT00yUXpDUTN1M2hZZzFwX2JOUmRleFFfNTJlNW42MzV1SjNiQnNkOTNQd0U5N2paWXZlRW9mWmJDb1h4Qmc?oc=5",
+      "title": "「質問を待つ AI」から「自ら考えて動く AI」へ。レブコム、「MiiTel Synapse Copilot」で「Copilot Plus」機能を提供開始",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vVXM5MWl5dFRKYWM0ZnJhOUtId3laOGVha09LeWZYT00yUXpDUTN1M2hZZzFwX2JOUmRleFFfNTJlNW42MzV1SjNiQnNkOTNQd0U5N2paWXZlRW9mWmJDb1h4Qmc?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:03:45.000Z",
+      "source": "株式会社RevComm",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00R0RzVFBCdFBFYVRQV0w2N2hWOVR6VFB5NjQ4ZU8tR1R6dDhrUUFHRkVwa2t4UnNCVHpncVJ3akhQS1ZwU0pfUUpwRTEyOUt3blZBOFc4VQ?oc=5",
+      "title": "原田勝弘氏がゲーム開発スタジオ“VS Studio”を設立。SNKと連携。「伝統に挑み、極限を創る」を理念に掲げる",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00R0RzVFBCdFBFYVRQV0w2N2hWOVR6VFB5NjQ4ZU8tR1R6dDhrUUFHRkVwa2t4UnNCVHpncVJ3akhQS1ZwU0pfUUpwRTEyOUt3blZBOFc4VQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:03:00.000Z",
+      "source": "電撃オンライン",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9NQmZiMHhxT2pUSzFkaTdDckFxc1BlOXVzYVl4VEMxUUpNNzRjZlV4c0pGWGNCNXY0QXZwemVvVlF1bHM?oc=5",
+      "title": "生成AI利用者の35%がヒヤリハットを経験、“AI過信”によるコピペと機密情報入力が主因に",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9NQmZiMHhxT2pUSzFkaTdDckFxc1BlOXVzYVl4VEMxUUpNNzRjZlV4c0pGWGNCNXY0QXZwemVvVlF1bHM?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:00:54.000Z",
+      "source": "Digital PR Platform",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51YmxBbWw4bDdhWDZlVFVDUDl1dG9PX1VzakJrQ2ZQWlJHaXZxNzR5enNhMHB3bHpScHUzdHdnMTdQR2htVG9TZFJIeVQ4dzFScFA2UXdfLXh5Z0RTM1l6cG1zOVl4VmM?oc=5",
+      "title": "膨大な日本語データで生成AIの信頼性向上 大学発ベンチャーが構築 [徳島県] [AIの時代]",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE51YmxBbWw4bDdhWDZlVFVDUDl1dG9PX1VzakJrQ2ZQWlJHaXZxNzR5enNhMHB3bHpScHUzdHdnMTdQR2htVG9TZFJIeVQ4dzFScFA2UXdfLXh5Z0RTM1l6cG1zOVl4VmM?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:00:00.000Z",
+      "source": "朝日新聞",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySXVpcHpDWWRwX3FBMjNDbng4cDdIOUlfTzdRUDladEFuUDYxTll3bzJDTUI0LTVVY1FCNW5WR3hSVGtLRHNkWkhkRjFRYms?oc=5",
+      "title": "経済産業省「製品安全対策優良企業表彰 （PSアワード2026・＋あんしん）」応募説明会のご案内",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySXVpcHpDWWRwX3FBMjNDbng4cDdIOUlfTzdRUDladEFuUDYxTll3bzJDTUI0LTVVY1FCNW5WR3hSVGtLRHNkWkhkRjFRYms?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:00:00.000Z",
+      "source": "Newscast.jp",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xOTUxYmVzZGI4bDJlX0E2U19pbW10d1VVanU4SUx5R0p5ZzV1UFY2eW42a0dSS2VZYkpuVGg0Y0ItdEM2bFFBTjRkTm5QOUtGWWJqNkY1UnNJVjBPek11Z1hmUElLa3FfdVpTbA?oc=5",
+      "title": "逃げる米国、追う中国 GDPからAIまで一目で分かる経済の特徴",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xOTUxYmVzZGI4bDJlX0E2U19pbW10d1VVanU4SUx5R0p5ZzV1UFY2eW42a0dSS2VZYkpuVGg0Y0ItdEM2bFFBTjRkTm5QOUtGWWJqNkY1UnNJVjBPek11Z1hmUElLa3FfdVpTbA?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:00:00.000Z",
+      "source": "日本経済新聞",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sUjVJbTNDbktOcncxLTBHVG1MeDZvdUF6TUJ0QWxORmhSTnlydnM5TW9UZlZ5aEowTmM3RnB2NkF4WFVoRE5KcVNndDItbVJ3cHZIVg?oc=5",
+      "title": "WEBアニメ『うごく！ねこむかしばなし』第31話「アリとキリギリスとねこ」の先行カットが公開！",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sUjVJbTNDbktOcncxLTBHVG1MeDZvdUF6TUJ0QWxORmhSTnlydnM5TW9UZlZ5aEowTmM3RnB2NkF4WFVoRE5KcVNndDItbVJ3cHZIVg?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:59:08.000Z",
+      "source": "eeo",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15MGQtNUtCN2hEaG5aWnJjN1lkckkxS3pvRzVBaTdaa2w0SmN4TWFTN1lGZU1VcWt2Vm9vU0lPalF3dEh6RGQ4cmQyZXRmZw?oc=5",
+      "title": "天秤AI Biz byGMO、「主要AI約款比較」サービスを提供開始",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE15MGQtNUtCN2hEaG5aWnJjN1lkckkxS3pvRzVBaTdaa2w0SmN4TWFTN1lGZU1VcWt2Vm9vU0lPalF3dEh6RGQ4cmQyZXRmZw?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:57:05.000Z",
+      "source": "GMOインターネットグループ株式会社",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcmRrQkx4QTVLT0YxREhOYVhLUzhnZXYxaXFSTVhScWg0TllGcXRSc2xFNDdkU2NxemRmWFpWYXVJQlVMQ25wdm5XTk9NcWpXaWhqcXhmTnFQRXZ4dzlrOGpHczBzZjg1VWtQb0kyd21zV013YzhFakpxdXV4Uk92eUFB?oc=5",
+      "title": "米軍駐留拡大が議題の一つ、グリーンランド首相が対米交渉巡り説明",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcmRrQkx4QTVLT0YxREhOYVhLUzhnZXYxaXFSTVhScWg0TllGcXRSc2xFNDdkU2NxemRmWFpWYXVJQlVMQ25wdm5XTk9NcWpXaWhqcXhmTnFQRXZ4dzlrOGpHczBzZjg1VWtQb0kyd21zV013YzhFakpxdXV4Uk92eUFB?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:54:00.000Z",
+      "source": "Reuters",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vcXFpekViQ2JCZC1wSi1WS283VU5PZ1l1akp5RW5UVGgzdW9jSUpWU1ZCalFCMEtUcjRrVWN6VXo3dElwM0RkTF9OUEVDUF9MY2M5ZlpOT0FGNWo5MU9IQmlsV1dIWWFjVkg5WQ?oc=5",
+      "title": "英国、ホルムズ海峡に戦闘機や駆逐艦派遣 戦闘終結後に商船保護",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vcXFpekViQ2JCZC1wSi1WS283VU5PZ1l1akp5RW5UVGgzdW9jSUpWU1ZCalFCMEtUcjRrVWN6VXo3dElwM0RkTF9OUEVDUF9MY2M5ZlpOT0FGNWo5MU9IQmlsV1dIWWFjVkg5WQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:50:01.000Z",
+      "source": "日本経済新聞",
+      "category": "Google News"
+    },
+    {
+      "id": "https://gigazine.net/news/20260513&#45;playstation&#45;scuf&#45;omega/",
+      "title": "PS5用の公式ライセンスコントローラー「SCUF Omega」が登場、ドリフトに強い磁気式アナログスティック搭載",
+      "description": "数多くのゲーム用コントローラーを開発してきたSCUF GamingがPlayStation 5のオフィシャルライセンスを取得したコントローラー「SCUF Omega(スカフオメガ)」を2026年5月12日に発売しました。SCUF Omegaは背面やグリップなどに追加のボタンを備え",
+      "url": "https://gigazine.net/news/20260513&#45;playstation&#45;scuf&#45;omega/",
+      "image": "",
+      "date": "2026-05-13T01:50:00.000Z",
+      "source": "GIGAZINE",
+      "category": "tech"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwTzBFN2ZIdm4zU1l4SUZPcHZhUkozYklTaHdwTGpsM0FrMFJoRm90WU5OVmZxTzZWUXU1Yy1PdTE5RzFmNnBVWTN0Sjhob245ckNqSGp6TQ?oc=5",
+      "title": "緊張高まる中台関係◆中国、最大野党の取り込み目論む（台湾国立政治大学日本研究プログラム副教授・石原忠浩）",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwTzBFN2ZIdm4zU1l4SUZPcHZhUkozYklTaHdwTGpsM0FrMFJoRm90WU5OVmZxTzZWUXU1Yy1PdTE5RzFmNnBVWTN0Sjhob245ckNqSGp6TQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:49:35.000Z",
+      "source": "時事ドットコム",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZXlMdlBHcjJodDdyd2t1ZDNYUWtiS3NKM1dSWnluTmJKaDg4Y2lzTlJ4TWp0N3NSLWZRMzFsUlROX29xT0FVTkRFb3J5U1ZsRXFQVUZxZlJWTW9qZjFCODF6emI?oc=5",
+      "title": "地方暮らしは経済的自立に最適 北見のFPがビジネス書「地方神速FIRE」を出版",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aZXlMdlBHcjJodDdyd2t1ZDNYUWtiS3NKM1dSWnluTmJKaDg4Y2lzTlJ4TWp0N3NSLWZRMzFsUlROX29xT0FVTkRFb3J5U1ZsRXFQVUZxZlJWTW9qZjFCODF6emI?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:47:23.000Z",
+      "source": "北海道新聞デジタル",
+      "category": "Google News"
+    },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SVll4cU04RWdmbGtwVXhteFh0MGlpbkpSamtiZC11RnVYQlZhTWQ3MTVDbTA2UWpldkM5N185TUpWWUN4RF83bUhsRmlfaWRSazdrNjdFaEpubEk2bGdZ?oc=5",
       "title": "トランプ氏訪中、マスク氏同行へ テスラ上海工場「経済連携の象徴」：ニュース",
@@ -486,6 +1309,16 @@
       "image": "",
       "date": "2026-05-13T01:44:00.000Z",
       "source": "中日BIZナビ",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xY3U5OWNST2lLbmc1VWlzUW9xbkxKZWZhRmU5LTVYUWZtRWkzdENmWDJEdzhac0VETHBndTRacHUyUXctX0pvVlNVZ1VaWUtSa0NDbWVuMA?oc=5",
+      "title": "10代の娘を寝室の押し入れに手足を拘束して監禁し、けがさせたか 両親と兄を逮捕 日常的に家族ぐるみで虐待を繰り返していたか 東京・町田市 警視庁",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xY3U5OWNST2lLbmc1VWlzUW9xbkxKZWZhRmU5LTVYUWZtRWkzdENmWDJEdzhac0VETHBndTRacHUyUXctX0pvVlNVZ1VaWUtSa0NDbWVuMA?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:38:00.000Z",
+      "source": "TBS NEWS DIG",
       "category": "Google News"
     },
     {
@@ -506,6 +1339,16 @@
       "image": "",
       "date": "2026-05-13T01:36:22.000Z",
       "source": "PR TIMES",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tVFhuQ3RBWF9ZZVduMVlFU0VWYzR4aG0wWGphSzNJVldmYkFWMTVCamllMkpTTi1NRl9mRUJNcHJ5bmc2bkpBTExPWFZpYjFIVjRCWFcydUo?oc=5",
+      "title": "『爆走兄弟レッツ&ゴー!!』アニメ30周年記念展が開催決定！「アニメ30周年記念イベント」、30周年記念の「トミカセット」も",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tVFhuQ3RBWF9ZZVduMVlFU0VWYzR4aG0wWGphSzNJVldmYkFWMTVCamllMkpTTi1NRl9mRUJNcHJ5bmc2bkpBTExPWFZpYjFIVjRCWFcydUo?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:33:00.000Z",
+      "source": "電ファミニコゲーマー",
       "category": "Google News"
     },
     {
@@ -549,16 +1392,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnX1ExeVV5MGg1VDRsbUtvQi1tZkRtV0JqQXhEY1ZOT1p1Ni1vdEI0UGlTbC15dy1MVHh4cTZVRUl5SExxVllYdnNpa2hzWWhtSGZseEJpZzM4NjNSVmc?oc=5",
-      "title": "古代中国文明と先進製造業が切り拓く河南省の新経済",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBnX1ExeVV5MGg1VDRsbUtvQi1tZkRtV0JqQXhEY1ZOT1p1Ni1vdEI0UGlTbC15dy1MVHh4cTZVRUl5SExxVllYdnNpa2hzWWhtSGZseEJpZzM4NjNSVmc?oc=5",
-      "image": "",
-      "date": "2026-05-13T01:16:00.000Z",
-      "source": "沖縄タイムス社",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5pY25yWUhhTzBqbnNBOGUzc3NyOW84eU03ajdpUElmQ3RaUllCcGh0NExMY3ZpTDRjYlV2cjZDUzNuS3pFTEV4QlpiSVlJYXViLTg1VVRKZHdFVnhDVGktaVBaaUIwVTg0WGFGaTNCN3c4YjRuQ1MxTg?oc=5",
       "title": "米インフレ率、約3年ぶりの大幅上昇 中間選挙控えるトランプ氏の政治的リスク高まる（字幕・13日）",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -579,13 +1412,13 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QSmk0MGFhZ0RjOGZkaFpNZ2NISzJCTDZyRm5QSnducjNCREpvb1VMNFJLdGlrejN3eUhPbElNRG1pMm5vLWg2RnpqbEhIVm4wSHNULTBrMGo?oc=5",
-      "title": "Amazon、Kindle Scribe初のカラーディスプレイ搭載 「Kindle Scribe Colorsoft」など、新「Kindle Scribeシリーズ」を日本で発売",
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GY1QybUVHRFBJRVNoMTI5UWRMbjh0NzM3N05aYzRSN0NaMU5nM3B3ZzdrZXF1UjU5VGM2enZfSkxmaEFFYkFxaDFneW1xN3Rnd2fSAVRBVV95cUxPN0IwemFDcWMtTzg1WXlVMDJDdkdZNmM5NTFEMy15cTkxUHNQa08yYjEwajlKNHNRMkFiamJQQmpvU1A4bXpmZ1o4bGhGNlhkSGxnVXI?oc=5",
+      "title": "イランはホルムズ海峡を「脅迫の材料」として利用すべきではない カタール首相",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QSmk0MGFhZ0RjOGZkaFpNZ2NISzJCTDZyRm5QSnducjNCREpvb1VMNFJLdGlrejN3eUhPbElNRG1pMm5vLWg2RnpqbEhIVm4wSHNULTBrMGo?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GY1QybUVHRFBJRVNoMTI5UWRMbjh0NzM3N05aYzRSN0NaMU5nM3B3ZzdrZXF1UjU5VGM2enZfSkxmaEFFYkFxaDFneW1xN3Rnd2fSAVRBVV95cUxPN0IwemFDcWMtTzg1WXlVMDJDdkdZNmM5NTFEMy15cTkxUHNQa08yYjEwajlKNHNRMkFiamJQQmpvU1A4bXpmZ1o4bGhGNlhkSGxnVXI?oc=5",
       "image": "",
-      "date": "2026-05-13T01:04:10.000Z",
-      "source": "日刊工業新聞",
+      "date": "2026-05-13T01:05:00.000Z",
+      "source": "AFPBB News",
       "category": "Google News"
     },
     {
@@ -596,16 +1429,6 @@
       "image": "",
       "date": "2026-05-13T01:03:00.000Z",
       "source": "WSJ",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BX2JCcFlVclZmWnRERVBCS1VLZGVPckZoT29fbVVuTzhQZk5zd016aTFTa1hkTmVaNzB0WF8yNUlacVdnVXQwYlk0S2Y3dW1YUXVSbEMteW1hM0hkMXRiaDRUVVh0QUU0b1F3enlmRVo3VzZsY245RVRJbURSWlE?oc=5",
-      "title": "Google AI Max 拡張で検索広告どう変わる？ 小売＆旅行カテゴリの変革（DIGIDAY［日本版］）",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BX2JCcFlVclZmWnRERVBCS1VLZGVPckZoT29fbVVuTzhQZk5zd016aTFTa1hkTmVaNzB0WF8yNUlacVdnVXQwYlk0S2Y3dW1YUXVSbEMteW1hM0hkMXRiaDRUVVh0QUU0b1F3enlmRVo3VzZsY245RVRJbURSWlE?oc=5",
-      "image": "",
-      "date": "2026-05-13T01:01:01.000Z",
-      "source": "Yahoo!ニュース",
       "category": "Google News"
     },
     {
@@ -639,6 +1462,16 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42VE91cmhJSnRqTnM2NVpQUzNmV1NtX0NDY3lESklIUUxIS1BfQ1pqWTZqaFZWRTB6LVdGR0VGSXY4N3R1YXBqUWNXUHF4MlYyMjNz?oc=5",
+      "title": "人の意図に寄り添う「インテントAI」の可能性",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42VE91cmhJSnRqTnM2NVpQUzNmV1NtX0NDY3lESklIUUxIS1BfQ1pqWTZqaFZWRTB6LVdGR0VGSXY4N3R1YXBqUWNXUHF4MlYyMjNz?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:00:00.000Z",
+      "source": "ZDNET Japan",
+      "category": "Google News"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05SHloYUFoNlpkN1R6NEZhY2pzcDU2X1NRTUxxS0ozUklVX3V0blZGYW4wTXNGZDBRYWQzU2V2MmJNNFZudEM3aWtqQTl1Umk5cHBBZ1RB?oc=5",
       "title": "『機動警察パトレイバー』20年ぶり音楽商品発売 初期シリーズ音楽集復刻で「98式AV イングラム1号機」描き下ろし",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -657,6 +1490,16 @@
       "date": "2026-05-13T01:00:00.000Z",
       "source": "GIGAZINE",
       "category": "tech"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdFVISmNEMEFJWHdiUEo0b2pYVDNQbGhPNnlJUUZqR285TWdJVkRkWVlfbzFBR2tHWkhQbTU1M0tndEczaFdIajIzRWdCR01wakE?oc=5",
+      "title": "(株)マネーフォワード【3994】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdFVISmNEMEFJWHdiUEo0b2pYVDNQbGhPNnlJUUZqR285TWdJVkRkWVlfbzFBR2tHWkhQbTU1M0tndEczaFdIajIzRWdCR01wakE?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:56:58.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "Google News"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95R3hRdTY4a2x1MHVaLWpkOU40em9lOHJCTE5uajVYcXNoZlZEZThJbzZ6ZDh4UGpQQi1GNGswRmFwb3BVUEVvRXVDaXBKTkNYeXU2dFlHak5lSUVqTnpr?oc=5",
@@ -729,6 +1572,16 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xeXhyWTZQVVE1aFpBWVRFWkgwR0RSdDNQRDBobnZ0Y2Fjd0dfcUVCaW9GWFduRFFyS1gxSWZnSFpNM1ItVlNhUVAydTI2TG1hQjR1dQ?oc=5",
+      "title": "あいちFGと三十三FGが経営統合へ、総資産11兆円超の地銀グループ誕生",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xeXhyWTZQVVE1aFpBWVRFWkgwR0RSdDNQRDBobnZ0Y2Fjd0dfcUVCaW9GWFduRFFyS1gxSWZnSFpNM1ItVlNhUVAydTI2TG1hQjR1dQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:36:28.000Z",
+      "source": "中日新聞Web",
+      "category": "Google News"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9DRmhMY2hVMU9JVU1UUDhFV1RHZ0FrdUFYdURnb1JWRGdJWWFvTUtnTkxHWmo3N2d1Um96UTNXcFczVFNUY3R6RFNfbEFBWXFHOEQ5ZERJal9icE14YUtjWV8xcG5KY2ZSaWlFcUFVMkdzd1FyS2xjMndocUVMQQ?oc=5",
       "title": "国会審議中の2027年度介護保険法改正法案のポイント",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -779,6 +1632,26 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoSXJOa2dkbWprTUdFYWNqMS1TUks2aF82bXFUblhxcThHSmY3S1I0cWJWeWlqc3QyalZoM3pUMFRpZVhQa3FidUcweFVhUFplRFE?oc=5",
+      "title": "(NEXT FUNDS)日経平均レバレッジ上場投信【1570】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoSXJOa2dkbWprTUdFYWNqMS1TUks2aF82bXFUblhxcThHSmY3S1I0cWJWeWlqc3QyalZoM3pUMFRpZVhQa3FidUcweFVhUFplRFE?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:22:12.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mTHFYSnBoQnNTVF9ydm5pMXhyVmk1TWNqT0VoRHhmNjhzVTQtM2cwQVJxTnNrQjR4bVJiQS1iNFNJYzNsaGFLb0ZjSGRIU0VwY1lOWlhSYW9yOFU4djZuU2YtOW1MQWFmQktlenYycEVIUnNRRnp3MVFR?oc=5",
+      "title": "ベセント米財務長官、中国の何副首相と協議へ 米中首脳会談控え",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mTHFYSnBoQnNTVF9ydm5pMXhyVmk1TWNqT0VoRHhmNjhzVTQtM2cwQVJxTnNrQjR4bVJiQS1iNFNJYzNsaGFLb0ZjSGRIU0VwY1lOWlhSYW9yOFU4djZuU2YtOW1MQWFmQktlenYycEVIUnNRRnp3MVFR?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:22:00.000Z",
+      "source": "Reuters",
+      "category": "Google News"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFA2OHAtMnBaZlpyUlVCMG1SeXR5X1BUZ05lM1BjdmFuaFpZS2k0UVVoRkoydDdMNnFIdE9CNlQ4UlVJcEZBMnRiRGN6VHl3cF9KejVaaVRCX05LWmF0d3lDNnlkdV9ab3Q3eUJueWtydi1hUQ?oc=5",
       "title": "AI ツールで実現する継続収益ビジネス​ 〜開発力を資産に変える〜 – AWS Local Executive Roadshow 大阪編（#2/8）開催レポート | Amazon Web Services ブログ",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -786,6 +1659,16 @@
       "image": "",
       "date": "2026-05-13T00:18:11.000Z",
       "source": "Amazon Web Services (AWS)",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9td21xdHo4cUdfcHhBRW5BcFRZV0pxMi0ybzdIcWtadkNzQTdqckNBQkRrcHZTSkpaM29zaWRjeHJpakVkNE1qTG1Hc2tLWWE2SFE?oc=5",
+      "title": "グーグルの次世代AIノートPC「Googlebook」発表 今秋発売へ",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9td21xdHo4cUdfcHhBRW5BcFRZV0pxMi0ybzdIcWtadkNzQTdqckNBQkRrcHZTSkpaM29zaWRjeHJpakVkNE1qTG1Hc2tLWWE2SFE?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:18:00.000Z",
+      "source": "CNET Japan",
       "category": "Google News"
     },
     {
@@ -799,22 +1682,22 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaGhCV0xoWnZrWTJTbGYwdHhTNUJCbHdxaDZFU2VBbTFXNGNwZ093MEx1RDdLRmFURzdDajhYV1NFbWl4eUE3SzYwOVAtYnRjeG1QSEZ0TW9OWmdjdXcxMXlSdWZXVjFUUVliNXdhU2Izb2dBM0wxSjVyTEdERFRHWg?oc=5",
-      "title": "日経平均は反落で寄り付く、米ハイテク株安が重し",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaGhCV0xoWnZrWTJTbGYwdHhTNUJCbHdxaDZFU2VBbTFXNGNwZ093MEx1RDdLRmFURzdDajhYV1NFbWl4eUE3SzYwOVAtYnRjeG1QSEZ0TW9OWmdjdXcxMXlSdWZXVjFUUVliNXdhU2Izb2dBM0wxSjVyTEdERFRHWg?oc=5",
-      "image": "",
-      "date": "2026-05-13T00:12:00.000Z",
-      "source": "Reuters",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kVXl4cUJoQkttOGp5ZmNwX1cxZS0xX2V3UF9HdzExSlctbmFqb0ppTk5PRzJBMTRjRFVVd1A1R3J1Q3hTWDRzUUFrQjNEZEU5SDluNFVESGhUTTdtS2IyMA?oc=5",
       "title": "【材料】 エクサＷｉｚがマド開け急騰、ＡＩ需要開拓し今期営業４４％増益予想で初配当実施へ",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kVXl4cUJoQkttOGp5ZmNwX1cxZS0xX2V3UF9HdzExSlctbmFqb0ppTk5PRzJBMTRjRFVVd1A1R3J1Q3hTWDRzUUFrQjNEZEU5SDluNFVESGhUTTdtS2IyMA?oc=5",
       "image": "",
       "date": "2026-05-13T00:09:00.000Z",
+      "source": "株探",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtV21YWjFkc1pvMHlpNUsyTjlpTFBYbkZDbWdWRkVvSENZbWlSdVdCQnp4cTJ4WWptUDFxeVlIU1NESjFTTmZ5QVk5VHZUWWh1SWVWTHlEVVRNWGd5ZW9ZQw?oc=5",
+      "title": "【特報】 話題株先取り【寄り付き】（1）：東洋紡、オリンパス、クレハなど",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtV21YWjFkc1pvMHlpNUsyTjlpTFBYbkZDbWdWRkVvSENZbWlSdVdCQnp4cTJ4WWptUDFxeVlIU1NESjFTTmZ5QVk5VHZUWWh1SWVWTHlEVVRNWGd5ZW9ZQw?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:08:00.000Z",
       "source": "株探",
       "category": "Google News"
     },
@@ -826,16 +1709,6 @@
       "image": "",
       "date": "2026-05-13T00:06:00.000Z",
       "source": "読売新聞",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VUnh4M2pPWmNYa2FBajdUVW9Wa3c5WW9IQlVuc3ZCOHhpTlo0LTJZcU92a0FqSW5DbFJHQzBzQ0tYdTAzbUtNaW5zc1FSVnhh?oc=5",
-      "title": "サイバー攻撃 AIミュトス巡る課題",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VUnh4M2pPWmNYa2FBajdUVW9Wa3c5WW9IQlVuc3ZCOHhpTlo0LTJZcU92a0FqSW5DbFJHQzBzQ0tYdTAzbUtNaW5zc1FSVnhh?oc=5",
-      "image": "",
-      "date": "2026-05-13T00:06:00.000Z",
-      "source": "Yahoo!ニュース",
       "category": "Google News"
     },
     {
@@ -890,7 +1763,7 @@
     },
     {
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2LWRnbGg5LUhHUTByRE12RHFkc0JvOGktOF84MThQQzNNcDF3eE93U0JuNTBnLThBbGFQZklNVG52a3YxUnh5OXAzNVRFdW9vejAyaGtWbHhCOWttbE5sMTBjMTl5RTJ6UmlMOQ?oc=5",
-      "title": "長期金利、一時29年ぶり2.575% 米金利上昇が波及",
+      "title": "長期金利、一時29年ぶり2.59% 米金利上昇が波及",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2LWRnbGg5LUhHUTByRE12RHFkc0JvOGktOF84MThQQzNNcDF3eE93U0JuNTBnLThBbGFQZklNVG52a3YxUnh5OXAzNVRFdW9vejAyaGtWbHhCOWttbE5sMTBjMTl5RTJ6UmlMOQ?oc=5",
       "image": "",
@@ -929,13 +1802,13 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xUTV2MnM2SDFZU2dHMFpsLTBKZ3dkaWswX1J0aGVLMEFrc0JkcGM4d2hiVHhQbWl6Z3VvbTRtVVVabzY2OF9iY1pTZGVyb0EtUVJKS0hLX09iTXlaSzdB?oc=5",
-      "title": "「税金の無駄遣い」鎌倉市議会の“金色”ネームプレートが物議 設置費用387万円に市民から疑問の声",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16MDhNNkl3VHZxaXRiYzk3OXNManJjWHU4RU5ydXp2LWJBa1RqdUNtbk1POHlYNjdWazNEOHBneFJvQXpIRUQ3LWRsOE4yWkJXV1BsaEp5YS1sUGZVWUZiUUQwZlNiNkVJUzk0Mw?oc=5",
+      "title": "経常黒字最大の34.5兆円 25年度、半導体輸出拡大で5年ぶり貿易黒字",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xUTV2MnM2SDFZU2dHMFpsLTBKZ3dkaWswX1J0aGVLMEFrc0JkcGM4d2hiVHhQbWl6Z3VvbTRtVVVabzY2OF9iY1pTZGVyb0EtUVJKS0hLX09iTXlaSzdB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16MDhNNkl3VHZxaXRiYzk3OXNManJjWHU4RU5ydXp2LWJBa1RqdUNtbk1POHlYNjdWazNEOHBneFJvQXpIRUQ3LWRsOE4yWkJXV1BsaEp5YS1sUGZVWUZiUUQwZlNiNkVJUzk0Mw?oc=5",
       "image": "",
-      "date": "2026-05-12T23:52:43.000Z",
-      "source": "ライブドアニュース",
+      "date": "2026-05-12T23:54:07.000Z",
+      "source": "日本経済新聞",
       "category": "Google News"
     },
     {
@@ -959,6 +1832,16 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84OEdvVnNQcGtzbUdyQkl2SHZxUG5Id1RmTXlTTVQ3SElSY05PemtXN2UxcDVaWWI1Yy00WW5FRmtFM0h6bjFsQ0lYcjdXb0tfNmc?oc=5",
+      "title": "澁澤倉庫(株)【9304】：株価・株式情報",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84OEdvVnNQcGtzbUdyQkl2SHZxUG5Id1RmTXlTTVQ3SElSY05PemtXN2UxcDVaWWI1Yy00WW5FRmtFM0h6bjFsQ0lYcjdXb0tfNmc?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:36:01.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "Google News"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZbV9ta2ctdXJNd0tOdU5ZVU84Q29DVEs4d2k4ZTRyLVY2aTAzNGN3Q2JETmFUT1c0MGdiWjZZcjNjdVp0SDdUcU93aU5LQWZXZFlpeFZiLUk?oc=5",
       "title": "愛知 東海 路上で倒れていた男性が死亡 ひき逃げ事件か",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -979,23 +1862,13 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8ta3d0YmRjS0xRbWdyMnc2cG90ZURtNTFXcUt3dklXVTNIOFZIUjAwNHVJUktjRXQ3aW1MNXI5Tlluc0FSMng5dnh1UHBnSUtoeXpYRTVVVk1nTnloRGVjR2txdw?oc=5",
-      "title": "FX/為替「ドル/円今日の予想」 外為どっとコム トゥデイ 2026年5月13日号",
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxQWFvNUVPVGNZNFJ6UlM0WFM1ZHJHSDhPamFkdE92OUQzU3JqUUVwR1RRM2FTdDV2VEZZQ19qV2ZDWGJNQkw5ejJiaWl0ZmV6NmlGYmgtTWZ0Y29zYW1hSldQMnAtXzROLUdDWkRRdERJOGxNSUJZZmtvUzNHQ2M?oc=5",
+      "title": "万博などに向け購入した中国製ＥＶバス１９０台、路線バスに転用できず購入代金の回収も不透明に（読売新聞オンライン）",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8ta3d0YmRjS0xRbWdyMnc2cG90ZURtNTFXcUt3dklXVTNIOFZIUjAwNHVJUktjRXQ3aW1MNXI5Tlluc0FSMng5dnh1UHBnSUtoeXpYRTVVVk1nTnloRGVjR2txdw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxQWFvNUVPVGNZNFJ6UlM0WFM1ZHJHSDhPamFkdE92OUQzU3JqUUVwR1RRM2FTdDV2VEZZQ19qV2ZDWGJNQkw5ejJiaWl0ZmV6NmlGYmgtTWZ0Y29zYW1hSldQMnAtXzROLUdDWkRRdERJOGxNSUJZZmtvUzNHQ2M?oc=5",
       "image": "",
-      "date": "2026-05-12T23:34:15.000Z",
-      "source": "外為どっとコム",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNZ3VHc1dYenpWZkdCaFZhWDRublZxWV9MT3hpT1dSUlRFS3pmdi1UVmQwazd5Z1NSZ0NZMkZIR0lfVW4xdEhiSkFHdXRYb0x3ZnRFN3Q1N3lMelRBYVNTVUcyWEdvUi1yZEE?oc=5",
-      "title": "高度な分析ノウハウを統合「VOC分析特化型AIエージェント」の研究開発を開始",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNZ3VHc1dYenpWZkdCaFZhWDRublZxWV9MT3hpT1dSUlRFS3pmdi1UVmQwazd5Z1NSZ0NZMkZIR0lfVW4xdEhiSkFHdXRYb0x3ZnRFN3Q1N3lMelRBYVNTVUcyWEdvUi1yZEE?oc=5",
-      "image": "",
-      "date": "2026-05-12T23:30:01.000Z",
-      "source": "PR TIMES",
+      "date": "2026-05-12T23:25:31.000Z",
+      "source": "Yahoo!ニュース",
       "category": "Google News"
     },
     {
@@ -1019,16 +1892,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNQWNhRmZ3cW41VEpiLVFMdDFHMHhON1g3ckQzdU1ueHB6ZEVXUHRlczE4aHEyVnZaYjhCYWg0UlJtQW40YzRhSTZEbUxjZzlYVnYwTHM1QTQ1X091Tlp5Q3ZGU09feDJ6eTdPREZrQm5Tc3RidjA1WWdJVkpkdnJtVmZPc2NDX1dlYUpZa09zS0RUU2EzLTBmV01uQTZjU3JwOUUyRk9mNHFTN1BmSjJMZFFROU5oNEw1WmFIQzM3TGhvYUZoNVpId0IzSENZMEhJcUY1bW1xWjZoZ29KaUpuczRWazdjaE5RMjl6ZU8yN25SbkQtZG9YM0ZOeXNvVTNqWGxhYU9hVXluZ1M4MjZyZkFBbjl4VHhjSktGNDRuVW5OaV9TcHVCWW51X2JnZWYydnNjRWdabnJGZWVrOUFad3FjOXdMcEtuNVZ1UERR?oc=5",
-      "title": "【動画】「相変わらず仲良いな」八村塁、会見中に爆笑誘う レブロン登場で即交代に「弟子の鑑」と反響",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNQWNhRmZ3cW41VEpiLVFMdDFHMHhON1g3ckQzdU1ueHB6ZEVXUHRlczE4aHEyVnZaYjhCYWg0UlJtQW40YzRhSTZEbUxjZzlYVnYwTHM1QTQ1X091Tlp5Q3ZGU09feDJ6eTdPREZrQm5Tc3RidjA1WWdJVkpkdnJtVmZPc2NDX1dlYUpZa09zS0RUU2EzLTBmV01uQTZjU3JwOUUyRk9mNHFTN1BmSjJMZFFROU5oNEw1WmFIQzM3TGhvYUZoNVpId0IzSENZMEhJcUY1bW1xWjZoZ29KaUpuczRWazdjaE5RMjl6ZU8yN25SbkQtZG9YM0ZOeXNvVTNqWGxhYU9hVXluZ1M4MjZyZkFBbjl4VHhjSktGNDRuVW5OaV9TcHVCWW51X2JnZWYydnNjRWdabnJGZWVrOUFad3FjOXdMcEtuNVZ1UERR?oc=5",
-      "image": "",
-      "date": "2026-05-12T23:24:10.000Z",
-      "source": "sportingnews.com",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2ZV9iYVU1ak96UktVdkVfQnAxMGNjNFdOV2ZRRXdaVG5MTWF5MnBUZlo2SlVlNlJqQ0MzbDZmaDN3a3hNeUdhdGdvd1QyS09yTjhQakpGRlY0MXFNT2xReg?oc=5",
       "title": "【告知】 本日の「伊藤智洋が読む『日経平均株価・短期シナリオ』」は休載します",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -1046,26 +1909,6 @@
       "image": "",
       "date": "2026-05-12T23:18:15.000Z",
       "source": "Yahoo!ニュース",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcWJuM1FxeWduc3JRbkhDbWY1NEFPaWhhdUJvVkduTTdtN1MzSU1teG9FSDZDcWdnTW5wYzdtNlJEbFRNb0UzME9tVUhDT0RZTTJVWHotLWFMcE1MZEg1VlJxekRDYUxhTExSajlLNWhIZVhNUlRmbURGemlITFFjalFTemRoLVlWaDFQRlFjdk4xUUZhNGV3MEFpOTYwaGtPZEVMZFpn?oc=5",
-      "title": "原油・ナフサ不足というリスク",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcWJuM1FxeWduc3JRbkhDbWY1NEFPaWhhdUJvVkduTTdtN1MzSU1teG9FSDZDcWdnTW5wYzdtNlJEbFRNb0UzME9tVUhDT0RZTTJVWHotLWFMcE1MZEg1VlJxekRDYUxhTExSajlLNWhIZVhNUlRmbURGemlITFFjalFTemRoLVlWaDFQRlFjdk4xUUZhNGV3MEFpOTYwaGtPZEVMZFpn?oc=5",
-      "image": "",
-      "date": "2026-05-12T23:14:51.000Z",
-      "source": "日本経済新聞",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wMTl0Nm9KZV9yc0ZOMWlDT08zd1paeUJNN0RjVG15aEFYOHVrMDE2VDFhWDliX3lHTGh4R1BUam1JaFhYcXpvVjBxamVNdUtTaHU4Tg?oc=5",
-      "title": "今日も山沿い中心にゲリラ雷雨の可能性 平野部でも急な雨に注意",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wMTl0Nm9KZV9yc0ZOMWlDT08zd1paeUJNN0RjVG15aEFYOHVrMDE2VDFhWDliX3lHTGh4R1BUam1JaFhYcXpvVjBxamVNdUtTaHU4Tg?oc=5",
-      "image": "",
-      "date": "2026-05-12T23:13:00.000Z",
-      "source": "ウェザーニュース",
       "category": "Google News"
     },
     {
@@ -1089,16 +1932,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB1MUJRZV8zaUdxdlRMNVNNSWFIeFVKRE1ZQ1R2RE5tZDlLdGJSUEpWUGRMb3BhS05VcXRJMnhKVjFsTlJrcUJ3aGpLbWlwYllFdExuWGV6NEtONG9UR3Rvc1FfdlZ5T1VZNWxOS2ZvVmpnNGxHa1JJ?oc=5",
-      "title": "日本市場、米インフレ懸念し株・債券下落へ－軟調の円には介入警戒感",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB1MUJRZV8zaUdxdlRMNVNNSWFIeFVKRE1ZQ1R2RE5tZDlLdGJSUEpWUGRMb3BhS05VcXRJMnhKVjFsTlJrcUJ3aGpLbWlwYllFdExuWGV6NEtONG9UR3Rvc1FfdlZ5T1VZNWxOS2ZvVmpnNGxHa1JJ?oc=5",
-      "image": "",
-      "date": "2026-05-12T23:08:41.000Z",
-      "source": "Bloomberg.com",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iLXN1TjBXM3NMMUZfY2IwM0dKNkVNSmFfblVuUWR5NkhFVElUemlxNlBIWkhGR1EyUTI2ajhvREdQVnlrZDlSd2NTY0JDZGhRekJKcUstUzBLSHN3bUU0c0oxRQ?oc=5",
       "title": "インフルエンサー発信に疑念 暗殺未遂後に類似の政治主張―トランプ政権との関係に焦点・米",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -1109,13 +1942,13 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdTdxUUpXbU12dUVLdFY4Q2ZjSHZxQVFjcVRONHBQY0ZjRjBNaDQ2c29KNUFfM3ZiSTl3TnhRYjU5NTdnVjhZNDNDZ05vbFZiV05jeUJDR1UyTjF4dUFSenJwaTN3NW52YzRnUk5RVkZTV0R4YVBhWVA4Q1h1bWVUWkprbnl1SHBTeUM5MnlYNWJfV1ZMR2I5NXpFOUNJZHlNcnhzYk9KOS1BbTQtTGc?oc=5",
-      "title": "iPhone 18に合わせたiOS 27、ChatGPTの存在感が薄れそう",
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SeEY2QW5wQ0NsWDd6WjFNN0lmWkdRRjg4SnE0Q3RURVhkNDJhMWVPaUxJNjBXcS1sMWlBSGxqaDNwSTkzQjJpUjNkb1R1ME5oR0E?oc=5",
+      "title": "東武鉄道(株)【9001】：株価・株式情報",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdTdxUUpXbU12dUVLdFY4Q2ZjSHZxQVFjcVRONHBQY0ZjRjBNaDQ2c29KNUFfM3ZiSTl3TnhRYjU5NTdnVjhZNDNDZ05vbFZiV05jeUJDR1UyTjF4dUFSenJwaTN3NW52YzRnUk5RVkZTV0R4YVBhWVA4Q1h1bWVUWkprbnl1SHBTeUM5MnlYNWJfV1ZMR2I5NXpFOUNJZHlNcnhzYk9KOS1BbTQtTGc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SeEY2QW5wQ0NsWDd6WjFNN0lmWkdRRjg4SnE0Q3RURVhkNDJhMWVPaUxJNjBXcS1sMWlBSGxqaDNwSTkzQjJpUjNkb1R1ME5oR0E?oc=5",
       "image": "",
-      "date": "2026-05-12T23:00:00.000Z",
-      "source": "ギズモード・ジャパン",
+      "date": "2026-05-12T22:52:30.000Z",
+      "source": "Yahoo!ファイナンス",
       "category": "Google News"
     },
     {
@@ -1169,16 +2002,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xSDNhb0hIQ1o2REJNRGNweHE1TWJVbUZ1TUxqd2h5eTRSdzI0dkRJOEpkZk1FM1hZQUcyYkFMd2Z6WFNZbVJwNFVWcDdxYWlUNTh1dEk5STV4ZTA2VkE?oc=5",
-      "title": "平手友梨奈、イベントのキャッチコピーに戸惑いの声が相次ぐ (2026年5月13日掲載)",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xSDNhb0hIQ1o2REJNRGNweHE1TWJVbUZ1TUxqd2h5eTRSdzI0dkRJOEpkZk1FM1hZQUcyYkFMd2Z6WFNZbVJwNFVWcDdxYWlUNTh1dEk5STV4ZTA2VkE?oc=5",
-      "image": "",
-      "date": "2026-05-12T22:40:56.000Z",
-      "source": "ライブドアニュース",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZjg5b25ZUWI5WTdpaVdxNXJNMm90WHFyN2FaYVY4QlhkZDZsTXptcWV3bkV1ZC1RaV9YVXI3VUFhSU81cFFDN3hCbmVXa3BubjV5Njl2V1ltMTlLYmhBSVdVNkh6YUl1Q2dHZnhna1QtR0hCb0FCNTZ6Vm5WODJMcVFpMHVvYUVMaTZN?oc=5",
       "title": "オープンＡＩの公益目的違反をＣＥＯが全面否定、マスク氏提起の裁判で",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -1199,16 +2022,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UVp2SXVMdEJYbmZLQTJTS1hMVXRVZ1RWOGI4dWJCQ0RRWThWUEp6ZkVwOXZpaUllMXBjSnIySktmUkRlMmk0bnkwRVNTNmtsMjJwQXh4TGlFNGZVbmhQODZicVdTYloyM0ZSNg?oc=5",
-      "title": "MSCI世界株指数から日本企業11銘柄減 JALが除外、古河電工は採用",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UVp2SXVMdEJYbmZLQTJTS1hMVXRVZ1RWOGI4dWJCQ0RRWThWUEp6ZkVwOXZpaUllMXBjSnIySktmUkRlMmk0bnkwRVNTNmtsMjJwQXh4TGlFNGZVbmhQODZicVdTYloyM0ZSNg?oc=5",
-      "image": "",
-      "date": "2026-05-12T22:36:39.000Z",
-      "source": "日本経済新聞",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CbGs4NFN6em1fV2hfZ0tobkJ4UFU5c2VFelM2SjRya1VfQ2NPUmpNZ1VuZXRkNlRNTE5Zd1pESWQ0TmQxTmdpVEV4UFo0VU9kYXczX1Nlc3VyaUFBSThpc21rRmFIZw?oc=5",
       "title": "原田勝弘氏、新スタジオ「VS STUDIO SNK」設立を発表。SNK支援のもと対人アクションゲーム開発へ。",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -1216,6 +2029,16 @@
       "image": "",
       "date": "2026-05-12T22:36:15.000Z",
       "source": "CGWORLD.jp",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xUTV2MnM2SDFZU2dHMFpsLTBKZ3dkaWswX1J0aGVLMEFrc0JkcGM4d2hiVHhQbWl6Z3VvbTRtVVVabzY2OF9iY1pTZGVyb0EtUVJKS0hLX09iTXlaSzdB?oc=5",
+      "title": "「税金の無駄遣い」鎌倉市議会の“金色”ネームプレートが物議 設置費用387万円に市民から疑問の声",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xUTV2MnM2SDFZU2dHMFpsLTBKZ3dkaWswX1J0aGVLMEFrc0JkcGM4d2hiVHhQbWl6Z3VvbTRtVVVabzY2OF9iY1pTZGVyb0EtUVJKS0hLX09iTXlaSzdB?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:30:00.000Z",
+      "source": "ライブドアニュース",
       "category": "Google News"
     },
     {
@@ -1299,16 +2122,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41VkVQdW9sRFFKamVPTXBSVk9zXzNUWDEzZVI4SExfWDBfa3dqcWoxQXRJVUdGQnJQTzUxQUpQZFdiZExWaENwQmw5bndZR09LZXZvMTBOc2dlb2VJMzNfbmFLeG1iMlJ0Y0psU2xhdFV6dVRNQlNWMnJGWjdNeFU?oc=5",
-      "title": "首脳会談に向けた米中の思惑 「中国の狙いは台湾だけ」＝ＣＩＧＳの峯村氏",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41VkVQdW9sRFFKamVPTXBSVk9zXzNUWDEzZVI4SExfWDBfa3dqcWoxQXRJVUdGQnJQTzUxQUpQZFdiZExWaENwQmw5bndZR09LZXZvMTBOc2dlb2VJMzNfbmFLeG1iMlJ0Y0psU2xhdFV6dVRNQlNWMnJGWjdNeFU?oc=5",
-      "image": "",
-      "date": "2026-05-12T22:16:01.000Z",
-      "source": "Reuters",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9wai0xQ0JEVl8xdXRaRzFWVlMzUzBJSEY3cy1Oc0V5Ynp3U2VwOFNtRmdTZjZ1UVBvN0RUTmJVQXBQNmY3djI2TnhiTmV2TEdqV21mQ2ZJdHNER1lCVzEtcEVvRThQc25jaDZEMzFRcHZGT3Ywd2tLWVJLcmNwQQ?oc=5",
       "title": "マクロスコープ：米中首脳会談、日本政府内に渦巻く経済改善期待と安保への懸念",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -1379,6 +2192,16 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1MXkwOE1vcmV4OEJyTjRTX2QyNXo3T2VsNndXdlBEM1ozNUNMRjVzX2xQU0xIWXFTbVFJLW1GNHA0b3diT1hjTjdudmNueXV5bVhuQmtjQ1pKN0Z6NGp2Wjl4MA?oc=5",
+      "title": "中道、止まらぬ「遠心力」 難題続々、険しい合流：時事ドットコム",
+      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1MXkwOE1vcmV4OEJyTjRTX2QyNXo3T2VsNndXdlBEM1ozNUNMRjVzX2xQU0xIWXFTbVFJLW1GNHA0b3diT1hjTjdudmNueXV5bVhuQmtjQ1pKN0Z6NGp2Wjl4MA?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:00:00.000Z",
+      "source": "時事ドットコム",
+      "category": "Google News"
+    },
+    {
       "id": "https://gigazine.net/news/20260513&#45;poland&#45;economy&#45;growth&#45;worlds&#45;20th/",
       "title": "1980年代まで肉や砂糖が配給制だったポーランドが世界経済大国トップ20に名を連ねた理由とは？",
       "description": "中央ヨーロッパに位置するポーランドは東の国境をベラルーシやウクライナ、西の国境をドイツと接する旧共産主義国家であり、1980年代まで肉・砂糖・小麦などを購入するには「配給券」が必要でした。しかしその後、世界経済大国トップ20に入るまでの経済成長を遂げています。どのようにして躍進を",
@@ -1429,16 +2252,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQenliYURHMmZkNEV1QzIzN2xtYkVqQkVRR3drMWxyYV9DMXB3RHJCQ083ZGJDc3dvNG5udzhCZU1sUHNvYkZxc3IzNHotWjRhOWZuOVQ1WUozNEFfQjZXMHhHdnZpN1N1cUhFMXJqLUZUN05FMDBxUmFlMFBSMUVPdFhXWUM1czlW?oc=5",
-      "title": "中山功太の「いじめられていた」発言撤回の効力は？ 騒動関係者の仕事に広がる影響と「イジリ笑い」の今後 #エキスパートトピ",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQenliYURHMmZkNEV1QzIzN2xtYkVqQkVRR3drMWxyYV9DMXB3RHJCQ083ZGJDc3dvNG5udzhCZU1sUHNvYkZxc3IzNHotWjRhOWZuOVQ1WUozNEFfQjZXMHhHdnZpN1N1cUhFMXJqLUZUN05FMDBxUmFlMFBSMUVPdFhXWUM1czlW?oc=5",
-      "image": "",
-      "date": "2026-05-12T21:31:06.000Z",
-      "source": "Yahoo!ニュース",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5CSEMtOWhvdTBLeVBGVzg1bktNWk1XdVJtZEk4MlRxSERHTGFQMnJsNktPdDBmdVNia1JaWVpWa1J0aUo4b0FRbGkwVkttVGNHY2JiNGhoR3h5bjBfREpmb0h2WWRuc0s4d1BEWkVQUFZLcktMWnBicnY5cEg?oc=5",
       "title": "身近な生活必需品が“品薄や有料”に？ 高市首相“今月は石油の備蓄放出行わず”（2026年5月12日掲載）｜日テレNEWS NNN",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -1449,13 +2262,13 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBZaWcyNXBtVGVBUkpEbGxWRFcwSzhxaDBaU0ZQMmdXRFFhaGxZZkNpd1FvS3FzZ1BYN3NZNE54UnRvNWRxVWhHQ1hsZlVyYnRMM0pta1RyU25MU25xSWZCd1hB?oc=5",
-      "title": "【Ｗ杯２６人予想】三笘薫は選外.、.英国遠征後の代表スタッフ陣\"鹿島視察行脚\"は偶然か、それとも…担当記者が占う",
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDWnZxak9fWHBadDJLTFRnQnhZVXlKLU5jendoZkZzLXo4SVRlbV9ZMm5BeUx3WnBwckVPck11SFRTWHl4VTVReFRwTGYxQ1dobjRLSk8tMkxZMFlaVDhWbkZnVQ?oc=5",
+      "title": "LG、実売約5万円の120Hz対応34型UWQHD湾曲ウルトラワイドモニター",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBZaWcyNXBtVGVBUkpEbGxWRFcwSzhxaDBaU0ZQMmdXRFFhaGxZZkNpd1FvS3FzZ1BYN3NZNE54UnRvNWRxVWhHQ1hsZlVyYnRMM0pta1RyU25MU25xSWZCd1hB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDWnZxak9fWHBadDJLTFRnQnhZVXlKLU5jendoZkZzLXo4SVRlbV9ZMm5BeUx3WnBwckVPck11SFRTWHl4VTVReFRwTGYxQ1dobjRLSk8tMkxZMFlaVDhWbkZnVQ?oc=5",
       "image": "",
-      "date": "2026-05-12T21:15:00.000Z",
-      "source": "スポーツ報知",
+      "date": "2026-05-12T21:14:00.000Z",
+      "source": "PC Watch",
       "category": "Google News"
     },
     {
@@ -1499,16 +2312,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SaXVoRi1rSjF3Z0NCUUFJMXhWR0N1YWF3ZjZvQzlUeUVkZVBsdlpfTHg5MXVfTTd0dzVjVUJGb2lIeEtRdjhnWDVTODhVZF9OTUE?oc=5",
-      "title": "(株)ＡＫＩＢＡホールディングス【6840】：株価・株式情報",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SaXVoRi1rSjF3Z0NCUUFJMXhWR0N1YWF3ZjZvQzlUeUVkZVBsdlpfTHg5MXVfTTd0dzVjVUJGb2lIeEtRdjhnWDVTODhVZF9OTUE?oc=5",
-      "image": "",
-      "date": "2026-05-12T21:00:54.000Z",
-      "source": "Yahoo!ファイナンス",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92cDhFbDU5RGhkQW1idkVaeTA5UXluQmQtUHJ2VktCOEhJTWpPTzVtY05xWHRjekdRWWxscG9rbTVjbDZPV2pfR1Q4anNPZnIxNHRuaVpR?oc=5",
       "title": "生成AIがもたらす「申請の洪水」、行政は市民の声に押し流されるのか、届かなかった市民の声を可視化するのか 【生成AI事件簿】英国で始まったAI生成による請求対応、日本でも始まる「AI申請スパム」と求められる制度改革(1/6)",
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
@@ -1546,136 +2349,6 @@
       "image": "",
       "date": "2026-05-12T21:00:00.000Z",
       "source": "JBpress",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QeEc3SVFveTg1VXU3aGlMc0JnTGNWRmRtLWlaZS1CU1lGZGQ4OHMzRkViLTIwSUc5QVNKa1lrR2lBTG9rS21la0JwNlM1MjdPbTZma3R2cTFsSGtjWmdpUTN4R2VjUm54?oc=5",
-      "title": "裁量労働制見直しが成長戦略の柱？ 高市首相肝いりに懸念の声も",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QeEc3SVFveTg1VXU3aGlMc0JnTGNWRmRtLWlaZS1CU1lGZGQ4OHMzRkViLTIwSUc5QVNKa1lrR2lBTG9rS21la0JwNlM1MjdPbTZma3R2cTFsSGtjWmdpUTN4R2VjUm54?oc=5",
-      "image": "",
-      "date": "2026-05-12T21:00:00.000Z",
-      "source": "毎日新聞",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84SmVWak8tOGdPa2FFWFc5VTV2ejRxc0R1Nm1lNExIdEJsc2dUQ2ZsbVQ0Mzdnb2RBdDhVLTd1bHdxbzYwVFhNN2FOVDVvX19idFlibEdScU1zUW5SMVE?oc=5",
-      "title": "緊急事態条項 議員の任期延長可能に 内閣の「緊急政令」も 衆院法制局のイメージ案判明",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84SmVWak8tOGdPa2FFWFc5VTV2ejRxc0R1Nm1lNExIdEJsc2dUQ2ZsbVQ0Mzdnb2RBdDhVLTd1bHdxbzYwVFhNN2FOVDVvX19idFlibEdScU1zUW5SMVE?oc=5",
-      "image": "",
-      "date": "2026-05-12T21:00:00.000Z",
-      "source": "沖縄タイムス社",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4ybnd4YW5Ldmh0VFkwQmUxLTdpenRPY2dGZmVpSVk2RUh2Z3dsdk5Db2lEaXZyUERzRGEzdGRZYXhKUkVsU0h6THpHekVVNk0xaElzWXAwVjhraTZfX1FzNElvWFF2eS1IaVhrTEdvUUJTc2s3QkdR?oc=5",
-      "title": "人々はなぜ「ジオ展」に集うのか――内閣府も初出展、地図と地理空間情報の展示会イベントが今年も大いに盛り上がった",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4ybnd4YW5Ldmh0VFkwQmUxLTdpenRPY2dGZmVpSVk2RUh2Z3dsdk5Db2lEaXZyUERzRGEzdGRZYXhKUkVsU0h6THpHekVVNk0xaElzWXAwVjhraTZfX1FzNElvWFF2eS1IaVhrTEdvUUJTc2s3QkdR?oc=5",
-      "image": "",
-      "date": "2026-05-12T21:00:00.000Z",
-      "source": "INTERNET Watch",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BSUJBUTlycV9CM1B5R2pFb01xV2Q2RDZuREJnS2pwOTZtY0IyaVNteW1MNFprVVpJWE1nVnA5Ylo2LTNXS2RSeDczdU5NNGtyczBIdzVaTjFoUmlyUTQwUmFXVWppSEliMjFMbA?oc=5",
-      "title": "GoogleやAmazon、増益7割が株評価益 AI新興投資いびつな循環構造",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BSUJBUTlycV9CM1B5R2pFb01xV2Q2RDZuREJnS2pwOTZtY0IyaVNteW1MNFprVVpJWE1nVnA5Ylo2LTNXS2RSeDczdU5NNGtyczBIdzVaTjFoUmlyUTQwUmFXVWppSEliMjFMbA?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:59:44.000Z",
-      "source": "日本経済新聞",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3R3NLRTJNZFBZVUVlMGJxWkV1X0JiMi00RUF4S3B2dGFmbmVoOFdUdU9HX1p0WU5MOGIyRTByRjBZak1RYWMwT0hGOUlBYzhJeXc?oc=5",
-      "title": "ＲｅＹｕｕ Ｊａｐａｎ(株)【9425】：株価・株式情報",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3R3NLRTJNZFBZVUVlMGJxWkV1X0JiMi00RUF4S3B2dGFmbmVoOFdUdU9HX1p0WU5MOGIyRTByRjBZak1RYWMwT0hGOUlBYzhJeXc?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:59:31.000Z",
-      "source": "Yahoo!ファイナンス",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNHdHUF9BcDBpOWtWMXFfcTltVDh3WHZaZTdubnVSR3F3dU9pckpSZkk5WGY2bGg4TkU3dXBxUGx6M05XTzB1cmlhcTJ2VVpJQ2c?oc=5",
-      "title": "シライ電子工業(株)【6658】：株価・株式情報",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNHdHUF9BcDBpOWtWMXFfcTltVDh3WHZaZTdubnVSR3F3dU9pckpSZkk5WGY2bGg4TkU3dXBxUGx6M05XTzB1cmlhcTJ2VVpJQ2c?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:59:01.000Z",
-      "source": "Yahoo!ファイナンス",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYXNmZ3cwMFhNQTNCSEdudjBZTGJhRTA5aHl4VENwcTdKNDVYelRXMk50TG1tOUtUeXNMN3pHR0UySHpRX3V4Q1R3bkRFaWkzS2JnOVVuUjRFOGdmZVN2dHl6elBueFhGc09RN2lEUGZXRkROSEhXSHRhYmh2RWU0X1JR?oc=5",
-      "title": "米中、ホルムズ海峡の通行料徴収容認せず 対イラン圧力で共通歩調",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYXNmZ3cwMFhNQTNCSEdudjBZTGJhRTA5aHl4VENwcTdKNDVYelRXMk50TG1tOUtUeXNMN3pHR0UySHpRX3V4Q1R3bkRFaWkzS2JnOVVuUjRFOGdmZVN2dHl6elBueFhGc09RN2lEUGZXRkROSEhXSHRhYmh2RWU0X1JR?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:57:44.000Z",
-      "source": "Reuters",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XN2pUbnoyQkR6RzJQMGI2N0lEMHhWcWxHQWc4YllnbWI3T2l0VjJMZWVCeXY2MUJ6NkwwRkMyb0VwS21zOFJUd2tHNFVJZmZBcGpXdkpXQy04ekdzejYw?oc=5",
-      "title": "情シス絶句…｢AI議事録の何がダメなの？｣\"わかってない管理職\"の怖い《シャドーAI》リスク 機密情報を入力した人は2割超",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XN2pUbnoyQkR6RzJQMGI2N0lEMHhWcWxHQWc4YllnbWI3T2l0VjJMZWVCeXY2MUJ6NkwwRkMyb0VwS21zOFJUd2tHNFVJZmZBcGpXdkpXQy04ekdzejYw?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:45:00.000Z",
-      "source": "東洋経済オンライン",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTmlyTnlBWV96aENOVkwxR1I2RENUeG9BX0hUZVdFcnJZTzc3TWNFSERPVzlrN0lhZ2FkdFI1cDRsdnR6OWp4MDJQLTM2Y1BVN0xRaU1OYjFWLWxOZnRTcTBOYTllNThYNS1udFZkaF9aX1Y1QzIwa0t4OE55MXhncHZhcTFmVk5uNHRMYnZpMHc?oc=5",
-      "title": "土地だけで4億円！ 「B’z稲葉」の別荘が豪華過ぎて“ご近所トラブル”勃発（デイリー新潮）",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTmlyTnlBWV96aENOVkwxR1I2RENUeG9BX0hUZVdFcnJZTzc3TWNFSERPVzlrN0lhZ2FkdFI1cDRsdnR6OWp4MDJQLTM2Y1BVN0xRaU1OYjFWLWxOZnRTcTBOYTllNThYNS1udFZkaF9aX1Y1QzIwa0t4OE55MXhncHZhcTFmVk5uNHRMYnZpMHc?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:40:00.000Z",
-      "source": "ｄメニューニュース",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XWnRUZmkxT3BXemI3NVMzSUZDa3RCWGEzRkh5TFhwZFFabE1OZmVKUE8tRnBQSE9VandtY3VZbm9sanBMRVM3QTE1WnlEcFMxS2VyRWMzQUw3T2lOc043YjRUbmRTcnRwMWNOdGlSeXVJaFVYWHI0?oc=5",
-      "title": "AIがつなぐ米中経済、分断下でも中国輸出拡大－1時間5億ドル規模に",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XWnRUZmkxT3BXemI3NVMzSUZDa3RCWGEzRkh5TFhwZFFabE1OZmVKUE8tRnBQSE9VandtY3VZbm9sanBMRVM3QTE1WnlEcFMxS2VyRWMzQUw3T2lOc043YjRUbmRTcnRwMWNOdGlSeXVJaFVYWHI0?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:37:27.000Z",
-      "source": "Bloomberg.com",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84VUtXOTBCclVEUmg0ckJfbUxDaVJtOExRLXVhRXRtRzM0YVlVZUFfelVjN1NCcDdWMmJNRG52YThyTmlmSjRWZFJ2aFRqZ1hGdmc?oc=5",
-      "title": "ウェルス・マネジメント(株)【3772】：株価・株式情報",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84VUtXOTBCclVEUmg0ckJfbUxDaVJtOExRLXVhRXRtRzM0YVlVZUFfelVjN1NCcDdWMmJNRG52YThyTmlmSjRWZFJ2aFRqZ1hGdmc?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:22:46.000Z",
-      "source": "Yahoo!ファイナンス",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ05lQUduOFN2VlhmaHpMWjB1SGxodHBPOHBjNWVCVTg3UURXVWIxY2E2d2Q0Vi1fRlNXeTlOcUE5TFh4Q0lpSWdnT3p0cmktNGU3ckxtQlRSOU5JY0JNTi1ZVm5LWlZzeE04SF9md3B4aUJJVHg5MVhUQnJNNFZveURGaTRFbmRtYlg2MUpB?oc=5",
-      "title": "Netflixアニメ映画『超かぐや姫！』、劇中歌のアルバムが初1位【オリコンランキング】",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZ05lQUduOFN2VlhmaHpMWjB1SGxodHBPOHBjNWVCVTg3UURXVWIxY2E2d2Q0Vi1fRlNXeTlOcUE5TFh4Q0lpSWdnT3p0cmktNGU3ckxtQlRSOU5JY0JNTi1ZVm5LWlZzeE04SF9md3B4aUJJVHg5MVhUQnJNNFZveURGaTRFbmRtYlg2MUpB?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:18:55.000Z",
-      "source": "Yahoo!ニュース",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzYXdVdFFpcl93X0RRdHZYNGZIQkZwZGJGMnFKVlBnRDFETVdhVU11U3F2cE5DbE1rdmdtbFJaOVpTNGNuNF9JRlpsN0s3ZHlIeFE?oc=5",
-      "title": "(株)メイコー【6787】：株価・株式情報",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzYXdVdFFpcl93X0RRdHZYNGZIQkZwZGJGMnFKVlBnRDFETVdhVU11U3F2cE5DbE1rdmdtbFJaOVpTNGNuNF9JRlpsN0s3ZHlIeFE?oc=5",
-      "image": "",
-      "date": "2026-05-12T20:17:04.000Z",
-      "source": "Yahoo!ファイナンス",
       "category": "Google News"
     }
   ]
