@@ -2,6 +2,16 @@
   "society": [],
   "tech": [
     {
+      "id": "https://gigazine.net/news/20260513&#45;louis&#45;rossmann&#45;bambu&#45;lab/",
+      "title": "3Dプリンターメーカーから圧力をかけられた開発者に対して「修理する権利」のため戦うルイス・ロスマンが費用支援を約束、クラウドファンディング呼びかけも",
+      "description": "「修理する権利」を守るために戦い続けていることで知られるYouTuberのルイス・ロスマン氏が、3Dプリンターメーカー・Bambu Labから法的措置をちらつかされ、成果物を自主的に削除した開発者に対して、仮に法的措置に移行しても最初の1万",
+      "url": "https://gigazine.net/news/20260513&#45;louis&#45;rossmann&#45;bambu&#45;lab/",
+      "image": "",
+      "date": "2026-05-13T01:00:00.000Z",
+      "source": "GIGAZINE",
+      "category": "tech"
+    },
+    {
       "id": "https://gigazine.net/news/20260513&#45;poland&#45;economy&#45;growth&#45;worlds&#45;20th/",
       "title": "1980年代まで肉や砂糖が配給制だったポーランドが世界経済大国トップ20に名を連ねた理由とは？",
       "description": "中央ヨーロッパに位置するポーランドは東の国境をベラルーシやウクライナ、西の国境をドイツと接する旧共産主義国家であり、1980年代まで肉・砂糖・小麦などを購入するには「配給券」が必要でした。しかしその後、世界経済大国トップ20に入るまでの経済",
@@ -238,16 +248,6 @@
       "url": "https://gigazine.net/news/20260512&#45;steve&#45;jobs&#45;innovation&#45;coin&#45;circulation/",
       "image": "",
       "date": "2026-05-12T02:24:00.000Z",
-      "source": "GIGAZINE",
-      "category": "tech"
-    },
-    {
-      "id": "https://gigazine.net/news/20260512&#45;ios&#45;ipados&#45;26&#45;5/",
-      "title": "iOS 26.5・iPadOS 26.5がリリース、iPhoneとAndroidスマホで暗号化されたRCSメッセージの送受信が可能に",
-      "description": "Appleは2026年5月11日にiOS 26.5に加えて、iPadOS 26.5、macOS Tahoe 26.5、watchOS 26.5、tvOS 26.5、およびvisionOS 26.5をリリースしました。iOS 26.5には新し",
-      "url": "https://gigazine.net/news/20260512&#45;ios&#45;ipados&#45;26&#45;5/",
-      "image": "",
-      "date": "2026-05-12T02:00:00.000Z",
       "source": "GIGAZINE",
       "category": "tech"
     }
@@ -479,43 +479,123 @@
   "custom": [],
   "all": [
     {
-      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMMHp1TVZJMWJfOWx0cms5NFZfS0tjNHc0aVlwN19rTldGRExrN2huTEF4U042bzJYT1FIYnNIY2djdF9NZVkyQjJaUFgzV05yWkJuNTdBNTNmbjZvdDhzLVFSNA?oc=5",
-      "title": "追加利上げ、６月も視野 中東情勢で物価上振れ警戒―日銀",
+      "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QSmk0MGFhZ0RjOGZkaFpNZ2NISzJCTDZyRm5QSnducjNCREpvb1VMNFJLdGlrejN3eUhPbElNRG1pMm5vLWg2RnpqbEhIVm4wSHNULTBrMGo?oc=5",
+      "title": "Amazon、Kindle Scribe初のカラーディスプレイ搭載 「Kindle Scribe Colorsoft」など、新「Kindle Scribeシリーズ」を日本で発売",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMMHp1TVZJMWJfOWx0cms5NFZfS0tjNHc0aVlwN19rTldGRExrN2huTEF4U042bzJYT1FIYnNIY2djdF9NZVkyQjJaUFgzV05yWkJuNTdBNTNmbjZvdDhzLVFSNA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QSmk0MGFhZ0RjOGZkaFpNZ2NISzJCTDZyRm5QSnducjNCREpvb1VMNFJLdGlrejN3eUhPbElNRG1pMm5vLWg2RnpqbEhIVm4wSHNULTBrMGo?oc=5",
       "image": "",
-      "date": "2026-05-12T23:27:00.000Z",
-      "source": "時事ドットコム",
+      "date": "2026-05-13T01:04:10.000Z",
+      "source": "日刊工業新聞",
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2aEdPdFdXLUJwc0JYbThreC10dkdvTC1mcTZGYzIyTC1YRTdxSFotMjhENEMzaHdOYlBEb0puVGVDd1dJZWQ3WTcxb0dTdjRhY0xiRzRrX3hiT0lwWll4aHVhY2lMU3luUkRsZ0I4WEV4WklfMHZ3TUx6WDA?oc=5",
-      "title": "【14日の風、薫る】直美が藤田に伝えた提案が通り、丸山の治療は順調に進み始める",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2aEdPdFdXLUJwc0JYbThreC10dkdvTC1mcTZGYzIyTC1YRTdxSFotMjhENEMzaHdOYlBEb0puVGVDd1dJZWQ3WTcxb0dTdjRhY0xiRzRrX3hiT0lwWll4aHVhY2lMU3luUkRsZ0I4WEV4WklfMHZ3TUx6WDA?oc=5",
+      "id": "https://gigazine.net/news/20260513&#45;louis&#45;rossmann&#45;bambu&#45;lab/",
+      "title": "3Dプリンターメーカーから圧力をかけられた開発者に対して「修理する権利」のため戦うルイス・ロスマンが費用支援を約束、クラウドファンディング呼びかけも",
+      "description": "「修理する権利」を守るために戦い続けていることで知られるYouTuberのルイス・ロスマン氏が、3Dプリンターメーカー・Bambu Labから法的措置をちらつかされ、成果物を自主的に削除した開発者に対して、仮に法的措置に移行しても最初の1万",
+      "url": "https://gigazine.net/news/20260513&#45;louis&#45;rossmann&#45;bambu&#45;lab/",
       "image": "",
-      "date": "2026-05-12T23:15:00.000Z",
-      "source": "日刊スポーツ",
+      "date": "2026-05-13T01:00:00.000Z",
+      "source": "GIGAZINE",
+      "category": "tech"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3Z01RWHdpX0NxcE5xd3lKejFlVVZPbnBSQ0tjTjEtenlTVldtNEd6dVk5dEJiQlBZOHBBRTNsQU9vMnd5UlpLdTZTNENSX0FHNDMwMUFXSDRGUmc?oc=5",
+      "title": "クマ情報（１１日）安来市、大田市、江津市、益田市、飯南町、奥出雲町、美郷町",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB3Z01RWHdpX0NxcE5xd3lKejFlVVZPbnBSQ0tjTjEtenlTVldtNEd6dVk5dEJiQlBZOHBBRTNsQU9vMnd5UlpLdTZTNENSX0FHNDMwMUFXSDRGUmc?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:46:53.000Z",
+      "source": "山陰中央新報デジタル",
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uakJFOFZaV0FJdFNoSUFNN1NvdlN4d3J5VUNheTFMd24xN19DV0Y2QU1xSFRTYVRXNjZDNU5qbndOd0N5ZldtS1VoVlVwU2dwdlhQWHBwb3JiQVlMQVE?oc=5",
-      "title": "那覇市曙の横断歩道で女性はねられ死亡 車で帰宅途中の高校教諭を逮捕",
+      "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QeE5hWExPT1IyQ21LdDY2Qk5kMXg3UFFkT2x6MkxJeFd2SExiLUhnejRUOGpPSmJUSnVSdnVNVGFoOGlWSTZISHNJbjlEeklaZ3VTOEdJem1SQjFVNDBoVUZGS2M?oc=5",
+      "title": "経常黒字が３年連続で過去最大更新…昨年度３４兆５２１８億円",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uakJFOFZaV0FJdFNoSUFNN1NvdlN4d3J5VUNheTFMd24xN19DV0Y2QU1xSFRTYVRXNjZDNU5qbndOd0N5ZldtS1VoVlVwU2dwdlhQWHBwb3JiQVlMQVE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1QeE5hWExPT1IyQ21LdDY2Qk5kMXg3UFFkT2x6MkxJeFd2SExiLUhnejRUOGpPSmJUSnVSdnVNVGFoOGlWSTZISHNJbjlEeklaZ3VTOEdJem1SQjFVNDBoVUZGS2M?oc=5",
       "image": "",
-      "date": "2026-05-12T23:12:33.000Z",
-      "source": "沖縄タイムス社",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xbEsySTJXOE82c044eVN5aDBEeF9hX0xVTzhIN3p6YmctTnZIUDhzUV92bFlidlVnc3MzZ3BjWEZHX1Y4MVNISnJwSFl2d0JHSjdodWEtQW1LWlhYaGV3NnhWdkc?oc=5",
-      "title": "ニデックが品質不正の疑い、不正会計に続き調査委設立へ…背景に永守重信氏による過度なプレッシャーか",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xbEsySTJXOE82c044eVN5aDBEeF9hX0xVTzhIN3p6YmctTnZIUDhzUV92bFlidlVnc3MzZ3BjWEZHX1Y4MVNISnJwSFl2d0JHSjdodWEtQW1LWlhYaGV3NnhWdkc?oc=5",
-      "image": "",
-      "date": "2026-05-12T22:41:17.000Z",
+      "date": "2026-05-13T00:06:00.000Z",
       "source": "読売新聞",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42YkpxWUhVUTE5eGRHY2NXdzVMNXJaaW1MQkRfWkJjU0RSTWM1REI1V2hCQlFJQlQ2THk4eXJQVDVWSTVMTldDenZOaGgxeG9xQ1AxSXFrSC02c09CTEo0OEZKblp3V0FnTndiaQ?oc=5",
+      "title": "日経平均株価、反落で始まる 半導体関連が安い",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42YkpxWUhVUTE5eGRHY2NXdzVMNXJaaW1MQkRfWkJjU0RSTWM1REI1V2hCQlFJQlQ2THk4eXJQVDVWSTVMTldDenZOaGgxeG9xQ1AxSXFrSC02c09CTEo0OEZKblp3V0FnTndiaQ?oc=5",
+      "image": "",
+      "date": "2026-05-13T00:05:05.000Z",
+      "source": "日本経済新聞",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xUTV2MnM2SDFZU2dHMFpsLTBKZ3dkaWswX1J0aGVLMEFrc0JkcGM4d2hiVHhQbWl6Z3VvbTRtVVVabzY2OF9iY1pTZGVyb0EtUVJKS0hLX09iTXlaSzdB?oc=5",
+      "title": "「税金の無駄遣い」鎌倉市議会の“金色”ネームプレートが物議 設置費用387万円に市民から疑問の声",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xUTV2MnM2SDFZU2dHMFpsLTBKZ3dkaWswX1J0aGVLMEFrc0JkcGM4d2hiVHhQbWl6Z3VvbTRtVVVabzY2OF9iY1pTZGVyb0EtUVJKS0hLX09iTXlaSzdB?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:52:43.000Z",
+      "source": "ライブドアニュース",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMThwSkhiYk54RWdYY2l6eEJ1ZXROSE9iWWhUbHI0TmlxZEVVX2tnbXowcVZrWEk3SkptdnVBdUVNQ212dmZySnlCVG1ZMFFXNnZGX0k1dm96WlJRMEY1dUd0TUdQcWpiSmppXy05Skg5VVR2ODREcnQ0a3ZXNGF0bW1DS2JoNVFiZlNjNjVzaTNMQdIBigFBVV95cUxOUk1MUzgybVZjNW9CeVBILUptNXJvTkhvQlhXc2hRaVlyeFRvbUtMTFRNV1E0Ykh6ZDFfN0pWSzB1WGlRSlZrZFV2dFhqQkdVYlEtTFF3RXpVa3piYjlCLUFrcldXRWFPOGZuTVk4RE9GTVhYY3ZNUmVaZlNTWDFMZnI4dDk5a0I0ZWc?oc=5",
+      "title": "【MLB】大谷翔平、超異例の2日連続『打者休養』…ロバーツ監督明言 移籍後最長スランプで決断「攻撃面の負担を軽く」3戦連続で投手専念",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMThwSkhiYk54RWdYY2l6eEJ1ZXROSE9iWWhUbHI0TmlxZEVVX2tnbXowcVZrWEk3SkptdnVBdUVNQ212dmZySnlCVG1ZMFFXNnZGX0k1dm96WlJRMEY1dUd0TUdQcWpiSmppXy05Skg5VVR2ODREcnQ0a3ZXNGF0bW1DS2JoNVFiZlNjNjVzaTNMQdIBigFBVV95cUxOUk1MUzgybVZjNW9CeVBILUptNXJvTkhvQlhXc2hRaVlyeFRvbUtMTFRNV1E0Ykh6ZDFfN0pWSzB1WGlRSlZrZFV2dFhqQkdVYlEtTFF3RXpVa3piYjlCLUFrcldXRWFPOGZuTVk4RE9GTVhYY3ZNUmVaZlNTWDFMZnI4dDk5a0I0ZWc?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:25:00.000Z",
+      "source": "サンスポ",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wMTl0Nm9KZV9yc0ZOMWlDT08zd1paeUJNN0RjVG15aEFYOHVrMDE2VDFhWDliX3lHTGh4R1BUam1JaFhYcXpvVjBxamVNdUtTaHU4Tg?oc=5",
+      "title": "今日も山沿い中心にゲリラ雷雨の可能性 平野部でも急な雨に注意",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wMTl0Nm9KZV9yc0ZOMWlDT08zd1paeUJNN0RjVG15aEFYOHVrMDE2VDFhWDliX3lHTGh4R1BUam1JaFhYcXpvVjBxamVNdUtTaHU4Tg?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:13:00.000Z",
+      "source": "ウェザーニュース",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdTdxUUpXbU12dUVLdFY4Q2ZjSHZxQVFjcVRONHBQY0ZjRjBNaDQ2c29KNUFfM3ZiSTl3TnhRYjU5NTdnVjhZNDNDZ05vbFZiV05jeUJDR1UyTjF4dUFSenJwaTN3NW52YzRnUk5RVkZTV0R4YVBhWVA4Q1h1bWVUWkprbnl1SHBTeUM5MnlYNWJfV1ZMR2I5NXpFOUNJZHlNcnhzYk9KOS1BbTQtTGc?oc=5",
+      "title": "iPhone 18に合わせたiOS 27、ChatGPTの存在感が薄れそう",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdTdxUUpXbU12dUVLdFY4Q2ZjSHZxQVFjcVRONHBQY0ZjRjBNaDQ2c29KNUFfM3ZiSTl3TnhRYjU5NTdnVjhZNDNDZ05vbFZiV05jeUJDR1UyTjF4dUFSenJwaTN3NW52YzRnUk5RVkZTV0R4YVBhWVA4Q1h1bWVUWkprbnl1SHBTeUM5MnlYNWJfV1ZMR2I5NXpFOUNJZHlNcnhzYk9KOS1BbTQtTGc?oc=5",
+      "image": "",
+      "date": "2026-05-12T23:00:00.000Z",
+      "source": "ギズモード・ジャパン",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV3JVc215X1NYZVN5N1dOTHBnLVlTa2xEZTk2TVJHRWFROUNVelY1Y2NaR3B5d0pVNUhMM2E2Qlc1Uk5pTkRTSXdlMzRKbS0wZk9lX1V6WXc0dEhOZUtBOE9JWklDc01TbHdNMXlvYTJSYzltcUhzZnRjTUxBZlFqMw?oc=5",
+      "title": "ウクライナ戦争「終結間近」とロシア・トランプ氏、ゼレンスキー氏は懐疑的",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV3JVc215X1NYZVN5N1dOTHBnLVlTa2xEZTk2TVJHRWFROUNVelY1Y2NaR3B5d0pVNUhMM2E2Qlc1Uk5pTkRTSXdlMzRKbS0wZk9lX1V6WXc0dEhOZUtBOE9JWklDc01TbHdNMXlvYTJSYzltcUhzZnRjTUxBZlFqMw?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:47:43.000Z",
+      "source": "Reuters",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2ZYbmJqQzc1Vjh4a2FvYjdPLS1SN3M2aHVIMDg1Q3lNWWowNnBEUVYxdzdOX3dxSHpVWlF5Zkg4bk5FcEtERi1wdDc0Nzg1WGJCZTJoWXliRDNldUM5VFhUQ0JIQ2RXOG9nc2hOcGpQQkdpb2w3clpIOGNmcHd3eDdNYjBCTG1pam1YQzRkUFhUV0U5cnlRc0p5eTlzX03SAaQBQVVfeXFMUEllTEMtUjVzQ1JmQ0NveG8xczhDOE9WSUNLNkJGTGQtLTIwVE9xd09wdUgyYUVoRmRneUlEdEZDanQyU2Fmc2hLckpENkg0NUFjN2VGVms5YmlLc3RhdEQwWEVMaVB5VFJndVlTQzBwYXhaMFF3TU05ZFEySnpSdWNiaEdUWnR6LXVGWnhpb2VVZ2pnbThNR3BsY1F4SDhtUjdTY2o?oc=5",
+      "title": "サバンナ高橋茂雄の妻・清水みさと、騒動に初反応 両者称賛芸人と八木の感謝をリポスト",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU2ZYbmJqQzc1Vjh4a2FvYjdPLS1SN3M2aHVIMDg1Q3lNWWowNnBEUVYxdzdOX3dxSHpVWlF5Zkg4bk5FcEtERi1wdDc0Nzg1WGJCZTJoWXliRDNldUM5VFhUQ0JIQ2RXOG9nc2hOcGpQQkdpb2w3clpIOGNmcHd3eDdNYjBCTG1pam1YQzRkUFhUV0U5cnlRc0p5eTlzX03SAaQBQVVfeXFMUEllTEMtUjVzQ1JmQ0NveG8xczhDOE9WSUNLNkJGTGQtLTIwVE9xd09wdUgyYUVoRmRneUlEdEZDanQyU2Fmc2hLckpENkg0NUFjN2VGVms5YmlLc3RhdEQwWEVMaVB5VFJndVlTQzBwYXhaMFF3TU05ZFEySnpSdWNiaEdUWnR6LXVGWnhpb2VVZ2pnbThNR3BsY1F4SDhtUjdTY2o?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:43:00.000Z",
+      "source": "ｄメニューニュース",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HTk12dDZXRWpTMUxFRkk2V2YxOTh4ZW11Vkp6b29SZmJIMllkd19BWnNKZXVDY3JGQTVkSXcxSVJTSjZFUUZOUE5fX2lDU3NPVXZkd1lZZnVvLWpxeXJTY19aVQ?oc=5",
+      "title": "高校と運行会社、食い違い埋まらず 「白バス」疑いでも捜査―磐越道事故１週間・福島県警",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1HTk12dDZXRWpTMUxFRkk2V2YxOTh4ZW11Vkp6b29SZmJIMllkd19BWnNKZXVDY3JGQTVkSXcxSVJTSjZFUUZOUE5fX2lDU3NPVXZkd1lZZnVvLWpxeXJTY19aVQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:43:00.000Z",
+      "source": "時事ドットコム",
       "category": "Google News"
     },
     {
@@ -526,6 +606,26 @@
       "image": "",
       "date": "2026-05-12T22:30:00.000Z",
       "source": "日本経済新聞",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41VkVQdW9sRFFKamVPTXBSVk9zXzNUWDEzZVI4SExfWDBfa3dqcWoxQXRJVUdGQnJQTzUxQUpQZFdiZExWaENwQmw5bndZR09LZXZvMTBOc2dlb2VJMzNfbmFLeG1iMlJ0Y0psU2xhdFV6dVRNQlNWMnJGWjdNeFU?oc=5",
+      "title": "首脳会談に向けた米中の思惑 「中国の狙いは台湾だけ」＝ＣＩＧＳの峯村氏",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41VkVQdW9sRFFKamVPTXBSVk9zXzNUWDEzZVI4SExfWDBfa3dqcWoxQXRJVUdGQnJQTzUxQUpQZFdiZExWaENwQmw5bndZR09LZXZvMTBOc2dlb2VJMzNfbmFLeG1iMlJ0Y0psU2xhdFV6dVRNQlNWMnJGWjdNeFU?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:16:01.000Z",
+      "source": "Reuters",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtdDRkbFRRVVVReXcwdktYZ2kwalNRa2Q1ZGhhcEdoeDEwMUJKdUFYbkdYSXVzQjhvckFhVl81QXk2N3hBLTJRNkRfRQ?oc=5",
+      "title": "【速報】米中、ホルムズ海峡通航料阻止で一致",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtdDRkbFRRVVVReXcwdktYZ2kwalNRa2Q1ZGhhcEdoeDEwMUJKdUFYbkdYSXVzQjhvckFhVl81QXk2N3hBLTJRNkRfRQ?oc=5",
+      "image": "",
+      "date": "2026-05-12T22:10:12.000Z",
+      "source": "47NEWS",
       "category": "Google News"
     },
     {
@@ -549,73 +649,53 @@
       "category": "tech"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE90Y1VPakRVbU5SRlJKa3pxQlRVVzQzYUEtLUJBeDg0QWdUdEM5ZmRxUlBkNDRUUWZ4NF9EckZwb2FWN2tqNDQ4RmZ4a0xPaFpiM09SLVBzWXZZcENESVE?oc=5",
-      "title": "B'z稲葉浩志、豪華な別荘の建築工事が地元民の不興を買っているか (2026年5月13日掲載)",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE90Y1VPakRVbU5SRlJKa3pxQlRVVzQzYUEtLUJBeDg0QWdUdEM5ZmRxUlBkNDRUUWZ4NF9EckZwb2FWN2tqNDQ4RmZ4a0xPaFpiM09SLVBzWXZZcENESVE?oc=5",
-      "image": "",
-      "date": "2026-05-12T21:47:06.000Z",
-      "source": "ライブドアニュース",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92NlJHdEdIa3hWdzc3ZzhGcXhLT0RWV2lpeWc3QVNnVkowaEt1UXFNSF9NV1Q1WDZFTEI3cndjNkctbE9uVVZ1Qnpab0p0T0pBNlkxVHA1b0hNTlZod1NhU2EyY2M5cmVLMVB2NlNvdEV5dWlpazhndDlZbTZ0UDg?oc=5",
-      "title": "中山功太「後悔の念で押し潰されています」 サバンナ高橋めぐる発言に胸中「こんな事になるとは」【全文】（オリコン）",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92NlJHdEdIa3hWdzc3ZzhGcXhLT0RWV2lpeWc3QVNnVkowaEt1UXFNSF9NV1Q1WDZFTEI3cndjNkctbE9uVVZ1Qnpab0p0T0pBNlkxVHA1b0hNTlZod1NhU2EyY2M5cmVLMVB2NlNvdEV5dWlpazhndDlZbTZ0UDg?oc=5",
-      "image": "",
-      "date": "2026-05-12T21:40:02.000Z",
-      "source": "Yahoo!ニュース",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xVVZ6dkpONHRGdmVQd2tvamV1bDRReWU0bnZ1OTR4azhyLVlmaVYta013WFlXeUVyVjB0Q0NjMnp0RkVGd003T1R2QXJUN2pBNVJNV19vZmxxb0FLazNuRS1GRUVoSlZPSjdPaEpEaEN6ZFpQM3ZGa0E2LXBoUnc?oc=5",
       "title": "衝撃トレード真相…昨年オフにソフトバンクが山本祐大獲得をオファーしていた…「問われる横浜DeNAの見る目」…レギュラー捕手の即効型補強か、尾形、井上の潜在能力にかけた長期型補強か（RONSPO）",
       "description": "",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xVVZ6dkpONHRGdmVQd2tvamV1bDRReWU0bnZ1OTR4azhyLVlmaVYta013WFlXeUVyVjB0Q0NjMnp0RkVGd003T1R2QXJUN2pBNVJNV19vZmxxb0FLazNuRS1GRUVoSlZPSjdPaEpEaEN6ZFpQM3ZGa0E2LXBoUnc?oc=5",
       "image": "",
-      "date": "2026-05-12T21:11:23.000Z",
+      "date": "2026-05-12T21:10:23.000Z",
       "source": "Yahoo!ニュース",
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02eXRlcUdUUHI2OVQ4U29OcUZiTHBtS0FIX3pDR1NtNGlmZS1aUGdVdkI5ajlEY192NmhTUGFsMDJhY0Zwbk5VV3lYNURuRG5hVDM5YmlCcnBkdVlNZUVPN3cxdU1NYmU4?oc=5",
-      "title": "「バントはない、初球から行っていいよ」監督指示で覚悟を決めた佐々木俊輔がサヨナラ２ラン「あんなにうまくいったのは想定外」",
+      "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTmlyTnlBWV96aENOVkwxR1I2RENUeG9BX0hUZVdFcnJZTzc3TWNFSERPVzlrN0lhZ2FkdFI1cDRsdnR6OWp4MDJQLTM2Y1BVN0xRaU1OYjFWLWxOZnRTcTBOYTllNThYNS1udFZkaF9aX1Y1QzIwa0t4OE55MXhncHZhcTFmVk5uNHRMYnZpMHc?oc=5",
+      "title": "土地だけで4億円！ 「B’z稲葉」の別荘が豪華過ぎて“ご近所トラブル”勃発（デイリー新潮）",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02eXRlcUdUUHI2OVQ4U29OcUZiTHBtS0FIX3pDR1NtNGlmZS1aUGdVdkI5ajlEY192NmhTUGFsMDJhY0Zwbk5VV3lYNURuRG5hVDM5YmlCcnBkdVlNZUVPN3cxdU1NYmU4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTmlyTnlBWV96aENOVkwxR1I2RENUeG9BX0hUZVdFcnJZTzc3TWNFSERPVzlrN0lhZ2FkdFI1cDRsdnR6OWp4MDJQLTM2Y1BVN0xRaU1OYjFWLWxOZnRTcTBOYTllNThYNS1udFZkaF9aX1Y1QzIwa0t4OE55MXhncHZhcTFmVk5uNHRMYnZpMHc?oc=5",
       "image": "",
-      "date": "2026-05-12T21:00:00.000Z",
-      "source": "読売新聞",
+      "date": "2026-05-12T20:40:00.000Z",
+      "source": "ｄメニューニュース",
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYXNmZ3cwMFhNQTNCSEdudjBZTGJhRTA5aHl4VENwcTdKNDVYelRXMk50TG1tOUtUeXNMN3pHR0UySHpRX3V4Q1R3bkRFaWkzS2JnOVVuUjRFOGdmZVN2dHl6elBueFhGc09RN2lEUGZXRkROSEhXSHRhYmh2RWU0X1JR?oc=5",
-      "title": "米中、ホルムズ海峡の通行料徴収容認せず 対イラン圧力で共通歩調",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsTUJxR1pOUmM3T3cwdUxJUXRSeHR5XzZ3eGhIWTRHcEFuazZHSG02blk3M3ZndkpFbFNJNDhTVWdGNlAwcWtiaWVpdWEtRUdaRzhUYjBUMlJmam11eTVmWjQ1ZWUyMVduSlRzdQ?oc=5",
+      "title": "2026年は「スーパーエルニーニョ」発生の可能性、NOAA予測",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYXNmZ3cwMFhNQTNCSEdudjBZTGJhRTA5aHl4VENwcTdKNDVYelRXMk50TG1tOUtUeXNMN3pHR0UySHpRX3V4Q1R3bkRFaWkzS2JnOVVuUjRFOGdmZVN2dHl6elBueFhGc09RN2lEUGZXRkROSEhXSHRhYmh2RWU0X1JR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsTUJxR1pOUmM3T3cwdUxJUXRSeHR5XzZ3eGhIWTRHcEFuazZHSG02blk3M3ZndkpFbFNJNDhTVWdGNlAwcWtiaWVpdWEtRUdaRzhUYjBUMlJmam11eTVmWjQ1ZWUyMVduSlRzdQ?oc=5",
       "image": "",
-      "date": "2026-05-12T20:57:44.000Z",
-      "source": "Reuters",
+      "date": "2026-05-12T20:00:00.000Z",
+      "source": "日本経済新聞",
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SMFRVRm5aTjlRY0pqV2UzVFUxZUdFdkdvY1FFSlVvMnFCV2RkZi0yM21nbXlHa0hFMTZQREJxcUFQTmhOT1NIVnpaNmVwcGR0UmRueQ?oc=5",
-      "title": "今日5月13日(水)の天気予報 大気の状態が不安定 広範囲でゲリラ雷雨に注意",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiU0YxLUdzSElaNXpIYUFwNHJuc3VqVDA5bVJmWWtoUDg0S1htSVVlU1dHT1RKem9oSE1kaE9UQjR3UXdMcXdpRGpYdDlJOV9jcklBUW0zbGR5Xzk4QXFUTnR0bUEyY3lacTZacA?oc=5",
+      "title": "サッカー日本代表26人どうなる 「頂点」狙うなら冨安健洋は不可欠",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SMFRVRm5aTjlRY0pqV2UzVFUxZUdFdkdvY1FFSlVvMnFCV2RkZi0yM21nbXlHa0hFMTZQREJxcUFQTmhOT1NIVnpaNmVwcGR0UmRueQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiU0YxLUdzSElaNXpIYUFwNHJuc3VqVDA5bVJmWWtoUDg0S1htSVVlU1dHT1RKem9oSE1kaE9UQjR3UXdMcXdpRGpYdDlJOV9jcklBUW0zbGR5Xzk4QXFUTnR0bUEyY3lacTZacA?oc=5",
       "image": "",
-      "date": "2026-05-12T20:28:00.000Z",
-      "source": "ウェザーニュース",
+      "date": "2026-05-12T20:00:00.000Z",
+      "source": "日本経済新聞",
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1OZzNvRlFYcG9tQmppcVdLSUpaVUxPVGc1V214Q3JzMlB5N2hwdVB2ZmFEWTV5U2dHSmtIalBIbUozaFRMYlpCbQ?oc=5",
-      "title": "ダウ平均は小幅高 ＩＴ・ハイテク主導の上昇は一服 半導体関連株も利益確定売り＝米国株概況 -",
+      "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1Y2RJV1Rsb1ZhWncyWS1iNC1kQ0RtYktmWGtUaloxWUhuS0RLeUttNE9WU0tlai14am9uNlBuTjVPVnhrbE9YdkZueGhlLW1NU1R5S21KSHRWRWJNdWY4RWNB?oc=5",
+      "title": "【阪神】藤川球児監督の仰天オーダー的中で首位奪回 森下翔太がプロ初２番、中野拓夢が４年ぶり５番「選手頼みにならないように」 球団ワーストタイ５試合連続２ケタ三振も１０得点快勝",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1OZzNvRlFYcG9tQmppcVdLSUpaVUxPVGc1V214Q3JzMlB5N2hwdVB2ZmFEWTV5U2dHSmtIalBIbUozaFRMYlpCbQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB1Y2RJV1Rsb1ZhWncyWS1iNC1kQ0RtYktmWGtUaloxWUhuS0RLeUttNE9WU0tlai14am9uNlBuTjVPVnhrbE9YdkZueGhlLW1NU1R5S21KSHRWRWJNdWY4RWNB?oc=5",
       "image": "",
-      "date": "2026-05-12T20:24:22.000Z",
-      "source": "みんかぶ FX/為替",
+      "date": "2026-05-12T20:00:00.000Z",
+      "source": "スポーツ報知",
       "category": "Google News"
     },
     {
@@ -629,26 +709,6 @@
       "category": "tech"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yVURfeWJQTE5KcE52SjVPVzQ1MGMwU3k2aUR0WEIyT1NWRUdVWXplTVNnN1lMM25QMFo3Y3pNalpRMWJyS3M5a01Odkx2NHhOcUZRT1RBOGRIbkVHRDBYcUF0SHVvMGJnSGVsaFY2YnI0N1l0V2Vv?oc=5",
-      "title": "アップル、iOS 27でカスタマイズ可能なカメラアプリを導入へ――Bloomberg報道 執筆 - Investing.com",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4yVURfeWJQTE5KcE52SjVPVzQ1MGMwU3k2aUR0WEIyT1NWRUdVWXplTVNnN1lMM25QMFo3Y3pNalpRMWJyS3M5a01Odkx2NHhOcUZRT1RBOGRIbkVHRDBYcUF0SHVvMGJnSGVsaFY2YnI0N1l0V2Vv?oc=5",
-      "image": "",
-      "date": "2026-05-12T19:49:00.000Z",
-      "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVU1PTnRVMHpETTRvSnp2Nnd4U243MUJ5YmxNZjNHVGk2ejJzX1kzeWlVZnVBcTlLTUppQ2NwSmJOU2hjZ2w3M09VUWVHTV9saUtSYmJnRGRkQ09JS1FXWnNRZnVRY3dreTNXTlJHTm9ENkJZZDdjcEZ4TXFBVjBFVg?oc=5",
-      "title": "トランプ氏、ウクライナ紛争「終結間近」に自信",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVU1PTnRVMHpETTRvSnp2Nnd4U243MUJ5YmxNZjNHVGk2ejJzX1kzeWlVZnVBcTlLTUppQ2NwSmJOU2hjZ2w3M09VUWVHTV9saUtSYmJnRGRkQ09JS1FXWnNRZnVRY3dreTNXTlJHTm9ENkJZZDdjcEZ4TXFBVjBFVg?oc=5",
-      "image": "",
-      "date": "2026-05-12T19:19:43.000Z",
-      "source": "Reuters",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4bDM4LTNtZHFORHhvWWMyM0dEY1hVSmp6TDlSWTZJVVBLY3d3OXJ3MzdWV291ZjBEMEgyb0h6eXB6TDQya21XYUtLa1ltYUlBSVIydVRMeW9aTHRfY0xacXZoSnFqMkdYNXNrMUJUNlQzdlpLLUZfSU0wN0VobVU?oc=5",
       "title": "メーカー社員、手術室で患者の体動かす 医師法に抵触か 関西医科大（朝日新聞）",
       "description": "",
@@ -656,26 +716,6 @@
       "image": "",
       "date": "2026-05-12T19:05:16.000Z",
       "source": "Yahoo!ニュース",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hYzNuM2V2N0NZWGVpQ2xUU0djc3REXzhweTFXa2ZJdUphdkYtQlZBSE9DYl9zMXRwMDFEV0UzVldzRWVCdmx0QUtSZ9IBR0FVX3lxTE5GcTd2WUdIZUVZNWhhRHBsQ2lxdU5yVnJjRGZzcWVsZjBVNjQyTU9vMDltN2ZuZHRkYTAxdVVMaERtRzZoNjhr?oc=5",
-      "title": "Snow Man向井康二、新CMで“美容液の化身”に「趣味もハマったら上手くなるまでやり続ける」自身のまっすぐさ語る",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5hYzNuM2V2N0NZWGVpQ2xUU0djc3REXzhweTFXa2ZJdUphdkYtQlZBSE9DYl9zMXRwMDFEV0UzVldzRWVCdmx0QUtSZ9IBR0FVX3lxTE5GcTd2WUdIZUVZNWhhRHBsQ2lxdU5yVnJjRGZzcWVsZjBVNjQyTU9vMDltN2ZuZHRkYTAxdVVMaERtRzZoNjhr?oc=5",
-      "image": "",
-      "date": "2026-05-12T19:00:00.000Z",
-      "source": "モデルプレス",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14eVV4aVphUTk5ejV1MjZzaHZwQkVHXzZib004UVI0ZE82T1oxSGZrZkIwdVF0MFlWVDRQU2VZbGpDaVFmVlEyMlJMaEVpTFhkLUJkOEtDQ2pjaDdLSkczcWpB?oc=5",
-      "title": "イラン情勢、トランプ米大統領「統制できている」…戦闘終結に合意しなければ「壊滅させる」",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14eVV4aVphUTk5ejV1MjZzaHZwQkVHXzZib004UVI0ZE82T1oxSGZrZkIwdVF0MFlWVDRQU2VZbGpDaVFmVlEyMlJMaEVpTFhkLUJkOEtDQ2pjaDdLSkczcWpB?oc=5",
-      "image": "",
-      "date": "2026-05-12T18:41:00.000Z",
-      "source": "読売新聞",
       "category": "Google News"
     },
     {
@@ -689,16 +729,6 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92WDdEWXR0VElaaXpad0F2VHkydWgzNFFka1k3ZHBjd3EzWVVNNnpSWGtGUjVmMU1kcXAyV0xjcUZrTENwanVPcU1pUmFMUWNLMWlvWEh4ZzFOVzNXRlBBbi1Eb0VhX1pRYU54cDhzNVVEVjVWdkI0RVd2U2VMZlU?oc=5",
-      "title": "発達障害ある少女を拘束し押し入れに監禁容疑、両親と兄を逮捕…長期間虐待の可能性も母親「しつけのため」",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92WDdEWXR0VElaaXpad0F2VHkydWgzNFFka1k3ZHBjd3EzWVVNNnpSWGtGUjVmMU1kcXAyV0xjcUZrTENwanVPcU1pUmFMUWNLMWlvWEh4ZzFOVzNXRlBBbi1Eb0VhX1pRYU54cDhzNVVEVjVWdkI0RVd2U2VMZlU?oc=5",
-      "image": "",
-      "date": "2026-05-12T17:04:29.000Z",
-      "source": "Yahoo!ニュース",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xY3U5OWNST2lLbmc1VWlzUW9xbkxKZWZhRmU5LTVYUWZtRWkzdENmWDJEdzhac0VETHBndTRacHUyUXctX0pvVlNVZ1VaWUtSa0NDbWVuMA?oc=5",
       "title": "10代の娘を寝室の押し入れに手足を拘束して監禁し、けがさせたか 両親と兄を逮捕 日常的に家族ぐるみで虐待を繰り返していたか 東京・町田市 警視庁",
       "description": "",
@@ -706,6 +736,16 @@
       "image": "",
       "date": "2026-05-12T17:01:00.000Z",
       "source": "TBS NEWS DIG",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfNnRBbEJQTld3alphU3B0SnZMOGp1eU9oSld1U0FDSnZYTF9MaGlaQXFyZk9qbUFSZzFDS08tRmh4YUd2YnYxSVJneDNOd2dYQkdUU0FLMGNPcEU2SnlJWHRMcnc1UnVQcWd2Vg?oc=5",
+      "title": "植物工場の日本発新興「オイシイ」、240億円調達 ユニコーン並みに",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfNnRBbEJQTld3alphU3B0SnZMOGp1eU9oSld1U0FDSnZYTF9MaGlaQXFyZk9qbUFSZzFDS08tRmh4YUd2YnYxSVJneDNOd2dYQkdUU0FLMGNPcEU2SnlJWHRMcnc1UnVQcWd2Vg?oc=5",
+      "image": "",
+      "date": "2026-05-12T17:00:00.000Z",
+      "source": "日本経済新聞",
       "category": "Google News"
     },
     {
@@ -719,23 +759,23 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TaHBNY2tVb0J2TkJ2ZXZQU3JLUi04NV9pUWdNNV9KTUNxenZqM2wzbm01S0lkODFraThyTUlIZnJqel9aXzZvVXBCMXo2V2FidDJpak9tbkk4Q3ZZbHFMS2NR?oc=5",
-      "title": "露が新型ＩＣＢＭ「サルマート」発射試験成功、プーチン氏「世界最強」…今年末までに東シベリアに実戦配備",
+      "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OckJaM1ZsR3MxSE52QVNBRndRZlFSdEE3UHMyTkFHclZ0V3FxOGxtZGVOVm9zV3VhYld4NmtONllqLTNNMUxTamM2X3dzRFhvTnFV?oc=5",
+      "title": "少女は両手足に拘束具、全身あざ、外カギの押し入れに監禁され…一家で日常的に虐待か 両親と兄2人を逮捕",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TaHBNY2tVb0J2TkJ2ZXZQU3JLUi04NV9pUWdNNV9KTUNxenZqM2wzbm01S0lkODFraThyTUlIZnJqel9aXzZvVXBCMXo2V2FidDJpak9tbkk4Q3ZZbHFMS2NR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9OckJaM1ZsR3MxSE52QVNBRndRZlFSdEE3UHMyTkFHclZ0V3FxOGxtZGVOVm9zV3VhYld4NmtONllqLTNNMUxTamM2X3dzRFhvTnFV?oc=5",
       "image": "",
-      "date": "2026-05-12T16:51:00.000Z",
-      "source": "読売新聞",
+      "date": "2026-05-12T17:00:00.000Z",
+      "source": "東京新聞デジタル",
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxWTdtNkg4SVlxb3IyTklnSk1kVVFiYmVKZ3I5Q0dCcF9Laml0MlRGem9RbjdueG1weWp3S3J1eDFnRTdWTTRJUWFqRWo2dHVSNkY0UmgzTkh3MzhNMHlOY1UxR0tvZWFSMHZMaWstODcwQQ?oc=5",
-      "title": "Amazon、Kindle Scribe初のカラーディスプレイ搭載「Kindle Scribe Colorsoft」など新「Kindle Scribeシリーズ」を日本で発売",
+      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hdWtVX3lMaVEyZ0RvX0xjLVRLSWl6R2VZWkhkSEdGQ2tiRE5nclgtcTJBVFJPSTdiZjJIbVZBcW4taG1rLWlCS3BtMmRueFZaWGtRRm5Icy1faUJEQVRsRzJsQkQ1ZnJkVmdXTTBWczlPYnNRbWc?oc=5",
+      "title": "ロシア、新型ICBM「サルマト」を年内にも実戦配備へ プーチン氏「世界最強」と誇示",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxWTdtNkg4SVlxb3IyTklnSk1kVVFiYmVKZ3I5Q0dCcF9Laml0MlRGem9RbjdueG1weWp3S3J1eDFnRTdWTTRJUWFqRWo2dHVSNkY0UmgzTkh3MzhNMHlOY1UxR0tvZWFSMHZMaWstODcwQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5hdWtVX3lMaVEyZ0RvX0xjLVRLSWl6R2VZWkhkSEdGQ2tiRE5nclgtcTJBVFJPSTdiZjJIbVZBcW4taG1rLWlCS3BtMmRueFZaWGtRRm5Icy1faUJEQVRsRzJsQkQ1ZnJkVmdXTTBWczlPYnNRbWc?oc=5",
       "image": "",
-      "date": "2026-05-12T16:16:07.000Z",
-      "source": "About Amazon Japan",
+      "date": "2026-05-12T16:00:51.000Z",
+      "source": "産経ニュース",
       "category": "Google News"
     },
     {
@@ -749,6 +789,16 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZY01CcTdUaGt5Uk1mdXVuOW5ZNzBDQjJNVE1kalo2aUZIR2VyMUFKZzRPbi1Ham41Z3lPTzQ5YmQzM2FwOXJ0RllwbmFGc3k3MkV2M2JLNXFUTk5uSlVuY0J3LVBkTWdzcnJDTExGTnA0MVlRdFE?oc=5",
+      "title": "UAE、秘密裏にイラン攻撃か 4月上旬に石油施設で大規模火災 米紙報道も公式に認めず",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZY01CcTdUaGt5Uk1mdXVuOW5ZNzBDQjJNVE1kalo2aUZIR2VyMUFKZzRPbi1Ham41Z3lPTzQ5YmQzM2FwOXJ0RllwbmFGc3k3MkV2M2JLNXFUTk5uSlVuY0J3LVBkTWdzcnJDTExGTnA0MVlRdFE?oc=5",
+      "image": "",
+      "date": "2026-05-12T15:16:24.000Z",
+      "source": "産経ニュース",
+      "category": "Google News"
+    },
+    {
       "id": "https://gigazine.net/news/20260512&#45;red&#45;squares/",
       "title": "GitHubの過去1年間のダウンタイムを「草」形式で可視化する「Red Squares」",
       "description": "ソースコード管理サービスのGitHubについて、障害発生日をGitHubのContribution Graph、いわゆる「草」の形式に沿って赤いマスで表示するという可視化サイト「Red Squares」が登場しました。",
@@ -759,16 +809,6 @@
       "category": "tech"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWjZrV2pDbmRXV3d1Y3BQRWY2cmpaUERvLWQzQ3NVUmFHVjlGWWpzWnBpbG5SZ2poOHJYbE5HdXdJU01KNzBDX082UGdxTFlUczUzY1Zydy1lM3RzNFE3YzhNSTVJaXVaM0szN2E2bWlXRmo2UkJJSEg4RFl1T1R6Ymx2bnNVUzJMT2hxQ1o1NUR4UmZGRmfSAYoBQVVfeXFMTWo3LU10N0ctNEJxYXBGTkpzT2J3dUQzSDluY3JPemxJLW9WT1czUmhNY2w1NVZrQ3YwZWJtc3pKWEl6U0hZNVhZSm80elBFcVdsQjhZU2h6ZzFrdVNpaVRoY3ZpbXN0Szl2cUd4ME1zR1RLOFYtQ3VSNnltX3hxRW1kNkllWVRNR2xB?oc=5",
-      "title": "【田尾安志 タイムリーCheck！】阪神・嶋村の打撃は左翼手候補より上！代打だけではもったいない",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWjZrV2pDbmRXV3d1Y3BQRWY2cmpaUERvLWQzQ3NVUmFHVjlGWWpzWnBpbG5SZ2poOHJYbE5HdXdJU01KNzBDX082UGdxTFlUczUzY1Zydy1lM3RzNFE3YzhNSTVJaXVaM0szN2E2bWlXRmo2UkJJSEg4RFl1T1R6Ymx2bnNVUzJMT2hxQ1o1NUR4UmZGRmfSAYoBQVVfeXFMTWo3LU10N0ctNEJxYXBGTkpzT2J3dUQzSDluY3JPemxJLW9WT1czUmhNY2w1NVZrQ3YwZWJtc3pKWEl6U0hZNVhZSm80elBFcVdsQjhZU2h6ZzFrdVNpaVRoY3ZpbXN0Szl2cUd4ME1zR1RLOFYtQ3VSNnltX3hxRW1kNkllWVRNR2xB?oc=5",
-      "image": "",
-      "date": "2026-05-12T12:50:24.000Z",
-      "source": "サンスポ",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2dVlEVGc1aHJ3Zmh3YS1MVU85d1lIaVRPU21NSXZDbGxlckJIbEZsSzNoMmdsdHpjOXdDZmtkU01uUWRMU3NBck9GUm9MQ3lTeHZROG81bHVwNkdIa19wV3FFd25xNlFIeUpTQw?oc=5",
       "title": "神奈川の１６市長が「特別市」反対 知事に要望書「不安あり賛成できない」",
       "description": "",
@@ -776,6 +816,16 @@
       "image": "",
       "date": "2026-05-12T12:50:00.000Z",
       "source": "カナロコ",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWnpkUkctMjNEakg5dDZtbG44MkRmVFZlazZDT191Tk40ejQ3a1M4bUpYdFFUaUxobzBTVEc0OC0wcVlETFRFb2tKZ2ZMU0Fqa250QkQ4dzVxZTVKdHRyempLQklwNmg4ZWxTTEowVXlpWkxpOGQxTjBCWDU5cm9odkRyMDd6VDlhMVQwM1FiTmdRVEVUVWc?oc=5",
+      "title": "橋本環奈 「真剣な顔でうどん食べてる私」家族旅行“モグモグ”プラベSに反響「最高」「美しすぎ」の声",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWnpkUkctMjNEakg5dDZtbG44MkRmVFZlazZDT191Tk40ejQ3a1M4bUpYdFFUaUxobzBTVEc0OC0wcVlETFRFb2tKZ2ZMU0Fqa250QkQ4dzVxZTVKdHRyempLQklwNmg4ZWxTTEowVXlpWkxpOGQxTjBCWDU5cm9odkRyMDd6VDlhMVQwM1FiTmdRVEVUVWc?oc=5",
+      "image": "",
+      "date": "2026-05-12T12:45:00.000Z",
+      "source": "スポニチ Sponichi Annex",
       "category": "Google News"
     },
     {
@@ -799,13 +849,23 @@
       "category": "Google News"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQNTNvbDlheUpaSW41Z0ZPRWF1MWhreTdYNzAzUFBqdHZzdHF1c2ZVd1dvTjhHY3pZSVJmbENGbWNhVm5lT1A4S2tEeC1nTHViejVpS3RDbHo?oc=5",
-      "title": "ヤクルト、オスナが野手登板 9回に大差でマウンドへ…140キロに神宮どよめき - full-count.jp",
+      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nQlNFWm1FOElUYmZJOEI0ZHpuRE00Mkstekt0ekhFb1RpbU53SEYyTTJ6eEdoQnVocElSSTNRQm91TnNZQ0M4Q2xxanYwQklvSlhQazJCX1RWamtHOThUMVJULTVvSnNkSm5pMXRxWFYxZlIydUE?oc=5",
+      "title": "ニデック、品質不正疑い モーター部品で顧客承認なく設計変更か 外部の弁護士らが調査へ",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQNTNvbDlheUpaSW41Z0ZPRWF1MWhreTdYNzAzUFBqdHZzdHF1c2ZVd1dvTjhHY3pZSVJmbENGbWNhVm5lT1A4S2tEeC1nTHViejVpS3RDbHo?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1nQlNFWm1FOElUYmZJOEI0ZHpuRE00Mkstekt0ekhFb1RpbU53SEYyTTJ6eEdoQnVocElSSTNRQm91TnNZQ0M4Q2xxanYwQklvSlhQazJCX1RWamtHOThUMVJULTVvSnNkSm5pMXRxWFYxZlIydUE?oc=5",
       "image": "",
-      "date": "2026-05-12T11:50:20.000Z",
-      "source": "full-count.jp",
+      "date": "2026-05-12T12:30:05.000Z",
+      "source": "産経ニュース",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlRDFKUlZGZzBNR2YyZkZySG03ZjlRZmhsVHpjUFZIS3hqeEZQNHl4aGtFaWtSU2Y4QTZHbHN6eGtCQ2s0ZWgtWkhUa2FTWTdiVk5mTEVjVzZydjkyM3pKckRYR3RYTWFWSHM4TkcyN3VXNGRUMmVYTHZn?oc=5",
+      "title": "イラン、ホルムズ海峡の定義変更 幅最大480キロに拡大",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlRDFKUlZGZzBNR2YyZkZySG03ZjlRZmhsVHpjUFZIS3hqeEZQNHl4aGtFaWtSU2Y4QTZHbHN6eGtCQ2s0ZWgtWkhUa2FTWTdiVk5mTEVjVzZydjkyM3pKckRYR3RYTWFWSHM4TkcyN3VXNGRUMmVYTHZn?oc=5",
+      "image": "",
+      "date": "2026-05-12T12:29:49.000Z",
+      "source": "Reuters",
       "category": "Google News"
     },
     {
@@ -816,16 +876,6 @@
       "image": "",
       "date": "2026-05-12T11:20:25.000Z",
       "source": "47NEWS",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QN2M4U1k3d0VEVjEwNGVDdTlMWjBMQUxkOGRqUGVSeEZ6ZV9aNUFEV3ZOUVZMWWUwNFpIMUN5UzR0TGIxOVlzRFNZSl9NLXdTQkYyVHRoYWxLSURvRVNkU1BTRGl4TTctU2NCbkZHN05lcU1CUUE?oc=5",
-      "title": "石油供給不安、医療現場を直撃 手袋足らず買い物袋で代用「医療の質が落ちかねない」",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QN2M4U1k3d0VEVjEwNGVDdTlMWjBMQUxkOGRqUGVSeEZ6ZV9aNUFEV3ZOUVZMWWUwNFpIMUN5UzR0TGIxOVlzRFNZSl9NLXdTQkYyVHRoYWxLSURvRVNkU1BTRGl4TTctU2NCbkZHN05lcU1CUUE?oc=5",
-      "image": "",
-      "date": "2026-05-12T11:18:21.000Z",
-      "source": "産経ニュース",
       "category": "Google News"
     },
     {
@@ -859,13 +909,13 @@
       "category": "tech"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTTW5OSEoyVjNpWWxMcE8wYWROOFdDbmItMDhwcnRBdHBsMWo1ZFd5QmFFcDA0NTMtTHUzM2dMT1g5dFdYdXRHeVFvejh4cndRT0JQakNmRXR6cVFsR0JOQ0FOc1NQZw?oc=5",
-      "title": "ジャック・ラッセル・テリアの警察犬カノン君、飼い主の「いくよ」で臨戦態勢に…行方不明の高齢男性を発見",
+      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxWll6M01Oalo0S0lxX1lobDh1SHFYU0VVSk5rVkJvMmR3dHZXQXM4Uk9MMFh5Vml1eThYUWFUS2tBV291ZUNyaVJ6WnRtRi1EQ2swRHd3ZGx4VTRkNXJja0d2R1UyU0xNekZiU0RTZmV6Zw?oc=5",
+      "title": "世田谷“刃物男” 通報者語る逮捕の瞬間",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTTW5OSEoyVjNpWWxMcE8wYWROOFdDbmItMDhwcnRBdHBsMWo1ZFd5QmFFcDA0NTMtTHUzM2dMT1g5dFdYdXRHeVFvejh4cndRT0JQakNmRXR6cVFsR0JOQ0FOc1NQZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxWll6M01Oalo0S0lxX1lobDh1SHFYU0VVSk5rVkJvMmR3dHZXQXM4Uk9MMFh5Vml1eThYUWFUS2tBV291ZUNyaVJ6WnRtRi1EQ2swRHd3ZGx4VTRkNXJja0d2R1UyU0xNekZiU0RTZmV6Zw?oc=5",
       "image": "",
-      "date": "2026-05-12T10:07:00.000Z",
-      "source": "読売新聞",
+      "date": "2026-05-12T10:06:46.000Z",
+      "source": "テレ朝NEWS",
       "category": "Google News"
     },
     {
@@ -876,16 +926,6 @@
       "image": "",
       "date": "2026-05-12T10:06:34.000Z",
       "source": "Yahoo!ニュース",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YTS1XQjhaQTU0TXhSdzI3cVBQeXdaejZUck44NEdWcHBnMk15MWsyaEFtYVdoanZMclBMSlpCdmxVZ2dWR0ZGQTVlVQ?oc=5",
-      "title": "【速報】日本精工とNTNが経営統合へ",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YTS1XQjhaQTU0TXhSdzI3cVBQeXdaejZUck44NEdWcHBnMk15MWsyaEFtYVdoanZMclBMSlpCdmxVZ2dWR0ZGQTVlVQ?oc=5",
-      "image": "",
-      "date": "2026-05-12T10:01:26.000Z",
-      "source": "47NEWS",
       "category": "Google News"
     },
     {
@@ -907,16 +947,6 @@
       "date": "2026-05-12T10:00:00.000Z",
       "source": "GIGAZINE",
       "category": "tech"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNHVSSnhWMUhxV0gxbUx6RFdsRWk3VGtmVkdsTHMyc0xhWVZGYU5rTGJIYkZsVXR4U21ROFI0aFBZb2FJSWRnZUR1anhocllRRjB5SGVZYUZZTnRtWjMzUDd4dFlVbTRJc2gzMVowOVluYWFLbFlTM09EZ3JqUkwtb25FWjliZ0VmYkdnbkNmS1BkbjdpNXc?oc=5",
-      "title": "安めぐみ、東貴博と長女から母の日に贈られたプレゼント明かす",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNHVSSnhWMUhxV0gxbUx6RFdsRWk3VGtmVkdsTHMyc0xhWVZGYU5rTGJIYkZsVXR4U21ROFI0aFBZb2FJSWRnZUR1anhocllRRjB5SGVZYUZZTnRtWjMzUDd4dFlVbTRJc2gzMVowOVluYWFLbFlTM09EZ3JqUkwtb25FWjliZ0VmYkdnbkNmS1BkbjdpNXc?oc=5",
-      "image": "",
-      "date": "2026-05-12T09:58:36.000Z",
-      "source": "日刊スポーツ",
-      "category": "Google News"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1hZ3RuUEM1OUVmemszQTFDMHRoRnI2UGRzQlhTVWJRM1VVOTZTUlFSbjRDdks1ZWtVMXBrRzF0QWtEYnNqV3ZuRHBMbHA5S0hhQkN3QkdrT2RNeVNJZmRWSWNXZXhHTUxBZEE?oc=5",
@@ -1049,16 +1079,6 @@
       "category": "tech"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zWU85YUpleE5WTzlRNlhua05KaktSVHN6YzkyazBLQ3lZVEl1UmtTWnhnUFFZV0IwRmM5aTByYzhXNndfX1ZoUTFwTFBBVkpnZWgzOGl4TkEwZzk4NDh4Rlh6Z0l4MXJrQ1BOVXFIeTl3WGJVZHc?oc=5",
-      "title": "「男が包丁を持って追いかけている」銃刀法違反で現行犯逮捕 東京・世田谷",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zWU85YUpleE5WTzlRNlhua05KaktSVHN6YzkyazBLQ3lZVEl1UmtTWnhnUFFZV0IwRmM5aTByYzhXNndfX1ZoUTFwTFBBVkpnZWgzOGl4TkEwZzk4NDh4Rlh6Z0l4MXJrQ1BOVXFIeTl3WGJVZHc?oc=5",
-      "image": "",
-      "date": "2026-05-12T07:57:17.000Z",
-      "source": "産経ニュース",
-      "category": "Google News"
-    },
-    {
       "id": "https://gigazine.net/news/20260512&#45;claude&#45;mythos&#45;curl&#45;vulnerability/",
       "title": "Claude Mythosの「脆弱性発見能力が高い」というのは誇大宣伝だとcURL開発者が指摘",
       "description": "ソフトウェアの脆弱(ぜいじゃく)性を発見する能力が高いため悪用されるリスクがあるとして発表されたAnthropicのAI「Claude Mythos」について、cURLの開発者であるダニエル・ステンバーグ氏が「誇大宣伝でただのマーケティング",
@@ -1109,16 +1129,6 @@
       "category": "tech"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM21mU0FBdS1RbEpvcW5ZTzdWLTdHR0FrRXp4aHlnbDdDbWFPZHhyaHh0a1VGMjJkV1Y4UWlvME9CUE1OV0pzVDgtaThxa0RIbmFkUWI3MXdXdmZlbnRsbWNEckc2dTQwc0dVVGJSMzhrSFZ6Y2l5WXh6YnM1eHI1Yk8waDlIVmc?oc=5",
-      "title": "【決算速報】日本電工---26年12月期1Qは増益、経常利益は194.8％増(フィスコ)",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM21mU0FBdS1RbEpvcW5ZTzdWLTdHR0FrRXp4aHlnbDdDbWFPZHhyaHh0a1VGMjJkV1Y4UWlvME9CUE1OV0pzVDgtaThxa0RIbmFkUWI3MXdXdmZlbnRsbWNEckc2dTQwc0dVVGJSMzhrSFZ6Y2l5WXh6YnM1eHI1Yk8waDlIVmc?oc=5",
-      "image": "",
-      "date": "2026-05-12T07:16:00.000Z",
-      "source": "Yahoo!ファイナンス",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lLUotcDhRS1NMVjVUeDNrWTVycXN6NmNWb2ZnREVqRHBRZ09uejJPLXpZbGZONFdpRElHQkNCVUNtQ29vd0dVZm90Um9PNHdJTkRRVENtRHU2T2lnRUlSS2k2S3Znc1pQNFFPVFNvMGk1cFdaNGVCRkJwd2MtcjA?oc=5",
       "title": "辺野古転覆事故》基地建設反対団体「オール沖縄会議」が公式サイトで「喪明け」宣言…原因究明の結果を出さないなかで「抗議活動再開」を急ぐ理由（NEWSポストセブン",
       "description": "",
@@ -1156,16 +1166,6 @@
       "image": "",
       "date": "2026-05-12T06:36:00.000Z",
       "source": "Yahoo!ファイナンス",
-      "category": "Google News"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxMDBDLXRzQllzQUxhOU1qc0h6UXFQdEc2a2hQLTJQZ282Q09XYWQ0TzVOU2ljMWRrWW90NWNSUHZiVUxMZDJLcWJCQ055RW0yRmExRA?oc=5",
-      "title": "エルニーニョ現象時の特徴に近づく 夏までに発生可能性高い(エルニーニョ監視速報)",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxMDBDLXRzQllzQUxhOU1qc0h6UXFQdEc2a2hQLTJQZ282Q09XYWQ0TzVOU2ljMWRrWW90NWNSUHZiVUxMZDJLcWJCQ055RW0yRmExRA?oc=5",
-      "image": "",
-      "date": "2026-05-12T06:35:00.000Z",
-      "source": "ウェザーニュース",
       "category": "Google News"
     },
     {
@@ -1249,16 +1249,6 @@
       "category": "entertainment"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sY1lqclcyeWRzSGMtVTM5ekljeUpTaXBvMGxPRkdzY2JSanpvSGF5NzVnSGdpNWkzeHNvZFFqb2p4dG54LTR5Nm5ZbzZoUlh4dWFwWVpBRUE0UHcxbl93b1lwN25WVC1FSzdkaTdOMXlLalA3NVZUSUljUnhsdWM?oc=5",
-      "title": "焦点：成果欲しいトランプ氏、首脳会談は中国優位の「表面的休戦」か",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5sY1lqclcyeWRzSGMtVTM5ekljeUpTaXBvMGxPRkdzY2JSanpvSGF5NzVnSGdpNWkzeHNvZFFqb2p4dG54LTR5Nm5ZbzZoUlh4dWFwWVpBRUE0UHcxbl93b1lwN25WVC1FSzdkaTdOMXlLalA3NVZUSUljUnhsdWM?oc=5",
-      "image": "",
-      "date": "2026-05-12T05:03:00.000Z",
-      "source": "Reuters",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkZvYmFPYURXZk9IZG1zUjdXaWYtMUo3TXM2dGV2TUlVMVpPZnF1eUIwbU5qUGVWR09Kb0VGNnRFUWxGNUlRRUROcmVuZExqVC1KREw3T3h3SkVlTHV0enR6a0NYY2tiUHFOS1VPVVJPOTRCZERYMmtBWUNnT3lyM1RQR3F6RzA?oc=5",
       "title": "【決算速報】日本管財ＨＤ、今期経常は3％増で3期連続最高益、前期配当を3円増額・今期は3円増配へ(株探ニュース)",
       "description": "",
@@ -1276,6 +1266,16 @@
       "image": "",
       "date": "2026-05-12T05:01:00.000Z",
       "source": "Yahoo!ファイナンス",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RV1B1eG5BdkpHRlM0QUlCbFE3ZWduUTR4bWpQMEhudHgyMzB4RWJ5eXJ3WWxRU2J6b0dpdXhrQ0VqMHNtQVdCT2VKeE1ERnB0b3d1YzFTZVEydzBZUjJ0enVMbG5DX1pqMjNnY1ptMm0tRlpabXc?oc=5",
+      "title": "ホルムズ海峡封鎖の影響、大阪の高齢者施設の6割で手袋など衛生用品が不足 老健協会調査",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RV1B1eG5BdkpHRlM0QUlCbFE3ZWduUTR4bWpQMEhudHgyMzB4RWJ5eXJ3WWxRU2J6b0dpdXhrQ0VqMHNtQVdCT2VKeE1ERnB0b3d1YzFTZVEydzBZUjJ0enVMbG5DX1pqMjNnY1ptMm0tRlpabXc?oc=5",
+      "image": "",
+      "date": "2026-05-12T05:00:00.000Z",
+      "source": "産経ニュース",
       "category": "Google News"
     },
     {
@@ -1439,6 +1439,16 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Da2Rsdzg1dlhqekdqN0o4TnQzNUdFR1FDUng5NnZ0WVlRSTVlSm1rWlFtMnZYS1Q1Nk9NWGRoTUQteWpPVEZheTRXLUFVdGU2ODA4N3dKenBsWXdialRNY3dsU2FmS3B2cFdLTGJnRGp3RWpQRmc?oc=5",
+      "title": "共産と米急進左派「在日米軍基地撤去」で一致 志位議長ら訪問団が指導部と会談し連帯確認",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Da2Rsdzg1dlhqekdqN0o4TnQzNUdFR1FDUng5NnZ0WVlRSTVlSm1rWlFtMnZYS1Q1Nk9NWGRoTUQteWpPVEZheTRXLUFVdGU2ODA4N3dKenBsWXdialRNY3dsU2FmS3B2cFdLTGJnRGp3RWpQRmc?oc=5",
+      "image": "",
+      "date": "2026-05-12T03:17:57.000Z",
+      "source": "産経ニュース",
+      "category": "Google News"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IcnZtclV3T1k4V3p4S2Q0bkNkMGo4RnFJV0xjX0RVUkZuNGREblZUemxrQndaSWJuZ0pRbHRMSVRRVVZRZ1lRNkM4Tzl4UUc4OVhoVU1nTTJEN1dkWnpFZHVCVENiTjRZQWFvZkN4N2s5QUnSAYcBQVVfeXFMT3d6LXFCb0Y5UlBoSmJpMVY5RFI2ZWtKWTN6YjFPRU9mYTZ2dVdmVzNmTEdrLXF3T0FLY2xLTzgxdGFtS2pxQklVRWhKTGxIQUY2VmZxcE9PWnNZcHNmYXNKWkt1TzZHTHd3V2hfWmV6OFpWNTZsMTQzLUFHN3BJQWUtSzhLakE0?oc=5",
       "title": "日本最古のオープン競技は節目の100周年 堀川未来夢は連勝なるか",
       "description": "",
@@ -1539,14 +1549,14 @@
       "category": "tech"
     },
     {
-      "id": "https://gigazine.net/news/20260512&#45;ios&#45;ipados&#45;26&#45;5/",
-      "title": "iOS 26.5・iPadOS 26.5がリリース、iPhoneとAndroidスマホで暗号化されたRCSメッセージの送受信が可能に",
-      "description": "Appleは2026年5月11日にiOS 26.5に加えて、iPadOS 26.5、macOS Tahoe 26.5、watchOS 26.5、tvOS 26.5、およびvisionOS 26.5をリリースしました。iOS 26.5には新し",
-      "url": "https://gigazine.net/news/20260512&#45;ios&#45;ipados&#45;26&#45;5/",
+      "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05N2NpQTQ5cEZtY24zREJXbWZPYjR1eUNWZFFaQ1ZQYTlSVkdKVldxTlFCMWczRld4R0tZRm45V1Mxc0FpcGZnS0o2Y0lZWGR4bFdrLWtPV20weEhLWFJ5SDJYcW9iaEt4c0t0X2FCdktmblk3XzAwbVlwWmLSAX9BVV95cUxNd0ZoTjJEbDl2cWljVlhkU3JFMDdjUDM2T1FZcW5nVERiUmRrMXkyV1JBekdtNEJIQ1NYTzBiNVlzemMxSHJxRW5vYWZWQ2pUM3dEeTFGcTJ0WVIyTUR4T3JkUkhKY2RhcFVzT2xUN1ZkT2JNeU9iYzFVR3A2d19j?oc=5",
+      "title": "映画「教場」にも出演28歳俳優が芸能活動引退を発表「感謝しかありません」",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05N2NpQTQ5cEZtY24zREJXbWZPYjR1eUNWZFFaQ1ZQYTlSVkdKVldxTlFCMWczRld4R0tZRm45V1Mxc0FpcGZnS0o2Y0lZWGR4bFdrLWtPV20weEhLWFJ5SDJYcW9iaEt4c0t0X2FCdktmblk3XzAwbVlwWmLSAX9BVV95cUxNd0ZoTjJEbDl2cWljVlhkU3JFMDdjUDM2T1FZcW5nVERiUmRrMXkyV1JBekdtNEJIQ1NYTzBiNVlzemMxSHJxRW5vYWZWQ2pUM3dEeTFGcTJ0WVIyTUR4T3JkUkhKY2RhcFVzT2xUN1ZkT2JNeU9iYzFVR3A2d19j?oc=5",
       "image": "",
-      "date": "2026-05-12T02:00:00.000Z",
-      "source": "GIGAZINE",
-      "category": "tech"
+      "date": "2026-05-12T01:38:51.000Z",
+      "source": "日刊スポーツ",
+      "category": "Google News"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBxQV9TZWMtMy1WZnp2LWw4VmFrTkNQX3pCQVQ1Z1Zqd2YweUp5eU9IdFZxd04tVWI1TTFHTUtaa1RtejA4TGhzd3ZoVQ?oc=5",
@@ -1629,16 +1639,6 @@
       "category": "entertainment"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXZTRndSZFVOVGlUaE5xNl8xNElWOW5vS3BaVHRNN1F2RG9fdkJsYW92WHBhclBmelBjMlNSeHZCMFZKMy1DUTE2R0JqQi1WUms5UlpKRjUya2tmYm5Tckdvb0FhRGFJbXZRNU1ZMElsUThBUkxXODRtbU56LXhOazVVa0NUTDg?oc=5",
-      "title": "【事故の瞬間ドライブレコーダー動画あり】「すごい衝撃」クマが走行中の車に衝突 タイヤはパンク自走不能に…近くの小中学校では爆竹などで追い払い 注意呼びかけ【長野・塩尻市】",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRXZTRndSZFVOVGlUaE5xNl8xNElWOW5vS3BaVHRNN1F2RG9fdkJsYW92WHBhclBmelBjMlNSeHZCMFZKMy1DUTE2R0JqQi1WUms5UlpKRjUya2tmYm5Tckdvb0FhRGFJbXZRNU1ZMElsUThBUkxXODRtbU56LXhOazVVa0NUTDg?oc=5",
-      "image": "",
-      "date": "2026-05-11T09:14:00.000Z",
-      "source": "日テレNEWS NNN",
-      "category": "Google News"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TYk9ia1pCcVc0U1JYUVJaalZRYmd0cHh6WjVNRXNKQVo1S3FCMzlPUkdUOG1GM2pRdFg3dkVvSFVMQVV5RThTNWNoU1hiUkdrSnhDSnBnUzFfaGFneXpqaGpB?oc=5",
       "title": "自転車走行中に｢ながらスマホ｣で青切符 秋田県内初の交付",
       "description": "",
@@ -1669,14 +1669,14 @@
       "category": "entertainment"
     },
     {
-      "id": "https://jp.ign.com/pragmata/83286/",
-      "title": "ビデオゲームのジャンルは「不確かな羅針盤」、『プラグマタ』はシューターかアクションかを起点にあやふやさを捉える",
-      "description": "<img src=\"https://sm.ign.com/t/ign_jp/screenshot/default/01_2yhg.640.jpg\" width=\"120\" hspace=\"5\" alt=\"\" vspace=\"5\" align",
-      "url": "https://jp.ign.com/pragmata/83286/",
+      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWkJLbXBHdTdkeUNYRGx0TG9mVjVjdFZyNUFtLVpBeFJZaXMzYU5pN2dWZTlCU3pFYkhwR0htdGxuVXF5THlnOXdIYkxhMk1QQWdDY1ZkdWZ0VlN6YWprZEtycGNPczA1SzdtdDI1Ui1mQ3ZleGNPbVI2WFpCTGszY0pVVUwzS1E?oc=5",
+      "title": "【決算速報】日本ラッド、今期経常は4％増益へ(株探ニュース)",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWkJLbXBHdTdkeUNYRGx0TG9mVjVjdFZyNUFtLVpBeFJZaXMzYU5pN2dWZTlCU3pFYkhwR0htdGxuVXF5THlnOXdIYkxhMk1QQWdDY1ZkdWZ0VlN6YWprZEtycGNPczA1SzdtdDI1Ui1mQ3ZleGNPbVI2WFpCTGszY0pVVUwzS1E?oc=5",
       "image": "",
-      "date": "2026-05-11T04:03:47.000Z",
-      "source": "IGN Japan",
-      "category": "entertainment"
+      "date": "2026-05-11T06:31:00.000Z",
+      "source": "Yahoo!ファイナンス",
+      "category": "Google News"
     }
   ]
 }
