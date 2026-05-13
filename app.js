@@ -2,11 +2,11 @@
 
 const CATEGORIES = [
   { id: 'all',           label: 'すべて',          icon: '◎' },
-  { id: 'tech',          label: 'テクノロジー・AI', icon: '⚡' },
-  { id: 'business',      label: 'ビジネス・経済',   icon: '📈' },
-  { id: 'entertainment', label: 'エンタメ・ゲーム', icon: '🎮' },
   { id: 'politics',      label: '政治',            icon: '🏛' },
+  { id: 'business',      label: 'ビジネス・経済',   icon: '📈' },
   { id: 'society',       label: '社会',            icon: '📰' },
+  { id: 'entertainment', label: 'エンタメ・ゲーム', icon: '🎮' },
+  { id: 'tech',          label: 'テクノロジー・AI', icon: '⚡' },
 ];
 const CAT_COLORS = {
   tech:'#1a3a5c', business:'#b8973a', entertainment:'#6b3a8c',
