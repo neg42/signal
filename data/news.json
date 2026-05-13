@@ -4,7 +4,11 @@
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JOFJEd281WWJvNG4yRWhST3dTQzM5dG9MbFB2VkNpYmZLenZFTlg5NzNxZUJwNWcweER6QWpaY3dXTGhOZXNlX0pRWkw3LWhHWlRURQ?oc=5",
       "title": "【神戸ストークス 社会連携グループ】ALL GREEN通信#31 ～4月25日(土)コベルコ神戸スティーラーズのホームゲームにストーキーが出演しました",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -45,6 +49,7 @@
       "category": "society"
     },
     {
+<<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYN1NSLVgtU2h1c3ZTOUQ0SU42X2czR3FHQnRjTWdici1xclNIWUJJU05ad0JVMzExbGM2ZFo3b0RFV0xmUVFXUEtUYW1qSHVLamxRYVFhVQ?oc=5",
       "title": "【大阪・ミナミ強盗殺人事件】被害者は23歳の知人とみられる女性 死因は「窒息死」 森雄靖容疑者は「首を絞めて殺した」と話す一方、強盗目的や殺意を否認",
       "description": "",
@@ -55,6 +60,8 @@
       "category": "society"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CaXB1U1pPVFQ1b1lZamZOWTF4a2ExRlJvYnhaTnlsMXdvb0hBdGU2c0dWd3REMnlVSW02MVNQZ1I2ZkZBSTJoZVNIM1Fjal9qWi1aNEZSU3l0RkVWYUpLaFBMdUxDajM4LXc?oc=5",
       "title": "コーポレートメッセージを更新。創業５年目に突入したSHIN-JIGENが「暗黙知のテクノロジー化」を掲げ、テクノロジーの社会実装を加速",
       "description": "",
@@ -93,6 +100,7 @@
       "date": "2026-05-12T22:38:53.000Z",
       "source": "Reuters",
       "category": "society"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     },
     {
@@ -134,6 +142,8 @@
       "date": "2026-05-12T21:38:12.000Z",
       "source": "Yahoo!ニュース",
       "category": "society"
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     }
@@ -405,7 +415,7 @@
 <<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MOUJvbTJ0dENObmtjaFN2bk1jSGp1aFg1dUt3anVwNU9qX0tSemNsQXBHSFk1THJ1OGlTWXRybmFHNnFGTFJnRVVFaVRUZmR5cjBHUjNZU3ZscF84S25NeUkwSWlfQkZjbUNOdQ?oc=5",
       "title": "ダイキン株価が年初来高値 10年ぶり自社株買い、今期配当積み増し",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MOUJvbTJ0dENObmtjaFN2bk1jSGp1aFg1dUt3anVwNU9qX0tSemNsQXBHSFk1THJ1OGlTWXRybmFHNnFGTFJnRVVFaVRUZmR5cjBHUjNZU3ZscF84S25NeUkwSWlfQkZjbUNOdQ?oc=5",
       "image": "",
       "date": "2026-05-13T02:05:22.000Z",
@@ -413,9 +423,19 @@
       "category": "business"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tRGJXczRpdnZmd1dJYzJNb1VCd0J1NXA5ODlTbHVxekdyUUtJLWYyXzBuRnVCekhfMmJyU0ZzZ3ZxMkdNdEV4QmdyQnlLenAybTNRaGhaRmhJZDY1N3NwMGI1OUNWUURTRjU1TldWdEhGMlpoaGY1ekNScnM?oc=5",
+      "title": "アミタHDとNTTドコモビジネス、使用済みプラ回収のトレーサビリティ実証。住民が関わる地域拠点で",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tRGJXczRpdnZmd1dJYzJNb1VCd0J1NXA5ODlTbHVxekdyUUtJLWYyXzBuRnVCekhfMmJyU0ZzZ3ZxMkdNdEV4QmdyQnlLenAybTNRaGhaRmhJZDY1N3NwMGI1OUNWUURTRjU1TldWdEhGMlpoaGY1ekNScnM?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:03:06.000Z",
+      "source": "Circular Economy Hub",
+      "category": "business"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRWRvWnZISUNDRHl6cHAtQU4xMDVLSW9FQWEtYjVTbFJGV1dKSFlXcVNWN29EODQ3VklaUkxlVnplS0w3N1ptckVvSzdBaFRyUy1NZ3Y0NmlydnFpM080cFp3MWhSMW5WMDhfN3MySmttaGVQQVRpWHJKc0g4TnlGTDF1YUFfS3Rvd0tGc0I4MTgzTnlCdnZJTzhB?oc=5",
       "title": "逃げる米国、追う中国 GDPからAIまで一目で分かる経済の特徴",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRWRvWnZISUNDRHl6cHAtQU4xMDVLSW9FQWEtYjVTbFJGV1dKSFlXcVNWN29EODQ3VklaUkxlVnplS0w3N1ptckVvSzdBaFRyUy1NZ3Y0NmlydnFpM080cFp3MWhSMW5WMDhfN3MySmttaGVQQVRpWHJKc0g4TnlGTDF1YUFfS3Rvd0tGc0I4MTgzTnlCdnZJTzhB?oc=5",
       "image": "",
       "date": "2026-05-13T02:00:00.000Z",
@@ -425,7 +445,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySXVpcHpDWWRwX3FBMjNDbng4cDdIOUlfTzdRUDladEFuUDYxTll3bzJDTUI0LTVVY1FCNW5WR3hSVGtLRHNkWkhkRjFRYms?oc=5",
       "title": "経済産業省「製品安全対策優良企業表彰 （PSアワード2026・＋あんしん）」応募説明会のご案内",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySXVpcHpDWWRwX3FBMjNDbng4cDdIOUlfTzdRUDladEFuUDYxTll3bzJDTUI0LTVVY1FCNW5WR3hSVGtLRHNkWkhkRjFRYms?oc=5",
 =======
       "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tRGJXczRpdnZmd1dJYzJNb1VCd0J1NXA5ODlTbHVxekdyUUtJLWYyXzBuRnVCekhfMmJyU0ZzZ3ZxMkdNdEV4QmdyQnlLenAybTNRaGhaRmhJZDY1N3NwMGI1OUNWUURTRjU1TldWdEhGMlpoaGY1ekNScnM?oc=5",
@@ -486,9 +506,42 @@
       "title": "拡大が見込まれる系統用蓄電池ビジネス - 和島英樹の銘柄選びの豆知識",
       "description": "",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9hSlNVUkhoTUhYTWVzbk5wSlVGTmJ6ZW5fa0ljdy1LVDlVNzVGYlhFNm1GckFXLWYyS0t0aTUtMkE1bXVCYUtKenBta0hEb1hFMllHWg?oc=5",
+<<<<<<< Updated upstream
+=======
       "image": "",
       "date": "2026-05-13T01:40:37.000Z",
       "source": "日経CNBC online",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ybnVTWklSVkg4eUZDSDhvX2l3WWp6bF85Zjlya1UzLTVFRlQ4RjBnTVMwYnc0NjUweG9QVWp4dEpsWlJBc3ZZbmo5RHV1dHczenpwZFFreGdfOEhPelFHVkJ0bklycEdGVGc?oc=5",
+      "title": "地政学リスクを成長に変えた台湾経済「5つの転換期」とは？ワイズリサーチがサプライチェーン再構築のヒントを提示する最新レポートを公開 | 威志企管顧問股ｲ分有限公司（ワイズコンサルティンググループ）のプレスリリース",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ybnVTWklSVkg4eUZDSDhvX2l3WWp6bF85Zjlya1UzLTVFRlQ4RjBnTVMwYnc0NjUweG9QVWp4dEpsWlJBc3ZZbmo5RHV1dHczenpwZFFreGdfOEhPelFHVkJ0bklycEdGVGc?oc=5",
+>>>>>>> Stashed changes
+      "image": "",
+      "date": "2026-05-13T01:40:37.000Z",
+      "source": "日経CNBC online",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeFoxb1pseEpsQkJGR0J5c281X1hobzhhVG51dC0wOGRrWlYxbXowMDVIbzdFRk95N01rdnRiTkxWMzFHbm9pbm5TWHNPRFF2UEN3VW4tcGxranRsZlkxQ0ZDLVB1Rk02WVNBRHpraTFoTy05Z0RzR1BIdEhtWWRwZzhVOHRtRUxTVDhpaDNmMG93N0F0SUdWRE5mbHp4YkNQLTViWWdyYzRVN09TYXhaNmp3U2RvRjh1c0dZcTlDU3pfVHotNndaX1FPUkU4U0k?oc=5",
+      "title": "ビジネスアイデンティティデータのEnigma、Google Cloud Marketplace上に「KYBコンプライアンス・エージェント」をリリース",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeFoxb1pseEpsQkJGR0J5c281X1hobzhhVG51dC0wOGRrWlYxbXowMDVIbzdFRk95N01rdnRiTkxWMzFHbm9pbm5TWHNPRFF2UEN3VW4tcGxranRsZlkxQ0ZDLVB1Rk02WVNBRHpraTFoTy05Z0RzR1BIdEhtWWRwZzhVOHRtRUxTVDhpaDNmMG93N0F0SUdWRE5mbHp4YkNQLTViWWdyYzRVN09TYXhaNmp3U2RvRjh1c0dZcTlDU3pfVHotNndaX1FPUkU4U0k?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:30:54.000Z",
+      "source": "atpartners.co.jp",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SeDRxbHRvMG1vaTBxclk1RHhQdjctMEcyc3A1aWJQYkl2ZTlsRzI0QThEcHhiWDNoVU04bkVBQzQtb2gtUHNIYlM2ZnV3NF9EU1BKSEdVUDliUkVSR2JyTGwzY0lvYy0wbVNaLUItY3F3SHhIamRJRl91YURueE0?oc=5",
+      "title": "メーカーが顧客を選ぶ富裕層ビジネスの頂点「ロールス・ロイス」が100台だけの超特別なモデルを発表（東洋経済オンライン）",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SeDRxbHRvMG1vaTBxclk1RHhQdjctMEcyc3A1aWJQYkl2ZTlsRzI0QThEcHhiWDNoVU04bkVBQzQtb2gtUHNIYlM2ZnV3NF9EU1BKSEdVUDliUkVSR2JyTGwzY0lvYy0wbVNaLUItY3F3SHhIamRJRl91YURueE0?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:30:37.000Z",
+      "source": "Yahoo!ニュース",
       "category": "business"
     },
     {
@@ -563,9 +616,22 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yZ0I3bC11RHZacXFmMXJaOVQzdllvYXc4OTJWVXkzeGpCdTM0XzFueFpqa00yTmZiS2QwclUtTUxNekFveUxMTHl5WTVjMTlfZlBPaGln?oc=5",
+      "title": "「やってみなはれ」だけじゃない 鳥井信治郎のビジネスの今を見てみよう ジャパニーズクラフトジン「ROKU〈六〉」の生まれる場所 サントリー大阪工場の見学ツアーがスタート",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yZ0I3bC11RHZacXFmMXJaOVQzdllvYXc4OTJWVXkzeGpCdTM0XzFueFpqa00yTmZiS2QwclUtTUxNekFveUxMTHl5WTVjMTlfZlBPaGln?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:00:00.000Z",
+      "source": "JBpress",
+      "category": "business"
+    },
+    {
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdFVISmNEMEFJWHdiUEo0b2pYVDNQbGhPNnlJUUZqR285TWdJVkRkWVlfbzFBR2tHWkhQbTU1M0tndEczaFdIajIzRWdCR01wakE?oc=5",
       "title": "(株)マネーフォワード【3994】：株価・株式情報",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdFVISmNEMEFJWHdiUEo0b2pYVDNQbGhPNnlJUUZqR285TWdJVkRkWVlfbzFBR2tHWkhQbTU1M0tndEczaFdIajIzRWdCR01wakE?oc=5",
       "image": "",
       "date": "2026-05-13T00:56:58.000Z",
@@ -624,7 +690,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42YkpxWUhVUTE5eGRHY2NXdzVMNXJaaW1MQkRfWkJjU0RSTWM1REI1V2hCQlFJQlQ2THk4eXJQVDVWSTVMTldDenZOaGgxeG9xQ1AxSXFrSC02c09CTEo0OEZKblp3V0FnTndiaQ?oc=5",
       "title": "日経平均株価、反落で始まる 半導体関連が安い",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42YkpxWUhVUTE5eGRHY2NXdzVMNXJaaW1MQkRfWkJjU0RSTWM1REI1V2hCQlFJQlQ2THk4eXJQVDVWSTVMTldDenZOaGgxeG9xQ1AxSXFrSC02c09CTEo0OEZKblp3V0FnTndiaQ?oc=5",
       "image": "",
       "date": "2026-05-13T00:05:05.000Z",
@@ -645,7 +711,7 @@
 <<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LZWozV0xWeFJBS0RuTHNFNFZCWGtONTU4V09EbHBvOGo3RldPdk1vVEw4TDJDTVU4ZVBjeHcyVnRqR0plLWVoREFHNmUxaWtPMFRJbVVuU2NpcjBPREpKRDBYQXQyZi1mbGN2el9DQzNmaVh4OVUwcGlQdDZmd3M?oc=5",
       "title": "総合株価指数 129.50ポイント▼ 7513.65(寄り付き)（聯合ニュース）",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LZWozV0xWeFJBS0RuTHNFNFZCWGtONTU4V09EbHBvOGo3RldPdk1vVEw4TDJDTVU4ZVBjeHcyVnRqR0plLWVoREFHNmUxaWtPMFRJbVVuU2NpcjBPREpKRDBYQXQyZi1mbGN2el9DQzNmaVh4OVUwcGlQdDZmd3M?oc=5",
       "image": "",
       "date": "2026-05-13T00:01:25.000Z",
@@ -655,7 +721,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtVzVVOHo3MXdBX194eDQ1V2Z2UWxKbzludmU0Q1ZuTURhSXBYQ09qdFAzSGRVU2U0XzU1VHJjNUI0ODNUM1ZlYVhwS0YzZzZFcW1laDZtZjJjSm54ZzZTZTYydzdiZU0?oc=5",
       "title": "AIがつなぐ米中経済、分断下でも中国輸出拡大－1時間5億ドル規模に",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtVzVVOHo3MXdBX194eDQ1V2Z2UWxKbzludmU0Q1ZuTURhSXBYQ09qdFAzSGRVU2U0XzU1VHJjNUI0ODNUM1ZlYVhwS0YzZzZFcW1laDZtZjJjSm54ZzZTZTYydzdiZU0?oc=5",
       "image": "",
       "date": "2026-05-13T00:01:00.000Z",
@@ -709,6 +775,7 @@
       "title": "【環境・脱炭素・サステナのビジネスって何してるの？】Green Carbon、公式Instagram・TikTok運用開始 ｜「仕事のリアル」「働き方」「身近な脱炭素」のコンテンツを配信",
       "description": "",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRm9WekdhU1VsSVBSc2oxRGs0X2JsT21IcTdDT2p3dlROZmU1d3R3Wmp5M2JLLUNlTWIwclNUSUs4LUhUQTdzQzkxS2g0OFQ3MEljdU44S0xWWEQtTXhRWUpuT3pvbDZaRHIzZFNIdkZqY0VueUFmYV9sLVJxMXJNcUZ3?oc=5",
+<<<<<<< Updated upstream
       "image": "",
       "date": "2026-05-12T23:53:26.000Z",
       "source": "green carbon",
@@ -821,6 +888,11 @@
       "image": "",
       "date": "2026-05-12T23:19:22.000Z",
       "source": "Yahoo!ニュース",
+>>>>>>> Stashed changes
+=======
+      "image": "",
+      "date": "2026-05-12T23:53:26.000Z",
+      "source": "green carbon",
 >>>>>>> Stashed changes
       "category": "business"
     }
@@ -1052,7 +1124,11 @@
       "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9INGtHMVYzQXZsdHhUaGVPYV91TEM4amRSU0M3VG1WaTdtUUpDU2RmRnFYd2p5cGp0WF9EY0owdGMwelJsaEttVEdPal8yRGRvazFSVkdzZ2x1a3BoeEdka0tGeGN5WUU?oc=5",
       "title": "戦争や監視の法律「要らない」 国会前のペンライト行動に１３００人 時代の正体 高市政権考",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -1066,7 +1142,11 @@
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwMVNjOG0wLUhtM2d6ZklyVVZGX3VMSl9reldIbXpCRGdna3huR2cyVWJNWnRWM2pPREFWLVNJXzYtbzNsU2RHd1FfMXZOWER4bE15T3JfZVAtVnNWVHNDeGVxWTVDTUNyei1TZQ?oc=5",
       "title": "3メガバンク､AIミュトスのアクセス権入手へ サイバー防衛で日米連携",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -1245,6 +1325,7 @@
       "date": "2026-05-12T23:07:00.000Z",
       "source": "時事ドットコム",
       "category": "politics"
+<<<<<<< Updated upstream
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLTEFocy1XNFh6MVk2NWhEc3VOVE1IWWNqYzNYTkxKV3F6TFhFRDdEZ2JOd2ppVjRWemxpVE5NOHMtR3I0cjNIeGlMd3pWT3R1dnBZMGczUQ?oc=5",
@@ -1298,6 +1379,8 @@
       "category": "politics"
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     }
   ],
   "custom": [],
@@ -1306,7 +1389,11 @@
       "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUTRXbUVCTzNSOVZuMFVfbmxHQzgzMy1ySkR4bEx0MC1scFpuQ3dKS21YMGdueGQxUjFWai04c3Z4dXM1QkduX1RLbXlBVTZrb0dqMUN0R0J1WFNPS3g4S1RDbjllbGgxc2JKZC1kZG1uM1RDay1mUXR5aUVqNi1Jb2Z3bnpkWWtWLXh2Mg?oc=5",
       "title": "アンソロピック、ＡＩ「クロード」の弁護士向け機能を拡大",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -1330,7 +1417,11 @@
       "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9INGtHMVYzQXZsdHhUaGVPYV91TEM4amRSU0M3VG1WaTdtUUpDU2RmRnFYd2p5cGp0WF9EY0owdGMwelJsaEttVEdPal8yRGRvazFSVkdzZ2x1a3BoeEdka0tGeGN5WUU?oc=5",
       "title": "戦争や監視の法律「要らない」 国会前のペンライト行動に１３００人 時代の正体 高市政権考",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -1342,7 +1433,10 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hWWZkcmVydVo2bHlseFg4bk5XNnRIZVZWM2xic21ldTVwV3NVQjJuOXpqUU9oRGJNXy1MelBBME5Oa0N1RzUySXFMMm84VWdCSmtwOVVxNFo3U181dHlFUGRabkl2RHNCeC12X0dDTHdNZHJmWGc?oc=5",
       "title": "ネットエンタメ",
       "description": "",
@@ -1353,6 +1447,9 @@
       "category": "Google News"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "id": "https://gigazine.net/news/20260513&#45;googlebook/",
       "title": "GoogleがAndroidベースで動くノートPC「Googlebook」を発表、Gemini Intelligenceのためにゼロから設計",
@@ -1377,7 +1474,7 @@
 <<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MOUJvbTJ0dENObmtjaFN2bk1jSGp1aFg1dUt3anVwNU9qX0tSemNsQXBHSFk1THJ1OGlTWXRybmFHNnFGTFJnRVVFaVRUZmR5cjBHUjNZU3ZscF84S25NeUkwSWlfQkZjbUNOdQ?oc=5",
       "title": "ダイキン株価が年初来高値 10年ぶり自社株買い、今期配当積み増し",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MOUJvbTJ0dENObmtjaFN2bk1jSGp1aFg1dUt3anVwNU9qX0tSemNsQXBHSFk1THJ1OGlTWXRybmFHNnFGTFJnRVVFaVRUZmR5cjBHUjNZU3ZscF84S25NeUkwSWlfQkZjbUNOdQ?oc=5",
       "image": "",
       "date": "2026-05-13T02:05:22.000Z",
@@ -1387,7 +1484,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JOFJEd281WWJvNG4yRWhST3dTQzM5dG9MbFB2VkNpYmZLenZFTlg5NzNxZUJwNWcweER6QWpaY3dXTGhOZXNlX0pRWkw3LWhHWlRURQ?oc=5",
       "title": "【神戸ストークス 社会連携グループ】ALL GREEN通信#31 ～4月25日(土)コベルコ神戸スティーラーズのホームゲームにストーキーが出演しました",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JOFJEd281WWJvNG4yRWhST3dTQzM5dG9MbFB2VkNpYmZLenZFTlg5NzNxZUJwNWcweER6QWpaY3dXTGhOZXNlX0pRWkw3LWhHWlRURQ?oc=5",
       "image": "",
       "date": "2026-05-13T02:03:45.000Z",
@@ -1397,7 +1494,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zTjhXUGluTi1URUFGdmc0R3lQOWxQODNCRW5uX2xCaklSNktBQ3RXaFc1TjEzMjJ2V19leVhWdVZTVXJpR3oyZHQwa1hWN0k1MTl5N0FCcWM4d3pwdEZ6cXotR2U1bUNOS0pyRDZZRDJVSmVURW1lWHlRZ25UX1k?oc=5",
       "title": "アイナ・ジ・エンド、チケット完売の初アジアツアー完走 アニメ『ONE PIECE』OP主題歌をCDでも発売（ぴあ）",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zTjhXUGluTi1URUFGdmc0R3lQOWxQODNCRW5uX2xCaklSNktBQ3RXaFc1TjEzMjJ2V19leVhWdVZTVXJpR3oyZHQwa1hWN0k1MTl5N0FCcWM4d3pwdEZ6cXotR2U1bUNOS0pyRDZZRDJVSmVURW1lWHlRZ25UX1k?oc=5",
       "image": "",
       "date": "2026-05-13T02:03:37.000Z",
@@ -1405,9 +1502,29 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tRGJXczRpdnZmd1dJYzJNb1VCd0J1NXA5ODlTbHVxekdyUUtJLWYyXzBuRnVCekhfMmJyU0ZzZ3ZxMkdNdEV4QmdyQnlLenAybTNRaGhaRmhJZDY1N3NwMGI1OUNWUURTRjU1TldWdEhGMlpoaGY1ekNScnM?oc=5",
+      "title": "アミタHDとNTTドコモビジネス、使用済みプラ回収のトレーサビリティ実証。住民が関わる地域拠点で",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tRGJXczRpdnZmd1dJYzJNb1VCd0J1NXA5ODlTbHVxekdyUUtJLWYyXzBuRnVCekhfMmJyU0ZzZ3ZxMkdNdEV4QmdyQnlLenAybTNRaGhaRmhJZDY1N3NwMGI1OUNWUURTRjU1TldWdEhGMlpoaGY1ekNScnM?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:03:06.000Z",
+      "source": "Circular Economy Hub",
+      "category": "Google News"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wOHU3ZUt3eGpodUM3NVVPYUg2QWdoc2l5b0tVOHZjd1M2N2xkcjg2OTlpWlJ0T08tem9sSjV1X3hsNTgzbTY2WlRQOGpYMjMxOHNjTkdCU3hMbl9YLW1GVnl2dw?oc=5",
+      "title": "独自のFSFMテクノロジーにより可能な限り自然で正確な音を体現するドイツ発のテクニカルなハイクオリティ・ヘッドホンブランド『Grell Audio』国内輸入代理店契約締結のお知らせ",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wOHU3ZUt3eGpodUM3NVVPYUg2QWdoc2l5b0tVOHZjd1M2N2xkcjg2OTlpWlJ0T08tem9sSjV1X3hsNTgzbTY2WlRQOGpYMjMxOHNjTkdCU3hMbl9YLW1GVnl2dw?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:01:20.000Z",
+      "source": "アユート",
+      "category": "Google News"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwMVNjOG0wLUhtM2d6ZklyVVZGX3VMSl9reldIbXpCRGdna3huR2cyVWJNWnRWM2pPREFWLVNJXzYtbzNsU2RHd1FfMXZOWER4bE15T3JfZVAtVnNWVHNDeGVxWTVDTUNyei1TZQ?oc=5",
       "title": "3メガバンク､AIミュトスのアクセス権入手へ サイバー防衛で日米連携",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwMVNjOG0wLUhtM2d6ZklyVVZGX3VMSl9reldIbXpCRGdna3huR2cyVWJNWnRWM2pPREFWLVNJXzYtbzNsU2RHd1FfMXZOWER4bE15T3JfZVAtVnNWVHNDeGVxWTVDTUNyei1TZQ?oc=5",
       "image": "",
       "date": "2026-05-13T02:00:06.000Z",
@@ -1417,7 +1534,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OSjFZcmJzbXhEd1Fqa3FzY25nbFRnVWxpN1h3OFY2YnViUGRHTDJvODljY3Z5TEJCaEdoZTBqU1YtbnktZHV1c0tFUGo4RGZ0WHFpS1g0bl9aZ09vY0NZNWtodTlYbTBDX1E?oc=5",
       "title": "【生成AI活用事例分析レポート 2025年10月〜2026年3月】 キーワードランキング第1位は「AIエージェント」。AIエージェント活用、検証段階から業務実装へ",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1OSjFZcmJzbXhEd1Fqa3FzY25nbFRnVWxpN1h3OFY2YnViUGRHTDJvODljY3Z5TEJCaEdoZTBqU1YtbnktZHV1c0tFUGo4RGZ0WHFpS1g0bl9aZ09vY0NZNWtodTlYbTBDX1E?oc=5",
       "image": "",
       "date": "2026-05-13T02:00:02.000Z",
@@ -1427,7 +1544,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xU2hUenh6emFKbGtJcElqeFhuV2QyNHNodkhkSkU5ajZ4UVRwY2J5N0dCc2s2cHFQSWEzNmZPamZvM25NdFZTSGpnMnFjUmlDaW56Z3NZd2NfZU5kM3c?oc=5",
       "title": "「質問を待つ AI」から「自ら考えて動く AI」へ。レブコム、「MiiTel Synapse Copilot」で「Copilot Plus」機能を提供開始",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xU2hUenh6emFKbGtJcElqeFhuV2QyNHNodkhkSkU5ajZ4UVRwY2J5N0dCc2s2cHFQSWEzNmZPamZvM25NdFZTSGpnMnFjUmlDaW56Z3NZd2NfZU5kM3c?oc=5",
       "image": "",
       "date": "2026-05-13T02:00:00.000Z",
@@ -1437,7 +1554,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vdXNJRUFFMzFOMkJUMXBDN3RYNHZ1UUVRSjBKX29CLXpJaWMwZVpEcHp6MG5zU2NWekZ5elY5TTNVNXRZRWhnaHZ5d0NiSklXUGpCLVdncUtpU3ZNOEE?oc=5",
       "title": "生成AI利用者の35%がヒヤリハットを経験、“AI過信”によるコピペと機密情報入力が主因に",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vdXNJRUFFMzFOMkJUMXBDN3RYNHZ1UUVRSjBKX29CLXpJaWMwZVpEcHp6MG5zU2NWekZ5elY5TTNVNXRZRWhnaHZ5d0NiSklXUGpCLVdncUtpU3ZNOEE?oc=5",
       "image": "",
 =======
@@ -1535,7 +1652,7 @@
 <<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRWRvWnZISUNDRHl6cHAtQU4xMDVLSW9FQWEtYjVTbFJGV1dKSFlXcVNWN29EODQ3VklaUkxlVnplS0w3N1ptckVvSzdBaFRyUy1NZ3Y0NmlydnFpM080cFp3MWhSMW5WMDhfN3MySmttaGVQQVRpWHJKc0g4TnlGTDF1YUFfS3Rvd0tGc0I4MTgzTnlCdnZJTzhB?oc=5",
       "title": "逃げる米国、追う中国 GDPからAIまで一目で分かる経済の特徴",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRWRvWnZISUNDRHl6cHAtQU4xMDVLSW9FQWEtYjVTbFJGV1dKSFlXcVNWN29EODQ3VklaUkxlVnplS0w3N1ptckVvSzdBaFRyUy1NZ3Y0NmlydnFpM080cFp3MWhSMW5WMDhfN3MySmttaGVQQVRpWHJKc0g4TnlGTDF1YUFfS3Rvd0tGc0I4MTgzTnlCdnZJTzhB?oc=5",
       "image": "",
       "date": "2026-05-13T02:00:00.000Z",
@@ -1545,7 +1662,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySXVpcHpDWWRwX3FBMjNDbng4cDdIOUlfTzdRUDladEFuUDYxTll3bzJDTUI0LTVVY1FCNW5WR3hSVGtLRHNkWkhkRjFRYms?oc=5",
       "title": "経済産業省「製品安全対策優良企業表彰 （PSアワード2026・＋あんしん）」応募説明会のご案内",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ySXVpcHpDWWRwX3FBMjNDbng4cDdIOUlfTzdRUDladEFuUDYxTll3bzJDTUI0LTVVY1FCNW5WR3hSVGtLRHNkWkhkRjFRYms?oc=5",
       "image": "",
       "date": "2026-05-13T02:00:00.000Z",
@@ -1553,9 +1670,19 @@
       "category": "Google News"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16U1R1Y0tQTmMzUmp2TkRxN1lHcjFLcFZaNkhiVmFDbmFaa1V1eVRxcWI0OHR5YmxwcFlHaFRGTkd6T2pyVEFnSDFOZ3lrU0xJdnBERjl5QTNFSERCN3c1ejR3?oc=5",
+      "title": "エンタメ・広告分野で秋田から世界に 電子機器開発のアクトラス、社内に新スタジオ",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE16U1R1Y0tQTmMzUmp2TkRxN1lHcjFLcFZaNkhiVmFDbmFaa1V1eVRxcWI0OHR5YmxwcFlHaFRGTkd6T2pyVEFnSDFOZ3lrU0xJdnBERjl5QTNFSERCN3c1ejR3?oc=5",
+      "image": "",
+      "date": "2026-05-13T02:00:00.000Z",
+      "source": "秋田魁新報電子版",
+      "category": "Google News"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1saDNrcGg4ZFhKRnJMNjlqQm8yX2w5Y1R2VnZmOFhYT0NGaG9XTkFvMUFEcXlNdGE2TDZtRGFjaDctYzV2bG1UeGpDWlp3SG1oUVdfVmE1QQ?oc=5",
       "title": "『つみみじかん 狂オシイホド愛シテル』元アイドル“つみみ”の配信を見ながら謎を解く、かわいい×サイコホラーADV。BitSummit PUNCHに出展決定",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1saDNrcGg4ZFhKRnJMNjlqQm8yX2w5Y1R2VnZmOFhYT0NGaG9XTkFvMUFEcXlNdGE2TDZtRGFjaDctYzV2bG1UeGpDWlp3SG1oUVdfVmE1QQ?oc=5",
 =======
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xOTUxYmVzZGI4bDJlX0E2U19pbW10d1VVanU4SUx5R0p5ZzV1UFY2eW42a0dSS2VZYkpuVGg0Y0ItdEM2bFFBTjRkTm5QOUtGWWJqNkY1UnNJVjBPek11Z1hmUElLa3FfdVpTbA?oc=5",
@@ -1719,6 +1846,19 @@
       "category": "Google News"
     },
     {
+<<<<<<< Updated upstream
+=======
+      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ybnVTWklSVkg4eUZDSDhvX2l3WWp6bF85Zjlya1UzLTVFRlQ4RjBnTVMwYnc0NjUweG9QVWp4dEpsWlJBc3ZZbmo5RHV1dHczenpwZFFreGdfOEhPelFHVkJ0bklycEdGVGc?oc=5",
+      "title": "地政学リスクを成長に変えた台湾経済「5つの転換期」とは？ワイズリサーチがサプライチェーン再構築のヒントを提示する最新レポートを公開 | 威志企管顧問股ｲ分有限公司（ワイズコンサルティンググループ）のプレスリリース",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ybnVTWklSVkg4eUZDSDhvX2l3WWp6bF85Zjlya1UzLTVFRlQ4RjBnTVMwYnc0NjUweG9QVWp4dEpsWlJBc3ZZbmo5RHV1dHczenpwZFFreGdfOEhPelFHVkJ0bklycEdGVGc?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:36:22.000Z",
+      "source": "PR TIMES",
+      "category": "Google News"
+    },
+    {
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4tVFhuQ3RBWF9ZZVduMVlFU0VWYzR4aG0wWGphSzNJVldmYkFWMTVCamllMkpTTi1NRl9mRUJNcHJ5bmc2bkpBTExPWFZpYjFIVjRCWFcydUo?oc=5",
       "title": "『爆走兄弟レッツ&ゴー!!』アニメ30周年記念展が開催決定！「アニメ30周年記念イベント」、30周年記念の「トミカセット」も",
       "description": "",
@@ -1732,7 +1872,11 @@
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LM0ZVa1dqX3hGNWZtZ2FRQWg4dHhuNHBvd2NMWGFiWWg5UUQ4TW5hT08tSzBqNk1PcnlQbkktTHY1THRLa1h6MF9ia2g1VHFlM3I1TlRjc2FDeUpEMnlwWnJpQ1ZoQTRLUmJzT3N6RFlpOU5laTd4eUlnYmdQWkE?oc=5",
       "title": "ニデック株、一時ストップ安…一部の製品での不適切行為の疑い発表（読売新聞オンライン）",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -1744,7 +1888,10 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeFoxb1pseEpsQkJGR0J5c281X1hobzhhVG51dC0wOGRrWlYxbXowMDVIbzdFRk95N01rdnRiTkxWMzFHbm9pbm5TWHNPRFF2UEN3VW4tcGxranRsZlkxQ0ZDLVB1Rk02WVNBRHpraTFoTy05Z0RzR1BIdEhtWWRwZzhVOHRtRUxTVDhpaDNmMG93N0F0SUdWRE5mbHp4YkNQLTViWWdyYzRVN09TYXhaNmp3U2RvRjh1c0dZcTlDU3pfVHotNndaX1FPUkU4U0k?oc=5",
       "title": "ビジネスアイデンティティデータのEnigma、Google Cloud Marketplace上に「KYBコンプライアンス・エージェント」をリリース",
       "description": "",
@@ -1765,6 +1912,9 @@
       "category": "Google News"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbHhGcVZnTE5fUTdudl9MS3R0VkNxY2w3aVdfNDRabzZIaDhPdzhaejVnWHNXNkpUTFoxbmNYa05tSlY3VmxDOVd4WnpvbGEyY0RZTEp6Wm5wNmRoMVRCWUdrX0ltT00tZHphMXU3UDhYVjZLU1VoV0w1c2FXWGg2RXhHN2FjYUtITFJqMExB?oc=5",
       "title": "カンヌ国際映画祭2026開幕会見｜デミ・ムーアとパク・チャヌクが語る“政治と映画表現”（The Hollywood Reporter Japan）",
@@ -1817,9 +1967,22 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vLWVaNXRzS01aNnBZaUc1dHpadThnWGZlQlhsVkI3Qzd6VDNyTFByczJnQkdSUmhZVGdtNkI4YkJRd2RxWW9qdXZ5ZVRSYlNjOVdXc1c5bGRVOWlGS1E?oc=5",
+      "title": "Next Level Aviation（R）、Clive Rankin氏をグローバル・ビジネス開発担当上級副社長に任命",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vLWVaNXRzS01aNnBZaUc1dHpadThnWGZlQlhsVkI3Qzd6VDNyTFByczJnQkdSUmhZVGdtNkI4YkJRd2RxWW9qdXZ5ZVRSYlNjOVdXc1c5bGRVOWlGS1E?oc=5",
+      "image": "",
+      "date": "2026-05-13T01:13:00.000Z",
+      "source": "沖縄タイムス社",
+      "category": "Google News"
+    },
+    {
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qc1dOTENSc3BjTXJ5cGNMUU5FTE5qLWV4R0hQM0tWb3k2eUlkVFFUN05VS2htT3RlSHhTM1RKdWRHbUNwV2M4OVdZWE5ab3cxYWctMHI3V25NT1dOcERueFpWNkZ1c3dRcWQzaTNsWlZ6WHNjNnFENi14RmszSzQ?oc=5",
       "title": "引退会見の坂本花織が報道陣に異例のメッセージ 文書は手書きフォトカードからにじむ温かい人柄 会場で配布",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qc1dOTENSc3BjTXJ5cGNMUU5FTE5qLWV4R0hQM0tWb3k2eUlkVFFUN05VS2htT3RlSHhTM1RKdWRHbUNwV2M4OVdZWE5ab3cxYWctMHI3V25NT1dOcERueFpWNkZ1c3dRcWQzaTNsWlZ6WHNjNnFENi14RmszSzQ?oc=5",
       "image": "",
       "date": "2026-05-13T01:10:10.000Z",
@@ -1962,7 +2125,7 @@
 <<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdFVISmNEMEFJWHdiUEo0b2pYVDNQbGhPNnlJUUZqR285TWdJVkRkWVlfbzFBR2tHWkhQbTU1M0tndEczaFdIajIzRWdCR01wakE?oc=5",
       "title": "(株)マネーフォワード【3994】：株価・株式情報",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fdFVISmNEMEFJWHdiUEo0b2pYVDNQbGhPNnlJUUZqR285TWdJVkRkWVlfbzFBR2tHWkhQbTU1M0tndEczaFdIajIzRWdCR01wakE?oc=5",
       "image": "",
       "date": "2026-05-13T00:56:58.000Z",
@@ -2086,6 +2249,7 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYN1NSLVgtU2h1c3ZTOUQ0SU42X2czR3FHQnRjTWdici1xclNIWUJJU05ad0JVMzExbGM2ZFo3b0RFV0xmUVFXUEtUYW1qSHVLamxRYVFhVQ?oc=5",
       "title": "【大阪・ミナミ強盗殺人事件】被害者は23歳の知人とみられる女性 死因は「窒息死」 森雄靖容疑者は「首を絞めて殺した」と話す一方、強盗目的や殺意を否認",
@@ -2097,6 +2261,8 @@
       "category": "Google News"
     },
     {
+=======
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CaXB1U1pPVFQ1b1lZamZOWTF4a2ExRlJvYnhaTnlsMXdvb0hBdGU2c0dWd3REMnlVSW02MVNQZ1I2ZkZBSTJoZVNIM1Fjal9qWi1aNEZSU3l0RkVWYUpLaFBMdUxDajM4LXc?oc=5",
       "title": "コーポレートメッセージを更新。創業５年目に突入したSHIN-JIGENが「暗黙知のテクノロジー化」を掲げ、テクノロジーの社会実装を加速",
       "description": "",
@@ -2107,6 +2273,9 @@
       "category": "Google News"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPZm5SV2ljclRKOVViYVNzbDdRdzIxS09MVU1fQ0s1Nm9NWE5iY3dJXzBNSEYxSGE0MVBFNUpSdXJiS0ZLX1VTZjNFVVhETGVGMzhjSlZtOG9RUEZMRy1KSDZnT2owU05FMHk5bmRmdVZqdTQwN2FCbG5RdGllQQ?oc=5",
       "title": "「アニメ『爆走兄弟レッツ&ゴー!!』 30周年記念展」を渋谷の「東京アニメセンター」で開催！",
@@ -2161,7 +2330,11 @@
       "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9td21xdHo4cUdfcHhBRW5BcFRZV0pxMi0ybzdIcWtadkNzQTdqckNBQkRrcHZTSkpaM29zaWRjeHJpakVkNE1qTG1Hc2tLWWE2SFE?oc=5",
       "title": "グーグルの次世代AIノートPC「Googlebook」発表 今秋発売へ",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -2205,7 +2378,7 @@
 <<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42YkpxWUhVUTE5eGRHY2NXdzVMNXJaaW1MQkRfWkJjU0RSTWM1REI1V2hCQlFJQlQ2THk4eXJQVDVWSTVMTldDenZOaGgxeG9xQ1AxSXFrSC02c09CTEo0OEZKblp3V0FnTndiaQ?oc=5",
       "title": "日経平均株価、反落で始まる 半導体関連が安い",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42YkpxWUhVUTE5eGRHY2NXdzVMNXJaaW1MQkRfWkJjU0RSTWM1REI1V2hCQlFJQlQ2THk4eXJQVDVWSTVMTldDenZOaGgxeG9xQ1AxSXFrSC02c09CTEo0OEZKblp3V0FnTndiaQ?oc=5",
       "image": "",
       "date": "2026-05-13T00:05:05.000Z",
@@ -2235,7 +2408,7 @@
 <<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LZWozV0xWeFJBS0RuTHNFNFZCWGtONTU4V09EbHBvOGo3RldPdk1vVEw4TDJDTVU4ZVBjeHcyVnRqR0plLWVoREFHNmUxaWtPMFRJbVVuU2NpcjBPREpKRDBYQXQyZi1mbGN2el9DQzNmaVh4OVUwcGlQdDZmd3M?oc=5",
       "title": "総合株価指数 129.50ポイント▼ 7513.65(寄り付き)（聯合ニュース）",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LZWozV0xWeFJBS0RuTHNFNFZCWGtONTU4V09EbHBvOGo3RldPdk1vVEw4TDJDTVU4ZVBjeHcyVnRqR0plLWVoREFHNmUxaWtPMFRJbVVuU2NpcjBPREpKRDBYQXQyZi1mbGN2el9DQzNmaVh4OVUwcGlQdDZmd3M?oc=5",
       "image": "",
       "date": "2026-05-13T00:01:25.000Z",
@@ -2245,7 +2418,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtVzVVOHo3MXdBX194eDQ1V2Z2UWxKbzludmU0Q1ZuTURhSXBYQ09qdFAzSGRVU2U0XzU1VHJjNUI0ODNUM1ZlYVhwS0YzZzZFcW1laDZtZjJjSm54ZzZTZTYydzdiZU0?oc=5",
       "title": "AIがつなぐ米中経済、分断下でも中国輸出拡大－1時間5億ドル規模に",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtVzVVOHo3MXdBX194eDQ1V2Z2UWxKbzludmU0Q1ZuTURhSXBYQ09qdFAzSGRVU2U0XzU1VHJjNUI0ODNUM1ZlYVhwS0YzZzZFcW1laDZtZjJjSm54ZzZTZTYydzdiZU0?oc=5",
       "image": "",
       "date": "2026-05-13T00:01:00.000Z",
@@ -2346,7 +2519,10 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRm9WekdhU1VsSVBSc2oxRGs0X2JsT21IcTdDT2p3dlROZmU1d3R3Wmp5M2JLLUNlTWIwclNUSUs4LUhUQTdzQzkxS2g0OFQ3MEljdU44S0xWWEQtTXhRWUpuT3pvbDZaRHIzZFNIdkZqY0VueUFmYV9sLVJxMXJNcUZ3?oc=5",
       "title": "【環境・脱炭素・サステナのビジネスって何してるの？】Green Carbon、公式Instagram・TikTok運用開始 ｜「仕事のリアル」「働き方」「身近な脱炭素」のコンテンツを配信",
       "description": "",
@@ -2357,6 +2533,9 @@
       "category": "Google News"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RUm9zQmtqcW9wRDEyQTA4Wk1WU2VXUEpLNGZlT2c1ejlnZjlQQ3lZOGpTaDlqWE16LTZfT0h3THZIWDlXWUhueFgwVDB2WS1FemRmeFhrU212ZU5GS1J4ZE9VRQ?oc=5",
       "title": "松山英樹、ショートゲーム「少しずつ良く」 メジャー第２戦へ調整―全米プロゴルフ",
@@ -2431,7 +2610,11 @@
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9EMWRDREo0TU1EcDVtaWpMQktVS0N2REpYTzdqUGZCOVdiUnZWU1hsakhlbEk3cUFNTTNHQmtHblZkZF85MEhraGQ5SjYzNXlsR010Y3p6N21mS1FJcWxCOGFTaDdmUQ?oc=5",
       "title": "万博などに向け購入した中国製ＥＶバス１９０台、路線バスに転用できず購入代金の回収も不透明に",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -2475,7 +2658,11 @@
       "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDYkE1NEU1SGtvOWZtUXA4VXFMNjBoV3BOUzZndUoyTXF6Y0hmQXMza1ZReDdkQW10SHlaSjY0ZmU5cHlUQXBCVng5VVRacmQ0akd2ZkRqRlYwVnROa0Z6M1ZETFZIRHB0cW5PSlN5SGNSNnp30gGIAUFVX3lxTE1zT2VQRW05MEY3anIza2pVeWEwYlRCc0Z5WWdDd0JtSjRmWFdlZEo0SGNRMG9BcmxYYi12dUlxcXpkcW5wRlk1dmI5UHpJVGFQZlZDZm11N0stejhlZXd5bTJzM3R3Rm05M21XQ2gwNDlkRWNMY25raDJkRTNpVGVTRlBaNmpoOV8?oc=5",
       "title": "「風、薫る」5月14日第34回見所 うまく立ち回る直美（上坂樹里）気分晴れないりん（見上愛）再会したシマケン（佐野晶哉）に伝えること",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -2489,7 +2676,7 @@
 <<<<<<< Updated upstream
       "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiRFRsa0NwUFowdENxYUEtQ1ZIWDJRU3hxbS1CcGUyLUtVSDFlaGVhOGZ6TGZxM25admVqeGJpa1RpZ051ajhETWRDSG9BajhfMmV4NDJLejlfRWlicTBsTg?oc=5",
       "title": "【市況】 株価指数先物【寄り前】 +1σまでの調整を経て押し目狙いのロング対応",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiRFRsa0NwUFowdENxYUEtQ1ZIWDJRU3hxbS1CcGUyLUtVSDFlaGVhOGZ6TGZxM25admVqeGJpa1RpZ051ajhETWRDSG9BajhfMmV4NDJLejlfRWlicTBsTg?oc=5",
       "image": "",
       "date": "2026-05-12T23:11:53.000Z",
@@ -2521,7 +2708,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mMkpZbG5JckJPZzR4dEZTYXBEdGhmYnRzSng5U3U4ZzdvWGltSDdiNVF3c0pYMFRnYlJCbWJoV0NVcTBWcXAwMFpGbWNpVDMtWDRpbk9udjMxZDdvcFAzVVp3?oc=5",
       "title": "【市況】 １２日の欧州主要株価指数終値",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1mMkpZbG5JckJPZzR4dEZTYXBEdGhmYnRzSng5U3U4ZzdvWGltSDdiNVF3c0pYMFRnYlJCbWJoV0NVcTBWcXAwMFpGbWNpVDMtWDRpbk9udjMxZDdvcFAzVVp3?oc=5",
       "image": "",
       "date": "2026-05-12T23:10:00.000Z",
@@ -2612,7 +2799,11 @@
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aZUlkTWhtSFRPbGR1elQ1cTNEdktKTm5QMWVNWEtIYUVva25HTGszUXVKdmdnRTMwVmM4djdpODhpMW56QThXWmRmamtnNktCeEVabm4xNTcwaXJVRXdPTEUySmhJbUt2T19uOUg1elZuOVBUbDVoclB4a21VMVk?oc=5",
       "title": "ニデックが品質不正の疑い、不正会計に続き調査委設立へ…背景に永守重信氏による過度なプレッシャーか",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+=======
+      "description": "",
+>>>>>>> Stashed changes
 =======
       "description": "",
 >>>>>>> Stashed changes
@@ -2635,7 +2826,7 @@
     {
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UVp2SXVMdEJYbmZLQTJTS1hMVXRVZ1RWOGI4dWJCQ0RRWThWUEp6ZkVwOXZpaUllMXBjSnIySktmUkRlMmk0bnkwRVNTNmtsMjJwQXh4TGlFNGZVbmhQODZicVdTYloyM0ZSNg?oc=5",
       "title": "MSCI世界株指数から日本企業11銘柄減 JALが除外、古河電工は採用",
-      "description": "Google ニュースが世界中のニュース提供元から集約した広範囲にわたる最新情報",
+      "description": "",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UVp2SXVMdEJYbmZLQTJTS1hMVXRVZ1RWOGI4dWJCQ0RRWThWUEp6ZkVwOXZpaUllMXBjSnIySktmUkRlMmk0bnkwRVNTNmtsMjJwQXh4TGlFNGZVbmhQODZicVdTYloyM0ZSNg?oc=5",
       "image": "",
       "date": "2026-05-12T22:36:39.000Z",
@@ -2654,7 +2845,10 @@
     },
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mNmdOM3FEaktYOEc1VGI0cU5XRGU5cFNfbUhBc05EUnlURlFRckotMHdNRDlkdFl4aXdtMkQtQ3Zmekl4aHNlRjRweld1NEk4VzJENHRxV3hySWNUR2dZS1F3WVhpV056cDZj?oc=5",
       "title": "外食ビジネスのハテナ特捜最前線Ⅱ",
       "description": "",
@@ -2675,6 +2869,9 @@
       "category": "Google News"
     },
     {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8xUTV2MnM2SDFZU2dHMFpsLTBKZ3dkaWswX1J0aGVLMEFrc0JkcGM4d2hiVHhQbWl6Z3VvbTRtVVVabzY2OF9iY1pTZGVyb0EtUVJKS0hLX09iTXlaSzdB?oc=5",
       "title": "「税金の無駄遣い」鎌倉市議会の“金色”ネームプレートが物議 設置費用387万円に市民から疑問の声",
@@ -2704,6 +2901,7 @@
       "date": "2026-05-12T22:30:00.000Z",
       "source": "福井新聞社",
       "category": "Google News"
+<<<<<<< Updated upstream
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLTEFocy1XNFh6MVk2NWhEc3VOVE1IWWNqYzNYTkxKV3F6TFhFRDdEZ2JOd2ppVjRWemxpVE5NOHMtR3I0cjNIeGlMd3pWT3R1dnBZMGczUQ?oc=5",
@@ -2943,6 +3141,8 @@
       "source": "Yahoo!ファイナンス",
 >>>>>>> Stashed changes
       "category": "Google News"
+=======
+>>>>>>> Stashed changes
     }
   ]
 }

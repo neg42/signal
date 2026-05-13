@@ -1,5 +1,6 @@
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "updatedAt": "2026-05-13T02:18:56.112Z",
 =======
   "updatedAt": "2026-05-13T02:19:25.178Z",
@@ -14,6 +15,15 @@
 =======
     "politics": 20,
 >>>>>>> Stashed changes
+=======
+  "updatedAt": "2026-05-13T02:19:54.208Z",
+  "counts": {
+    "society": 8,
+    "tech": 25,
+    "business": 30,
+    "entertainment": 22,
+    "politics": 18,
+>>>>>>> Stashed changes
     "custom": 0,
     "all": 120
   },
@@ -24,15 +34,15 @@
     ],
     [
       "日本経済新聞",
+<<<<<<< Updated upstream
       27
+=======
+      29
+>>>>>>> Stashed changes
     ],
     [
       "GIGAZINE",
       25
-    ],
-    [
-      "日本経済新聞",
-      22
     ],
     [
       "IGN Japan",
@@ -55,6 +65,13 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "読売新聞",
+      13
+    ],
+    [
+>>>>>>> Stashed changes
       "時事ドットコム",
 =======
       "TBS NEWS DIG",
@@ -62,6 +79,7 @@
       13
     ],
     [
+<<<<<<< Updated upstream
       "読売新聞",
 <<<<<<< Updated upstream
       12
@@ -80,6 +98,22 @@
       "PR TIMES",
       8
 >>>>>>> Stashed changes
+=======
+      "TBS NEWS DIG",
+      12
+    ],
+    [
+      "PR TIMES",
+      9
+    ],
+    [
+      "Yahoo!ファイナンス",
+      9
+    ],
+    [
+      "株探",
+      8
+>>>>>>> Stashed changes
     ],
     [
       "首相官邸",
@@ -91,6 +125,7 @@
       7
     ],
     [
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
       "産経ニュース",
@@ -110,6 +145,13 @@
     ],
     [
       "Bloomberg.com",
+=======
+      "ｄメニューニュース",
+      7
+    ],
+    [
+      "産経ニュース",
+>>>>>>> Stashed changes
       6
     ],
     [
@@ -119,13 +161,16 @@
     [
       "Lemino",
       6
+<<<<<<< Updated upstream
     ],
     [
       "東京新聞デジタル",
       5
+=======
+>>>>>>> Stashed changes
     ],
     [
-      "ｄメニューニュース",
+      "東京新聞デジタル",
       5
     ],
     [
@@ -134,10 +179,18 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "FNNプライムオンライン",
+      5
+    ],
+    [
+>>>>>>> Stashed changes
       "Bloomberg.com",
       5
     ],
     [
+<<<<<<< Updated upstream
       "PR TIMES",
 =======
       "FNNプライムオンライン",
@@ -154,6 +207,9 @@
     ],
     [
       "Yahoo!ファイナンス",
+=======
+      "沖縄タイムス社",
+>>>>>>> Stashed changes
       5
     ],
     [
@@ -166,7 +222,23 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "沖縄タイムス社",
+=======
+      "カナロコ",
+      4
+    ],
+    [
+      "ITmedia",
+      4
+    ],
+    [
+      "TVer",
+      4
+    ],
+    [
+      "オリコンニュース",
+>>>>>>> Stashed changes
       4
     ],
     [
@@ -174,10 +246,11 @@
       4
     ],
     [
-      "カナロコ",
+      "ウェザーニュース",
       3
     ],
     [
+<<<<<<< Updated upstream
 =======
 >>>>>>> Stashed changes
       "ウェザーニュース",
@@ -207,6 +280,9 @@
     ],
     [
       "カナロコ",
+=======
+      "下野新聞社",
+>>>>>>> Stashed changes
       3
     ],
     [
@@ -220,7 +296,11 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "ITmedia",
+=======
+      "JBpress",
+>>>>>>> Stashed changes
       3
     ],
     [
@@ -232,6 +312,10 @@
     [
       "日経CNBC online",
 >>>>>>> Stashed changes
+      3
+    ],
+    [
+      "日経CNBC online",
       3
     ],
     [
@@ -289,15 +373,21 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
       "au Webポータル",
       2
     ],
     [
+<<<<<<< Updated upstream
       "デイリー新潮",
       2
     ],
     [
+=======
+>>>>>>> Stashed changes
       "秋田魁新報電子版",
       2
     ],
@@ -306,13 +396,20 @@
       2
     ],
     [
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "KSBニュース",
       2
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "JBpress",
+=======
+      "MITテクノロジーレビュー",
+>>>>>>> Stashed changes
 =======
       "MITテクノロジーレビュー",
 >>>>>>> Stashed changes
@@ -324,7 +421,15 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "日経CNBC online",
+=======
+      "東洋経済オンライン",
+      2
+    ],
+    [
+      "日刊工業新聞",
+>>>>>>> Stashed changes
       2
     ],
     [
@@ -344,11 +449,14 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       "meti.go.jp",
       2
     ],
     [
+=======
+>>>>>>> Stashed changes
       "アニメ！アニメ！",
       2
     ],
@@ -357,6 +465,9 @@
       2
     ],
     [
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "GAME Watch",
       2
@@ -407,14 +518,18 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
       "イザ！",
       1
     ],
     [
+<<<<<<< Updated upstream
       "au Webポータル",
 =======
       "イザ！",
@@ -422,6 +537,8 @@
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
       "サンスポ",
       1
     ],
@@ -437,10 +554,13 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "ライブドアニュース",
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
       "熊本日日新聞社",
       1
     ],
@@ -449,7 +569,39 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "山陰中央新報デジタル",
+=======
+      "千葉テレビ放送",
+      1
+    ],
+    [
+      "マイナビニュース",
+      1
+    ],
+    [
+      "PRESIDENT Online（プレジデントオンライン）",
+      1
+    ],
+    [
+      "アユート",
+      1
+    ],
+    [
+      "autosport web",
+      1
+    ],
+    [
+      "Goldman Sachs Asset Management",
+      1
+    ],
+    [
+      "レスポンス（Response.jp）",
+      1
+    ],
+    [
+      "robot digest",
+>>>>>>> Stashed changes
       1
     ],
     [
@@ -513,6 +665,41 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+      "北海道新聞デジタル",
+      1
+    ],
+    [
+      "IT Leaders",
+      1
+    ],
+    [
+      "green carbon",
+      1
+    ],
+    [
+      "Circular Economy Hub",
+      1
+    ],
+    [
+      "atpartners.co.jp",
+      1
+    ],
+    [
+      "中部経済新聞",
+      1
+    ],
+    [
+      "CodeZine",
+      1
+    ],
+    [
+      "WSJ",
+      1
+    ],
+    [
+>>>>>>> Stashed changes
       "QUICK Money World",
       1
     ],
@@ -568,10 +755,6 @@
       1
     ],
     [
-      "北海道新聞デジタル",
-      1
-    ],
-    [
       "北國新聞",
       1
     ],
@@ -596,11 +779,14 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
       "日経ビジネス電子版",
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
       "AV Watch",
       1
     ],
@@ -637,10 +823,13 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "매일경제",
       1
     ],
     [
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       "Game*Spark",
       1
@@ -651,12 +840,15 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "gamebiz【ゲームビズ】",
 =======
 >>>>>>> Stashed changes
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
       "LAWSON",
       1
     ],
@@ -694,6 +886,7 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "横浜市",
       1
     ],
@@ -703,6 +896,8 @@
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
       "zakⅡ",
       1
     ],
@@ -712,12 +907,15 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "アニメ！アニメ！",
 =======
 >>>>>>> Stashed changes
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
       "v-storage.jp",
       1
     ],
@@ -731,10 +929,13 @@
     ],
     [
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "東洋経済オンライン",
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
       "新・国民民主党",
@@ -818,15 +1019,7 @@
 <<<<<<< Updated upstream
     ],
     [
-      "日刊工業新聞",
-      1
-    ],
-    [
       "nack5.co.jp",
-      1
-    ],
-    [
-      "Lemino",
       1
     ],
     [
