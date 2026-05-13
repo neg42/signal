@@ -2,10 +2,11 @@ name: 📡 SIGNAL ニュース自動収集
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/15 * * * *'   # 15分ごと
   workflow_dispatch:
-  push:
-    branches: [ main ]
+  # push時は実行しない（スケジュールとworkflow_dispatchのみ）
+  # push:
+  #   branches: [ main ]
 
 permissions:
   contents: write
