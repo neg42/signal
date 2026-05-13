@@ -42,12 +42,40 @@ function httpGet(rawUrl, timeout = 13000) {
       }
       const c = [];
       res.on('data', d => c.push(d));
-      res.on('end', () => resolve({ status: res.statusCode, body: Buffer.concat(c).toString('utf8') }));
+      res.on('end', () => {
+        const buf = Buffer.concat(c);
+        const ct  = res.headers['content-type'] || '';
+        // XMLの宣言からエンコーディングを取得
+        const head = buf.slice(0, 200).toString('latin1');
+        const xmlDecl = head.match(/encoding=["']([^"']+)["']/i)?.[1] || '';
+        const body = decodeBody(buf, ct, xmlDecl);
+        resolve({ status: res.statusCode, body, contentType: ct });
+      });
     });
     req.on('error', () => resolve(null));
     req.on('timeout', () => { req.destroy(); resolve(null); });
     req.end();
   });
+}
+
+// EUC-JPをUTF-8に変換（iconv-liteが使えない場合のフォールバック付き）
+let iconv = null;
+try { iconv = require('iconv-lite'); } catch {}
+
+function decodeBody(buf, contentType = '', xmlDecl = '') {
+  // エンコーディング判定
+  const ct = (contentType + xmlDecl).toLowerCase();
+  if (ct.includes('euc-jp') || ct.includes('euc_jp')) {
+    if (iconv) return iconv.decode(buf, 'EUC-JP');
+    // フォールバック: Bufferをlatin1で読んでからNode.jsの変換を試みる
+    // （不完全だが文字化けよりまし）
+    return buf.toString('utf8');
+  }
+  if (ct.includes('shift_jis') || ct.includes('sjis') || ct.includes('shift-jis')) {
+    if (iconv) return iconv.decode(buf, 'Shift_JIS');
+    return buf.toString('utf8');
+  }
+  return buf.toString('utf8');
 }
 
 function toText(raw = '') {
