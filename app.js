@@ -31,6 +31,14 @@ function clean(html='') {
     .replace(/\s+/g,' ').trim();
 }
 function esc(s='') { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+// description の有効性チェック（定型文や残骸HTMLを弾く）
+const BAD_DESC_RE = /Google ?ニュース|世界中のニュース提供元|集約した広範囲|news\.google\.com|<img|<a |src=|href=/;
+function validDesc(text) {
+  if (!text || text.length < 20) return '';
+  if (BAD_DESC_RE.test(text)) return '';
+  return text;
+}
 function ago(d) {
   const m=Math.floor((Date.now()-new Date(d))/60000);
   if(m<1) return 'たった今';
@@ -71,7 +79,7 @@ async function load() {
       newsData[cat] = raw[cat].map(a=>({
         ...a,
         title:  clean(a.title||''),
-        description: clean(a.description||''),
+        description: validDesc(clean(a.description||'')),
         source: clean(a.source||''),
       })).filter(a=>a.title.length>3);
     });
