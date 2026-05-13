@@ -63,7 +63,31 @@ document.addEventListener('DOMContentLoaded',()=>{
   setupEvents();
   buildNav();
   load();
+  // 更新チェック: 5分ごとにmeta.jsonを確認して新しいデータがあれば自動リロード
+  startAutoRefreshCheck();
 });
+
+let lastUpdatedAt = null;
+
+async function startAutoRefreshCheck() {
+  // 最初の確認は1分後（初回ロード直後は不要）
+  await new Promise(r => setTimeout(r, 60000));
+  setInterval(async () => {
+    try {
+      const res = await fetch('./data/meta.json?v=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) return;
+      const meta = await res.json();
+      if (!meta.updatedAt) return;
+      if (lastUpdatedAt && meta.updatedAt !== lastUpdatedAt) {
+        // 新しいデータが来た
+        console.log('[SIGNAL] 新しいデータを検出、自動更新');
+        showToast('新しいニュースがあります', 'info');
+        await load();
+      }
+      lastUpdatedAt = meta.updatedAt;
+    } catch {}
+  }, 5 * 60 * 1000); // 5分ごとにチェック
+}
 
 async function load() {
   showLoading();
@@ -138,6 +162,7 @@ async function load() {
     if (metaData.updatedAt) {
       const t=new Date(metaData.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'});
       document.getElementById('lastUpdated').textContent='収集: '+t;
+      lastUpdatedAt = metaData.updatedAt;
     }
   } catch(e) {
     console.error('[SIGNAL] load failed:', e);
@@ -351,7 +376,7 @@ function openSettings() {
           <span class="icon">🔄</span>
           <div>
             <div class="btn-title">サーバーで最新を収集</div>
-            <div class="btn-sub">GitHub Actionsを開いて Run workflow をクリック</div>
+            <div class="btn-sub">GitHubで新しいニュースを収集（2〜3分後に反映）</div>
           </div>
         </button>
         <button class="refresh-action-btn" onclick="closeSettings();load();">
@@ -363,7 +388,7 @@ function openSettings() {
         </button>
       </div>
       <div style="padding:10px 12px;background:var(--paper2);border-radius:4px;font-size:11.5px;line-height:1.7;color:var(--ink3);margin-top:10px">
-        💡 自動収集は30分ごとに実行されます。すぐに最新ニュースが必要な場合は上のボタンを使ってください。
+        💡 自動収集は10分ごとに実行されます。「画面を再読み込み」で最新のキャッシュを取得できます。
       </div>
     </div>
     <div class="source-group">
@@ -483,7 +508,7 @@ function showToast(msg, type='info') {
   if (existing) existing.remove();
   const t = document.createElement('div');
   t.id = 'signal-toast';
-  t.className = 'signal-toast' + (type==='success'?' toast-success':'');
+  t.className = 'signal-toast' + (type==='success'?' toast-success':type==='info'?' toast-info':'');
   t.textContent = msg;
   document.body.appendChild(t);
   setTimeout(()=>t.classList.add('show'), 10);
@@ -569,4 +594,5 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .signal-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);padding:10px 20px;border-radius:24px;font-size:13px;font-family:var(--ff-body);box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:1000;opacity:0;transition:all .3s ease;pointer-events:none}
 .signal-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .signal-toast.toast-success{background:#2d6a4f}
+.signal-toast.toast-info{background:#1a3a5c}
 </style>`);
