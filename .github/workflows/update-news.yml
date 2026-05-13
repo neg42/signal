@@ -10,34 +10,54 @@ on:
 permissions:
   contents: write
 
+# 同時実行を防ぐ（前の実行がまだ走っていたらキャンセル）
+concurrency:
+  group: news-fetch
+  cancel-in-progress: false
+
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    # 本文取得を含むため少しタイムアウトを伸ばす
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0   # 全履歴取得（rebaseのため）
 
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
 
-      - name: ニュース収集（本文付き）
+      - name: ニュース収集
         run: node scripts/fetch-news.js
 
-      - name: コミット & プッシュ
+      - name: コミット & プッシュ（リトライ付き）
         run: |
           git config user.email "signal-bot@github.com"
           git config user.name "SIGNAL Bot"
           git add data/
+
           if git diff --staged --quiet; then
-            echo "変更なし"
-          else
-            git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
-            git push
+            echo "変更なし、スキップ"
+            exit 0
           fi
+
+          git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
+
+          # 最大3回までpushをリトライ（衝突時はpull --rebase）
+          for i in 1 2 3; do
+            if git push; then
+              echo "プッシュ成功 (試行 $i)"
+              exit 0
+            fi
+            echo "プッシュ失敗 (試行 $i)、pull --rebase で同期..."
+            git pull --rebase origin main
+            sleep 2
+          done
+
+          echo "3回試行しても失敗"
+          exit 1
