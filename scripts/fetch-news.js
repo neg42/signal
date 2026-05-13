@@ -304,6 +304,21 @@ async function main() {
   byCat.custom = [];
   byCat.all = dedup(all, 120);
 
+  // 救済: カテゴリが空の場合、トップニュースから関連キーワードで埋める
+  const fallbackKeywords = {
+    politics: /政治|国会|首相|内閣|選挙|政府|外交|防衛|与党|野党|参議院|衆議院|議員|大臣/,
+    business: /経済|株価|日経|為替|円安|円高|決算|企業|ビジネス|景気|GDP|金利|インフレ/,
+    society:  /事件|事故|社会|裁判|警察|地震|台風|気象|大雨|火災/,
+  };
+  for (const [cat, kw] of Object.entries(fallbackKeywords)) {
+    if (byCat[cat].length < 5) {
+      const supplement = byCat.all.filter(a => kw.test(a.title) && a.category !== cat).slice(0, 30);
+      console.log(`  救済[${cat}]: ${supplement.length}件追加 (元${byCat[cat].length}件)`);
+      const merged = [...byCat[cat], ...supplement.map(a => ({...a, category: cat}))];
+      byCat[cat] = dedup(merged);
+    }
+  }
+
   if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
   fs.writeFileSync(path.join(OUT,'news.json'), JSON.stringify(byCat, null, 2));
   fs.writeFileSync(path.join(OUT,'meta.json'), JSON.stringify({
