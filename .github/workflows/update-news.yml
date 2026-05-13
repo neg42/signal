@@ -2,7 +2,7 @@ name: 📡 SIGNAL ニュース自動収集
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # 30分ごと
+    - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -10,7 +10,6 @@ on:
 permissions:
   contents: write
 
-# 同時実行を完全に1つに制限（同じワークフローが走っていたらキューイング）
 concurrency:
   group: news-fetch
   cancel-in-progress: false
@@ -26,7 +25,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 1
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -38,46 +37,55 @@ jobs:
       - name: ニュース収集
         run: cd scripts && node fetch-news.js
 
-      - name: コミット & プッシュ（コンフリクト時は自動上書き）
+      - name: コミット & プッシュ
         run: |
           git config user.email "signal-bot@github.com"
           git config user.name "SIGNAL Bot"
 
+          # data/ に変更があるか確認
           if [ -z "$(git status --porcelain data/)" ]; then
             echo "変更なし、スキップ"
             exit 0
           fi
 
-          # 一旦data/の変更を退避
-          git stash push -- data/
-
-          # 最新のmainに同期
+          # ─── シンプルな戦略 ───────────────────────────
+          # 1. 最新のリモートを取得
           git fetch origin main
+
+          # 2. data/ の新しいファイルを一時保存（gitとは無関係に）
+          cp data/news.json /tmp/news.json
+          cp data/meta.json /tmp/meta.json
+          [ -f data/news.backup.json ] && cp data/news.backup.json /tmp/news.backup.json || true
+
+          # 3. リモートの最新状態に強制リセット
           git reset --hard origin/main
 
-          # 退避した変更を復元（最新データで上書き）
-          git stash pop || true
+          # 4. 保存したファイルを書き戻す
+          cp /tmp/news.json data/news.json
+          cp /tmp/meta.json data/meta.json
+          [ -f /tmp/news.backup.json ] && cp /tmp/news.backup.json data/news.backup.json || true
 
-          # コミット
+          # 5. コミット
           git add data/
           git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
 
-          # pushを最大3回リトライ
+          # 6. プッシュ（最大3回）
           for i in 1 2 3; do
             if git push; then
-              echo "プッシュ成功 (試行 $i)"
+              echo "✅ プッシュ成功 (試行 $i)"
               exit 0
             fi
-            echo "プッシュ失敗 (試行 $i)、再同期..."
+            echo "⚠️ プッシュ失敗 (試行 $i)、再同期..."
             sleep 3
-            # コンフリクト時は強制的に最新に揃えてからdata/だけ復元
             git fetch origin main
-            git stash push -- data/ || true
+            cp /tmp/news.json data/news.json
+            cp /tmp/meta.json data/meta.json
             git reset --hard origin/main
-            git stash pop || true
+            cp /tmp/news.json data/news.json
+            cp /tmp/meta.json data/meta.json
             git add data/
-            git commit --amend --no-edit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST" || git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
+            git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
           done
 
-          echo "3回試行しても失敗"
+          echo "❌ 3回試行しても失敗"
           exit 1
