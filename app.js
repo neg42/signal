@@ -93,8 +93,17 @@ async function startAutoRefreshCheck() {
 async function load() {
   showLoading();
   try {
-    // Cloudflare Workerから直接取得（常に最新）
-    const res = await fetch(WORKER_URL, { cache: 'no-store' });
+    // Cloudflare Workerから直接取得
+    // no-storeにするとCloudflareのキャッシュも無視して毎回収集するので
+    // 通常はdefaultキャッシュを使い、手動更新時だけ強制更新
+    const isManual = window._manualRefresh;
+    window._manualRefresh = false;
+    const fetchUrl = isManual
+      ? WORKER_URL + '?bust=' + Date.now()  // 手動更新時はキャッシュバスター
+      : WORKER_URL;
+    const res = await fetch(fetchUrl, {
+      cache: isManual ? 'no-store' : 'default',
+    });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const raw = await res.json();
 
@@ -333,7 +342,8 @@ function buildTicker() {
 // ─── 設定モーダル（媒体フィルタ機能込み）──────────────
 function openSettings() {
   const sources = metaData.sources || [];
-  // 媒体一覧をHTML化（記事数の多い順）
+
+  // 媒体フィルタリスト
   const sourceList = sources.length
     ? sources.map(([name, count]) => {
         const blocked = blockedSources.has(name);
@@ -343,29 +353,22 @@ function openSettings() {
           <span class="src-count">${count}</span>
         </div>`;
       }).join('')
-    : '<p style="color:var(--ink3);font-size:12px;padding:8px 0">媒体情報がまだありません。Actions実行後に表示されます。</p>';
+    : '<p style="color:var(--ink3);font-size:12px;padding:8px 0">まだ媒体情報がありません</p>';
 
   document.getElementById('sourceCategories').innerHTML = `
     <div class="source-group">
       <div class="source-group-title">最新ニュースを取得</div>
       <div class="refresh-actions">
-        <button class="refresh-action-btn primary" onclick="window.open('https://github.com/neg42/signal/actions/workflows/update-news.yml','_blank')">
+        <button class="refresh-action-btn primary" onclick="closeSettings();window._manualRefresh=true;load();">
           <span class="icon">🔄</span>
           <div>
-            <div class="btn-title">サーバーで最新を収集</div>
-            <div class="btn-sub">GitHubで新しいニュースを収集（2〜3分後に反映）</div>
-          </div>
-        </button>
-        <button class="refresh-action-btn" onclick="closeSettings();load();">
-          <span class="icon">↻</span>
-          <div>
-            <div class="btn-title">画面を再読み込み</div>
-            <div class="btn-sub">最後に収集されたデータを取得</div>
+            <div class="btn-title">今すぐ最新ニュースを取得</div>
+            <div class="btn-sub">Cloudflareサーバーから最新データを取得します</div>
           </div>
         </button>
       </div>
       <div style="padding:10px 12px;background:var(--paper2);border-radius:4px;font-size:11.5px;line-height:1.7;color:var(--ink3);margin-top:10px">
-        💡 自動収集は10分ごとに実行されます。「画面を再読み込み」で最新のキャッシュを取得できます。
+        💡 アクセスのたびに自動で最新ニュースを取得します。キャッシュは10分間保持されます。
       </div>
     </div>
     <div class="source-group">
@@ -376,8 +379,7 @@ function openSettings() {
         <button class="src-mini-btn" onclick="resetBlocks()">リセット</button>
       </div>
       <div class="src-list">${sourceList}</div>
-    </div>
-`;
+    </div>`;
 
   // チェックボックスのイベント
   document.querySelectorAll('input[data-src]').forEach(cb=>{
@@ -393,32 +395,6 @@ function openSettings() {
   document.getElementById('settingsModal').classList.add('active');
   document.getElementById('modalBackdrop').classList.add('active');
 }
-
-function saveBlocks() {
-  localStorage.setItem('signal_blocked_sources', JSON.stringify([...blockedSources]));
-}
-
-function selectAllSources() {
-  blockedSources.clear();
-  saveBlocks();
-  openSettings(); // 再描画
-}
-function clearAllSources() {
-  (metaData.sources||[]).forEach(([n])=>blockedSources.add(n));
-  saveBlocks();
-  openSettings();
-}
-function resetBlocks() {
-  blockedSources.clear();
-  saveBlocks();
-  openSettings();
-}
-
-// グローバル公開（HTMLからonclickで呼ぶため）
-window.selectAllSources = selectAllSources;
-window.clearAllSources = clearAllSources;
-window.resetBlocks = resetBlocks;
-
 function closeSettings(){
   ['settingsModal','modalBackdrop'].forEach(id=>document.getElementById(id).classList.remove('active'));
   // 閉じた時に再描画してフィルタを反映
@@ -543,6 +519,7 @@ function setupEvents() {
   document.getElementById('articleBackdrop').addEventListener('click',closeArticle);
   document.getElementById('refreshBtn').addEventListener('click', async () => {
     closeSettings();
+    window._manualRefresh = true;
     showToast('最新データを取得中...');
     await load();
     showToast('更新完了', 'success');
