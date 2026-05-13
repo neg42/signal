@@ -16,6 +16,8 @@ env:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    # 本文取得を含むため少しタイムアウトを伸ばす
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -25,7 +27,7 @@ jobs:
         with:
           node-version: '24'
 
-      - name: ニュース収集
+      - name: ニュース収集（本文付き）
         run: node scripts/fetch-news.js
 
       - name: コミット & プッシュ
