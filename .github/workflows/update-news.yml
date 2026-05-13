@@ -2,7 +2,7 @@ name: 📡 SIGNAL ニュース自動収集
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/30 * * * *'   # 30分ごと
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -10,7 +10,7 @@ on:
 permissions:
   contents: write
 
-# 同時実行を防ぐ（前の実行がまだ走っていたらキャンセル）
+# 同時実行を完全に1つに制限（同じワークフローが走っていたらキューイング）
 concurrency:
   group: news-fetch
   cancel-in-progress: false
@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0   # 全履歴取得（rebaseのため）
+          fetch-depth: 1
 
       - uses: actions/setup-node@v4
         with:
@@ -35,28 +35,45 @@ jobs:
       - name: ニュース収集
         run: node scripts/fetch-news.js
 
-      - name: コミット & プッシュ（リトライ付き）
+      - name: コミット & プッシュ（コンフリクト時は自動上書き）
         run: |
           git config user.email "signal-bot@github.com"
           git config user.name "SIGNAL Bot"
-          git add data/
 
-          if git diff --staged --quiet; then
+          if [ -z "$(git status --porcelain data/)" ]; then
             echo "変更なし、スキップ"
             exit 0
           fi
 
+          # 一旦data/の変更を退避
+          git stash push -- data/
+
+          # 最新のmainに同期
+          git fetch origin main
+          git reset --hard origin/main
+
+          # 退避した変更を復元（最新データで上書き）
+          git stash pop || true
+
+          # コミット
+          git add data/
           git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
 
-          # 最大3回までpushをリトライ（衝突時はpull --rebase）
+          # pushを最大3回リトライ
           for i in 1 2 3; do
             if git push; then
               echo "プッシュ成功 (試行 $i)"
               exit 0
             fi
-            echo "プッシュ失敗 (試行 $i)、pull --rebase で同期..."
-            git pull --rebase origin main
-            sleep 2
+            echo "プッシュ失敗 (試行 $i)、再同期..."
+            sleep 3
+            # コンフリクト時は強制的に最新に揃えてからdata/だけ復元
+            git fetch origin main
+            git stash push -- data/ || true
+            git reset --hard origin/main
+            git stash pop || true
+            git add data/
+            git commit --amend --no-edit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST" || git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
           done
 
           echo "3回試行しても失敗"
