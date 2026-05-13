@@ -198,15 +198,26 @@ const YT_SOURCES = [
 
 // 個別RSS
 const JP_RSS = [
-  { url: 'https://gigazine.net/news/rss_2.0/',            cat: 'tech',          name: 'GIGAZINE'       },
-  { url: 'https://jp.ign.com/feed.xml',                    cat: 'entertainment', name: 'IGN Japan'      },
-  // ナタリー: /feed 形式に変更（旧 /feed/news は廃止）
-  { url: 'https://natalie.mu/music/feed',                  cat: 'entertainment', name: 'ナタリー音楽'    },
-  { url: 'https://natalie.mu/comic/feed',                  cat: 'entertainment', name: 'コミックナタリー' },
-  { url: 'https://natalie.mu/eiga/feed',                   cat: 'entertainment', name: 'ナタリー映画'    },
-  { url: 'https://natalie.mu/game/feed',                   cat: 'entertainment', name: 'ナタリーゲーム'  },
-  { url: 'https://www.4gamer.net/rss/index.xml',           cat: 'entertainment', name: '4Gamer'         },
-  { url: 'https://automaton-media.com/feed/',               cat: 'entertainment', name: 'AUTOMATON'      },
+  // テクノロジー
+  { url: 'https://gigazine.net/news/rss_2.0/',            cat: 'tech',          name: 'GIGAZINE'          },
+
+  // エンタメ・ゲーム
+  { url: 'https://jp.ign.com/feed.xml',                    cat: 'entertainment', name: 'IGN Japan'         },
+  { url: 'https://natalie.mu/music/feed',                  cat: 'entertainment', name: 'ナタリー音楽'       },
+  { url: 'https://natalie.mu/comic/feed',                  cat: 'entertainment', name: 'コミックナタリー'   },
+  { url: 'https://natalie.mu/eiga/feed',                   cat: 'entertainment', name: 'ナタリー映画'       },
+  { url: 'https://natalie.mu/game/feed',                   cat: 'entertainment', name: 'ナタリーゲーム'     },
+  { url: 'https://www.4gamer.net/rss/index.xml',           cat: 'entertainment', name: '4Gamer'            },
+  { url: 'https://automaton-media.com/feed/',               cat: 'entertainment', name: 'AUTOMATON'         },
+
+  // ライブドアニュース（カテゴリ別RSS）
+  { url: 'http://news.livedoor.com/topics/rss/top.xml',   cat: 'society',       name: 'ライブドアニュース' },
+  { url: 'http://news.livedoor.com/topics/rss/dom.xml',   cat: 'society',       name: 'ライブドア国内'    },
+  { url: 'http://news.livedoor.com/topics/rss/int.xml',   cat: 'politics',      name: 'ライブドア国際'    },
+  { url: 'http://news.livedoor.com/topics/rss/eco.xml',   cat: 'business',      name: 'ライブドア経済'    },
+  { url: 'http://news.livedoor.com/topics/rss/ent.xml',   cat: 'entertainment', name: 'ライブドアエンタメ' },
+  { url: 'http://news.livedoor.com/topics/rss/spo.xml',   cat: 'entertainment', name: 'ライブドアスポーツ' },
+  { url: 'http://news.livedoor.com/topics/rss/sci.xml',   cat: 'tech',          name: 'ライブドア科学'    },
 ];
 
 async function fetchBatch(sources, parser) {
