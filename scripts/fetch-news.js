@@ -78,34 +78,95 @@ function splitTitle(rawTitle) {
   return { title: text, sourceHint: '' };
 }
 
+// 除外する定型文・無効な値のパターン
+const BAD_DESC_PATTERNS = [
+  /Google ?ニュース/,
+  /世界中のニュース提供元/,
+  /集約した広範囲/,
+  /comprehensive up-to-date/i,
+  /Get the latest news/i,
+  /news\.google\.com/,
+  /^https?:\/\//,
+  /^[\s\S]{0,10}$/,    // 短すぎる
+];
+
+function isValidDesc(text) {
+  if (!text || text.length < 20) return false;
+  return !BAD_DESC_PATTERNS.some(p => p.test(text));
+}
+
 // 元記事URLから本文冒頭を取得
 async function fetchArticleDesc(url) {
   if (!FETCH_DESC) return '';
-  try {
-    const r = await httpGet(url, 8000);
-    if (!r || r.status !== 200) return '';
-    const html = r.body;
 
-    // og:description > description > 本文先頭の順で取得
-    const ogD = html.match(/<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)["']/i)
-             || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:description["']/i);
-    if (ogD) {
-      const t = toText(ogD[1]);
-      if (t.length > 15) return t.slice(0, 140);
-    }
-    const metaD = html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']/i)
-               || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+name=["']description["']/i);
-    if (metaD) {
-      const t = toText(metaD[1]);
-      if (t.length > 15) return t.slice(0, 140);
-    }
-    // 最初のpタグの中身
-    const p = html.match(/<p[^>]*>([\s\S]{30,400}?)<\/p>/i);
+  // Google NewsのリダイレクトURLの場合は実際の記事URLを解決
+  let targetUrl = url;
+  if (url.includes('news.google.com/rss/articles/')) {
+    try {
+      // Google Newsのリダイレクトを追跡
+      const r = await httpGet(url, 8000);
+      if (!r) return '';
+      // リダイレクト後のURLがレスポンスのcanonical等から取れることがある
+      const canonical = r.body.match(/<link[^>]+rel=["']canonical["'][^>]+href=["']([^"']+)["']/i);
+      if (canonical && !canonical[1].includes('news.google.com')) {
+        targetUrl = canonical[1];
+        // 実際の記事を再取得
+        const r2 = await httpGet(targetUrl, 8000);
+        if (r2 && r2.status === 200) return extractDesc(r2.body);
+      }
+      // canonicalが取れなくてもbodyから抽出を試みる
+      return extractDesc(r.body);
+    } catch { return ''; }
+  }
+
+  try {
+    const r = await httpGet(targetUrl, 8000);
+    if (!r || r.status !== 200) return '';
+    return extractDesc(r.body);
+  } catch {}
+  return '';
+}
+
+function extractDesc(html) {
+  // 1. og:description（最優先）
+  const ogD = html.match(/<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']+)["']/i)
+           || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:description["']/i);
+  if (ogD) {
+    const t = toText(ogD[1]);
+    if (isValidDesc(t)) return t.slice(0, 140);
+  }
+
+  // 2. meta description
+  const metaD = html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']+)["']/i)
+             || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+name=["']description["']/i);
+  if (metaD) {
+    const t = toText(metaD[1]);
+    if (isValidDesc(t)) return t.slice(0, 140);
+  }
+
+  // 3. twitter:description
+  const twD = html.match(/<meta[^>]+name=["']twitter:description["'][^>]+content=["']([^"']+)["']/i);
+  if (twD) {
+    const t = toText(twD[1]);
+    if (isValidDesc(t)) return t.slice(0, 140);
+  }
+
+  // 4. <article>タグ内の最初のp
+  const article = html.match(/<article[^>]*>([\s\S]*?)<\/article>/i);
+  if (article) {
+    const p = article[1].match(/<p[^>]*>([\s\S]{30,500}?)<\/p>/i);
     if (p) {
       const t = toText(p[1]);
-      if (t.length > 20) return t.slice(0, 140);
+      if (isValidDesc(t)) return t.slice(0, 140);
     }
-  } catch {}
+  }
+
+  // 5. 最初のpタグ
+  const p = html.match(/<p[^>]*>([\s\S]{30,500}?)<\/p>/i);
+  if (p) {
+    const t = toText(p[1]);
+    if (isValidDesc(t)) return t.slice(0, 140);
+  }
   return '';
 }
 
@@ -158,10 +219,16 @@ function parseJp(xml, sourceName, category) {
     const link  = get('link') || atr('link','href');
     if (!title || !link || title.length < 3 || !isJP(title)) continue;
 
-    const rawDesc = get('description') || get('summary') || '';
-    const desc = toText(rawDesc.replace(/<a[\s\S]*?<\/a>/gi,'')).slice(0, 140);
+    let rawDesc = get('description') || get('summary') || '';
+    // imgタグ、aタグを中身ごと除去（残骸が残らないように）
+    rawDesc = rawDesc.replace(/<img[^>]*>/gi, '');
+    rawDesc = rawDesc.replace(/<a[\s\S]*?<\/a>/gi, '');
+    rawDesc = rawDesc.replace(/<[^>]+>/g, ' ');
+    const desc = toText(rawDesc).slice(0, 140);
+    // 短すぎる/HTMLっぽいdescriptionは破棄
+    const finalDesc = (desc.length >= 20 && !desc.includes('<') && !desc.includes('src=')) ? desc : '';
 
-    items.push({ id: link, title, description: desc, url: link, image: '',
+    items.push({ id: link, title, description: finalDesc, url: link, image: '',
       date: parseDate(get('pubDate') || get('published')), source: sourceName, category });
   }
   return items.slice(0, 25);
@@ -178,13 +245,13 @@ const GN = [
 
   // ── テクノロジー ────────────────────────────────
   // テクノロジートピック
-  { url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtcGhLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja', cat: 'tech' },
+  { url: 'https://news.google.com/rss/search?q=テクノロジー&hl=ja&gl=JP&ceid=JP:ja', cat: 'tech' },
   // AI検索
   { url: 'https://news.google.com/rss/search?q=AI&hl=ja&gl=JP&ceid=JP:ja', cat: 'tech' },
 
   // ── ビジネス・経済 ─────────────────────────────
   // ビジネストピック（公式）
-  { url: 'https://news.google.com/rss/topics/CAAqKAgKIiJDQkFTRXdvSkwyMHZNRGRtY3pkbkVnSnFZUm9DU2xBb0FBUAE?hl=ja&gl=JP&ceid=JP:ja', cat: 'business' },
+  { url: 'https://news.google.com/rss/search?q=ビジネス&hl=ja&gl=JP&ceid=JP:ja', cat: 'business' },
   // 株価検索
   { url: 'https://news.google.com/rss/search?q=株価&hl=ja&gl=JP&ceid=JP:ja', cat: 'business' },
   // 経済検索
@@ -192,7 +259,7 @@ const GN = [
 
   // ── エンタメ ────────────────────────────────────
   // エンタメトピック
-  { url: 'https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNREpxYW5RU0FtcGhLQUFQAQ?hl=ja&gl=JP&ceid=JP:ja', cat: 'entertainment' },
+  { url: 'https://news.google.com/rss/search?q=エンタメ&hl=ja&gl=JP&ceid=JP:ja', cat: 'entertainment' },
   // ゲーム検索
   { url: 'https://news.google.com/rss/search?q=ゲーム&hl=ja&gl=JP&ceid=JP:ja', cat: 'entertainment' },
   // アニメ検索
@@ -211,12 +278,11 @@ const GN = [
 ];
 
 const JP_RSS = [
-  { url: 'https://gigazine.net/news/rss_2.0/',     cat: 'tech',          name: 'GIGAZINE'      },
-  { url: 'https://www.famitsu.com/feed',            cat: 'entertainment', name: 'ファミ通'       },
-  { url: 'https://dengekionline.com/rss/all.rss',   cat: 'entertainment', name: '電撃オンライン' },
-  { url: 'https://www.oricon.co.jp/rss/news.rdf',   cat: 'entertainment', name: 'ORICON NEWS'   },
-  { url: 'https://natalie.mu/music/feed/news',      cat: 'entertainment', name: 'ナタリー'       },
-  { url: 'https://jp.ign.com/feed.xml',             cat: 'entertainment', name: 'IGN Japan'     },
+  { url: 'https://gigazine.net/news/rss_2.0/',     cat: 'tech',          name: 'GIGAZINE'   },
+  { url: 'https://jp.ign.com/feed.xml',             cat: 'entertainment', name: 'IGN Japan'  },
+  { url: 'https://natalie.mu/music/feed/news',      cat: 'entertainment', name: 'ナタリー'    },
+  { url: 'https://natalie.mu/comic/feed/news',      cat: 'entertainment', name: 'コミックナタリー' },
+  { url: 'https://www.itmedia.co.jp/rss/2.0/news_bursts.xml', cat: 'tech', name: 'ITmedia' },
 ];
 
 async function fetchBatch(sources, parser) {
