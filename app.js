@@ -1,4 +1,7 @@
-/* SIGNAL app.js — 媒体フィルタ対応版 */
+/* SIGNAL app.js — Cloudflare Workers版 */
+
+// Cloudflare WorkerのURL（ニュースデータの取得先）
+const WORKER_URL = 'https://signal-news.negligent42.workers.dev/news';
 
 const CATEGORIES = [
   { id: 'all',           label: 'すべて',          icon: '◎' },
@@ -70,55 +73,30 @@ document.addEventListener('DOMContentLoaded',()=>{
 let lastUpdatedAt = null;
 
 async function startAutoRefreshCheck() {
-  // 最初の確認は1分後（初回ロード直後は不要）
-  await new Promise(r => setTimeout(r, 60000));
+  // Workerのキャッシュは10分なので15分ごとに自動更新
+  await new Promise(r => setTimeout(r, 5 * 60 * 1000)); // 最初は5分後
   setInterval(async () => {
     try {
-      const res = await fetch('./data/meta.json?v=' + Date.now(), { cache: 'no-store' });
+      // Workerに軽量リクエスト（metaだけ確認）
+      const res = await fetch(WORKER_URL + '?meta=1', { cache: 'no-store' });
       if (!res.ok) return;
-      const meta = await res.json();
-      if (!meta.updatedAt) return;
-      if (lastUpdatedAt && meta.updatedAt !== lastUpdatedAt) {
-        // 新しいデータが来た
-        console.log('[SIGNAL] 新しいデータを検出、自動更新');
+      const data = await res.json();
+      const newUpdatedAt = data.meta?.updatedAt;
+      if (newUpdatedAt && lastUpdatedAt && newUpdatedAt !== lastUpdatedAt) {
         showToast('新しいニュースがあります', 'info');
         await load();
       }
-      lastUpdatedAt = meta.updatedAt;
     } catch {}
-  }, 5 * 60 * 1000); // 5分ごとにチェック
+  }, 15 * 60 * 1000); // 15分ごと
 }
 
 async function load() {
   showLoading();
   try {
-    console.log('[SIGNAL] fetching news.json...');
-    const res = await fetch('./data/news.json?v='+Date.now(),{cache:'no-store'});
-    console.log('[SIGNAL] response:', res.status);
-    if (!res.ok) throw new Error('HTTP '+res.status);
-    const text = await res.text();
-    console.log('[SIGNAL] body length:', text.length);
-    let raw;
-    try {
-      raw = JSON.parse(text);
-    } catch (e) {
-      console.error('[SIGNAL] JSON parse error:', e);
-      console.log('[SIGNAL] trying backup file...');
-      // バックアップから再取得を試みる
-      try {
-        const br = await fetch('./data/news.backup.json?v='+Date.now(), {cache:'no-store'});
-        if (br.ok) {
-          const bt = await br.text();
-          raw = JSON.parse(bt);
-          console.log('[SIGNAL] backup loaded OK');
-        } else {
-          throw new Error('backup not found');
-        }
-      } catch (e2) {
-        throw new Error('JSON parse: ' + e.message + ' (backup also failed: ' + e2.message + ')');
-      }
-    }
-    console.log('[SIGNAL] JSON parsed, keys:', Object.keys(raw));
+    // Cloudflare Workerから直接取得（常に最新）
+    const res = await fetch(WORKER_URL, { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const raw = await res.json();
 
     newsData = {};
     const cats = ['all','society','tech','business','entertainment','politics','custom'];
@@ -146,11 +124,10 @@ async function load() {
       newsData.all = allArticles;
     }
 
-    // メタデータ（媒体一覧含む）
-    try {
-      const mr=await fetch('./data/meta.json?v='+Date.now(),{cache:'no-store'});
-      if(mr.ok) metaData = await mr.json();
-    } catch{}
+    // メタデータはWorkerのレスポンスに含まれる
+    if (raw.meta) {
+      metaData = raw.meta;
+    }
 
     try { buildNav(); } catch(e) { console.error('[SIGNAL] buildNav:', e); }
     try { buildTicker(); } catch(e) { console.error('[SIGNAL] buildTicker:', e); }
@@ -159,9 +136,9 @@ async function load() {
       else renderList();
     } catch(e) { console.error('[SIGNAL] render:', e); throw e; }
 
-    if (metaData.updatedAt) {
-      const t=new Date(metaData.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'});
-      document.getElementById('lastUpdated').textContent='収集: '+t;
+    if (metaData?.updatedAt) {
+      const t = new Date(metaData.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'});
+      document.getElementById('lastUpdated').textContent = '収集: ' + t;
       lastUpdatedAt = metaData.updatedAt;
     }
   } catch(e) {
@@ -451,6 +428,88 @@ function closeSettings(){
   else renderList();
 }
 
+// ─── GitHub Actions トリガー ──────────────────────────
+function saveGhToken() {
+  const val = document.getElementById('ghTokenInput')?.value?.trim();
+  if (!val) { alert('トークンを入力してください'); return; }
+  if (!val.startsWith('ghp_') && !val.startsWith('github_pat_')) {
+    alert('トークンの形式が正しくありません。\nghp_ または github_pat_ で始まる値を入力してください。');
+    return;
+  }
+  localStorage.setItem('signal_gh_token', val);
+  const status = document.getElementById('tokenStatus');
+  if (status) status.textContent = '✅ トークン保存済み';
+  showToast('トークンを保存しました', 'success');
+}
+
+function clearGhToken() {
+  localStorage.removeItem('signal_gh_token');
+  const input = document.getElementById('ghTokenInput');
+  if (input) input.value = '';
+  const status = document.getElementById('tokenStatus');
+  if (status) status.textContent = '未設定';
+  showToast('トークンを削除しました');
+}
+
+async function triggerGitHubActions() {
+  const token = localStorage.getItem('signal_gh_token');
+  if (!token) {
+    showToast('トークンを設定してください', 'error');
+    // トークン入力欄にフォーカス
+    document.getElementById('ghTokenInput')?.focus();
+    return;
+  }
+
+  const btn = document.getElementById('triggerActionsBtn');
+  const icon = document.getElementById('triggerIcon');
+  const sub  = document.getElementById('triggerSub');
+  if (btn) btn.disabled = true;
+  if (icon) icon.textContent = '⏳';
+  if (sub)  sub.textContent = '収集を開始しています…';
+
+  try {
+    const res = await fetch(
+      'https://api.github.com/repos/neg42/signal/actions/workflows/update-news.yml/dispatches',
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': 'token ' + token,
+          'Accept': 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: 'main' }),
+      }
+    );
+
+    if (res.status === 204) {
+      // 成功（GitHub APIは成功時に204 No Contentを返す）
+      if (icon) icon.textContent = '✅';
+      if (sub)  sub.textContent = '収集開始！2〜3分後に自動で画面が更新されます';
+      showToast('ニュース収集を開始しました', 'success');
+      // 3分後に自動で画面更新
+      setTimeout(async () => {
+        await load();
+        showToast('ニュースを更新しました', 'success');
+      }, 3 * 60 * 1000);
+    } else if (res.status === 401) {
+      throw new Error('トークンが無効です。再設定してください');
+    } else if (res.status === 403) {
+      throw new Error('権限がありません。トークンのscopeにrepoを追加してください');
+    } else {
+      throw new Error('APIエラー: HTTP ' + res.status);
+    }
+  } catch(e) {
+    if (icon) icon.textContent = '❌';
+    if (sub)  sub.textContent = e.message;
+    showToast(e.message, 'error');
+    if (btn) btn.disabled = false;
+  }
+}
+
+window.triggerGitHubActions = triggerGitHubActions;
+window.saveGhToken = saveGhToken;
+window.clearGhToken = clearGhToken;
+
 // ─── イベント ─────────────────────────────────────────
 function setupEvents() {
   document.getElementById('menuBtn').addEventListener('click',toggleSidebar);
@@ -508,7 +567,7 @@ function showToast(msg, type='info') {
   if (existing) existing.remove();
   const t = document.createElement('div');
   t.id = 'signal-toast';
-  t.className = 'signal-toast' + (type==='success'?' toast-success':type==='info'?' toast-info':'');
+  t.className = 'signal-toast' + (type==='success'?' toast-success':type==='info'?' toast-info':type==='error'?' toast-error':'');
   t.textContent = msg;
   document.body.appendChild(t);
   setTimeout(()=>t.classList.add('show'), 10);
@@ -595,4 +654,5 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .signal-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .signal-toast.toast-success{background:#2d6a4f}
 .signal-toast.toast-info{background:#1a3a5c}
+.signal-toast.toast-error{background:#c0392b}
 </style>`);
