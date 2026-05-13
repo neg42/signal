@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "updatedAt": "2026-05-13T02:38:37.590Z",
   "counts": {
     "society": 6,
@@ -6,16 +7,26 @@
     "business": 30,
     "entertainment": 22,
     "politics": 18,
+=======
+  "updatedAt": "2026-05-13T02:39:08.528Z",
+  "counts": {
+    "society": 9,
+    "tech": 10,
+    "business": 27,
+    "entertainment": 9,
+    "politics": 23,
+>>>>>>> Stashed changes
     "custom": 0,
     "all": 120
   },
   "sources": [
     [
-      "Yahoo!ニュース",
-      44
+      "Reuters",
+      12
     ],
     [
       "日本経済新聞",
+<<<<<<< Updated upstream
       36
     ],
     [
@@ -33,10 +44,21 @@
     [
       "Reuters",
       14
+=======
+      12
+    ],
+    [
+      "朝日新聞",
+      12
+    ],
+    [
+      "Yahoo!ニュース",
+      12
+>>>>>>> Stashed changes
     ],
     [
       "時事ドットコム",
-      13
+      12
     ],
     [
       "TBS NEWS DIG",
@@ -47,11 +69,23 @@
       11
     ],
     [
+<<<<<<< Updated upstream
       "Yahoo!ファイナンス",
       11
     ],
     [
       "株探",
+=======
+      "株探",
+      10
+    ],
+    [
+      "GIGAZINE",
+      10
+    ],
+    [
+      "IGN Japan",
+>>>>>>> Stashed changes
       9
     ],
     [
@@ -67,11 +101,30 @@
       7
     ],
     [
+<<<<<<< Updated upstream
+=======
+      "Yahoo!ファイナンス",
+      7
+    ],
+    [
+>>>>>>> Stashed changes
       "NHKニュース",
       7
     ],
     [
+<<<<<<< Updated upstream
       "ｄメニューニュース",
+=======
+      "47NEWS",
+      6
+    ],
+    [
+      "ｄメニューニュース",
+      6
+    ],
+    [
+      "下野新聞社",
+>>>>>>> Stashed changes
       6
     ],
     [
@@ -79,10 +132,13 @@
       6
     ],
     [
+<<<<<<< Updated upstream
       "47NEWS",
       5
     ],
     [
+=======
+>>>>>>> Stashed changes
       "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
       5
     ],
@@ -95,6 +151,7 @@
       5
     ],
     [
+<<<<<<< Updated upstream
       "下野新聞社",
       5
     ],
@@ -103,6 +160,12 @@
       5
     ],
     [
+=======
+      "Bloomberg.com",
+      5
+    ],
+    [
+>>>>>>> Stashed changes
       "カナロコ",
       4
     ],
@@ -123,10 +186,13 @@
       4
     ],
     [
+<<<<<<< Updated upstream
       "福井新聞社",
       4
     ],
     [
+=======
+>>>>>>> Stashed changes
       "ウェザーニュース",
       3
     ],
@@ -139,7 +205,11 @@
       3
     ],
     [
-      "ダイヤモンド・オンライン",
+      "ITmedia",
+      3
+    ],
+    [
+      "沖縄タイムス社",
       3
     ],
     [
@@ -171,6 +241,10 @@
       3
     ],
     [
+      "福井新聞社",
+      3
+    ],
+    [
       "jcp.or.jp",
       3
     ],
@@ -183,10 +257,13 @@
       2
     ],
     [
+<<<<<<< Updated upstream
       "スポーツ報知",
       2
     ],
     [
+=======
+>>>>>>> Stashed changes
       "サンスポ",
       2
     ],
@@ -211,10 +288,6 @@
       2
     ],
     [
-      "日経ビジネス電子版",
-      2
-    ],
-    [
       "東洋経済オンライン",
       2
     ],
@@ -223,7 +296,11 @@
       2
     ],
     [
+<<<<<<< Updated upstream
       "JBpress",
+=======
+      "ダイヤモンド・オンライン",
+>>>>>>> Stashed changes
       2
     ],
     [
@@ -243,10 +320,13 @@
       2
     ],
     [
+<<<<<<< Updated upstream
       "4Gamer.net",
       2
     ],
     [
+=======
+>>>>>>> Stashed changes
       "電ファミニコゲーマー",
       2
     ],
@@ -307,6 +387,13 @@
       1
     ],
     [
+<<<<<<< Updated upstream
+=======
+      "スポーツ報知",
+      1
+    ],
+    [
+>>>>>>> Stashed changes
       "ライブドアニュース",
       1
     ],
@@ -359,7 +446,11 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "静岡新聞DIGITAL",
+=======
+      "コトラ",
+>>>>>>> Stashed changes
       1
     ],
     [
@@ -443,11 +534,19 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "アニメ！アニメ！",
       1
     ],
     [
       "ITmedia エグゼクティブ",
+=======
+      "日経ビジネス電子版",
+      1
+    ],
+    [
+      "アニメ！アニメ！",
+>>>>>>> Stashed changes
       1
     ],
     [
@@ -611,10 +710,13 @@
       1
     ],
     [
+<<<<<<< Updated upstream
       "nack5.co.jp",
       1
     ],
     [
+=======
+>>>>>>> Stashed changes
       "デイリー新潮",
       1
     ]
