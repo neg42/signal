@@ -231,7 +231,7 @@ function parseJp(xml, sourceName, category) {
     items.push({ id: link, title, description: finalDesc, url: link, image: '',
       date: parseDate(get('pubDate') || get('published')), source: sourceName, category });
   }
-  return items.slice(0, 25);
+  return items.slice(0, 10);
 }
 
 // ─── ソース定義（公式トピックIDを優先） ──────────────
@@ -308,12 +308,68 @@ async function fetchBatch(sources, parser) {
 
 function dedup(arts, limit = 80) {
   const seen = new Set();
-  return arts.filter(a => {
+  const unique = arts.filter(a => {
     if (!a?.title || a.title.length < 4) return false;
     const k = a.title.replace(/\s+/g,'').slice(0,40);
     if (seen.has(k)) return false;
     seen.add(k); return true;
-  }).sort((a,b) => new Date(b.date)-new Date(a.date)).slice(0,limit);
+  }).sort((a,b) => new Date(b.date)-new Date(a.date));
+
+  return interleaveSources(unique, limit);
+}
+
+// 同じソースが連続しないように記事を並び替える
+// 各ソースの記事を時系列順に保ちつつ、ラウンドロビン方式で取り出す
+function interleaveSources(articles, limit) {
+  // ソース別にグループ化（時系列順）
+  const bySource = {};
+  for (const a of articles) {
+    if (!bySource[a.source]) bySource[a.source] = [];
+    bySource[a.source].push(a);
+  }
+  const sources = Object.keys(bySource);
+  if (sources.length <= 1) return articles.slice(0, limit);
+
+  // 各ソース最新順にポインタ
+  const pointers = {};
+  sources.forEach(s => pointers[s] = 0);
+
+  const result = [];
+  // 各ソースを順番に1記事ずつ取り出す（ラウンドロビン）
+  while (result.length < limit) {
+    let added = false;
+    // 各ソースから順番に1記事
+    for (const s of sources) {
+      if (pointers[s] < bySource[s].length) {
+        result.push(bySource[s][pointers[s]]);
+        pointers[s]++;
+        added = true;
+        if (result.length >= limit) break;
+      }
+    }
+    if (!added) break; // 全ソースから取り尽くした
+  }
+  // 結果を日付順に並び替え直す（連続させないように軽くシャッフル）
+  // 厳密な日付順ではなく、ソース多様性を保ちつつ概ね新しい順
+  return shuffleNearby(result);
+}
+
+// 近接する3記事内で同一ソースが連続しないように調整
+function shuffleNearby(arts) {
+  const result = [...arts];
+  for (let i = 1; i < result.length - 1; i++) {
+    if (result[i].source === result[i-1].source) {
+      // 後ろの記事と入れ替えを試みる
+      for (let j = i+1; j < Math.min(i+4, result.length); j++) {
+        if (result[j].source !== result[i-1].source &&
+            (i+1 >= result.length || result[j].source !== result[i+1]?.source)) {
+          [result[i], result[j]] = [result[j], result[i]];
+          break;
+        }
+      }
+    }
+  }
+  return result;
 }
 
 // 本文取得を並列で実施
@@ -354,6 +410,16 @@ async function main() {
     const k = a.title.replace(/\s+/g,'').slice(0,40);
     if (seen.has(k)) return false;
     seen.add(k); return true;
+  });
+
+  // ソース別の上限を設定（1ソース最大15件まで・カテゴリごと）
+  // テクノロジーやエンタメで特定ソースが偏らないようにする
+  const PER_SOURCE_LIMIT = 12;
+  const sourceCounters = {};
+  all = all.filter(a => {
+    const key = `${a.category}:${a.source}`;
+    sourceCounters[key] = (sourceCounters[key] || 0) + 1;
+    return sourceCounters[key] <= PER_SOURCE_LIMIT;
   });
 
   // 本文取得（Google News由来の記事のみ対象）
