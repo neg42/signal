@@ -1,12 +1,8 @@
 {
-<<<<<<< Updated upstream
-  "updatedAt": "2026-05-13T08:25:21.741Z",
-=======
-  "updatedAt": "2026-05-13T08:25:46.493Z",
->>>>>>> Stashed changes
+  "updatedAt": "2026-05-13T08:37:45.211Z",
   "counts": {
     "society": 80,
-    "tech": 57,
+    "tech": 53,
     "business": 56,
     "entertainment": 80,
     "politics": 80,
@@ -16,19 +12,15 @@
   "sources": [
     [
       "産経ニュース",
-<<<<<<< Updated upstream
-      26
-=======
-      23
->>>>>>> Stashed changes
+      24
+    ],
+    [
+      "Yahoo!ニュース",
+      19
     ],
     [
       "ライブドアニュース",
       18
-    ],
-    [
-      "Yahoo!ニュース",
-      17
     ],
     [
       "AUTOMATON",
@@ -36,24 +28,13 @@
     ],
     [
       "読売新聞",
-<<<<<<< Updated upstream
-      14
-=======
-      13
->>>>>>> Stashed changes
+      15
     ],
     [
       "日本経済新聞",
-      13
+      14
     ],
     [
-<<<<<<< Updated upstream
-=======
-      "47NEWS",
-      12
-    ],
-    [
->>>>>>> Stashed changes
       "ANN テレ朝（YouTube）",
       12
     ],
@@ -82,6 +63,10 @@
       12
     ],
     [
+      "ライブドア国際",
+      12
+    ],
+    [
       "ライブドア経済",
       12
     ],
@@ -94,18 +79,7 @@
       12
     ],
     [
-<<<<<<< Updated upstream
       "47NEWS",
-      11
-    ],
-    [
-=======
->>>>>>> Stashed changes
-      "ライブドア国際",
-      11
-    ],
-    [
-      "毎日新聞",
       9
     ],
     [
@@ -113,124 +87,47 @@
       9
     ],
     [
-<<<<<<< Updated upstream
+      "毎日新聞",
+      8
+    ],
+    [
       "Bloomberg.com",
-=======
-      "Bloomberg",
->>>>>>> Stashed changes
-      7
+      6
+    ],
+    [
+      "電ファミニコゲーマー",
+      6
+    ],
+    [
+      "朝日新聞",
+      5
     ],
     [
       "Reuters",
-      6
-    ],
-    [
-<<<<<<< Updated upstream
-=======
-      "Game*Spark",
-      6
-    ],
-    [
->>>>>>> Stashed changes
-      "カナロコ",
       5
     ],
     [
-<<<<<<< Updated upstream
-      "電ファミニコゲーマー",
+      "ナタリー",
       5
-=======
-      "朝日新聞",
-      4
->>>>>>> Stashed changes
     ],
     [
       "BBC",
       4
     ],
     [
-<<<<<<< Updated upstream
-      "CNN.co.jp",
-=======
-      "テレ朝NEWS",
-      4
-    ],
-    [
-      "au Webポータル",
->>>>>>> Stashed changes
-      4
-    ],
-    [
-      "ITmedia",
-<<<<<<< Updated upstream
-      4
-    ],
-    [
-      "au Webポータル",
-      4
-    ],
-    [
-      "サンスポ",
-      4
-    ],
-    [
-      "ナタリー",
-      4
-    ],
-    [
-      "スポーツ報知",
-      4
-    ],
-    [
       "ファミ通",
-=======
->>>>>>> Stashed changes
-      4
-    ],
-    [
-      "4Gamer.net",
-      4
-    ],
-    [
-<<<<<<< Updated upstream
-      "朝日新聞",
-      3
-    ],
-    [
-      "PR TIMES",
-      3
-    ],
-    [
-      "窓の杜",
-      3
-    ],
-    [
-      "ASCII.jp",
-      3
-    ],
-    [
-      "テレ朝NEWS",
-      3
-    ],
-    [
-=======
-      "サンスポ",
-      4
-    ],
-    [
-      "ナタリー",
-      4
-    ],
-    [
-      "スポーツ報知",
-      4
-    ],
-    [
-      "電ファミニコゲーマー",
       4
     ],
     [
       "デイリースポーツ",
+      4
+    ],
+    [
+      "PR TIMES",
+      4
+    ],
+    [
+      "スポーツ報知",
       4
     ],
     [
@@ -238,7 +135,7 @@
       4
     ],
     [
-      "ファミ通",
+      "Game*Spark",
       4
     ],
     [
@@ -246,7 +143,19 @@
       3
     ],
     [
-      "TBS NEWS DIG",
+      "日テレNEWS NNN",
+      3
+    ],
+    [
+      "ITmedia",
+      3
+    ],
+    [
+      "窓の杜",
+      3
+    ],
+    [
+      "au Webポータル",
       3
     ],
     [
@@ -254,40 +163,24 @@
       3
     ],
     [
->>>>>>> Stashed changes
       "ナゾロジー",
       3
     ],
     [
-<<<<<<< Updated upstream
+      "カナロコ",
+      3
+    ],
+    [
       "4Gamer.net",
       3
     ],
     [
-=======
->>>>>>> Stashed changes
+      "サンスポ",
+      3
+    ],
+    [
       "ねとらぼ",
       3
-    ],
-    [
-      "モデルプレス",
-      3
-    ],
-    [
-<<<<<<< Updated upstream
-      "デイリースポーツ",
-=======
-      "ASCII.jp",
->>>>>>> Stashed changes
-      3
-    ],
-    [
-      "tenki.jp",
-      2
-    ],
-    [
-      "FNNプライムオンライン",
-      2
     ],
     [
       "ウェザーニュース",
@@ -298,38 +191,31 @@
       2
     ],
     [
-<<<<<<< Updated upstream
-      "日テレNEWS NNN",
-      2
-    ],
-    [
       "TBS NEWS DIG",
-=======
-      "窓の杜",
       2
     ],
     [
-      "PR TIMES",
->>>>>>> Stashed changes
+      "GAME Watch",
       2
     ],
     [
-      "theriver.jp",
+      "ｄメニューニュース",
       2
     ],
     [
-<<<<<<< Updated upstream
+      "電撃ホビーウェブ",
+      2
+    ],
+    [
       "西スポWEB OTTO!",
       2
     ],
     [
-=======
->>>>>>> Stashed changes
-      "NEWSjp",
+      "テレ朝NEWS",
       2
     ],
     [
-      "マネクリ",
+      "NEWSjp",
       2
     ],
     [
@@ -337,32 +223,38 @@
       2
     ],
     [
-      "めざましmedia",
+      "theriver.jp",
       2
     ],
     [
-<<<<<<< Updated upstream
+      "モデルプレス",
+      2
+    ],
+    [
       "東スポWEB",
       2
     ],
     [
-      "gekisaka.jp",
+      "めざましmedia",
       2
     ],
     [
-=======
->>>>>>> Stashed changes
       "GDOゴルフニュース",
       2
     ],
     [
-<<<<<<< Updated upstream
+      "ASCII.jp",
+      2
+    ],
+    [
       "EAA FPS",
       2
     ],
     [
-=======
->>>>>>> Stashed changes
+      "tenki.jp",
+      1
+    ],
+    [
       "神戸新聞",
       1
     ],
@@ -395,19 +287,15 @@
       1
     ],
     [
+      "tokyo-np.co.jp",
+      1
+    ],
+    [
       "山陰中央新報デジタル",
       1
     ],
     [
-<<<<<<< Updated upstream
-      "tokyo-np.co.jp",
-=======
-      "東京新聞デジタル",
->>>>>>> Stashed changes
-      1
-    ],
-    [
-      "日テレNEWS NNN",
+      "PT-OT-ST.NET",
       1
     ],
     [
@@ -415,41 +303,10 @@
       1
     ],
     [
-<<<<<<< Updated upstream
-      "福井新聞社",
+      "京都新聞デジタル",
       1
     ],
     [
-      "中日新聞Web",
-      1
-    ],
-    [
-      "CodeZine",
-=======
-      "Smart Watch Life",
->>>>>>> Stashed changes
-      1
-    ],
-    [
-      "ENCOUNT",
-      1
-    ],
-    [
-<<<<<<< Updated upstream
-=======
-      "ENCOUNT",
-      1
-    ],
-    [
-      "西スポWEB OTTO!",
-      1
-    ],
-    [
-      "npb.jp",
-      1
-    ],
-    [
->>>>>>> Stashed changes
       "AFPBB News",
       1
     ],
@@ -478,6 +335,10 @@
       1
     ],
     [
+      "jcp.or.jp",
+      1
+    ],
+    [
       "朝鮮日報",
       1
     ],
@@ -490,13 +351,10 @@
       1
     ],
     [
-<<<<<<< Updated upstream
-=======
       "航空万能論GF",
       1
     ],
     [
->>>>>>> Stashed changes
       "JBpress",
       1
     ],
@@ -505,19 +363,23 @@
       1
     ],
     [
-<<<<<<< Updated upstream
-      "航空万能論GF",
-=======
+      "中日新聞Web",
+      1
+    ],
+    [
       "福井新聞社",
       1
     ],
     [
-      "中日新聞Web",
->>>>>>> Stashed changes
+      "Answers（アンサーズ）",
       1
     ],
     [
-      "Answers（アンサーズ）",
+      "マネクリ",
+      1
+    ],
+    [
+      "みんかぶ FX/為替",
       1
     ],
     [
@@ -529,7 +391,11 @@
       1
     ],
     [
-      "上毛新聞電子版",
+      "Tetsudo.com（鉄道コム）",
+      1
+    ],
+    [
+      "Forbes JAPAN",
       1
     ],
     [
@@ -546,14 +412,6 @@
     ],
     [
       "Impress Watch",
-      1
-    ],
-    [
-      "電撃ホビーウェブ",
-      1
-    ],
-    [
-      "ｄメニューニュース",
       1
     ],
     [
@@ -593,18 +451,11 @@
       1
     ],
     [
-<<<<<<< Updated upstream
-=======
-      "東スポWEB",
-      1
-    ],
-    [
->>>>>>> Stashed changes
-      "Lmaga.jp",
-      1
-    ],
-    [
       "TVガイドWeb",
+      1
+    ],
+    [
+      "Lmaga.jp",
       1
     ],
     [
@@ -625,13 +476,6 @@
     ],
     [
       "デイリー新潮",
-<<<<<<< Updated upstream
-      1
-    ],
-    [
-      "HAPPY PLUS（ハピプラ）",
-=======
->>>>>>> Stashed changes
       1
     ],
     [
@@ -643,13 +487,14 @@
       1
     ],
     [
-<<<<<<< Updated upstream
       "npb.jp",
       1
     ],
     [
-=======
->>>>>>> Stashed changes
+      "gekisaka.jp",
+      1
+    ],
+    [
       "autosport web",
       1
     ],
@@ -663,13 +508,6 @@
     ],
     [
       "Goal.com",
-<<<<<<< Updated upstream
-=======
-      1
-    ],
-    [
-      "sportingnews.com",
->>>>>>> Stashed changes
       1
     ],
     [
@@ -685,15 +523,11 @@
       1
     ],
     [
-<<<<<<< Updated upstream
-      "サッカーキング",
-=======
-      "gekisaka.jp",
+      "CodeZine",
       1
     ],
     [
-      "CodeZine",
->>>>>>> Stashed changes
+      "リスク対策.com",
       1
     ],
     [
@@ -709,21 +543,6 @@
       1
     ],
     [
-<<<<<<< Updated upstream
-=======
-      "PC Watch",
-      1
-    ],
-    [
-      "kakaku.com",
-      1
-    ],
-    [
-      "CNET Japan",
-      1
-    ],
-    [
->>>>>>> Stashed changes
       "OPPOラボ",
       1
     ],
@@ -733,17 +552,6 @@
     ],
     [
       "ZDNET Japan",
-      1
-    ],
-    [
-<<<<<<< Updated upstream
-=======
-      "FISTBUMP",
-      1
-    ],
-    [
->>>>>>> Stashed changes
-      "GAME Watch",
       1
     ],
     [
