@@ -5,7 +5,6 @@ const WORKER_URL = 'https://signal-news.negligent42.workers.dev/news';
 
 const CATEGORIES = [
   { id: 'all',           label: 'すべて',    icon: '◎' },
-  { id: 'top',           label: '主要',      icon: '⭐' },
   { id: 'domestic',      label: '国内',      icon: '🗾' },
   { id: 'world',         label: '国際',      icon: '🌏' },
   { id: 'business',      label: '経済',      icon: '📈' },
@@ -14,11 +13,12 @@ const CATEGORIES = [
   { id: 'it',            label: 'IT',        icon: '💻' },
   { id: 'science',       label: '科学',      icon: '🔬' },
   { id: 'local',         label: '地域',      icon: '📍' },
+  { id: 'life',          label: 'ライフ',    icon: '🌱' },
 ];
 const CAT_COLORS = {
-  all:'#555', top:'#c0392b', domestic:'#2d6a4f', world:'#1a5c8a',
+  all:'#555', domestic:'#2d6a4f', world:'#1a5c8a',
   business:'#b8973a', entertainment:'#6b3a8c', sports:'#1a7a4a',
-  it:'#1a3a5c', science:'#2a6a5c', local:'#8a5a2a',
+  it:'#1a3a5c', science:'#2a6a5c', local:'#8a5a2a', life:'#5a8a3a',
 };
 
 let allArticles=[], filteredArticles=[];
