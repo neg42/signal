@@ -15,6 +15,7 @@ const CATEGORIES = [
   { id: 'local',         label: '地域',      icon: '📍' },
   { id: 'life',          label: 'ライフ',    icon: '🌱' },
 ];
+
 const CAT_COLORS = {
   all:'#555', domestic:'#2d6a4f', world:'#1a5c8a',
   business:'#b8973a', entertainment:'#6b3a8c', sports:'#1a7a4a',
@@ -39,15 +40,19 @@ function clean(html='') {
     .replace(/&[a-z#0-9]+;/gi,' ')
     .replace(/\s+/g,' ').trim();
 }
-function esc(s='') { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 
-// description の有効性チェック（定型文や残骸HTMLを弾く）
+function esc(s='') {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
 const BAD_DESC_RE = /Google ?ニュース|世界中のニュース提供元|集約した広範囲|news\.google\.com|<img|<a |src=|href=/;
+
 function validDesc(text) {
   if (!text || text.length < 20) return '';
   if (BAD_DESC_RE.test(text)) return '';
   return text;
 }
+
 function ago(d) {
   const m=Math.floor((Date.now()-new Date(d))/60000);
   if(m<1) return 'たった今';
@@ -57,13 +62,11 @@ function ago(d) {
   return Math.floor(h/24)+'日前';
 }
 
-// 媒体ブロックフィルタ
 function applyBlockFilter(arts) {
   if (!blockedSources.size) return arts;
   return arts.filter(a => !blockedSources.has(a.source));
 }
 
-// ─── INIT ─────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded',()=>{
   document.querySelector('.logo').addEventListener('click',()=>{
     setCategory('all','すべてのニュース');
@@ -72,18 +75,15 @@ document.addEventListener('DOMContentLoaded',()=>{
   setupEvents();
   buildNav();
   load();
-  // 更新チェック: 5分ごとにmeta.jsonを確認して新しいデータがあれば自動リロード
   startAutoRefreshCheck();
 });
 
 let lastUpdatedAt = null;
 
 async function startAutoRefreshCheck() {
-  // Workerのキャッシュは10分なので15分ごとに自動更新
-  await new Promise(r => setTimeout(r, 5 * 60 * 1000)); // 最初は5分後
+  await new Promise(r => setTimeout(r, 5 * 60 * 1000));
   setInterval(async () => {
     try {
-      // Workerに軽量リクエスト（metaだけ確認）
       const res = await fetch(WORKER_URL + '?meta=1', { cache: 'no-store' });
       if (!res.ok) return;
       const data = await res.json();
@@ -93,67 +93,62 @@ async function startAutoRefreshCheck() {
         await load();
       }
     } catch {}
-  }, 15 * 60 * 1000); // 15分ごと
+  }, 15 * 60 * 1000);
 }
 
 async function load() {
   showLoading();
   try {
-    // Cloudflare Workerから直接取得
-    // no-storeにするとCloudflareのキャッシュも無視して毎回収集するので
-    // 通常はdefaultキャッシュを使い、手動更新時だけ強制更新
     const isManual = window._manualRefresh;
     window._manualRefresh = false;
-    const fetchUrl = isManual
-      ? WORKER_URL + '?bust=' + Date.now()  // 手動更新時はキャッシュバスター
-      : WORKER_URL;
+    const fetchUrl = isManual ? WORKER_URL + '?bust=' + Date.now() : WORKER_URL;
     const res = await fetch(fetchUrl);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const raw = await res.json();
 
     newsData = {};
-    const cats = ['all','society','tech','business','entertainment','sports','politics','custom'];
+    const cats = ['all','domestic','world','business','entertainment','sports','it','science','local','life'];
+
     cats.forEach(cat => {
-      if (!Array.isArray(raw[cat])) { newsData[cat]=[]; return; }
+      if (!Array.isArray(raw[cat])) {
+        newsData[cat]=[];
+        return;
+      }
       newsData[cat] = raw[cat].map(a=>({
         ...a,
-        title:  clean(a.title||''),
+        title: clean(a.title||''),
         description: validDesc(clean(a.description||'')),
         source: clean(a.source||''),
       })).filter(a=>a.title.length>3);
     });
 
     allArticles = newsData.all || [];
+
     if (!allArticles.length) {
       const seen=new Set();
-      allArticles = ['society','tech','business','entertainment','sports','politics']
+      allArticles = ['domestic','world','business','entertainment','sports','it','science','local','life']
         .flatMap(c=>newsData[c]||[])
         .filter(a=>{
           if(!a?.title) return false;
           const k=a.title.slice(0,40);
           if(seen.has(k)) return false;
-          seen.add(k); return true;
+          seen.add(k);
+          return true;
         }).sort((a,b)=>(b.score||0)-(a.score||0));
       newsData.all = allArticles;
     } else {
-      // スコア順にソート
       allArticles.sort((a,b)=>(b.score||0)-(a.score||0));
     }
 
-    // メタデータとbreaking newsはWorkerのレスポンスに含まれる
-    if (raw.meta) {
-      metaData = raw.meta;
-    }
-    // 速報データ
+    if (raw.meta) metaData = raw.meta;
     breakingNews = raw.breaking || [];
     renderBreaking();
 
-    try { buildNav(); } catch(e) { console.error('[SIGNAL] buildNav:', e); }
-    try { buildTicker(); } catch(e) { console.error('[SIGNAL] buildTicker:', e); }
-    try {
-      if (activeCategory==='all'&&!searchQuery) renderTop();
-      else renderList();
-    } catch(e) { console.error('[SIGNAL] render:', e); throw e; }
+    buildNav();
+    buildTicker();
+
+    if (activeCategory==='all'&&!searchQuery) renderTop();
+    else renderList();
 
     if (metaData?.updatedAt) {
       const t = new Date(metaData.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'});
@@ -162,7 +157,6 @@ async function load() {
     }
   } catch(e) {
     console.error('[SIGNAL] load failed:', e);
-    console.error('[SIGNAL] stack:', e.stack);
     document.getElementById('feed').innerHTML=`
       <div class="empty-state">
         <h3>データを取得できません</h3>
@@ -173,7 +167,6 @@ async function load() {
   }
 }
 
-// ─── トップページ ─────────────────────────────────────
 function renderTop() {
   const feed=document.getElementById('feed');
   feed.className='feed top-page';
@@ -182,6 +175,7 @@ function renderTop() {
 
   const visibleAll = applyBlockFilter(allArticles);
   const top3 = visibleAll.slice(0,3);
+
   if(top3.length){
     html+=`<div class="sec top-sec">
       <div class="sec-hd"><span class="sec-lbl">最新ニュース</span>
@@ -242,7 +236,6 @@ function compactCard(a,color) {
   </div>`;
 }
 
-// ─── リスト ───────────────────────────────────────────
 function renderList() {
   const feed=document.getElementById('feed');
   feed.className='feed list-feed';
@@ -254,6 +247,7 @@ function renderList() {
     arts = (newsData[activeCategory]||[]);
     if (searchQuery) arts = arts.filter(matchSearch);
   }
+
   arts = applyBlockFilter(arts);
   filteredArticles = arts;
 
@@ -294,7 +288,6 @@ function showLoading() {
   document.getElementById('feed').innerHTML=`<div class="loading-state"><div class="spinner"></div><p>読み込み中…</p></div>`;
 }
 
-// ─── 記事モーダル ─────────────────────────────────────
 function openArticle(a) {
   const cat=CATEGORIES.find(c=>c.id===a.category);
   const color=CAT_COLORS[a.category]||'#555';
@@ -308,11 +301,11 @@ function openArticle(a) {
   document.getElementById('articleModal').classList.add('active');
   document.getElementById('articleBackdrop').classList.add('active');
 }
+
 function closeArticle() {
   ['articleModal','articleBackdrop'].forEach(id=>document.getElementById(id).classList.remove('active'));
 }
 
-// ─── カテゴリナビ ─────────────────────────────────────
 function buildNav() {
   const list=document.getElementById('categoryList');
   list.innerHTML='';
@@ -349,7 +342,6 @@ function buildTicker() {
   track.innerHTML=items+items;
 }
 
-// ─── 速報帯 ───────────────────────────────────────────
 function renderBreaking() {
   let band = document.getElementById('breakingBand');
   if (!breakingNews || breakingNews.length === 0) {
@@ -358,7 +350,6 @@ function renderBreaking() {
   }
 
   if (!band) {
-    // 速報帯を動的に挿入（tickerの直後）
     const tickerOuter = document.querySelector('.ticker-outer');
     if (!tickerOuter) return;
     band = document.createElement('div');
@@ -381,11 +372,8 @@ function renderBreaking() {
   `;
 }
 
-// ─── 設定モーダル（媒体フィルタ機能込み）──────────────
 function openSettings() {
   const sources = metaData.sources || [];
-
-  // 媒体フィルタリスト
   const sourceList = sources.length
     ? sources.map(([name, count]) => {
         const blocked = blockedSources.has(name);
@@ -423,7 +411,6 @@ function openSettings() {
       <div class="src-list">${sourceList}</div>
     </div>`;
 
-  // チェックボックスのイベント
   document.querySelectorAll('input[data-src]').forEach(cb=>{
     cb.addEventListener('change',()=>{
       const src = cb.dataset.src;
@@ -437,16 +424,15 @@ function openSettings() {
   document.getElementById('settingsModal').classList.add('active');
   document.getElementById('modalBackdrop').classList.add('active');
 }
+
 function closeSettings(){
   ['settingsModal','modalBackdrop'].forEach(id=>document.getElementById(id).classList.remove('active'));
-  // 閉じた時に再描画してフィルタを反映
   buildNav();
   buildTicker();
   if (activeCategory==='all'&&!searchQuery) renderTop();
   else renderList();
 }
 
-// ─── GitHub Actions トリガー ──────────────────────────
 function saveGhToken() {
   const val = document.getElementById('ghTokenInput')?.value?.trim();
   if (!val) { alert('トークンを入力してください'); return; }
@@ -473,7 +459,6 @@ async function triggerGitHubActions() {
   const token = localStorage.getItem('signal_gh_token');
   if (!token) {
     showToast('トークンを設定してください', 'error');
-    // トークン入力欄にフォーカス
     document.getElementById('ghTokenInput')?.focus();
     return;
   }
@@ -500,11 +485,9 @@ async function triggerGitHubActions() {
     );
 
     if (res.status === 204) {
-      // 成功（GitHub APIは成功時に204 No Contentを返す）
       if (icon) icon.textContent = '✅';
       if (sub)  sub.textContent = '収集開始！2〜3分後に自動で画面が更新されます';
       showToast('ニュース収集を開始しました', 'success');
-      // 3分後に自動で画面更新
       setTimeout(async () => {
         await load();
         showToast('ニュースを更新しました', 'success');
@@ -528,7 +511,6 @@ window.triggerGitHubActions = triggerGitHubActions;
 window.saveGhToken = saveGhToken;
 window.clearGhToken = clearGhToken;
 
-// ─── イベント ─────────────────────────────────────────
 function setupEvents() {
   document.getElementById('menuBtn').addEventListener('click',toggleSidebar);
   document.getElementById('sidebarClose').addEventListener('click',toggleSidebar);
@@ -566,7 +548,6 @@ function setupEvents() {
     await load();
     showToast('更新完了', 'success');
   });
-  // GitHub Actionsを開くボタン
   document.getElementById('fetchNewBtn')?.addEventListener('click', () => {
     window.open('https://github.com/neg42/signal/actions/workflows/update-news.yml', '_blank');
   });
@@ -579,8 +560,44 @@ function toggleSidebar() {
   else{sb.classList.toggle('hidden');document.querySelector('.main').classList.toggle('expanded');}
 }
 
+function saveBlocks() {
+  localStorage.setItem('signal_blocked_sources', JSON.stringify([...blockedSources]));
+}
 
-// ─── トースト通知 ─────────────────────────────────────
+function selectAllSources() {
+  blockedSources.clear();
+  saveBlocks();
+  document.querySelectorAll('input[data-src]').forEach(cb=>{
+    cb.checked = true;
+    cb.closest('.src-row')?.classList.remove('blocked');
+  });
+}
+
+function clearAllSources() {
+  document.querySelectorAll('input[data-src]').forEach(cb=>{
+    blockedSources.add(cb.dataset.src);
+    cb.checked = false;
+    cb.closest('.src-row')?.classList.add('blocked');
+  });
+  saveBlocks();
+}
+
+function resetBlocks() {
+  blockedSources.clear();
+  saveBlocks();
+  closeSettings();
+  openSettings();
+}
+
+window.selectAllSources = selectAllSources;
+window.clearAllSources = clearAllSources;
+window.resetBlocks = resetBlocks;
+window.load = load;
+window.openSettings = openSettings;
+window.closeSettings = closeSettings;
+window.closeArticle = closeArticle;
+window.setCategory = setCategory;
+
 function showToast(msg, type='info') {
   const existing = document.getElementById('signal-toast');
   if (existing) existing.remove();
@@ -596,7 +613,6 @@ function showToast(msg, type='info') {
   }, 2200);
 }
 
-// ─── スタイル ─────────────────────────────────────────
 document.head.insertAdjacentHTML('beforeend',`<style>
 .card-in{animation:fadeUp .28s ease both}
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
@@ -604,7 +620,6 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .dot{margin:0 4px;opacity:.35}
 .item-cat{font-family:var(--ff-mono);font-size:9px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px;display:flex;align-items:center}
 .item-meta{font-family:var(--ff-mono);font-size:10px;color:var(--ink3);margin-top:5px}
-
 .feed.top-page{display:block;background:var(--paper)}
 .sec{border-bottom:1px solid var(--paper3);padding:18px 18px 20px}
 .top-sec{border-bottom:2px solid var(--ink)}
@@ -612,14 +627,12 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .sec-lbl{font-family:var(--ff-mono);font-size:9.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)}
 .sec-more{background:none;border:none;font-family:var(--ff-mono);font-size:10px;color:var(--red);cursor:pointer}
 .sec-more:hover{opacity:.7}
-
 .hero-card{padding:14px 0;border-bottom:1px solid var(--paper3);cursor:pointer}
 .hero-card:last-child{border-bottom:none}
 .hero-card:active{opacity:.7}
 .hero-ttl{font-family:var(--ff-head);font-size:15px;font-weight:700;line-height:1.4;color:var(--ink);letter-spacing:-.01em;margin-bottom:6px}
 .hero-first .hero-ttl{font-size:18px;line-height:1.35}
 .hero-desc{font-size:12.5px;color:var(--ink3);line-height:1.6;margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-
 .compact-card{display:flex;gap:10px;align-items:flex-start;padding:11px 0;border-bottom:1px solid var(--paper3);cursor:pointer}
 .compact-card:last-child{border-bottom:none}
 .compact-card:active{opacity:.7}
@@ -627,7 +640,6 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .compact-inner{flex:1;min-width:0}
 .compact-ttl{font-family:var(--ff-head);font-size:13.5px;font-weight:700;line-height:1.4;color:var(--ink);letter-spacing:-.01em;margin-bottom:4px}
 .compact-desc{font-size:11.5px;color:var(--ink3);line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-
 .feed.list-feed{display:block;background:var(--paper)}
 .std-card{border-bottom:1px solid var(--paper3);padding:16px 18px;cursor:pointer}
 .std-card:active{background:rgba(0,0,0,.03)}
@@ -635,62 +647,22 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .std-desc{font-size:12.5px;color:var(--ink3);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:8px}
 .std-foot{display:flex;justify-content:space-between;font-family:var(--ff-mono);font-size:10.5px;color:var(--ink3)}
 .std-src{color:var(--ink2);font-weight:500}
-
 #articleBody h1{font-family:var(--ff-head);font-size:19px;font-weight:700;line-height:1.3;margin:10px 0 12px;color:var(--ink);letter-spacing:-.02em}
 .art-meta{font-family:var(--ff-mono);font-size:10.5px;color:var(--ink3);margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid var(--paper3)}
 .art-body{font-size:13.5px;line-height:1.85;color:var(--ink2);margin-bottom:20px}
 .art-link{display:inline-flex;align-items:center;background:var(--ink);color:var(--paper);padding:10px 20px;border-radius:4px;font-size:13px;text-decoration:none;margin-top:4px}
-
 .loading-state{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:80px 20px;color:var(--ink3);font-family:var(--ff-mono);font-size:12px}
 .empty-state{text-align:center;padding:60px 20px;color:var(--ink3)}
 .empty-state h3{font-family:var(--ff-head);font-size:20px;color:var(--ink);margin-bottom:8px}
-
-/* 速報帯 */
-.breaking-band,#breakingBand{
-  display:flex;align-items:stretch;
-  background:#c0392b;
-  border-bottom:2px solid #96281b;
-  overflow:hidden;
-  max-height:none;
-}
-.breaking-label{
-  padding:0 14px;
-  font-family:var(--ff-mono);font-size:9px;font-weight:700;
-  letter-spacing:.18em;text-transform:uppercase;
-  color:#fff;background:#96281b;
-  display:flex;align-items:center;justify-content:center;
-  white-space:nowrap;flex-shrink:0;min-height:36px;
-}
-.breaking-list{
-  display:flex;flex-direction:column;
-  flex:1;overflow:hidden;
-}
-.breaking-item{
-  display:flex;align-items:center;gap:10px;
-  padding:6px 14px;
-  text-decoration:none;
-  border-bottom:1px solid rgba(255,255,255,.15);
-  transition:background .15s;
-}
-.breaking-item:last-child{border-bottom:none;}
-.breaking-item:hover{background:rgba(0,0,0,.15);}
-.breaking-source{
-  font-family:var(--ff-mono);font-size:9px;font-weight:700;
-  color:rgba(255,255,255,.75);
-  white-space:nowrap;flex-shrink:0;
-  background:rgba(0,0,0,.2);padding:1px 6px;border-radius:2px;
-}
-.breaking-title{
-  font-family:var(--ff-body);font-size:12.5px;font-weight:600;
-  color:#fff;flex:1;
-  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;
-}
-.breaking-time{
-  font-family:var(--ff-mono);font-size:10px;
-  color:rgba(255,255,255,.6);white-space:nowrap;flex-shrink:0;
-}
-
-/* 媒体フィルタ */
+.breaking-band,#breakingBand{display:flex;align-items:stretch;background:#c0392b;border-bottom:2px solid #96281b;overflow:hidden;max-height:none}
+.breaking-label{padding:0 14px;font-family:var(--ff-mono);font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#fff;background:#96281b;display:flex;align-items:center;justify-content:center;white-space:nowrap;flex-shrink:0;min-height:36px}
+.breaking-list{display:flex;flex-direction:column;flex:1;overflow:hidden}
+.breaking-item{display:flex;align-items:center;gap:10px;padding:6px 14px;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.15);transition:background .15s}
+.breaking-item:last-child{border-bottom:none}
+.breaking-item:hover{background:rgba(0,0,0,.15)}
+.breaking-source{font-family:var(--ff-mono);font-size:9px;font-weight:700;color:rgba(255,255,255,.75);white-space:nowrap;flex-shrink:0;background:rgba(0,0,0,.2);padding:1px 6px;border-radius:2px}
+.breaking-title{font-family:var(--ff-body);font-size:12.5px;font-weight:600;color:#fff;flex:1;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.breaking-time{font-family:var(--ff-mono);font-size:10px;color:rgba(255,255,255,.6);white-space:nowrap;flex-shrink:0}
 .src-mini-btn{background:var(--paper2);border:1px solid var(--paper3);color:var(--ink2);font-size:11px;padding:5px 10px;border-radius:4px;cursor:pointer;font-family:var(--ff-body)}
 .src-mini-btn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .src-list{max-height:280px;overflow-y:auto;border:1px solid var(--paper3);border-radius:4px}
@@ -700,9 +672,6 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .src-row label{flex:1;font-size:12.5px;color:var(--ink2);cursor:pointer}
 .src-row input[type=checkbox]{accent-color:var(--red);width:14px;height:14px;cursor:pointer}
 .src-count{font-family:var(--ff-mono);font-size:10px;color:var(--ink3);background:var(--paper2);padding:1px 6px;border-radius:10px;min-width:24px;text-align:center}
-
-
-/* リフレッシュアクション */
 .refresh-actions{display:flex;flex-direction:column;gap:8px}
 .refresh-action-btn{display:flex;align-items:center;gap:12px;padding:12px 14px;background:#fff;border:1px solid var(--paper3);border-radius:6px;cursor:pointer;text-align:left;font-family:var(--ff-body);transition:all .15s;width:100%}
 .refresh-action-btn:hover{border-color:var(--ink2);background:var(--paper)}
@@ -712,8 +681,6 @@ document.head.insertAdjacentHTML('beforeend',`<style>
 .refresh-action-btn .btn-title{font-size:13px;font-weight:600;margin-bottom:2px}
 .refresh-action-btn .btn-sub{font-size:11px;color:var(--ink3);font-family:var(--ff-mono)}
 .refresh-action-btn.primary .btn-sub{color:rgba(247,245,240,.6)}
-
-/* トースト */
 .signal-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);padding:10px 20px;border-radius:24px;font-size:13px;font-family:var(--ff-body);box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:1000;opacity:0;transition:all .3s ease;pointer-events:none}
 .signal-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 .signal-toast.toast-success{background:#2d6a4f}
