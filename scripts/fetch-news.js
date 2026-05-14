@@ -212,7 +212,7 @@ const GN_SOURCES = [
   { url: `${GN_BASE}/WORLD.ja_jp/国際${GN_PARAMS}`,             cat: 'politics'      },
   { url: `${GN_BASE}/BUSINESS.ja_jp/ビジネス${GN_PARAMS}`,      cat: 'business'      },
   { url: `${GN_BASE}/ENTERTAINMENT.ja_jp/エンタメ${GN_PARAMS}`, cat: 'entertainment' },
-  { url: `${GN_BASE}/SPORTS.ja_jp/スポーツ${GN_PARAMS}`,        cat: 'entertainment' },
+  { url: `${GN_BASE}/SPORTS.ja_jp/スポーツ${GN_PARAMS}`,        cat: 'sports'        },
   { url: `${GN_BASE}/SCITECH.ja_jp/テクノロジー${GN_PARAMS}`,   cat: 'tech'          },
 ];
 
@@ -244,7 +244,7 @@ const JP_RSS = [
   { url: 'http://news.livedoor.com/topics/rss/int.xml',   cat: 'politics',      name: 'ライブドア国際'    },
   { url: 'http://news.livedoor.com/topics/rss/eco.xml',   cat: 'business',      name: 'ライブドア経済'    },
   { url: 'http://news.livedoor.com/topics/rss/ent.xml',   cat: 'entertainment', name: 'ライブドアエンタメ' },
-  { url: 'http://news.livedoor.com/topics/rss/spo.xml',   cat: 'entertainment', name: 'ライブドアスポーツ' },
+  { url: 'http://news.livedoor.com/topics/rss/spo.xml',   cat: 'sports',        name: 'ライブドアスポーツ' },
   { url: 'http://news.livedoor.com/topics/rss/sci.xml',   cat: 'tech',          name: 'ライブドア科学'    },
 ];
 
@@ -395,7 +395,7 @@ async function main() {
   await enrichDescriptions(all);
 
   // カテゴリ別振り分け
-  const cats = ['society','tech','business','entertainment','politics'];
+  const cats = ['society','tech','business','entertainment','sports','politics'];
   const byCat = {};
   cats.forEach(c => {
     byCat[c] = dedup(all.filter(a => a.category === c));
