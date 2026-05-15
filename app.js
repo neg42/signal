@@ -96,6 +96,20 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 let lastUpdatedAt = null;
 
+
+async function fetchJsonWithTimeout(url, timeoutMs = 12000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, { signal: controller.signal, cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+
 async function startAutoRefreshCheck() {
   await new Promise(r => setTimeout(r, 5 * 60 * 1000));
   setInterval(async () => {
@@ -118,9 +132,13 @@ async function load() {
     const isManual = window._manualRefresh;
     window._manualRefresh = false;
     const fetchUrl = isManual ? WORKER_URL + '?bust=' + Date.now() : WORKER_URL;
-    const res = await fetch(fetchUrl);
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const raw = await res.json();
+    let raw;
+    try {
+      raw = await fetchJsonWithTimeout(fetchUrl, 12000);
+    } catch (err) {
+      console.warn('[SIGNAL] worker fetch failed, fallback to local data:', err);
+      raw = await fetchJsonWithTimeout('./data/news.json', 12000);
+    }
 
     newsData = {};
     const cats = ['all','society','politics','business','entertainment','sports','tech'];
@@ -418,71 +436,286 @@ function openSettings() {
     <div class="source-group">
       <div class="source-group-title">媒体フィルタ <small style="font-weight:400;color:var(--ink3);margin-left:8px">チェックを外すと非表示</small></div>
       <div style="display:flex;gap:6px;margin-bottom:10px">
-        <button class="mini-btn" onclick="document.querySelectorAll('#sourceCategories input[type=checkbox]').forEach(c=>c.checked=true);saveSourceFilterFromUI();">すべて表示</button>
-        <button class="mini-btn" onclick="document.querySelectorAll('#sourceCategories input[type=checkbox]').forEach(c=>c.checked=false);saveSourceFilterFromUI();">すべて非表示</button>
+        <button class="src-mini-btn" onclick="selectAllSources()">すべて表示</button>
+        <button class="src-mini-btn" onclick="clearAllSources()">すべて非表示</button>
+        <button class="src-mini-btn" onclick="resetBlocks()">リセット</button>
       </div>
-      ${sourceList}
-    </div>
-    <div class="source-group">
-      <div class="source-group-title">更新日時</div>
-      <div style="font-size:12px;color:var(--ink3)">${metaData.updatedAt ? new Date(metaData.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'}) : '不明'}</div>
+      <div class="src-list">${sourceList}</div>
     </div>`;
-  document.getElementById('settingsModal').classList.add('active');
-  document.getElementById('articleBackdrop').classList.add('active');
 
-  document.querySelectorAll('#sourceCategories input[type=checkbox]').forEach(chk => {
-    chk.addEventListener('change', saveSourceFilterFromUI);
+  document.querySelectorAll('input[data-src]').forEach(cb=>{
+    cb.addEventListener('change',()=>{
+      const src = cb.dataset.src;
+      if (cb.checked) blockedSources.delete(src);
+      else blockedSources.add(src);
+      saveBlocks();
+      cb.closest('.src-row').classList.toggle('blocked', !cb.checked);
+    });
   });
+
+  document.getElementById('settingsModal').classList.add('active');
+  document.getElementById('modalBackdrop').classList.add('active');
 }
 
-function saveSourceFilterFromUI() {
-  const checks = [...document.querySelectorAll('#sourceCategories input[type=checkbox]')];
-  const blocked = checks.filter(c=>!c.checked).map(c=>c.dataset.src);
-  blockedSources = new Set(blocked);
-  localStorage.setItem('signal_blocked_sources', JSON.stringify([...blockedSources]));
+function closeSettings(){
+  ['settingsModal','modalBackdrop'].forEach(id=>document.getElementById(id).classList.remove('active'));
   buildNav();
   buildTicker();
-  if (activeCategory==='all' && !searchQuery) renderTop(); else renderList();
+  if (activeCategory==='all'&&!searchQuery) renderTop();
+  else renderList();
 }
 
-function closeSettings() {
-  document.getElementById('settingsModal').classList.remove('active');
-  document.getElementById('articleBackdrop').classList.remove('active');
+function saveGhToken() {
+  const val = document.getElementById('ghTokenInput')?.value?.trim();
+  if (!val) { alert('トークンを入力してください'); return; }
+  if (!val.startsWith('ghp_') && !val.startsWith('github_pat_')) {
+    alert('トークンの形式が正しくありません。\nghp_ または github_pat_ で始まる値を入力してください。');
+    return;
+  }
+  localStorage.setItem('signal_gh_token', val);
+  const status = document.getElementById('tokenStatus');
+  if (status) status.textContent = '✅ トークン保存済み';
+  showToast('トークンを保存しました', 'success');
+}
+
+function clearGhToken() {
+  localStorage.removeItem('signal_gh_token');
+  const input = document.getElementById('ghTokenInput');
+  if (input) input.value = '';
+  const status = document.getElementById('tokenStatus');
+  if (status) status.textContent = '未設定';
+  showToast('トークンを削除しました');
+}
+
+async function triggerGitHubActions() {
+  const token = localStorage.getItem('signal_gh_token');
+  if (!token) {
+    showToast('トークンを設定してください', 'error');
+    document.getElementById('ghTokenInput')?.focus();
+    return;
+  }
+
+  const btn = document.getElementById('triggerActionsBtn');
+  const icon = document.getElementById('triggerIcon');
+  const sub  = document.getElementById('triggerSub');
+  if (btn) btn.disabled = true;
+  if (icon) icon.textContent = '⏳';
+  if (sub)  sub.textContent = '収集を開始しています…';
+
+  try {
+    const res = await fetch(
+      'https://api.github.com/repos/neg42/signal/actions/workflows/update-news.yml/dispatches',
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': 'token ' + token,
+          'Accept': 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ref: 'main' }),
+      }
+    );
+
+    if (res.status === 204) {
+      if (icon) icon.textContent = '✅';
+      if (sub)  sub.textContent = '収集開始！2〜3分後に自動で画面が更新されます';
+      showToast('ニュース収集を開始しました', 'success');
+      setTimeout(async () => {
+        await load();
+        showToast('ニュースを更新しました', 'success');
+      }, 3 * 60 * 1000);
+    } else if (res.status === 401) {
+      throw new Error('トークンが無効です。再設定してください');
+    } else if (res.status === 403) {
+      throw new Error('権限がありません。トークンのscopeにrepoを追加してください');
+    } else {
+      throw new Error('APIエラー: HTTP ' + res.status);
+    }
+  } catch(e) {
+    if (icon) icon.textContent = '❌';
+    if (sub)  sub.textContent = e.message;
+    showToast(e.message, 'error');
+    if (btn) btn.disabled = false;
+  }
+}
+
+window.triggerGitHubActions = triggerGitHubActions;
+window.saveGhToken = saveGhToken;
+window.clearGhToken = clearGhToken;
+
+function setupEvents() {
+  document.getElementById('menuBtn').addEventListener('click',toggleSidebar);
+  document.getElementById('sidebarClose').addEventListener('click',toggleSidebar);
+  document.getElementById('viewGrid').addEventListener('click',()=>{
+    isListView=false;
+    document.getElementById('viewGrid').classList.add('active');
+    document.getElementById('viewList').classList.remove('active');
+    if(activeCategory==='all'&&!searchQuery) renderTop(); else renderList();
+  });
+  document.getElementById('viewList').addEventListener('click',()=>{
+    isListView=true;
+    document.getElementById('viewList').classList.add('active');
+    document.getElementById('viewGrid').classList.remove('active');
+    renderList();
+  });
+  let st;
+  document.getElementById('searchInput').addEventListener('input',e=>{
+    clearTimeout(st);
+    st=setTimeout(()=>{
+      searchQuery=e.target.value;
+      if(searchQuery) renderList();
+      else if(activeCategory==='all') renderTop();
+      else renderList();
+    },300);
+  });
+  document.getElementById('openSettings').addEventListener('click',openSettings);
+  document.getElementById('closeSettings').addEventListener('click',closeSettings);
+  document.getElementById('modalBackdrop').addEventListener('click',closeSettings);
+  document.getElementById('closeArticle').addEventListener('click',closeArticle);
+  document.getElementById('articleBackdrop').addEventListener('click',closeArticle);
+  document.getElementById('refreshBtn').addEventListener('click', async () => {
+    closeSettings();
+    window._manualRefresh = true;
+    showToast('最新データを取得中...');
+    await load();
+    showToast('更新完了', 'success');
+  });
+  document.getElementById('fetchNewBtn')?.addEventListener('click', () => {
+    window.open('https://github.com/neg42/signal/actions/workflows/update-news.yml', '_blank');
+  });
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeArticle();closeSettings();}});
 }
 
 function toggleSidebar() {
-  document.getElementById('sidebar').classList.toggle('open');
-  document.getElementById('mobileBackdrop').classList.toggle('active');
+  const sb=document.getElementById('sidebar');
+  if(window.innerWidth<=768) sb.classList.toggle('mobile-open');
+  else{sb.classList.toggle('hidden');document.querySelector('.main').classList.toggle('expanded');}
 }
 
-function setupEvents() {
-  document.getElementById('searchInput').addEventListener('input',e=>{
-    searchQuery=e.target.value.trim();
-    document.getElementById('searchClear').style.display=searchQuery?'block':'none';
-    if(searchQuery){
-      if(activeCategory==='all'){ document.getElementById('topbarTitle').textContent='検索結果'; }
-      renderList();
-    }else{
-      if(activeCategory==='all') renderTop(); else renderList();
-    }
-  });
-  document.getElementById('searchClear').addEventListener('click',()=>{
-    const el=document.getElementById('searchInput');
-    el.value=''; searchQuery=''; document.getElementById('searchClear').style.display='none';
-    if(activeCategory==='all') renderTop(); else renderList();
-  });
+function saveBlocks() {
+  localStorage.setItem('signal_blocked_sources', JSON.stringify([...blockedSources]));
+}
 
-  document.getElementById('menuBtn').addEventListener('click',toggleSidebar);
-  document.getElementById('mobileBackdrop').addEventListener('click',toggleSidebar);
-
-  document.getElementById('settingsBtn').addEventListener('click',openSettings);
-  document.getElementById('settingsClose').addEventListener('click',closeSettings);
-  document.getElementById('articleClose').addEventListener('click',closeArticle);
-  document.getElementById('articleBackdrop').addEventListener('click',()=>{
-    closeArticle(); closeSettings();
-  });
-
-  document.addEventListener('keydown',e=>{
-    if(e.key==='Escape'){ closeArticle(); closeSettings(); }
+function selectAllSources() {
+  blockedSources.clear();
+  saveBlocks();
+  document.querySelectorAll('input[data-src]').forEach(cb=>{
+    cb.checked = true;
+    cb.closest('.src-row')?.classList.remove('blocked');
   });
 }
+
+function clearAllSources() {
+  document.querySelectorAll('input[data-src]').forEach(cb=>{
+    blockedSources.add(cb.dataset.src);
+    cb.checked = false;
+    cb.closest('.src-row')?.classList.add('blocked');
+  });
+  saveBlocks();
+}
+
+function resetBlocks() {
+  blockedSources.clear();
+  saveBlocks();
+  closeSettings();
+  openSettings();
+}
+
+window.selectAllSources = selectAllSources;
+window.clearAllSources = clearAllSources;
+window.resetBlocks = resetBlocks;
+window.load = load;
+window.openSettings = openSettings;
+window.closeSettings = closeSettings;
+window.closeArticle = closeArticle;
+window.setCategory = setCategory;
+
+function showToast(msg, type='info') {
+  const existing = document.getElementById('signal-toast');
+  if (existing) existing.remove();
+  const t = document.createElement('div');
+  t.id = 'signal-toast';
+  t.className = 'signal-toast' + (type==='success'?' toast-success':type==='info'?' toast-info':type==='error'?' toast-error':'');
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(()=>t.classList.add('show'), 10);
+  setTimeout(()=>{
+    t.classList.remove('show');
+    setTimeout(()=>t.remove(), 300);
+  }, 2200);
+}
+
+document.head.insertAdjacentHTML('beforeend',`<style>
+.card-in{animation:fadeUp .28s ease both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.dash{display:inline-block;width:14px;height:2px;background:currentColor;border-radius:1px;margin-right:6px;vertical-align:middle;flex-shrink:0}
+.dot{margin:0 4px;opacity:.35}
+.item-cat{font-family:var(--ff-mono);font-size:9px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;margin-bottom:6px;display:flex;align-items:center}
+.item-meta{font-family:var(--ff-mono);font-size:10px;color:var(--ink3);margin-top:5px}
+.feed.top-page{display:block;background:var(--paper)}
+.sec{border-bottom:1px solid var(--paper3);padding:18px 18px 20px}
+.top-sec{border-bottom:2px solid var(--ink)}
+.sec-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.sec-lbl{font-family:var(--ff-mono);font-size:9.5px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--ink3)}
+.sec-more{background:none;border:none;font-family:var(--ff-mono);font-size:10px;color:var(--red);cursor:pointer}
+.sec-more:hover{opacity:.7}
+.hero-card{padding:14px 0;border-bottom:1px solid var(--paper3);cursor:pointer}
+.hero-card:last-child{border-bottom:none}
+.hero-card:active{opacity:.7}
+.hero-ttl{font-family:var(--ff-head);font-size:15px;font-weight:700;line-height:1.4;color:var(--ink);letter-spacing:-.01em;margin-bottom:6px}
+.hero-first .hero-ttl{font-size:18px;line-height:1.35}
+.hero-desc{font-size:12.5px;color:var(--ink3);line-height:1.6;margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.compact-card{display:flex;gap:10px;align-items:flex-start;padding:11px 0;border-bottom:1px solid var(--paper3);cursor:pointer}
+.compact-card:last-child{border-bottom:none}
+.compact-card:active{opacity:.7}
+.bullet{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:6px}
+.compact-inner{flex:1;min-width:0}
+.compact-ttl{font-family:var(--ff-head);font-size:13.5px;font-weight:700;line-height:1.4;color:var(--ink);letter-spacing:-.01em;margin-bottom:4px}
+.compact-desc{font-size:11.5px;color:var(--ink3);line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.feed.list-feed{display:block;background:var(--paper)}
+.std-card{border-bottom:1px solid var(--paper3);padding:16px 18px;cursor:pointer}
+.std-card:active{background:rgba(0,0,0,.03)}
+.std-ttl{font-family:var(--ff-head);font-size:16px;font-weight:700;line-height:1.38;color:var(--ink);margin-bottom:6px;letter-spacing:-.01em}
+.std-desc{font-size:12.5px;color:var(--ink3);line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:8px}
+.std-foot{display:flex;justify-content:space-between;font-family:var(--ff-mono);font-size:10.5px;color:var(--ink3)}
+.std-src{color:var(--ink2);font-weight:500}
+#articleBody h1{font-family:var(--ff-head);font-size:19px;font-weight:700;line-height:1.3;margin:10px 0 12px;color:var(--ink);letter-spacing:-.02em}
+.art-meta{font-family:var(--ff-mono);font-size:10.5px;color:var(--ink3);margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid var(--paper3)}
+.art-body{font-size:13.5px;line-height:1.85;color:var(--ink2);margin-bottom:20px}
+.art-link{display:inline-flex;align-items:center;background:var(--ink);color:var(--paper);padding:10px 20px;border-radius:4px;font-size:13px;text-decoration:none;margin-top:4px}
+.loading-state{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:80px 20px;color:var(--ink3);font-family:var(--ff-mono);font-size:12px}
+.empty-state{text-align:center;padding:60px 20px;color:var(--ink3)}
+.empty-state h3{font-family:var(--ff-head);font-size:20px;color:var(--ink);margin-bottom:8px}
+.breaking-band,#breakingBand{display:flex;align-items:stretch;background:#c0392b;border-bottom:2px solid #96281b;overflow:hidden;max-height:none}
+.breaking-label{padding:0 14px;font-family:var(--ff-mono);font-size:9px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#fff;background:#96281b;display:flex;align-items:center;justify-content:center;white-space:nowrap;flex-shrink:0;min-height:36px}
+.breaking-list{display:flex;flex-direction:column;flex:1;overflow:hidden}
+.breaking-item{display:flex;align-items:center;gap:10px;padding:6px 14px;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.15);transition:background .15s}
+.breaking-item:last-child{border-bottom:none}
+.breaking-item:hover{background:rgba(0,0,0,.15)}
+.breaking-source{font-family:var(--ff-mono);font-size:9px;font-weight:700;color:rgba(255,255,255,.75);white-space:nowrap;flex-shrink:0;background:rgba(0,0,0,.2);padding:1px 6px;border-radius:2px}
+.breaking-title{font-family:var(--ff-body);font-size:12.5px;font-weight:600;color:#fff;flex:1;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.breaking-time{font-family:var(--ff-mono);font-size:10px;color:rgba(255,255,255,.6);white-space:nowrap;flex-shrink:0}
+.src-mini-btn{background:var(--paper2);border:1px solid var(--paper3);color:var(--ink2);font-size:11px;padding:5px 10px;border-radius:4px;cursor:pointer;font-family:var(--ff-body)}
+.src-mini-btn:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.src-list{max-height:280px;overflow-y:auto;border:1px solid var(--paper3);border-radius:4px}
+.src-row{display:flex;align-items:center;gap:10px;padding:7px 11px;border-bottom:1px solid var(--paper2);background:#fff}
+.src-row:last-child{border-bottom:none}
+.src-row.blocked{opacity:.4;background:var(--paper2)}
+.src-row label{flex:1;font-size:12.5px;color:var(--ink2);cursor:pointer}
+.src-row input[type=checkbox]{accent-color:var(--red);width:14px;height:14px;cursor:pointer}
+.src-count{font-family:var(--ff-mono);font-size:10px;color:var(--ink3);background:var(--paper2);padding:1px 6px;border-radius:10px;min-width:24px;text-align:center}
+.refresh-actions{display:flex;flex-direction:column;gap:8px}
+.refresh-action-btn{display:flex;align-items:center;gap:12px;padding:12px 14px;background:#fff;border:1px solid var(--paper3);border-radius:6px;cursor:pointer;text-align:left;font-family:var(--ff-body);transition:all .15s;width:100%}
+.refresh-action-btn:hover{border-color:var(--ink2);background:var(--paper)}
+.refresh-action-btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.refresh-action-btn.primary:hover{opacity:.9;background:var(--ink)}
+.refresh-action-btn .icon{font-size:18px;flex-shrink:0}
+.refresh-action-btn .btn-title{font-size:13px;font-weight:600;margin-bottom:2px}
+.refresh-action-btn .btn-sub{font-size:11px;color:var(--ink3);font-family:var(--ff-mono)}
+.refresh-action-btn.primary .btn-sub{color:rgba(247,245,240,.6)}
+.signal-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--paper);padding:10px 20px;border-radius:24px;font-size:13px;font-family:var(--ff-body);box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:1000;opacity:0;transition:all .3s ease;pointer-events:none}
+.signal-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.signal-toast.toast-success{background:#2d6a4f}
+.signal-toast.toast-info{background:#1a3a5c}
+.signal-toast.toast-error{background:#c0392b}
+</style>`);
