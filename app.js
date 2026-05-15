@@ -1,8 +1,4 @@
-/* =========================
- * app.js
- * =========================
- * SIGNAL app.js — Cloudflare Workers版
- */
+/* SIGNAL app.js — Cloudflare Workers版 */
 
 const WORKER_URL = 'https://signal-news.negligent42.workers.dev/news';
 
@@ -125,10 +121,11 @@ async function startAutoRefreshCheck() {
 
 async function load() {
   showLoading();
+
   try {
     const isManual = window._manualRefresh;
     window._manualRefresh = false;
-    const fetchUrl = isManual ? WORKER_URL + '?bust=' + Date.now() : WORKER_URL;
+    const fetchUrl = isManual ? WORKER_URL + '?refresh=1&bust=' + Date.now() : WORKER_URL;
 
     let raw;
     try {
@@ -139,7 +136,7 @@ async function load() {
     }
 
     newsData = {};
-    const cats = ['all', 'society', 'politics', 'business', 'entertainment', 'sports', 'tech'];
+    const cats = ['all','society','politics','business','entertainment','sports','tech'];
 
     cats.forEach(cat => {
       const merged = CATEGORY_ALIASES[cat].flatMap(alias => Array.isArray(raw[alias]) ? raw[alias] : []);
@@ -174,6 +171,26 @@ async function load() {
     if (raw.meta) metaData = raw.meta;
     breakingNews = raw.breaking || [];
     renderBreaking();
+
+    // ここが「固まって見える」を防ぐ修正
+    if (!allArticles.length) {
+      const feed = document.getElementById('feed');
+      if (feed) {
+        feed.innerHTML = `
+          <div class="empty-state">
+            <h3>記事データを準備中です</h3>
+            <p style="font-size:12px;margin-top:8px;color:var(--ink3)">
+              初回アクセス時はサーバー側でデータ生成が必要です。少し待って再読み込みしてください。
+            </p>
+            <button onclick="window._manualRefresh=true;load()" style="margin-top:16px;padding:9px 20px;background:var(--ink);color:var(--paper);border:none;border-radius:4px;cursor:pointer">
+              今すぐ更新
+            </button>
+          </div>`;
+      }
+      buildNav();
+      buildTicker();
+      return;
+    }
 
     buildNav();
     buildTicker();
@@ -234,7 +251,7 @@ function renderTop() {
     </div>`;
   });
 
-  feed.innerHTML = html || '<div class="empty-state"><h3>記事を読み込み中</h3></div>';
+  feed.innerHTML = html || '<div class="empty-state"><h3>記事がありません</h3></div>';
 
   feed.querySelectorAll('[data-id]').forEach((el,i) => {
     el.addEventListener('click', () => {
