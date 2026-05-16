@@ -1,4 +1,8 @@
-/* SIGNAL app.js — Cloudflare Workers版 */
+/* =========================
+ * app.js
+ * =========================
+ * SIGNAL app.js — Cloudflare Workers版
+ */
 
 const WORKER_URL = 'https://signal-news.negligent42.workers.dev/news';
 
@@ -29,7 +33,7 @@ const CATEGORY_ALIASES = {
 };
 
 function normalizeCategory(cat='') {
-  const key = String(cat || '').toLowerCase();
+  const key = String(cat||'').toLowerCase();
   for (const [normalized, aliases] of Object.entries(CATEGORY_ALIASES)) {
     if (aliases.includes(key)) return normalized;
   }
@@ -62,11 +66,7 @@ function clean(html='') {
 }
 
 function esc(s='') {
-  return String(s)
-    .replace(/&/g,'&amp;')
-    .replace(/</g,'&lt;')
-    .replace(/>/g,'&gt;')
-    .replace(/"/g,'&quot;');
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 const BAD_DESC_RE = /Google ?ニュース|世界中のニュース提供元|集約した広範囲|news\.google\.com|<img|<a |src=|href=/;
@@ -78,12 +78,12 @@ function validDesc(text) {
 }
 
 function ago(d) {
-  const m = Math.floor((Date.now() - new Date(d)) / 60000);
-  if (m < 1) return 'たった今';
-  if (m < 60) return m + '分前';
-  const h = Math.floor(m / 60);
-  if (h < 24) return h + '時間前';
-  return Math.floor(h / 24) + '日前';
+  const m=Math.floor((Date.now()-new Date(d))/60000);
+  if(m<1) return 'たった今';
+  if(m<60) return m+'分前';
+  const h=Math.floor(m/60);
+  if(h<24) return h+'時間前';
+  return Math.floor(h/24)+'日前';
 }
 
 function applyBlockFilter(arts) {
@@ -121,7 +121,6 @@ async function startAutoRefreshCheck() {
 
 async function load() {
   showLoading();
-
   try {
     const isManual = window._manualRefresh;
     window._manualRefresh = false;
@@ -157,22 +156,20 @@ async function load() {
         .flatMap(c => newsData[c] || [])
         .filter(a => {
           if (!a?.title) return false;
-          const k = a.title.slice(0, 40);
+          const k = a.title.slice(0,40);
           if (seen.has(k)) return false;
           seen.add(k);
           return true;
-        })
-        .sort((a,b) => (b.score || 0) - (a.score || 0));
+        }).sort((a,b)=>(b.score||0)-(a.score||0));
       newsData.all = allArticles;
     } else {
-      allArticles.sort((a,b) => (b.score || 0) - (a.score || 0));
+      allArticles.sort((a,b)=>(b.score||0)-(a.score||0));
     }
 
     if (raw.meta) metaData = raw.meta;
     breakingNews = raw.breaking || [];
     renderBreaking();
 
-    // ここが「固まって見える」を防ぐ修正
     if (!allArticles.length) {
       const feed = document.getElementById('feed');
       if (feed) {
@@ -195,20 +192,20 @@ async function load() {
     buildNav();
     buildTicker();
 
-    if (activeCategory === 'all' && !searchQuery) renderTop();
+    if (activeCategory==='all' && !searchQuery) renderTop();
     else renderList();
 
     if (metaData?.updatedAt) {
-      const t = new Date(metaData.updatedAt).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo' });
+      const t = new Date(metaData.updatedAt).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo'});
       const el = document.getElementById('lastUpdated');
       if (el) el.textContent = '収集: ' + t;
       lastUpdatedAt = metaData.updatedAt;
     }
-  } catch (e) {
+  } catch(e) {
     console.error('[SIGNAL] load failed:', e);
     const feed = document.getElementById('feed');
     if (feed) {
-      feed.innerHTML = `
+      feed.innerHTML=`
         <div class="empty-state">
           <h3>データを取得できません</h3>
           <p style="font-size:12px;margin-top:8px;color:var(--ink3)">エラー内容: ${esc(e.message)}</p>
@@ -222,15 +219,15 @@ async function load() {
 function renderTop() {
   const feed = document.getElementById('feed');
   if (!feed) return;
-  feed.className = 'feed top-page';
-  const cats = CATEGORIES.filter(c => c.id !== 'all');
-  let html = '';
+  feed.className='feed top-page';
+  const cats=CATEGORIES.filter(c=>c.id!=='all');
+  let html='';
 
   const visibleAll = applyBlockFilter(allArticles);
-  const top3 = visibleAll.slice(0, 3);
+  const top3 = visibleAll.slice(0,3);
 
-  if (top3.length) {
-    html += `<div class="sec top-sec">
+  if(top3.length){
+    html+=`<div class="sec top-sec">
       <div class="sec-hd"><span class="sec-lbl">最新ニュース</span>
         <button class="sec-more" onclick="setCategory('all','すべてのニュース')">すべて見る →</button>
       </div>
@@ -238,11 +235,11 @@ function renderTop() {
     </div>`;
   }
 
-  cats.forEach(cat => {
-    const arts = applyBlockFilter(newsData[cat.id] || []).slice(0, 5);
-    if (!arts.length) return;
-    const color = CAT_COLORS[cat.id] || '#555';
-    html += `<div class="sec cat-sec">
+  cats.forEach(cat=>{
+    const arts = applyBlockFilter(newsData[cat.id]||[]).slice(0,5);
+    if(!arts.length) return;
+    const color=CAT_COLORS[cat.id]||'#555';
+    html+=`<div class="sec cat-sec">
       <div class="sec-hd">
         <span class="sec-lbl" style="color:${color}">${cat.icon} ${cat.label}</span>
         <button class="sec-more" onclick="setCategory('${cat.id}','${cat.label}')">もっと見る →</button>
@@ -251,27 +248,27 @@ function renderTop() {
     </div>`;
   });
 
-  feed.innerHTML = html || '<div class="empty-state"><h3>記事がありません</h3></div>';
+  feed.innerHTML=html||'<div class="empty-state"><h3>記事がありません</h3></div>';
 
-  feed.querySelectorAll('[data-id]').forEach((el,i) => {
-    el.addEventListener('click', () => {
-      const art = findById(el.dataset.id);
-      if (art) openArticle(art);
+  feed.querySelectorAll('[data-id]').forEach((el,i)=>{
+    el.addEventListener('click',()=>{
+      const art=findById(el.dataset.id);
+      if(art) openArticle(art);
     });
-    el.style.animationDelay = (i * 0.025) + 's';
+    el.style.animationDelay=(i*0.025)+'s';
     el.classList.add('card-in');
   });
 }
 
 function findById(id) {
-  return allArticles.find(a => a.id === id) || Object.values(newsData).flat().find(a => a.id === id);
+  return allArticles.find(a=>a.id===id) || Object.values(newsData).flat().find(a=>a.id===id);
 }
 
-function heroCard(a, idx) {
-  const cat = CATEGORIES.find(c => c.id === a.category);
-  const color = CAT_COLORS[a.category] || '#555';
+function heroCard(a,idx) {
+  const cat=CATEGORIES.find(c=>c.id===a.category);
+  const color=CAT_COLORS[a.category]||'#555';
   return `<div class="hero-card${idx===0?' hero-first':''}" data-id="${esc(a.id)}">
-    <div class="item-cat" style="color:${color}"><span class="dash"></span>${esc(cat?.label || a.category)}</div>
+    <div class="item-cat" style="color:${color}"><span class="dash"></span>${esc(cat?.label||a.category)}</div>
     <div class="hero-ttl">${esc(a.title)}</div>
     ${a.description ? `<div class="hero-desc">${esc(a.description)}</div>` : ''}
     <div class="item-meta">${esc(a.source)}<span class="dot">·</span>${ago(a.date)}</div>
@@ -290,45 +287,45 @@ function compactCard(a,color) {
 }
 
 function renderList() {
-  const feed = document.getElementById('feed');
+  const feed=document.getElementById('feed');
   if (!feed) return;
-  feed.className = 'feed list-feed';
+  feed.className='feed list-feed';
 
   let arts;
-  if (activeCategory === 'all') {
+  if (activeCategory==='all') {
     arts = searchQuery ? allArticles.filter(matchSearch) : allArticles;
   } else {
-    arts = (newsData[activeCategory] || []);
+    arts = (newsData[activeCategory]||[]);
     if (searchQuery) arts = arts.filter(matchSearch);
   }
 
   arts = applyBlockFilter(arts);
   filteredArticles = arts;
 
-  if (!arts.length) {
-    feed.innerHTML = `<div class="empty-state"><h3>記事が見つかりません</h3>
+  if(!arts.length){
+    feed.innerHTML=`<div class="empty-state"><h3>記事が見つかりません</h3>
       <p style="font-size:12px;margin-top:6px;color:var(--ink3)">媒体フィルタを確認するか、更新を実行してください</p></div>`;
     return;
   }
 
-  feed.innerHTML = arts.map(a=>stdCard(a)).join('');
-  feed.querySelectorAll('.std-card').forEach((el,i) => {
-    el.style.animationDelay = (i * 0.02) + 's';
+  feed.innerHTML=arts.map(a=>stdCard(a)).join('');
+  feed.querySelectorAll('.std-card').forEach((el,i)=>{
+    el.style.animationDelay=(i*0.02)+'s';
     el.classList.add('card-in');
-    el.addEventListener('click', () => openArticle(arts[i]));
+    el.addEventListener('click',()=>openArticle(arts[i]));
   });
 }
 
 function matchSearch(a) {
-  const q = searchQuery.toLowerCase();
-  return a.title.toLowerCase().includes(q) || (a.description || '').toLowerCase().includes(q);
+  const q=searchQuery.toLowerCase();
+  return a.title.toLowerCase().includes(q)||(a.description||'').toLowerCase().includes(q);
 }
 
 function stdCard(a) {
-  const cat = CATEGORIES.find(c => c.id === a.category);
-  const color = CAT_COLORS[a.category] || '#555';
+  const cat=CATEGORIES.find(c=>c.id===a.category);
+  const color=CAT_COLORS[a.category]||'#555';
   return `<article class="std-card">
-    <div class="item-cat" style="color:${color}"><span class="dash"></span>${esc(cat?.label || a.category)}</div>
+    <div class="item-cat" style="color:${color}"><span class="dash"></span>${esc(cat?.label||a.category)}</div>
     <div class="std-ttl">${esc(a.title)}</div>
     ${a.description ? `<div class="std-desc">${esc(a.description)}</div>` : ''}
     <div class="std-foot">
@@ -340,20 +337,18 @@ function stdCard(a) {
 
 function showLoading() {
   const feed = document.getElementById('feed');
-  if (feed) {
-    feed.innerHTML = `<div class="loading-state"><div class="spinner"></div><p>読み込み中…</p></div>`;
-  }
+  if (feed) feed.innerHTML=`<div class="loading-state"><div class="spinner"></div><p>読み込み中…</p></div>`;
 }
 
 function openArticle(a) {
-  const cat = CATEGORIES.find(c => c.id === a.category);
-  const color = CAT_COLORS[a.category] || '#555';
-  const mt = document.getElementById('articleMetaTop');
+  const cat=CATEGORIES.find(c=>c.id===a.category);
+  const color=CAT_COLORS[a.category]||'#555';
+  const metaTop = document.getElementById('articleMetaTop');
   const body = document.getElementById('articleBody');
-  if (mt) mt.textContent = a.source + ' · ' + ago(a.date);
+  if (metaTop) metaTop.textContent = a.source+' · '+ago(a.date);
   if (body) {
-    body.innerHTML = `
-      <div class="item-cat" style="color:${color}"><span class="dash"></span>${esc(cat?.label || a.category)}</div>
+    body.innerHTML=`
+      <div class="item-cat" style="color:${color}"><span class="dash"></span>${esc(cat?.label||a.category)}</div>
       <h1>${esc(a.title)}</h1>
       <div class="art-meta">${esc(a.source)}<span class="dot">·</span>${new Date(a.date).toLocaleString('ja-JP')}</div>
       ${a.description ? `<p class="art-body">${esc(a.description)}</p>` : '<p class="art-body" style="color:var(--ink3);font-style:italic">本文は元記事でご確認ください</p>'}
@@ -364,18 +359,18 @@ function openArticle(a) {
 }
 
 function closeArticle() {
-  ['articleModal','articleBackdrop'].forEach(id => document.getElementById(id)?.classList.remove('active'));
+  ['articleModal','articleBackdrop'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
 }
 
 function buildNav() {
-  const list = document.getElementById('categoryList');
+  const list=document.getElementById('categoryList');
   if (!list) return;
-  list.innerHTML = '';
-  CATEGORIES.forEach(cat => {
-    const arts = cat.id === 'all' ? allArticles : (newsData[cat.id] || []);
+  list.innerHTML='';
+  CATEGORIES.forEach(cat=>{
+    const arts = cat.id==='all' ? allArticles : (newsData[cat.id]||[]);
     const count = applyBlockFilter(arts).length;
-    const li = document.createElement('li');
-    li.innerHTML = `<a class="${activeCategory===cat.id?'active':''}" data-cat="${cat.id}">
+    const li=document.createElement('li');
+    li.innerHTML=`<a class="${activeCategory===cat.id?'active':''}" data-cat="${cat.id}">
       <span class="cat-icon">${cat.icon}</span>
       <span>${cat.label}</span>
       ${count>0?`<span class="cat-count">${count}</span>`:''}
@@ -386,24 +381,24 @@ function buildNav() {
 }
 
 function setCategory(id,label) {
-  activeCategory = id;
-  const title = document.getElementById('topbarTitle');
-  if (title) title.textContent = id === 'all' ? 'すべてのニュース' : label;
+  activeCategory=id;
+  const titleEl = document.getElementById('topbarTitle');
+  if (titleEl) titleEl.textContent=id==='all'?'すべてのニュース':label;
   buildNav();
   buildTicker();
-  if (id === 'all' && !searchQuery) renderTop();
+  if(id==='all'&&!searchQuery) renderTop();
   else renderList();
-  window.scrollTo({ top:0, behavior:'smooth' });
-  if (window.innerWidth <= 768) toggleSidebar();
+  window.scrollTo({top:0,behavior:'smooth'});
+  if(window.innerWidth<=768) toggleSidebar();
 }
 
 function buildTicker() {
-  const track = document.getElementById('tickerTrack');
+  const track=document.getElementById('tickerTrack');
   if (!track) return;
-  const src = activeCategory === 'all' ? allArticles : (newsData[activeCategory] || allArticles);
+  const src = activeCategory==='all' ? allArticles : (newsData[activeCategory]||allArticles);
   const visible = applyBlockFilter(src);
-  const items = visible.slice(0,10).map(a=>`<span class="ticker-item">${esc(a.title)}</span>`).join('');
-  track.innerHTML = items + items;
+  const items=visible.slice(0,10).map(a=>`<span class="ticker-item">${esc(a.title)}</span>`).join('');
+  track.innerHTML=items+items;
 }
 
 function renderBreaking() {
@@ -429,7 +424,7 @@ function renderBreaking() {
         <a class="breaking-item" href="${esc(b.url)}" target="_blank" rel="noopener">
           <span class="breaking-source">${esc(b.source)}</span>
           <span class="breaking-title">${esc(b.title)}</span>
-          <span class="breaking-time">${esc(b.time || '')}</span>
+          <span class="breaking-time">${esc(b.time||'')}</span>
         </a>
       `).join('')}
     </div>
@@ -473,8 +468,8 @@ function openSettings() {
       <div class="src-list">${sourceList}</div>
     </div>`;
 
-  document.querySelectorAll('input[data-src]').forEach(cb => {
-    cb.addEventListener('change', () => {
+  document.querySelectorAll('input[data-src]').forEach(cb=>{
+    cb.addEventListener('change',()=>{
       const src = cb.dataset.src;
       if (cb.checked) blockedSources.delete(src);
       else blockedSources.add(src);
@@ -482,7 +477,7 @@ function openSettings() {
       cb.closest('.src-row')?.classList.toggle('blocked', !cb.checked);
       buildNav();
       buildTicker();
-      if (activeCategory === 'all' && !searchQuery) renderTop();
+      if (activeCategory==='all'&&!searchQuery) renderTop();
       else renderList();
     });
   });
@@ -492,13 +487,13 @@ function openSettings() {
 }
 
 function closeSettings() {
-  ['settingsModal','modalBackdrop'].forEach(id => document.getElementById(id)?.classList.remove('active'));
+  ['settingsModal','modalBackdrop'].forEach(id=>document.getElementById(id)?.classList.remove('active'));
 }
 
 function toggleSidebar() {
-  const sb = document.getElementById('sidebar');
+  const sb=document.getElementById('sidebar');
   if (!sb) return;
-  if (window.innerWidth <= 768) sb.classList.toggle('mobile-open');
+  if(window.innerWidth<=768) sb.classList.toggle('mobile-open');
   else {
     sb.classList.toggle('hidden');
     document.querySelector('.main')?.classList.toggle('expanded');
@@ -510,14 +505,14 @@ function setupEvents() {
   document.getElementById('sidebarClose')?.addEventListener('click',toggleSidebar);
 
   document.getElementById('viewGrid')?.addEventListener('click',()=>{
-    isListView = false;
+    isListView=false;
     document.getElementById('viewGrid')?.classList.add('active');
     document.getElementById('viewList')?.classList.remove('active');
-    if (activeCategory==='all' && !searchQuery) renderTop(); else renderList();
+    if(activeCategory==='all'&&!searchQuery) renderTop(); else renderList();
   });
 
   document.getElementById('viewList')?.addEventListener('click',()=>{
-    isListView = true;
+    isListView=true;
     document.getElementById('viewList')?.classList.add('active');
     document.getElementById('viewGrid')?.classList.remove('active');
     renderList();
@@ -526,12 +521,12 @@ function setupEvents() {
   let st;
   document.getElementById('searchInput')?.addEventListener('input',e=>{
     clearTimeout(st);
-    st = setTimeout(()=>{
-      searchQuery = e.target.value.trim();
-      if (searchQuery) renderList();
-      else if (activeCategory === 'all') renderTop();
+    st=setTimeout(()=>{
+      searchQuery=e.target.value.trim();
+      if(searchQuery) renderList();
+      else if(activeCategory==='all') renderTop();
       else renderList();
-    }, 250);
+    },250);
   });
 
   document.getElementById('openSettings')?.addEventListener('click',openSettings);
@@ -548,9 +543,7 @@ function setupEvents() {
     showToast('更新完了', 'success');
   });
 
-  document.addEventListener('keydown',e=>{
-    if (e.key === 'Escape') { closeArticle(); closeSettings(); }
-  });
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeArticle();closeSettings();}});
 }
 
 function showToast(msg, type='info') {
@@ -561,11 +554,11 @@ function showToast(msg, type='info') {
   t.className = 'signal-toast' + (type==='success'?' toast-success':type==='info'?' toast-info':type==='error'?' toast-error':'');
   t.textContent = msg;
   document.body.appendChild(t);
-  setTimeout(()=>t.classList.add('show'),10);
+  setTimeout(()=>t.classList.add('show'), 10);
   setTimeout(()=>{
     t.classList.remove('show');
-    setTimeout(()=>t.remove(),300);
-  },2200);
+    setTimeout(()=>t.remove(), 300);
+  }, 2200);
 }
 
 window.load = load;
@@ -577,7 +570,7 @@ window.closeArticle = closeArticle;
 document.addEventListener('DOMContentLoaded',()=>{
   document.querySelector('.logo')?.addEventListener('click',()=>{
     setCategory('all','すべてのニュース');
-    window.scrollTo({ top:0, behavior:'smooth' });
+    window.scrollTo({top:0,behavior:'smooth'});
   });
   setupEvents();
   buildNav();
