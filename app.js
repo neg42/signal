@@ -5,38 +5,22 @@ const WORKER_URL = 'https://signal-news.negligent42.workers.dev/news';
 
 const CATEGORIES = [
   { id: 'all',           label: 'すべて',    icon: '◎' },
-  { id: 'society',       label: '社会',      icon: '🗾' },
-  { id: 'politics',      label: '政治・国際', icon: '🌏' },
+  { id: 'domestic',      label: '国内',      icon: '🗾' },
+  { id: 'world',         label: '国際',      icon: '🌏' },
   { id: 'business',      label: '経済',      icon: '📈' },
   { id: 'entertainment', label: 'エンタメ',  icon: '🎬' },
   { id: 'sports',        label: 'スポーツ',  icon: '⚽' },
-  { id: 'tech',          label: 'テクノロジー', icon: '💻' },
+  { id: 'it',            label: 'IT',        icon: '💻' },
+  { id: 'science',       label: '科学',      icon: '🔬' },
+  { id: 'local',         label: '地域',      icon: '📍' },
+  { id: 'life',          label: 'ライフ',    icon: '🌱' },
 ];
 
 const CAT_COLORS = {
-  all:'#555', society:'#2d6a4f', politics:'#1a5c8a',
+  all:'#555', domestic:'#2d6a4f', world:'#1a5c8a',
   business:'#b8973a', entertainment:'#6b3a8c', sports:'#1a7a4a',
-  tech:'#1a3a5c',
+  it:'#1a3a5c', science:'#2a6a5c', local:'#8a5a2a', life:'#5a8a3a',
 };
-
-
-const CATEGORY_ALIASES = {
-  all: ['all'],
-  society: ['society', 'domestic', 'local', 'life'],
-  politics: ['politics', 'world'],
-  business: ['business'],
-  entertainment: ['entertainment'],
-  sports: ['sports'],
-  tech: ['tech', 'it', 'science'],
-};
-
-function normalizeCategory(cat='') {
-  const key = String(cat||'').toLowerCase();
-  for (const [normalized, aliases] of Object.entries(CATEGORY_ALIASES)) {
-    if (aliases.includes(key)) return normalized;
-  }
-  return key || 'all';
-}
 
 let allArticles=[], filteredArticles=[];
 let activeCategory='all', searchQuery='', isListView=false;
@@ -96,20 +80,6 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 let lastUpdatedAt = null;
 
-
-async function fetchJsonWithTimeout(url, timeoutMs = 12000) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeoutMs);
-  try {
-    const res = await fetch(url, { signal: controller.signal, cache: 'no-store' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    return await res.json();
-  } finally {
-    clearTimeout(timer);
-  }
-}
-
-
 async function startAutoRefreshCheck() {
   await new Promise(r => setTimeout(r, 5 * 60 * 1000));
   setInterval(async () => {
@@ -132,22 +102,20 @@ async function load() {
     const isManual = window._manualRefresh;
     window._manualRefresh = false;
     const fetchUrl = isManual ? WORKER_URL + '?bust=' + Date.now() : WORKER_URL;
-    let raw;
-    try {
-      raw = await fetchJsonWithTimeout(fetchUrl, 12000);
-    } catch (err) {
-      console.warn('[SIGNAL] worker fetch failed, fallback to local data:', err);
-      raw = await fetchJsonWithTimeout('./data/news.json', 12000);
-    }
+    const res = await fetch(fetchUrl);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const raw = await res.json();
 
     newsData = {};
-    const cats = ['all','society','politics','business','entertainment','sports','tech'];
+    const cats = ['all','domestic','world','business','entertainment','sports','it','science','local','life'];
 
     cats.forEach(cat => {
-      const merged = CATEGORY_ALIASES[cat].flatMap(alias => Array.isArray(raw[alias]) ? raw[alias] : []);
-      newsData[cat] = merged.map(a=>({
+      if (!Array.isArray(raw[cat])) {
+        newsData[cat]=[];
+        return;
+      }
+      newsData[cat] = raw[cat].map(a=>({
         ...a,
-        category: normalizeCategory(a.category || cat),
         title: clean(a.title||''),
         description: validDesc(clean(a.description||'')),
         source: clean(a.source||''),
@@ -158,7 +126,7 @@ async function load() {
 
     if (!allArticles.length) {
       const seen=new Set();
-      allArticles = ['society','politics','business','entertainment','sports','tech']
+      allArticles = ['domestic','world','business','entertainment','sports','it','science','local','life']
         .flatMap(c=>newsData[c]||[])
         .filter(a=>{
           if(!a?.title) return false;
