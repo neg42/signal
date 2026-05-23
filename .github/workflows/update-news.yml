@@ -1,12 +1,16 @@
-name: 📡 SIGNAL ニュース自動収集
+name: SIGNAL ニュース自動収集
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # 15分ごと
+    - cron: '*/15 * * * *'
   workflow_dispatch:
-  # push時は実行しない（スケジュールとworkflow_dispatchのみ）
-  # push:
-  #   branches: [ main ]
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/fetch-news.js'
+      - 'scripts/package.json'
+      - '.github/workflows/update-news.yml'
 
 permissions:
   contents: write
@@ -22,13 +26,16 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v4
+      - name: チェックアウト
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - name: Node.js セットアップ
+        uses: actions/setup-node@v4
         with:
           node-version: '24'
 
@@ -38,52 +45,58 @@ jobs:
       - name: ニュース収集
         run: cd scripts && node fetch-news.js
 
+      - name: 生成結果確認
+        run: |
+          echo "=== data/meta.json ==="
+          cat data/meta.json
+          echo ""
+          echo "=== news.json keys ==="
+          node -e "const n=require('./data/news.json'); console.log(Object.keys(n)); for (const k of Object.keys(n)) console.log(k, Array.isArray(n[k]) ? n[k].length : 'not array')"
+
       - name: コミット & プッシュ
         run: |
           git config user.email "signal-bot@github.com"
           git config user.name "SIGNAL Bot"
 
-          # data/ に変更があるか確認
           if [ -z "$(git status --porcelain data/)" ]; then
             echo "変更なし、スキップ"
             exit 0
           fi
 
-          # ─── シンプルな戦略 ───────────────────────────
-          # 1. 最新のリモートを取得
-          git fetch origin main
-
-          # 2. data/ の新しいファイルを一時保存（gitとは無関係に）
           cp data/news.json /tmp/news.json
           cp data/meta.json /tmp/meta.json
           [ -f data/news.backup.json ] && cp data/news.backup.json /tmp/news.backup.json || true
 
-          # 3. リモートの最新状態に強制リセット
+          git fetch origin main
           git reset --hard origin/main
 
-          # 4. 保存したファイルを書き戻す
           cp /tmp/news.json data/news.json
           cp /tmp/meta.json data/meta.json
           [ -f /tmp/news.backup.json ] && cp /tmp/news.backup.json data/news.backup.json || true
 
-          # 5. コミット
           git add data/
           git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
 
-          # 6. プッシュ（最大3回）
           for i in 1 2 3; do
             if git push; then
               echo "✅ プッシュ成功 (試行 $i)"
               exit 0
             fi
+
             echo "⚠️ プッシュ失敗 (試行 $i)、再同期..."
             sleep 3
+
             git fetch origin main
             cp /tmp/news.json data/news.json
             cp /tmp/meta.json data/meta.json
+            [ -f /tmp/news.backup.json ] && cp /tmp/news.backup.json data/news.backup.json || true
+
             git reset --hard origin/main
+
             cp /tmp/news.json data/news.json
             cp /tmp/meta.json data/meta.json
+            [ -f /tmp/news.backup.json ] && cp /tmp/news.backup.json data/news.backup.json || true
+
             git add data/
             git commit -m "📰 $(TZ='Asia/Tokyo' date '+%Y-%m-%d %H:%M') JST"
           done
