@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-15T11:16:44.554Z",
+  "updatedAt": "2026-08-15T11:43:40.458Z",
   "counts": {
     "domestic": 59,
-    "world": 8,
+    "world": 9,
     "business": 10,
     "entertainment": 48,
     "sports": 12,
@@ -63,7 +63,7 @@
     ],
     [
       "ライブドア国際",
-      8
+      9
     ]
   ]
 }
