@@ -1,6 +1,26 @@
 {
   "domestic": [
     {
+      "id": "https://www.youtube.com/watch?v=CStZcGLD9nw",
+      "title": "クールジャパン機構廃止へ アニメ・食・カルチャー日本の魅力を伝えるはずが…赤字は540億円に その原因は？【news23】｜TBS NEWS DIG",
+      "description": "日本のアニメや食文化などの海外展開を支援してきた「クールジャパン機構」について、経済産業省が廃止する方向で調整に入りました。膨れあがった赤字は、540億円にのぼっています。 ▼TBS NEWS DIG 公式サイト https://newsdig.tbs.co.jp/ ▼チャンネル",
+      "url": "https://www.youtube.com/watch?v=CStZcGLD9nw",
+      "image": "https://i4.ytimg.com/vi/CStZcGLD9nw/hqdefault.jpg",
+      "date": "2026-08-21T16:45:52.000Z",
+      "source": "TBS NEWS DIG（YouTube）",
+      "category": "domestic"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127913/",
+      "title": "関東で天気が急変し局地的な大雨、さいたま市付近で1時間110ミリを観測",
+      "description": "関東では天気が急変し、局地的な大雨となっていて、千葉県では道路の冠水も起きています。また、さいたま市付近では1時間におよそ110ミリの猛烈な雨を観測し、記録的短時間大雨速報が発表されました。■東京23区や埼",
+      "url": "https://news.livedoor.com/article/detail/32127913/",
+      "image": "",
+      "date": "2026-08-21T16:04:01.000Z",
+      "source": "ライブドア国内",
+      "category": "domestic"
+    },
+    {
       "id": "https://www.youtube.com/watch?v=BK6zAry-y3w",
       "title": "コメ平均価格 2週間ぶり3200円下回る 3191円/5kg 前週比－29円(2026年8月21日)",
       "description": "コメの平均販売価格が2週間ぶりに3200円を下回りました。 農林水産省によりますと、今月16日までの1週間に全国のスーパーおよそ1000店舗で販売された、コメの平均価格は5キロあたり3191円で、前の週から29円値下がりました。 平均価格は2週間前に3198円となり、およそ1年1",
@@ -9,26 +29,6 @@
       "date": "2026-08-21T15:53:06.000Z",
       "source": "ANN テレ朝（YouTube）",
       "category": "domestic"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=cJ0wzEElAdQ",
-      "title": "来年度予算要求総額130兆円超へ 金利上昇で「国債費」は36兆円台に｜TBS NEWS DIG",
-      "description": "来年度予算案で、各省庁からの要求総額が初めて130兆円を超える見通しであることが分かりました。 高市政権が「責任ある積極財政元年」と位置づける来年度の予算案。各省庁は必要な予算を盛り込んだ「概算要求」を今月末に示しますが、その一般会計の総額が初めて130兆円を超える見通しであるこ",
-      "url": "https://www.youtube.com/watch?v=cJ0wzEElAdQ",
-      "image": "https://i4.ytimg.com/vi/cJ0wzEElAdQ/hqdefault.jpg",
-      "date": "2026-08-21T15:51:37.000Z",
-      "source": "TBS NEWS DIG（YouTube）",
-      "category": "domestic"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQMzNsamY3SEZvV3RjRnd2T1MzMjZSSGNWU2V1QXI4TWJ6dFB5WmFhdGd3Sk85aUFtT3pqeFZTczd3dW81OUZ1VkNDaHJSX3F3S3E0eUpzaDN3R3o2TnJMT19LY3AyQQ?oc=5",
-      "title": "『マスコレ2』版『メタルギア ソリッド4』では新セリフも？ハード固有演出に変更との報告",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQMzNsamY3SEZvV3RjRnd2T1MzMjZSSGNWU2V1QXI4TWJ6dFB5WmFhdGd3Sk85aUFtT3pqeFZTczd3dW81OUZ1VkNDaHJSX3F3S3E0eUpzaDN3R3o2TnJMT19LY3AyQQ?oc=5",
-      "image": "",
-      "source": "Game*Spark",
-      "category": "domestic",
-      "date": "2026-08-21T15:30:04.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwRjJXYzNhUkJSNjFnSEgwVkowVm5kemwyWmNEM1daSXJzRENFT3YzZi1EVE9CR1UyWjNGbEJJZzFMY1dlV2xoNjktMVV3enVKUEU2aUZJNHNpZXh5NG1n?oc=5",
@@ -41,16 +41,6 @@
       "date": "2026-08-21T15:30:00.000Z"
     },
     {
-      "id": "https://news.livedoor.com/article/detail/32127788/",
-      "title": "関東など各地で天気が急変し、局地的大雨による冠水被害が相次ぐ",
-      "description": "関東など各地で天気が急変し、局地的な大雨で冠水被害が相次ぎました。関東各地を襲った“危険な雨”。さいたま市付近では1時間におよそ110ミリの猛烈な雨を観測。記録的短時間大雨速報が発表されました。この影響で",
-      "url": "https://news.livedoor.com/article/detail/32127788/",
-      "image": "",
-      "date": "2026-08-21T15:15:01.000Z",
-      "source": "ライブドア国内",
-      "category": "domestic"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vRnRRcktuU2o5THUzMU1EaGs5MG9KQm1pRTNqajR0cGk2Vmljc1RXdHg2TW5OMEFHZExvSEVvZFpZT1hrSkRGZnFnMFQ2R01aLU1jeHJ4MHdyZDFvdm1mZXRKbVBpdw?oc=5",
       "title": "劇物入りマフィン食べさせ知人男性を殺害しようとした疑い、派遣社員の女逮捕…「殺すつもりはなかった」",
       "description": "",
@@ -59,16 +49,6 @@
       "source": "読売新聞",
       "category": "domestic",
       "date": "2026-08-21T15:13:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZDhhdXdjQ0UzN2x1T002SUVuaXpkVDcxYnA5X2xxMmh2YnRyVjZoV2d5VW9GN2pBRi13amlJVnRUcU9LVHMxMk9WQmVOUHVKUU1veDBR?oc=5",
-      "title": "【続報】バスの10人救急搬送、1人が重症、2人中等症 鳥栖IC付近で玉突き事故 21日夕 バスには樟南高校（鹿児島）女子剣道部 佐賀県鳥栖市 | 事件・事故 | 佐賀県のニュース",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZDhhdXdjQ0UzN2x1T002SUVuaXpkVDcxYnA5X2xxMmh2YnRyVjZoV2d5VW9GN2pBRi13amlJVnRUcU9LVHMxMk9WQmVOUHVKUU1veDBR?oc=5",
-      "image": "",
-      "source": "佐賀新聞",
-      "category": "domestic",
-      "date": "2026-08-21T15:05:06.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uaFZDa0xGdHBORTI0amRKcWg2MDFBY2Q0MTAzRjIzQzVXRHY0SWRmS0NNVU1lYXc1MGxXbTBVNk9GTkkxeUh5ZjIwd2U4Zzk4SG02U3ItbEpsNWpzMXJVWnNHWno2OTV3aVNjcUlodHXSAXhBVV95cUxPUkEzZGIxNmc2Q2hsbUc4RlpNSHJZUjJYZldNR0YzdE5jUVV3V3llQVhUT01YQTVDTFRXcWpWM3dNTDNYTVE1QXA1bDRMcW1DWmp3R0pIbTNKS3l1a1B6enZZRzlGMzBVYnl6anFlejRPVWk3TmxKaHk?oc=5",
@@ -141,6 +121,26 @@
       "category": "domestic"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93UWZiRF9sSjhCNzdabWNkLXZHdjBFN0p3REFGUjYtQWhwX2NXZmx6SjFDckV5Umx5VjdQcHg0S2dQT083elluaTF6aw?oc=5",
+      "title": "【速報】英仏独などがイスラエル入植計画の撤回要求",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93UWZiRF9sSjhCNzdabWNkLXZHdjBFN0p3REFGUjYtQWhwX2NXZmx6SjFDckV5Umx5VjdQcHg0S2dQT083elluaTF6aw?oc=5",
+      "image": "",
+      "source": "47NEWS",
+      "category": "domestic",
+      "date": "2026-08-21T12:09:33.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53MExaQmJNSTVndnF2SmpQcVp3LUM3VWZpNVBJa2hHbGtfZF9nSm1OemJvN0tyOHZmUUlKMF9KeDBvRzRqVzF2cEdEV2tTaWdGYzNDdVY0YVJ3ajE5X09ieThyU1k0akRGaUd3VEJONXc1TUhOV1Zv?oc=5",
+      "title": "米国債の長期金利抑制策、失敗ならリスク資産に売り圧力－BofA",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53MExaQmJNSTVndnF2SmpQcVp3LUM3VWZpNVBJa2hHbGtfZF9nSm1OemJvN0tyOHZmUUlKMF9KeDBvRzRqVzF2cEdEV2tTaWdGYzNDdVY0YVJ3ajE5X09ieThyU1k0akRGaUd3VEJONXc1TUhOV1Zv?oc=5",
+      "image": "",
+      "source": "Bloomberg.com",
+      "category": "domestic",
+      "date": "2026-08-21T12:09:14.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85amFsdnRVZjJjbzRtRmgxbkRtd3I5clkzdWh2cVFRb0hoWDBUVzdCWjZSb2ZLZ0VWei1HQU1TeG94MklsUmVMeGo2SDI3bkc1ZlI2Zmlrc3dHcGs?oc=5",
       "title": "伊豆諸島 八丈島東方沖でM5.5の地震 三宅島で震度3 津波の心配なし",
       "description": "",
@@ -149,6 +149,16 @@
       "source": "ウェザーニュース",
       "category": "domestic",
       "date": "2026-08-21T12:09:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xTWxrNUtGdENRQmtkdjJuelY5czJjLVhmdkhDZFpNallVdVhDOFA2N2t5UDE3Y21VLUdxdTVqMlpEN0h6aUVkUTdSV3FLamlGUTByWDZPMWlCZDlOXzVjQUtuT3dsTFNUSUNWSmp3?oc=5",
+      "title": "一時逆転許すも柏、瀬川連発弾&弓場J1初ゴールで開幕3連勝!! 主力多数欠く長崎は2連敗",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xTWxrNUtGdENRQmtkdjJuelY5czJjLVhmdkhDZFpNallVdVhDOFA2N2t5UDE3Y21VLUdxdTVqMlpEN0h6aUVkUTdSV3FLamlGUTByWDZPMWlCZDlOXzVjQUtuT3dsTFNUSUNWSmp3?oc=5",
+      "image": "",
+      "source": "gekisaka.jp",
+      "category": "domestic",
+      "date": "2026-08-21T12:04:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HSXpfcDFWNHlITVJUeUhTSGxaZjNZakZvWmx0ME5mYUQ4SlF5SjJ2SnBsYmVPMDVIMWwtQXFubE1fSHV3SVNHR18yYmJiS3o4S2U3d3MtcktxWVlqdF9JSmZzbFMxUlk?oc=5",
@@ -211,6 +221,16 @@
       "date": "2026-08-21T10:31:00.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZDhhdXdjQ0UzN2x1T002SUVuaXpkVDcxYnA5X2xxMmh2YnRyVjZoV2d5VW9GN2pBRi13amlJVnRUcU9LVHMxMk9WQmVOUHVKUU1veDBR?oc=5",
+      "title": "【続報】バスの10人救急搬送、1人が重症、2人中等症 鳥栖IC付近で玉突き事故 21日夕 バスには樟南高校（鹿児島）女子剣道部 佐賀県鳥栖市 | 事件・事故 | 佐賀県のニュース",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZDhhdXdjQ0UzN2x1T002SUVuaXpkVDcxYnA5X2xxMmh2YnRyVjZoV2d5VW9GN2pBRi13amlJVnRUcU9LVHMxMk9WQmVOUHVKUU1veDBR?oc=5",
+      "image": "",
+      "source": "佐賀新聞",
+      "category": "domestic",
+      "date": "2026-08-21T10:29:00.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQzdjT2FBNUpvUGNLMGFwdmF1TTdYZk0xbmttS3d1VHhyWmJwQm5rQzZ4NkQwbEF0cEZTR2drNTNzazVGNGFRVEdMVXZLTFBscE92VVFzVkRocUl4aFNuVjdreXpTQjlVZTNVcEY5cV9QT2tRcFdBZ3VWYnBXSlVwTGtR?oc=5",
       "title": "イラン、米は軍事作戦あきらめと指摘 経済制裁に「壊滅的」報復警告",
       "description": "",
@@ -251,26 +271,6 @@
       "date": "2026-08-21T09:32:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QRjBqTzBOa3hSRWtvTGNUMm5VVjlva0FpV1c5eDROeFR3aEJVSzJ0dVNGanE5QkZCNEQ2VTdWc0Z1M3BsanpFcXFjSQ?oc=5",
-      "title": "【速報】宮城県が中国・大連事務所を今年末に閉鎖へ",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QRjBqTzBOa3hSRWtvTGNUMm5VVjlva0FpV1c5eDROeFR3aEJVSzJ0dVNGanE5QkZCNEQ2VTdWc0Z1M3BsanpFcXFjSQ?oc=5",
-      "image": "",
-      "source": "47NEWS",
-      "category": "domestic",
-      "date": "2026-08-21T09:26:39.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4Z1BKZVcwV0tNdVE1alQzZzJuTTRNVVhrVlRsa1A0ZzJwamJQbzJwNnotdnpOaV9xMWl2TjYzT01HSm1aeENNQlpEXzlVVmNNNHRHRnM5eENJSHdOclFVeG1fLUtvYkRwVkFvNU5iS2VwUdIBd0FVX3lxTE5fQ1ByQUtDcWQ4Uzk4NEVnejlsSTNNVU02b2hEWDF5RF8waWUyNExGNUhPTmFOSDNQSnRLbGQ4VzJxd3NDaUdsYkhINkRvbDlLeUtsTTdDME5WNjNjOHhFR0JlVGVDSmdjR1Rtd3F4SURsU21mbndN?oc=5",
-      "title": "今後ダブル台風発生へ 台風18号は24日以降に沖縄直撃へ 警報級大雨や暴風の恐れ(気象予報士 田中 正史 2026年08月21日)",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4Z1BKZVcwV0tNdVE1alQzZzJuTTRNVVhrVlRsa1A0ZzJwamJQbzJwNnotdnpOaV9xMWl2TjYzT01HSm1aeENNQlpEXzlVVmNNNHRHRnM5eENJSHdOclFVeG1fLUtvYkRwVkFvNU5iS2VwUdIBd0FVX3lxTE5fQ1ByQUtDcWQ4Uzk4NEVnejlsSTNNVU02b2hEWDF5RF8waWUyNExGNUhPTmFOSDNQSnRLbGQ4VzJxd3NDaUdsYkhINkRvbDlLeUtsTTdDME5WNjNjOHhFR0JlVGVDSmdjR1Rtd3F4SURsU21mbndN?oc=5",
-      "image": "",
-      "source": "tenki.jp",
-      "category": "domestic",
-      "date": "2026-08-21T09:10:02.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsdUJCQml0SWJFQmlNSmJfdXRtWGZ0dDNZUlFxSkVPQTBBdHhIQWszRFNqZ29ER0p2MzhwZ1JJQzZVaEtWZVZiWVZ2OWJkVW5zbVluUldvUUFoOVhVaVI00gFkQVVfeXFMTmNIYWFDWnZ5Nnc3dVEzcTljdEsyakRDUHlYUUlVVEJSM3JGMXk5NFhKLV9hUm9BVUtEYk4yR0R6VEkzZzNiaGJSM180WjdzVmozQVo5ZF8tQXVuRUF4VThUZnpibg?oc=5",
       "title": "香港の裁判所、天安門事件追悼団体の元幹部らに有罪判決 国安法違反で",
       "description": "",
@@ -291,24 +291,14 @@
       "date": "2026-08-21T09:04:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVjF1cDA0WDg5OUwtSEJUbW9qbWdKV0pTdTh5Z053aGgzZUR1VjJtZ3pjVzVlamM4UGhsTzdIbnJEQ0NGLTdGUG5LU25YZUhMNTR2RVhfZURRRFVoLWVUNWwxUHZ1c0h5bEhHZDBXRjNFS3Etb2tGVEduVlN5ZW4wU1JYajhKSEtuckt5R0pBYlJuSjYxZ0Uzb2dGMWhhNWZxNm13VEJSd2pIRzRjc1N5Zy1lUHZyS2Vna2ViX0dMTGwybFBlRG1GbUtWYkFEUS1HZThiZFlGYlBCcUkwZUJyT1Z3?oc=5",
-      "title": "米海軍の中東海域における兵站が破綻、対イラン作戦参加中の艦艇補給に失敗",
+      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZaU1UUnhadVBsaVYtRU85VXFvWUpIOWZXM3lGcXBpWU41a1pwdzY5WGczN0J5TTZmYmJZWDl2dThNTlRMaFY0TDM5LU90bVNteDFDeA?oc=5",
+      "title": "『S.T.A.L.K.E.R. 2』大型拡張コンテンツ「Cost of Hope」配信開始！ゾーンの様子を描いた最新トレーラーも公開",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVjF1cDA0WDg5OUwtSEJUbW9qbWdKV0pTdTh5Z053aGgzZUR1VjJtZ3pjVzVlamM4UGhsTzdIbnJEQ0NGLTdGUG5LU25YZUhMNTR2RVhfZURRRFVoLWVUNWwxUHZ1c0h5bEhHZDBXRjNFS3Etb2tGVEduVlN5ZW4wU1JYajhKSEtuckt5R0pBYlJuSjYxZ0Uzb2dGMWhhNWZxNm13VEJSd2pIRzRjc1N5Zy1lUHZyS2Vna2ViX0dMTGwybFBlRG1GbUtWYkFEUS1HZThiZFlGYlBCcUkwZUJyT1Z3?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZaU1UUnhadVBsaVYtRU85VXFvWUpIOWZXM3lGcXBpWU41a1pwdzY5WGczN0J5TTZmYmJZWDl2dThNTlRMaFY0TDM5LU90bVNteDFDeA?oc=5",
       "image": "",
-      "source": "航空万能論GF",
+      "source": "ASCII.jp",
       "category": "domestic",
-      "date": "2026-08-21T08:52:13.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxcXRFWXRqaGRybUhpakZxdUZPdEdBVnlKdHl0Tk5zX0ltVmpDTVRBN1Zqa3VQckp3bGxZeHQyYndFdDhtUHA3WkVjcW5sQ2ItNEsxQmgxdEN5UUJQT2hHOGlyVQ?oc=5",
-      "title": "Update 2.0で進化した「S.T.A.L.K.E.R. 2」の30％オフセールは26日まで！ メタ2Dアクション「ICEY」は413円！「今週のすべり込みセール情報」",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxcXRFWXRqaGRybUhpakZxdUZPdEdBVnlKdHl0Tk5zX0ltVmpDTVRBN1Zqa3VQckp3bGxZeHQyYndFdDhtUHA3WkVjcW5sQ2ItNEsxQmgxdEN5UUJQT2hHOGlyVQ?oc=5",
-      "image": "",
-      "source": "4Gamer.net",
-      "category": "domestic",
-      "date": "2026-08-21T08:29:57.000Z"
+      "date": "2026-08-21T08:45:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4SkIteWdHN1o5eU83Qm9nRWJlX0g0R0JfU2dfbmIwZVpBM3NpZVBYMFNuOXhRTUFOVVI1dGVHSi1idjJrWWUzUUF6Z0prZFRiQnVBcDdLMEE?oc=5",
@@ -321,24 +311,14 @@
       "date": "2026-08-21T08:20:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2X1dHdmJucVRSX0FGSWZTNmhfRmRZUFBVSlZ5SmZETWJZeFRjSVBEc19YMzBSZTZBaDBqeHU4VER2UHJsLVR6VURQTFBpSTgxQXU5T0tJQQ?oc=5",
-      "title": "【速報】車内で頭部から血を流した変死体が見つかる 20代から30代の外国人男性か 沖縄・名護市",
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HRldBUHFMUnE2M1ZIZk5QamhSVWh4R0tuaWU3dDlIbFozeW0yZlFVZjFYblgxSmRya25TM0dFT0tRTmFLbEJDX0hYX1ZRb1Jlc0Rib1QtOHpzVEFGUmxKcXl1dw?oc=5",
+      "title": "「Radeon RX 9050」のメモリ4GBモデルに対応した「AMD Software 26.8.1」リリース",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2X1dHdmJucVRSX0FGSWZTNmhfRmRZUFBVSlZ5SmZETWJZeFRjSVBEc19YMzBSZTZBaDBqeHU4VER2UHJsLVR6VURQTFBpSTgxQXU5T0tJQQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HRldBUHFMUnE2M1ZIZk5QamhSVWh4R0tuaWU3dDlIbFozeW0yZlFVZjFYblgxSmRya25TM0dFT0tRTmFLbEJDX0hYX1ZRb1Jlc0Rib1QtOHpzVEFGUmxKcXl1dw?oc=5",
       "image": "",
-      "source": "TBS NEWS DIG",
+      "source": "4Gamer.net",
       "category": "domestic",
-      "date": "2026-08-21T08:16:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tWVRhVHJqeXdZMVFGXzU5bExyaTEyS250UjRGQjYtWmFQSGRZQS03Zmc5YXk2czlUaHRCdmRtd2NyYkJkVWxrUGNfYjl6SFE?oc=5",
-      "title": "火星衛星探査１０月２０日出発／ＭＭＸ、Ｈ３ロケットで",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tWVRhVHJqeXdZMVFGXzU5bExyaTEyS250UjRGQjYtWmFQSGRZQS03Zmc5YXk2czlUaHRCdmRtd2NyYkJkVWxrUGNfYjl6SFE?oc=5",
-      "image": "",
-      "source": "AGARA紀伊民報",
-      "category": "domestic",
-      "date": "2026-08-21T05:30:00.000Z"
+      "date": "2026-08-21T05:00:47.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhZU1lVy1RaHJ6X0s2NVdWQUpOSWdpdnlQblZNOG5mSE9KY2NaZUFqa1V4U2pqYVd3VVZBMXRvZWtSUDV2b3BaUlFmelVnZkloZjZUdA?oc=5",
@@ -349,6 +329,16 @@
       "source": "中日新聞Web",
       "category": "domestic",
       "date": "2026-08-21T04:51:21.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xZjRpVVMtMjdpR3l5b1F6anNSYmtuT2x2S1RRMnBib3liRmVhTHZCT2JENHE2VXJQY1FKenQ2ODQ4S3h6eXh0NQ?oc=5",
+      "title": "JAXA、火星衛星探査機を10月20日打上げ",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xZjRpVVMtMjdpR3l5b1F6anNSYmtuT2x2S1RRMnBib3liRmVhTHZCT2JENHE2VXJQY1FKenQ2ODQ4S3h6eXh0NQ?oc=5",
+      "image": "",
+      "source": "航空新聞社",
+      "category": "domestic",
+      "date": "2026-08-21T04:44:06.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pcTRHY094VVZXTWxoZDBlbFNQQmM3dDJkbk9MclBuY1FEeHJlSlNicWxTZF9McGVyMjVzZHVOU1dzd1BHS0hNamJrQlZ0TlhTNWFKaTVn?oc=5",
@@ -371,6 +361,26 @@
       "date": "2026-08-21T01:18:00.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiT0lldjlxdi1OS1FoMlBNSlI3djUtUjRQc3ZjTlpmR2xDN1dmYmlxNTdYQzdLdHJOazJIOTh6V0JtVU1nQWJKclBaamJrUXVJ?oc=5",
+      "title": "米空母リンカーンが中東から帰途に、長期配備で乗組員のメンタル悪化か",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBiT0lldjlxdi1OS1FoMlBNSlI3djUtUjRQc3ZjTlpmR2xDN1dmYmlxNTdYQzdLdHJOazJIOTh6V0JtVU1nQWJKclBaamJrUXVJ?oc=5",
+      "image": "",
+      "source": "CNN.co.jp",
+      "category": "domestic",
+      "date": "2026-08-21T00:53:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81eHVXcUNxRlR0THpFQUNiNkFBcEFVNEh6V2NIMFRqdmhYZ0dLZUlHUGF2SHFyOFlXWUpnQVo2TnlKckJJLW9aWkx6ZEl3VlQtdTA2RjNidkY?oc=5",
+      "title": "2月の衆院選長崎3区で落選 田﨑耕太元市議(43)を逮捕",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81eHVXcUNxRlR0THpFQUNiNkFBcEFVNEh6V2NIMFRqdmhYZ0dLZUlHUGF2SHFyOFlXWUpnQVo2TnlKckJJLW9aWkx6ZEl3VlQtdTA2RjNidkY?oc=5",
+      "image": "",
+      "source": "NCC長崎文化放送",
+      "category": "domestic",
+      "date": "2026-08-20T10:07:00.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9oR1YtWGdZaFIxazYwc2Y5clVQRGN2ektLbFVvZ0lqMWpCb1JYQkhjTldPaGlNWlpVd2phNXJlUnByS2JXQ3B1WE1QTklzakE?oc=5",
       "title": "＜2026年熊本地震＞「でかくっか水俣」 最大1万円補助、9月に宿泊キャンペーン 水俣市",
       "description": "",
@@ -379,6 +389,36 @@
       "source": "熊本日日新聞社",
       "category": "domestic",
       "date": "2026-08-20T09:31:21.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VV3hsX3U0LXZCcEw2Y0dTTXFsdU8wUXJ4MXd2T1hPeEFEblk0QWk3eDUxclNSTGktUWdZRmo4dEI4bUE5ZVdCYldnR0NPRXFmdDlLQV91M0hHOVUwMmJEQVp4ZUxZQlJrSUVQdVVjdllwQdIBd0FVX3lxTE12S3JHR2JPN0VsS3U4cFM4VHVPX3M0UzQzQ3JBdzB6UWlwYUdQcFhkcGVybENWWnhIQ0Q1OFp0NmEwajZkSTBBYkNfa3NMZ0RCT0pwSVhaZXRVcW1VNTByZUtOa2VFM3FIVFZqN1JRUkU0THo2M1o4?oc=5",
+      "title": "北海道～九州は残暑が厳しい 9月に猛暑日予想も 危険な暑さはいつまで?1か月予報(気象予報士 田中 正史 2026年08月20日)",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VV3hsX3U0LXZCcEw2Y0dTTXFsdU8wUXJ4MXd2T1hPeEFEblk0QWk3eDUxclNSTGktUWdZRmo4dEI4bUE5ZVdCYldnR0NPRXFmdDlLQV91M0hHOVUwMmJEQVp4ZUxZQlJrSUVQdVVjdllwQdIBd0FVX3lxTE12S3JHR2JPN0VsS3U4cFM4VHVPX3M0UzQzQ3JBdzB6UWlwYUdQcFhkcGVybENWWnhIQ0Q1OFp0NmEwajZkSTBBYkNfa3NMZ0RCT0pwSVhaZXRVcW1VNTByZUtOa2VFM3FIVFZqN1JRUkU0THo2M1o4?oc=5",
+      "image": "",
+      "source": "tenki.jp",
+      "category": "domestic",
+      "date": "2026-08-20T09:01:00.000Z"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=3TTXA02cKcE",
+      "title": "東武線作業員4人死亡事故 特急「スペーシアX」が時速52キロで駅に進入か 警察は「業務上過失致死」で捜査【news23】｜TBS NEWS DIG",
+      "description": "東武日光線の線路上で作業員4人が列車と接触し死亡した事故で、当時、特急列車が時速52キロで、駅のホームに進入していたことがわかりました。 ▼TBS NEWS DIG 公式サイト https://newsdig.tbs.co.jp/ ▼チャンネル登録【最新ニュース見つけやすく】 h",
+      "url": "https://www.youtube.com/watch?v=3TTXA02cKcE",
+      "image": "https://i4.ytimg.com/vi/3TTXA02cKcE/hqdefault.jpg",
+      "date": "2026-08-21T16:37:41.000Z",
+      "source": "TBS NEWS DIG（YouTube）",
+      "category": "domestic"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127869/",
+      "title": "長崎道で追突 剣道部員ら重傷",
+      "description": "21日午後4時半ごろ、佐賀県の長崎自動車道上りの鳥栖インターチェンジ付近で大型トレーラーがマイクロバスに追突するなど、あわせて6台が絡む玉突き事故が起きました。この事故で鹿児島市の樟南高校のマイクロバスに",
+      "url": "https://news.livedoor.com/article/detail/32127869/",
+      "image": "",
+      "date": "2026-08-21T15:39:38.000Z",
+      "source": "ライブドア国内",
+      "category": "domestic"
     },
     {
       "id": "https://www.youtube.com/watch?v=LqEr9O46b40",
@@ -391,34 +431,14 @@
       "category": "domestic"
     },
     {
-      "id": "https://www.youtube.com/watch?v=EJOpWRlrdYQ",
-      "title": "マイクロバスなど6台絡む事故で樟南高校女子剣道部の生徒ら11人搬送 大型トレーラーが渋滞の列に突っ込んだか 長崎道・鳥栖IC付近｜TBS NEWS DIG",
-      "description": "21日午後4時半ごろ、佐賀県の長崎自動車道上りの鳥栖インターチェンジ付近で大型トレーラーがマイクロバスに追突するなど、あわせて6台が絡む玉突き事故が起きました。 この事故で鹿児島市の樟南高校のマイクロバスに乗っていた女子剣道部の生徒9人と男性副顧問・女性コーチのあわせて11人がけ",
-      "url": "https://www.youtube.com/watch?v=EJOpWRlrdYQ",
-      "image": "https://i2.ytimg.com/vi/EJOpWRlrdYQ/hqdefault.jpg",
-      "date": "2026-08-21T15:40:47.000Z",
-      "source": "TBS NEWS DIG（YouTube）",
-      "category": "domestic"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45NTNPdmlDVU0zNXJmTE1QSkszLVY3cmhyaTVmLXA5SDhnbklDNU1nRnB0bjRtWVpGbWw4YlZQcW9CT2hPMkViUkxNdVgyT2gybnA2SU1YM01zOGJvMndv?oc=5",
-      "title": "超党派議員が来週訪中 中国外務省「正しい軌道への努力 留意」",
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vOHVmYzR4UlFTWG5NTVZKZWRJNjFzT2kyUXhKckg1VThDY3JpVHpYVUgtM2NsdklfUVNRaC13VXNvcW10bGIyMmpPLXJIMTlCV28tazJiLXpqZHZQNzRj?oc=5",
+      "title": "【プロ野球結果】セ・リーグ首位阪神がDeNAに勝利",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45NTNPdmlDVU0zNXJmTE1QSkszLVY3cmhyaTVmLXA5SDhnbklDNU1nRnB0bjRtWVpGbWw4YlZQcW9CT2hPMkViUkxNdVgyT2gybnA2SU1YM01zOGJvMndv?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9vOHVmYzR4UlFTWG5NTVZKZWRJNjFzT2kyUXhKckg1VThDY3JpVHpYVUgtM2NsdklfUVNRaC13VXNvcW10bGIyMmpPLXJIMTlCV28tazJiLXpqZHZQNzRj?oc=5",
       "image": "",
       "source": "NHKニュース",
       "category": "domestic",
-      "date": "2026-08-21T12:32:00.000Z"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32127790/",
-      "title": "さいたま市で1時間110mmの記録的大雨、台風18号は沖縄直撃のおそれ",
-      "description": "帰宅時間帯の関東を直撃したゲリラ雷雨の影響で、さいたま市では記録的短時間大雨に関する情報が発表されました。一方、台風18号は26日ごろに沖縄を直撃するおそれがあり、注意が必要です。21日午後4時ごろの埼玉・",
-      "url": "https://news.livedoor.com/article/detail/32127790/",
-      "image": "",
-      "date": "2026-08-21T15:15:00.000Z",
-      "source": "ライブドア国内",
-      "category": "domestic"
+      "date": "2026-08-21T13:04:46.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByRjU0aU1QcXlsUTNia3k5eDM3eVJDSTFLbzkwV0pmenlhNC15cVowMVZBWGg1Yl9vM0JjdWV0Rm5kWi1aQk56WXNLU3V2U250aU53TnI3NHY2VUFOaFZBd1B6bWI5QQ?oc=5",
@@ -431,24 +451,14 @@
       "date": "2026-08-21T12:18:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oOGhvbDRGbDVVZFowZC1ncUdBUmxWQlZNQ2RYMlF0X0ZIenprUGp5bTRRWmdNVUl5OWR3N2hkLWJEdU9PR252Sy1hZjdUcWc0WDZKNTlNTWtXalNxSnNiUF84aFhnVFhnS29KSnBKcWs4cGQwVWo4dWcwaGdoN0U?oc=5",
-      "title": "【バレーボール】石川真佑「もったいないところがあった」 ロス五輪切符奪取へ…女子快勝発進も反省の弁（東スポWEB）",
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JeV9RNnpsV2o3MzlJa3VVSUlYUDFFQy1VS1N0R3lxRVc3YkU1VVMxSlpad2lMaFZZX3JtQXVZQkxmRzdsdklTZHdTNm11TjQ1LXFnMTRjX3Fob045UklHMGFoekJhOHQwVnVrdGlQT1JBenZFb1ZYXy1EMkhHclk?oc=5",
+      "title": "「大学生のクソガキ」被害者が猛烈批判！慶應女子大生のクレカ窃盗利用に「許さんからな」明るみになった悪質手口",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oOGhvbDRGbDVVZFowZC1ncUdBUmxWQlZNQ2RYMlF0X0ZIenprUGp5bTRRWmdNVUl5OWR3N2hkLWJEdU9PR252Sy1hZjdUcWc0WDZKNTlNTWtXalNxSnNiUF84aFhnVFhnS29KSnBKcWs4cGQwVWo4dWcwaGdoN0U?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JeV9RNnpsV2o3MzlJa3VVSUlYUDFFQy1VS1N0R3lxRVc3YkU1VVMxSlpad2lMaFZZX3JtQXVZQkxmRzdsdklTZHdTNm11TjQ1LXFnMTRjX3Fob045UklHMGFoekJhOHQwVnVrdGlQT1JBenZFb1ZYXy1EMkhHclk?oc=5",
       "image": "",
       "source": "Yahoo!ニュース",
       "category": "domestic",
-      "date": "2026-08-21T12:45:31.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95TkZHZHRaLU0zOFlYbW9CVFNEeHFlOGxJWmg1dnhBdHNtLVdVbjFEaDVkcXpTTThRLUdsODlMNmJmLXdJY3FodzhXTTB2cG0wVjhRT09MS1dsdy1pOVQ1NlZFd2d4TUhNcmNZdg?oc=5",
-      "title": "インドネシア、中国と防衛協力拡大 「ミサイル工場を共同建設」",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95TkZHZHRaLU0zOFlYbW9CVFNEeHFlOGxJWmg1dnhBdHNtLVdVbjFEaDVkcXpTTThRLUdsODlMNmJmLXdJY3FodzhXTTB2cG0wVjhRT09MS1dsdy1pOVQ1NlZFd2d4TUhNcmNZdg?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "domestic",
-      "date": "2026-08-21T09:29:39.000Z"
+      "date": "2026-08-21T08:30:35.000Z"
     },
     {
       "id": "https://news.livedoor.com/article/detail/32127517/",
@@ -471,6 +481,16 @@
       "category": "domestic"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QRjBqTzBOa3hSRWtvTGNUMm5VVjlva0FpV1c5eDROeFR3aEJVSzJ0dVNGanE5QkZCNEQ2VTdWc0Z1M3BsanpFcXFjSQ?oc=5",
+      "title": "【速報】宮城県が中国・大連事務所を今年末に閉鎖へ",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QRjBqTzBOa3hSRWtvTGNUMm5VVjlva0FpV1c5eDROeFR3aEJVSzJ0dVNGanE5QkZCNEQ2VTdWc0Z1M3BsanpFcXFjSQ?oc=5",
+      "image": "",
+      "source": "47NEWS",
+      "category": "domestic",
+      "date": "2026-08-21T09:26:39.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE84Um13YzRLdHdEYTMzRWVrZDBPMFA4WWF4dWktN05RUmJaeHFLMGZYMlZhdVBpdnhKODhySWN0WEhaOHRLWUhFYVdMcDhIbGhfY0k3LQ?oc=5",
       "title": "関東は明日も大気の状態が不安定 千葉県でも激しい雨のおそれ",
       "description": "",
@@ -489,16 +509,6 @@
       "source": "産経ニュース",
       "category": "domestic",
       "date": "2026-08-21T10:33:38.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KZG1sbUhpWXZiWHpFdTZHVFNxSEhQSk5DUnY1U0R6YjFyQ016UWhMVHRWYmdEenZrR3dhZktZWUtzdzRFXy1UbXp2djAyejJZRDFvQzM1S2FiZDRMcjhFMGVxOHBBNlVkOW81ZXlUeHVOYjlqUnJqaTJTcw?oc=5",
-      "title": "【高校野球】決勝チケット完売発表 3度優勝の智弁和歌山か、初優勝の健大高崎か 両校の出場回数 過去の最高成績は？",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KZG1sbUhpWXZiWHpFdTZHVFNxSEhQSk5DUnY1U0R6YjFyQ016UWhMVHRWYmdEenZrR3dhZktZWUtzdzRFXy1UbXp2djAyejJZRDFvQzM1S2FiZDRMcjhFMGVxOHBBNlVkOW81ZXlUeHVOYjlqUnJqaTJTcw?oc=5",
-      "image": "",
-      "source": "日テレNEWS NNN",
-      "category": "domestic",
-      "date": "2026-08-21T04:33:01.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORUt2LW56UUVYMmRZMHpTbGMycmw5bGRUX2VjN0V2VUxMMG53S0lBdjU3VFlzaVRfUGNwWmRmUkNzMDRzUzYwb1NXSThqMzhma1hXTEJqYXBXamdocGY3TVlnaEZPejNxX3Z2SjFuOUM3dDdiNUwtbkFiSThYWnNRTw?oc=5",
@@ -531,26 +541,6 @@
       "date": "2026-08-21T07:15:03.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5KQmxVWmhLUTRPci02RHF6VUZxbFA2bFM2cVFFdFdTUDB2bk9ZODZ0TFl2Y1FqYV9hckFYZWhOYUhlVzJleGVJb2p3aw?oc=5",
-      "title": "【速報】行方不明の殺人未遂被告、遺体で発見",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5KQmxVWmhLUTRPci02RHF6VUZxbFA2bFM2cVFFdFdTUDB2bk9ZODZ0TFl2Y1FqYV9hckFYZWhOYUhlVzJleGVJb2p3aw?oc=5",
-      "image": "",
-      "source": "47NEWS",
-      "category": "domestic",
-      "date": "2026-08-21T07:43:31.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VV3hsX3U0LXZCcEw2Y0dTTXFsdU8wUXJ4MXd2T1hPeEFEblk0QWk3eDUxclNSTGktUWdZRmo4dEI4bUE5ZVdCYldnR0NPRXFmdDlLQV91M0hHOVUwMmJEQVp4ZUxZQlJrSUVQdVVjdllwQdIBd0FVX3lxTE12S3JHR2JPN0VsS3U4cFM4VHVPX3M0UzQzQ3JBdzB6UWlwYUdQcFhkcGVybENWWnhIQ0Q1OFp0NmEwajZkSTBBYkNfa3NMZ0RCT0pwSVhaZXRVcW1VNTByZUtOa2VFM3FIVFZqN1JRUkU0THo2M1o4?oc=5",
-      "title": "北海道～九州は残暑が厳しい 9月に猛暑日予想も 危険な暑さはいつまで?1か月予報(気象予報士 田中 正史 2026年08月20日)",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VV3hsX3U0LXZCcEw2Y0dTTXFsdU8wUXJ4MXd2T1hPeEFEblk0QWk3eDUxclNSTGktUWdZRmo4dEI4bUE5ZVdCYldnR0NPRXFmdDlLQV91M0hHOVUwMmJEQVp4ZUxZQlJrSUVQdVVjdllwQdIBd0FVX3lxTE12S3JHR2JPN0VsS3U4cFM4VHVPX3M0UzQzQ3JBdzB6UWlwYUdQcFhkcGVybENWWnhIQ0Q1OFp0NmEwajZkSTBBYkNfa3NMZ0RCT0pwSVhaZXRVcW1VNTByZUtOa2VFM3FIVFZqN1JRUkU0THo2M1o4?oc=5",
-      "image": "",
-      "source": "tenki.jp",
-      "category": "domestic",
-      "date": "2026-08-20T09:01:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1HSVY1WGZSTDNjOFdnNmEwSGJZcER6Tmo5VzAtNXZUdTQxQlpRNVlmQ2NJY2ZDUndIanRlTzB0WlhvUVo2cDhLNXZZYXN0QQ?oc=5",
       "title": "【独自】事故直後と直前の新映像「車間距離注意するため」後続車を踏切に閉じ込め JAF職員を“殺人未遂”で逮捕",
       "description": "",
@@ -559,6 +549,26 @@
       "source": "FNNプライムオンライン",
       "category": "domestic",
       "date": "2026-08-21T00:45:00.000Z"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=Kmi2MZO0UWQ",
+      "title": "「更生上等！！」法務省×「ラヴ上等」異例のタイアップ撤回に 番組内容めぐり批判の声…法務省の判断に街の人は【news23】｜TBS NEWS DIG",
+      "description": "法務省は21日、動画配信大手ネットフリックスで配信中の恋愛リアリティ番組「ラヴ上等 シーズン2」とのタイアップを取りやめたと発表しました。一体何があったのでしょうか。 ▼TBS NEWS DIG 公式サイト https://newsdig.tbs.co.jp/ ▼チャンネル登録【",
+      "url": "https://www.youtube.com/watch?v=Kmi2MZO0UWQ",
+      "image": "https://i4.ytimg.com/vi/Kmi2MZO0UWQ/hqdefault.jpg",
+      "date": "2026-08-21T16:32:53.000Z",
+      "source": "TBS NEWS DIG（YouTube）",
+      "category": "domestic"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127788/",
+      "title": "関東など各地で天気が急変し、局地的大雨による冠水被害が相次ぐ",
+      "description": "関東など各地で天気が急変し、局地的な大雨で冠水被害が相次ぎました。関東各地を襲った“危険な雨”。さいたま市付近では1時間におよそ110ミリの猛烈な雨を観測。記録的短時間大雨速報が発表されました。この影響で",
+      "url": "https://news.livedoor.com/article/detail/32127788/",
+      "image": "",
+      "date": "2026-08-21T15:15:01.000Z",
+      "source": "ライブドア国内",
+      "category": "domestic"
     },
     {
       "id": "https://www.youtube.com/watch?v=lOXiRzXjUKM",
@@ -571,34 +581,14 @@
       "category": "domestic"
     },
     {
-      "id": "https://www.youtube.com/watch?v=vhLDyhm5MZc",
-      "title": "愛子さま初めての滋賀県訪問 福祉施設で利用者らとなごやかな雰囲気で交流｜TBS NEWS DIG",
-      "description": "天皇皇后両陛下の長女・愛子さまが初めて滋賀県を訪問されました。 「水深どれくらいのところにいるんですか？」 「琵琶湖博物館」では“琵琶湖のヌシ”と呼ばれる、ビワコオオナマズなどを見学。 午後には、米原市の福祉施設「ふくしあ」へ。過去に、今の天皇皇后両陛下も足を運ばれた施設です。 ",
-      "url": "https://www.youtube.com/watch?v=vhLDyhm5MZc",
-      "image": "https://i3.ytimg.com/vi/vhLDyhm5MZc/hqdefault.jpg",
-      "date": "2026-08-21T15:40:28.000Z",
-      "source": "TBS NEWS DIG（YouTube）",
-      "category": "domestic"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pcWdFRTdHQ0FSUFlqM1BuRUhxYVU5MnFXbHpuM2o4Mm91OEdob0wtQm54UllBc2JyMEs3OTJmYzAxMHNEcDhKT0F4RlNGSEkyYXZLcEJ4THp5T3pYNWdN?oc=5",
-      "title": "秋田 風車の羽根落下事故 警察が立件見送る方針を遺族に伝える",
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45NTNPdmlDVU0zNXJmTE1QSkszLVY3cmhyaTVmLXA5SDhnbklDNU1nRnB0bjRtWVpGbWw4YlZQcW9CT2hPMkViUkxNdVgyT2gybnA2SU1YM01zOGJvMndv?oc=5",
+      "title": "超党派議員が来週訪中 中国外務省「正しい軌道への努力 留意」",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pcWdFRTdHQ0FSUFlqM1BuRUhxYVU5MnFXbHpuM2o4Mm91OEdob0wtQm54UllBc2JyMEs3OTJmYzAxMHNEcDhKT0F4RlNGSEkyYXZLcEJ4THp5T3pYNWdN?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45NTNPdmlDVU0zNXJmTE1QSkszLVY3cmhyaTVmLXA5SDhnbklDNU1nRnB0bjRtWVpGbWw4YlZQcW9CT2hPMkViUkxNdVgyT2gybnA2SU1YM01zOGJvMndv?oc=5",
       "image": "",
       "source": "NHKニュース",
       "category": "domestic",
-      "date": "2026-08-21T10:54:23.000Z"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32127725/",
-      "title": "国交省 アンダーパス冠水対策へ",
-      "description": "千葉県を襲った記録的な豪雨では冠水したアンダーパスで車が水没し、死者も出ました。国交省は21日、アンダーパスの排水設備の点検結果を公表しました。また、冠水時のガイドライン作成に向け通行止め基準の厳格化や",
-      "url": "https://news.livedoor.com/article/detail/32127725/",
-      "image": "",
-      "date": "2026-08-21T14:57:24.000Z",
-      "source": "ライブドア国内",
-      "category": "domestic"
+      "date": "2026-08-21T12:32:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE82UjVDRU80WkRJZ0s0eTNha0RuLUQ1TmRKNXR6aEVXTjJBV3RxUmNUZDhBQ1otUk1BY1lpQ2Rucmk5TktxOWdKNFBrNjR3VTRUSWxibHBtYTUtWlk2WU4zSnhoWm1XQQ?oc=5",
@@ -611,29 +601,19 @@
       "date": "2026-08-21T07:24:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JeV9RNnpsV2o3MzlJa3VVSUlYUDFFQy1VS1N0R3lxRVc3YkU1VVMxSlpad2lMaFZZX3JtQXVZQkxmRzdsdklTZHdTNm11TjQ1LXFnMTRjX3Fob045UklHMGFoekJhOHQwVnVrdGlQT1JBenZFb1ZYXy1EMkhHclk?oc=5",
-      "title": "「大学生のクソガキ」被害者が猛烈批判！慶應女子大生のクレカ窃盗利用に「許さんからな」明るみになった悪質手口",
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ESFNWOFRRQmNCMjZMeWpod2JINDlMOWJLcXJvemlGZi1GV0ZGZUdnM1JteWJyaWVMMklsYjNaRTNpVF8xeGdLR1dYNWxuREszbEJEOE00SVdWUERJLXM4VFAzOXdsVV9WZ1luYkh2MXlOdmpjSXlBdExzUmsyRU0?oc=5",
+      "title": "秋篠宮さまは陛下に｢もっとも｣と全面賛同した…皇室研究家が｢皇室は\"愛子天皇\"で一致している｣と見るワケ",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JeV9RNnpsV2o3MzlJa3VVSUlYUDFFQy1VS1N0R3lxRVc3YkU1VVMxSlpad2lMaFZZX3JtQXVZQkxmRzdsdklTZHdTNm11TjQ1LXFnMTRjX3Fob045UklHMGFoekJhOHQwVnVrdGlQT1JBenZFb1ZYXy1EMkhHclk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ESFNWOFRRQmNCMjZMeWpod2JINDlMOWJLcXJvemlGZi1GV0ZGZUdnM1JteWJyaWVMMklsYjNaRTNpVF8xeGdLR1dYNWxuREszbEJEOE00SVdWUERJLXM4VFAzOXdsVV9WZ1luYkh2MXlOdmpjSXlBdExzUmsyRU0?oc=5",
       "image": "",
       "source": "Yahoo!ニュース",
       "category": "domestic",
-      "date": "2026-08-21T08:30:35.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hX2N3bDJGVG8tQnkwaUY5UzZMQVl2bVA5b0kwMjV3R1hkeWt0UWRyZ1JwRUw3UHpsa3pyOWo3VlpON3dtb1JHeGtqMzZwQ2otTlh6ZENwN0w3NXJva1FrS01hT18xYXc2N3BxNA?oc=5",
-      "title": "ベッセント氏の奇策、効果1日で帳消し 米長期金利が再び上昇",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hX2N3bDJGVG8tQnkwaUY5UzZMQVl2bVA5b0kwMjV3R1hkeWt0UWRyZ1JwRUw3UHpsa3pyOWo3VlpON3dtb1JHeGtqMzZwQ2otTlh6ZENwN0w3NXJva1FrS01hT18xYXc2N3BxNA?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "domestic",
-      "date": "2026-08-20T20:18:51.000Z"
+      "date": "2026-08-21T08:15:36.000Z"
     },
     {
       "id": "https://news.livedoor.com/article/detail/32127516/",
       "title": "劇物入りマフィンで男性を殺害しようとした疑い、40代女を逮捕 滋賀県",
-      "description": "知人の男性に劇物入りのマフィンを食べさせて殺害しようとしたとして、滋賀県に住む40代の女が逮捕されました。 殺人未遂の疑いで逮捕されたのは、滋賀県東近江市に住む派遣社員・藤木香奈容疑者（46）です。 警察",
+      "description": "知人の男性に劇物入りのマフィンを食べさせて殺害しようとしたとして、滋賀県に住む派遣社員の女が逮捕されました。 殺人未遂の疑いで逮捕されたのは、滋賀県東近江市に住む派遣社員・藤木香奈容疑者（46）です。",
       "url": "https://news.livedoor.com/article/detail/32127516/",
       "image": "",
       "date": "2026-08-21T13:51:24.000Z",
@@ -651,6 +631,16 @@
       "category": "domestic"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5KQmxVWmhLUTRPci02RHF6VUZxbFA2bFM2cVFFdFdTUDB2bk9ZODZ0TFl2Y1FqYV9hckFYZWhOYUhlVzJleGVJb2p3aw?oc=5",
+      "title": "【速報】行方不明の殺人未遂被告、遺体で発見",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5KQmxVWmhLUTRPci02RHF6VUZxbFA2bFM2cVFFdFdTUDB2bk9ZODZ0TFl2Y1FqYV9hckFYZWhOYUhlVzJleGVJb2p3aw?oc=5",
+      "image": "",
+      "source": "47NEWS",
+      "category": "domestic",
+      "date": "2026-08-21T07:43:31.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NRHFGR0pJUldRUTd4UjRNbDJYMzB5RDJvaFZCVGZWTlVqakpoeFlFTE5VRmQ4WGwta1l4RVdtdGNQZmcyWXJhYlZBX0dTRFRReHlLYw?oc=5",
       "title": "明日8月22日(土)の熱中症警戒アラート 愛知や兵庫〜鹿児島の18県に発表",
       "description": "",
@@ -661,14 +651,14 @@
       "date": "2026-08-21T08:10:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6b2dEZGxHY1hGejBRZ2RKZk90QWxHTjdXZEQwUXVDb0Y4M3VQOGRjMkpncnpGUDd6Y2pjX3ZzQ2ladmNuaWRhVlNtYXlWTGxwdlpxSDNBY3ZKR3l3V0hzUVpYZHlXVzB6aC1mVWlnSGJ1TzRLa3c?oc=5",
-      "title": "辺野古沖事故、抗議活動のあり方に踏み込まぬ沖縄・玉城知事「意図的に避けてはいない」",
+      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UdzY0em4xWi10Rl9UbFZNaDV4OE5pbUl2aUpJRVcxYU93bHpIRzQyaEhsS0FwS2ZlREtDV0NGb3hTRDU3Y1B3MmNwV1Q3bTJUUUU5ajVXWjlraUlEc2pqMzQzaEM3b3JDZFJuRU9wWE1XRHhDaXc?oc=5",
+      "title": "F15立ち往生「大変遺憾」 沖縄県の玉城デニー知事、那覇空港視察へ",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6b2dEZGxHY1hGejBRZ2RKZk90QWxHTjdXZEQwUXVDb0Y4M3VQOGRjMkpncnpGUDd6Y2pjX3ZzQ2ladmNuaWRhVlNtYXlWTGxwdlpxSDNBY3ZKR3l3V0hzUVpYZHlXVzB6aC1mVWlnSGJ1TzRLa3c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UdzY0em4xWi10Rl9UbFZNaDV4OE5pbUl2aUpJRVcxYU93bHpIRzQyaEhsS0FwS2ZlREtDV0NGb3hTRDU3Y1B3MmNwV1Q3bTJUUUU5ajVXWjlraUlEc2pqMzQzaEM3b3JDZFJuRU9wWE1XRHhDaXc?oc=5",
       "image": "",
       "source": "産経ニュース",
       "category": "domestic",
-      "date": "2026-08-21T04:13:06.000Z"
+      "date": "2026-08-21T03:54:34.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lRm1QYnQ5Y2lDSHV1WTN3Y3czZUxjeVk5bVVOckFQeEhwbENBa2tna2xzRU90YU1xOTdaOWh0aTdqSl9CZXZaY1pkZ0xuR1ZtSURER0NkcWx1YlNWbmNkRGNQSXRIVlNL?oc=5",
@@ -681,14 +671,24 @@
       "date": "2026-08-21T05:06:14.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5lNURXUHlYbm1QYlJxRmtIRUh0amQtLTEzS01Md1RCWUNBdWhrdHc0b2d3SVBFU0Y5dXQ5MF9oOW5zVzlkaTk3UEhpWQ?oc=5",
-      "title": "特定技能外国人を虐待か 北海道の農場、6人保護",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5lNURXUHlYbm1QYlJxRmtIRUh0amQtLTEzS01Md1RCWUNBdWhrdHc0b2d3SVBFU0Y5dXQ5MF9oOW5zVzlkaTk3UEhpWQ?oc=5",
+      "id": "https://www.youtube.com/watch?v=cJ0wzEElAdQ",
+      "title": "来年度予算要求総額130兆円超へ 金利上昇で「国債費」は36兆円台に｜TBS NEWS DIG",
+      "description": "来年度予算案で、各省庁からの要求総額が初めて130兆円を超える見通しであることが分かりました。 高市政権が「責任ある積極財政元年」と位置づける来年度の予算案。各省庁は必要な予算を盛り込んだ「概算要求」を今月末に示しますが、その一般会計の総額が初めて130兆円を超える見通しであるこ",
+      "url": "https://www.youtube.com/watch?v=cJ0wzEElAdQ",
+      "image": "https://i4.ytimg.com/vi/cJ0wzEElAdQ/hqdefault.jpg",
+      "date": "2026-08-21T15:51:37.000Z",
+      "source": "TBS NEWS DIG（YouTube）",
+      "category": "domestic"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127790/",
+      "title": "さいたま市で1時間110mmの記録的大雨、台風18号は沖縄直撃のおそれ",
+      "description": "帰宅時間帯の関東を直撃したゲリラ雷雨の影響で、さいたま市では記録的短時間大雨に関する情報が発表されました。一方、台風18号は26日ごろに沖縄を直撃するおそれがあり、注意が必要です。21日午後4時ごろの埼玉・",
+      "url": "https://news.livedoor.com/article/detail/32127790/",
       "image": "",
-      "source": "47NEWS",
-      "category": "domestic",
-      "date": "2026-08-21T07:10:46.000Z"
+      "date": "2026-08-21T15:15:00.000Z",
+      "source": "ライブドア国内",
+      "category": "domestic"
     },
     {
       "id": "https://www.youtube.com/watch?v=JNkPOzUZTT4",
@@ -701,34 +701,14 @@
       "category": "domestic"
     },
     {
-      "id": "https://www.youtube.com/watch?v=gDeD6bT9WOs",
-      "title": "円安や不漁で…タコ高騰。その裏で開発！タコを一切使わず、練り物技術で弾力再現！“ほぼタコ”って？｜TBS NEWS DIG",
-      "description": "見た目も食感も「まるでタコ」。でも、タコを一切使っていない「ほぼタコ」開発。背景にあるのが、タコの高騰です。 プレスした鉄板を開けると、完成したのは江の島名物、顔よりも大きな「丸焼きたこせんべい」です。 「おいしい！」 「めっちゃおいしいです。めっちゃタコ」 一日1000枚は売れ",
-      "url": "https://www.youtube.com/watch?v=gDeD6bT9WOs",
-      "image": "https://i4.ytimg.com/vi/gDeD6bT9WOs/hqdefault.jpg",
-      "date": "2026-08-21T12:24:21.000Z",
-      "source": "TBS NEWS DIG（YouTube）",
-      "category": "domestic"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hN1RIZ3BSV3dRckUzajYyVUt2X2EtaHF3TVhDQmR6MVVrb0V3cWdvblpJaTFURW5BakZhOGtIUlVWZHFQSklsaTA2eGF1bEtLdlpScU82ZzcycEZiMHdj?oc=5",
-      "title": "スーパーのコメ平均価格 5キロ3191円 2週ぶり値下がり",
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pcWdFRTdHQ0FSUFlqM1BuRUhxYVU5MnFXbHpuM2o4Mm91OEdob0wtQm54UllBc2JyMEs3OTJmYzAxMHNEcDhKT0F4RlNGSEkyYXZLcEJ4THp5T3pYNWdN?oc=5",
+      "title": "秋田 風車の羽根落下事故 警察が立件見送る方針を遺族に伝える",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hN1RIZ3BSV3dRckUzajYyVUt2X2EtaHF3TVhDQmR6MVVrb0V3cWdvblpJaTFURW5BakZhOGtIUlVWZHFQSklsaTA2eGF1bEtLdlpScU82ZzcycEZiMHdj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pcWdFRTdHQ0FSUFlqM1BuRUhxYVU5MnFXbHpuM2o4Mm91OEdob0wtQm54UllBc2JyMEs3OTJmYzAxMHNEcDhKT0F4RlNGSEkyYXZLcEJ4THp5T3pYNWdN?oc=5",
       "image": "",
       "source": "NHKニュース",
       "category": "domestic",
-      "date": "2026-08-21T08:52:10.000Z"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32127667/",
-      "title": "派遣社員の46歳女が知人男性に劇物入りマフィンを食べさせた疑い",
-      "description": "京都府警察本部京都府警は21日、事情を知らない第三者を介し、劇物を混入させた洋菓子を食べさせて知人男性（30）を殺害しようとしたとして、殺人未遂の疑いで滋賀県東近江市、派遣社員藤木香奈容疑者（46）を逮捕",
-      "url": "https://news.livedoor.com/article/detail/32127667/",
-      "image": "",
-      "date": "2026-08-21T14:41:45.000Z",
-      "source": "ライブドア国内",
-      "category": "domestic"
+      "date": "2026-08-21T10:54:23.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zZktFR3AwMThVVnJ0a1cxS3hwN1V4Sk1yQ0k5S2pFS0gySmNfS0F6Q21md01JMmU0d0ItekpfTkp6azZjRTBZTWYtbjFCVGdGbVBCM0R0TWxuUXBJWjVpY0MxakczQQ?oc=5",
@@ -741,14 +721,14 @@
       "date": "2026-08-21T06:20:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ESFNWOFRRQmNCMjZMeWpod2JINDlMOWJLcXJvemlGZi1GV0ZGZUdnM1JteWJyaWVMMklsYjNaRTNpVF8xeGdLR1dYNWxuREszbEJEOE00SVdWUERJLXM4VFAzOXdsVV9WZ1luYkh2MXlOdmpjSXlBdExzUmsyRU0?oc=5",
-      "title": "秋篠宮さまは陛下に｢もっとも｣と全面賛同した…皇室研究家が｢皇室は\"愛子天皇\"で一致している｣と見るワケ",
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4ybUdyMFFrYUhScXB0YWZ5b3FsY0c4WDlxVE9IZ1NpR01iT2JJRmdtRjJuQ3VsTkpfc1NzUnlUWm8tVWZNZC1KeFBuOHJrem9HdFlrR2VMMnF2b1pBczV4MEF3NXlFbFJ1OXgyTnp2b3FMNm90UTZxNTI3d0dYeG8?oc=5",
+      "title": "ウクライナがソユーズロケットの生産拠点を攻撃、ロの衛星打ち上げに大打撃か 「宇宙戦」で攻勢",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ESFNWOFRRQmNCMjZMeWpod2JINDlMOWJLcXJvemlGZi1GV0ZGZUdnM1JteWJyaWVMMklsYjNaRTNpVF8xeGdLR1dYNWxuREszbEJEOE00SVdWUERJLXM4VFAzOXdsVV9WZ1luYkh2MXlOdmpjSXlBdExzUmsyRU0?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4ybUdyMFFrYUhScXB0YWZ5b3FsY0c4WDlxVE9IZ1NpR01iT2JJRmdtRjJuQ3VsTkpfc1NzUnlUWm8tVWZNZC1KeFBuOHJrem9HdFlrR2VMMnF2b1pBczV4MEF3NXlFbFJ1OXgyTnp2b3FMNm90UTZxNTI3d0dYeG8?oc=5",
       "image": "",
       "source": "Yahoo!ニュース",
       "category": "domestic",
-      "date": "2026-08-21T08:15:36.000Z"
+      "date": "2026-08-21T07:00:00.000Z"
     },
     {
       "id": "https://news.livedoor.com/article/detail/32127550/",
@@ -771,6 +751,16 @@
       "category": "domestic"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5lNURXUHlYbm1QYlJxRmtIRUh0amQtLTEzS01Md1RCWUNBdWhrdHc0b2d3SVBFU0Y5dXQ5MF9oOW5zVzlkaTk3UEhpWQ?oc=5",
+      "title": "特定技能外国人を虐待か 北海道の農場、6人保護",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5lNURXUHlYbm1QYlJxRmtIRUh0amQtLTEzS01Md1RCWUNBdWhrdHc0b2d3SVBFU0Y5dXQ5MF9oOW5zVzlkaTk3UEhpWQ?oc=5",
+      "image": "",
+      "source": "47NEWS",
+      "category": "domestic",
+      "date": "2026-08-21T07:10:46.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sQzNNU3dhdnZ1eUJ3UlRjeG1XTHQwc2lPNUxIRXJ1VkxoWDcwWjN0MUxJU1FfQXFzTG1Yck9rbDFqeE9FM2YxTU1rcVg2N3NBR0lraA?oc=5",
       "title": "熊本は午前中から35℃超える猛暑 関東は雲が増えて蒸し暑さがアップ",
       "description": "",
@@ -781,23 +771,33 @@
       "date": "2026-08-21T02:51:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UdzY0em4xWi10Rl9UbFZNaDV4OE5pbUl2aUpJRVcxYU93bHpIRzQyaEhsS0FwS2ZlREtDV0NGb3hTRDU3Y1B3MmNwV1Q3bTJUUUU5ajVXWjlraUlEc2pqMzQzaEM3b3JDZFJuRU9wWE1XRHhDaXc?oc=5",
-      "title": "F15立ち往生「大変遺憾」 沖縄県の玉城デニー知事、那覇空港視察へ",
+      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdzFTdWRUTGRmMHV2MXJnVkNUYm13VW92ZmpiYWRKR1Nqd0lfRklHandueHZORHBrVzBiNHdQMnd2Q3NJZWZMdHMzZFlaOEhtOWY4Xy1IU1ZxWlFMVXJxOWxKdVNlVVB6bnBQMlRVQVZmNGEtSGc?oc=5",
+      "title": "高市首相は「靖国の法則」を逃れられるか 「参拝せず」は短命政権に 大手町の片隅から 乾正人",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9UdzY0em4xWi10Rl9UbFZNaDV4OE5pbUl2aUpJRVcxYU93bHpIRzQyaEhsS0FwS2ZlREtDV0NGb3hTRDU3Y1B3MmNwV1Q3bTJUUUU5ajVXWjlraUlEc2pqMzQzaEM3b3JDZFJuRU9wWE1XRHhDaXc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IdzFTdWRUTGRmMHV2MXJnVkNUYm13VW92ZmpiYWRKR1Nqd0lfRklHandueHZORHBrVzBiNHdQMnd2Q3NJZWZMdHMzZFlaOEhtOWY4Xy1IU1ZxWlFMVXJxOWxKdVNlVVB6bnBQMlRVQVZmNGEtSGc?oc=5",
       "image": "",
       "source": "産経ニュース",
       "category": "domestic",
-      "date": "2026-08-21T03:54:34.000Z"
+      "date": "2026-08-21T02:00:00.000Z"
     },
     {
-      "id": "https://www.youtube.com/watch?v=41UbcHb4oHY",
-      "title": "自民議員に“役職希望アンケート”高市総理初となる内閣改造 来月中下旬で調整【報道ステーション】(2026年8月21日)",
-      "description": "高市総理大臣は来月中旬～下旬に、内閣改造と自民党役員人事を行う方向で調整に入りました。党内では、その第一歩ともみられる、所属議員に向けたアンケートが始まっています。 自身初となる内閣改造。その布石とみられているのが、20日付で始まったアンケートです。タイトルは「役職希望アンケート",
-      "url": "https://www.youtube.com/watch?v=41UbcHb4oHY",
-      "image": "https://i1.ytimg.com/vi/41UbcHb4oHY/hqdefault.jpg",
-      "date": "2026-08-21T15:03:28.000Z",
-      "source": "ANN テレ朝（YouTube）",
+      "id": "https://www.youtube.com/watch?v=EJOpWRlrdYQ",
+      "title": "マイクロバスなど6台絡む事故で樟南高校女子剣道部の生徒ら11人搬送 大型トレーラーが渋滞の列に突っ込んだか 長崎道・鳥栖IC付近｜TBS NEWS DIG",
+      "description": "21日午後4時半ごろ、佐賀県の長崎自動車道上りの鳥栖インターチェンジ付近で大型トレーラーがマイクロバスに追突するなど、あわせて6台が絡む玉突き事故が起きました。 この事故で鹿児島市の樟南高校のマイクロバスに乗っていた女子剣道部の生徒9人と男性副顧問・女性コーチのあわせて11人がけ",
+      "url": "https://www.youtube.com/watch?v=EJOpWRlrdYQ",
+      "image": "https://i2.ytimg.com/vi/EJOpWRlrdYQ/hqdefault.jpg",
+      "date": "2026-08-21T15:40:47.000Z",
+      "source": "TBS NEWS DIG（YouTube）",
+      "category": "domestic"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127725/",
+      "title": "国交省 アンダーパス冠水対策へ",
+      "description": "千葉県を襲った記録的な豪雨では冠水したアンダーパスで車が水没し、死者も出ました。国交省は21日、アンダーパスの排水設備の点検結果を公表しました。また、冠水時のガイドライン作成に向け通行止め基準の厳格化や",
+      "url": "https://news.livedoor.com/article/detail/32127725/",
+      "image": "",
+      "date": "2026-08-21T14:57:24.000Z",
+      "source": "ライブドア国内",
       "category": "domestic"
     }
   ],
@@ -811,16 +811,6 @@
       "source": "クラウドファンディング - READYFOR",
       "category": "world",
       "date": "2026-08-21T13:34:23.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93UWZiRF9sSjhCNzdabWNkLXZHdjBFN0p3REFGUjYtQWhwX2NXZmx6SjFDckV5Umx5VjdQcHg0S2dQT083elluaTF6aw?oc=5",
-      "title": "【速報】英仏独などがイスラエル入植計画の撤回要求",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93UWZiRF9sSjhCNzdabWNkLXZHdjBFN0p3REFGUjYtQWhwX2NXZmx6SjFDckV5Umx5VjdQcHg0S2dQT083elluaTF6aw?oc=5",
-      "image": "",
-      "source": "47NEWS",
-      "category": "world",
-      "date": "2026-08-21T12:09:33.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80WlV2aTZ6MkNqVjhjeXJMMzZTaFNQQmVUQzZpVFhTN1F3blFjeTA2UjBKU3NZYXpvUkk1dlRUMGYyWnVRYjdrTF9DcVozZ043UXlaWmoxc292NWRXLWc?oc=5",
@@ -881,6 +871,16 @@
       "source": "ロケットニュース24",
       "category": "world",
       "date": "2026-08-21T10:00:25.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95TkZHZHRaLU0zOFlYbW9CVFNEeHFlOGxJWmg1dnhBdHNtLVdVbjFEaDVkcXpTTThRLUdsODlMNmJmLXdJY3FodzhXTTB2cG0wVjhRT09MS1dsdy1pOVQ1NlZFd2d4TUhNcmNZdg?oc=5",
+      "title": "インドネシア、中国と防衛協力拡大 「ミサイル工場を共同建設」",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95TkZHZHRaLU0zOFlYbW9CVFNEeHFlOGxJWmg1dnhBdHNtLVdVbjFEaDVkcXpTTThRLUdsODlMNmJmLXdJY3FodzhXTTB2cG0wVjhRT09MS1dsdy1pOVQ1NlZFd2d4TUhNcmNZdg?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "world",
+      "date": "2026-08-21T09:29:39.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5EeDlhYUtPZ1hZMTJQREhGZldSUXg4dmhTZWtfNHNJb0F6RzBkNldLd3dXbXdXbDZUZ2lnd3YxbF9EcVU3MVVJRGxZQkJjQQ?oc=5",
@@ -983,16 +983,6 @@
       "date": "2026-08-20T21:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ENjhZU2dfTVFvYUd0cDlmdWswMC0ycnUtSElVNWk3ZW5ITWVCNEJDTW9NYXl1WjE0bVJtMGJ1VTY1QlVwRF91Y0ZDMHVzN2VnOURnLUU5WjBMX3c5X0d6NWFJRHlEWE1MU2xHVQ?oc=5",
-      "title": "「中国不動産バブルの原点は朱鎔基改革だった」呉軍華氏",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ENjhZU2dfTVFvYUd0cDlmdWswMC0ycnUtSElVNWk3ZW5ITWVCNEJDTW9NYXl1WjE0bVJtMGJ1VTY1QlVwRF91Y0ZDMHVzN2VnOURnLUU5WjBMX3c5X0d6NWFJRHlEWE1MU2xHVQ?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "world",
-      "date": "2026-08-20T20:00:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aNGtGNFFZM0J0d3BOMjllZmcyVEctSHFFYWJEQTBCMFhqU2kyTl9GaXoxQk9jTW5pYlpySDR4Q2VFcFgxbnlsQ3ludlFyZzlxZXoyRTlpY1BFaU00LUQ4NHpZV05vbC02TVNLM29RSjE3MWZTaEJyRFZB?oc=5",
       "title": "“ドローン戦の英雄”大統領の元側近が反旗…“電撃解任”に大規模抗議も ウクライナ",
       "description": "",
@@ -1043,16 +1033,6 @@
       "date": "2026-08-21T08:32:32.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yb1BYcGJlN3pTQUd0Z1Bpd0FlMlJSVlB0ZXNkM24yNXJ2aUdnZklzSl9BZk83ZWcxQnU2UGFQa2g5cWd6UTdlZDZobDE0SndfeWVCRzllLXBPUDNSQU80?oc=5",
-      "title": "ホルムズ海峡で“シャトル船”が原油輸送 日本にも 専門家",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yb1BYcGJlN3pTQUd0Z1Bpd0FlMlJSVlB0ZXNkM24yNXJ2aUdnZklzSl9BZk83ZWcxQnU2UGFQa2g5cWd6UTdlZDZobDE0SndfeWVCRzllLXBPUDNSQU80?oc=5",
-      "image": "",
-      "source": "NHKニュース",
-      "category": "world",
-      "date": "2026-08-21T06:37:24.000Z"
-    },
-    {
       "id": "https://news.livedoor.com/article/detail/32126053/",
       "title": "香港の民主派団体幹部2人に国家安全維持法違反で有罪判決、量刑は後日",
       "description": "香港で天安門事件の追悼集会を開いていた民主派団体の幹部2人に対して、香港の裁判所は有罪判決を言い渡しました。香港メディアによりますと21日、有罪判決を受けたのは、香港の民主派団体「香港市民愛国民主運動支",
@@ -1081,6 +1061,16 @@
       "source": "carview!",
       "category": "world",
       "date": "2026-08-20T23:12:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ENjhZU2dfTVFvYUd0cDlmdWswMC0ycnUtSElVNWk3ZW5ITWVCNEJDTW9NYXl1WjE0bVJtMGJ1VTY1QlVwRF91Y0ZDMHVzN2VnOURnLUU5WjBMX3c5X0d6NWFJRHlEWE1MU2xHVQ?oc=5",
+      "title": "「中国不動産バブルの原点は朱鎔基改革だった」呉軍華氏",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ENjhZU2dfTVFvYUd0cDlmdWswMC0ycnUtSElVNWk3ZW5ITWVCNEJDTW9NYXl1WjE0bVJtMGJ1VTY1QlVwRF91Y0ZDMHVzN2VnOURnLUU5WjBMX3c5X0d6NWFJRHlEWE1MU2xHVQ?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "world",
+      "date": "2026-08-20T20:00:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iSWFZX2JrOFJrM09yY1pIVVBWTG1CSGxhWi1QNmlMY0wyWXVGSk5IcGQyV0dtdkdwdGpZdmdjNHgyVXFqYWlzQ3NJR2kxZGdnWEdTeQ?oc=5",
@@ -1143,24 +1133,14 @@
       "date": "2026-08-20T20:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xYmwzZ0F3RWoyV1FKWUNra0tmYi05LVVpYlB1OTNTRDdDNTU2emVTQ2hlV2FiNkh3VUpxaTFGV3gtMEt2LWhUVm9zZFZVM0tMcWN2WTdBdXJBam55VEpWODBJNjdIbnV5aGFQTw?oc=5",
-      "title": "金鉱山崩落で百人超死亡か 中央アフリカ",
+      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83OHFsS1FkRDdGMFdiTThJTW1VUGZxY3ZBNWV0eTFMMUd5U1B0TlNGeGpPN2RCQWdjekp0bURsSmVSMjFCSm1iSnRIa0hMb05pMWJkRTZsRmZiTjNGRU5pWWRZSC1OeEtkWXk3am5XcnlCWHMzNlBoX0N3?oc=5",
+      "title": "米軍保護によるホルムズ石油通過量が戦争前の約半分に イランの船舶監視能力が低下か",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xYmwzZ0F3RWoyV1FKWUNra0tmYi05LVVpYlB1OTNTRDdDNTU2emVTQ2hlV2FiNkh3VUpxaTFGV3gtMEt2LWhUVm9zZFZVM0tMcWN2WTdBdXJBam55VEpWODBJNjdIbnV5aGFQTw?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "world",
-      "date": "2026-08-20T01:18:08.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95NTIzeVotT2EtSzdrLS10Ulg1bE03bk0ybUtfUVZRZ0JrUGhjX0FVbUxrOUFjQjl1aFdiNGVBdHlTVjdBWVczSFRudUFUT0UyZjdfNXJGQnBCMnRsaHljZm9KRVFheUR3LU9TN0ppeG5wT0JtcWw4TlhB?oc=5",
-      "title": "「57発の核兵器」北朝鮮の“保有”容認？トランプ氏が発言",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95NTIzeVotT2EtSzdrLS10Ulg1bE03bk0ybUtfUVZRZ0JrUGhjX0FVbUxrOUFjQjl1aFdiNGVBdHlTVjdBWVczSFRudUFUT0UyZjdfNXJGQnBCMnRsaHljZm9KRVFheUR3LU9TN0ppeG5wT0JtcWw4TlhB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83OHFsS1FkRDdGMFdiTThJTW1VUGZxY3ZBNWV0eTFMMUd5U1B0TlNGeGpPN2RCQWdjekp0bURsSmVSMjFCSm1iSnRIa0hMb05pMWJkRTZsRmZiTjNGRU5pWWRZSC1OeEtkWXk3am5XcnlCWHMzNlBoX0N3?oc=5",
       "image": "",
       "source": "テレ朝NEWS",
       "category": "world",
-      "date": "2026-08-20T09:47:00.000Z"
+      "date": "2026-08-20T16:14:27.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16d0JBNjUxQzZMUmJGSWR4SThRcnRWY2pIb0JZVHlQTUF0dnJFdW1sLXZCSVlkODJQR3lxTTRaNnhPdTVuTHNFa21Na3NTV3VzcV85TUY2OEdPZm41OHZ1UmNiOFh3UTNR?oc=5",
@@ -1203,6 +1183,16 @@
       "date": "2026-08-20T10:12:00.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xYmwzZ0F3RWoyV1FKWUNra0tmYi05LVVpYlB1OTNTRDdDNTU2emVTQ2hlV2FiNkh3VUpxaTFGV3gtMEt2LWhUVm9zZFZVM0tMcWN2WTdBdXJBam55VEpWODBJNjdIbnV5aGFQTw?oc=5",
+      "title": "金鉱山崩落で百人超死亡か 中央アフリカ",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xYmwzZ0F3RWoyV1FKWUNra0tmYi05LVVpYlB1OTNTRDdDNTU2emVTQ2hlV2FiNkh3VUpxaTFGV3gtMEt2LWhUVm9zZFZVM0tMcWN2WTdBdXJBam55VEpWODBJNjdIbnV5aGFQTw?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "world",
+      "date": "2026-08-20T01:18:08.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzbUtCSVB4eFZKQUw5bjZEWG1Nb2x6NllZWEZOYlRVRG1nOWUxcGVsOEpBOVgtMmZyQVNFRnNNX1RTQWIwTUNoWkUtNlZ0ZmJlZHNiUA?oc=5",
       "title": "南米西部 ペルー中部でM6.8の地震 津波被害の心配なし",
       "description": "",
@@ -1241,6 +1231,16 @@
       "source": "読売新聞",
       "category": "world",
       "date": "2026-08-19T20:00:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95NTIzeVotT2EtSzdrLS10Ulg1bE03bk0ybUtfUVZRZ0JrUGhjX0FVbUxrOUFjQjl1aFdiNGVBdHlTVjdBWVczSFRudUFUT0UyZjdfNXJGQnBCMnRsaHljZm9KRVFheUR3LU9TN0ppeG5wT0JtcWw4TlhB?oc=5",
+      "title": "「57発の核兵器」北朝鮮の“保有”容認？トランプ氏が発言",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE95NTIzeVotT2EtSzdrLS10Ulg1bE03bk0ybUtfUVZRZ0JrUGhjX0FVbUxrOUFjQjl1aFdiNGVBdHlTVjdBWVczSFRudUFUT0UyZjdfNXJGQnBCMnRsaHljZm9KRVFheUR3LU9TN0ppeG5wT0JtcWw4TlhB?oc=5",
+      "image": "",
+      "source": "テレ朝NEWS",
+      "category": "world",
+      "date": "2026-08-20T09:47:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HeFRiYktLa3ZBUFRBZzhVVlNZeVljTjhleUlQcTRkcExpVVdTbUhMc1kwVXBSMHloMXIwMzFtdVA5azBQeFJMdHJMVm1fLWkzdm14bHpvVVBrTnR5cEE?oc=5",
@@ -1365,6 +1365,16 @@
       "date": "2026-08-21T13:18:25.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PWXgtdnhkRnV5RHpRM0NjNkgwSC1VcmktQTZPcWpfNHhpT0RBN1Z0eWxvYUFEaTlaQ0RJYUdwWm4xSklhV21keW9ZbzdPVjdoSnR3SmtZdXRjZG9PRWc5X05yc28wRFBiNi1ndA?oc=5",
+      "title": "中国でテスラなど9社、420万台超リコール 緊急ドアハンドル巡り",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PWXgtdnhkRnV5RHpRM0NjNkgwSC1VcmktQTZPcWpfNHhpT0RBN1Z0eWxvYUFEaTlaQ0RJYUdwWm4xSklhV21keW9ZbzdPVjdoSnR3SmtZdXRjZG9PRWc5X05yc28wRFBiNi1ndA?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "business",
+      "date": "2026-08-21T12:30:37.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1MMkRfREVpbWplaFg0dVU4Mmxyclk3QVY1SDI0RDFqdktWN3VGb1hVZzJrcFVoYXRPTmNVR3pCYk9XV3Z1OFBrWA?oc=5",
       "title": "名古屋駅前「近鉄パッセ」ビルが再開発計画見直しにより復活を検討",
       "description": "",
@@ -1475,26 +1485,6 @@
       "date": "2026-08-21T08:47:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EZ3hDa3lPWkxaNWZnalliWjBOQWpqTWRoaWpPYzk4cDlBb2lZOXlneFhVN0M1LW5Da1gwZU95VVllQTNKaTQ1dXJNelBqZjYtb0w4aFlpY3pHTE5ydG8zNVlDbE51alJ4MGhuYUIteFl1LXdNUHhN?oc=5",
-      "title": "サムスン電子、26年の株主還元額は最大110兆ウォンと予想",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EZ3hDa3lPWkxaNWZnalliWjBOQWpqTWRoaWpPYzk4cDlBb2lZOXlneFhVN0M1LW5Da1gwZU95VVllQTNKaTQ1dXJNelBqZjYtb0w4aFlpY3pHTE5ydG8zNVlDbE51alJ4MGhuYUIteFl1LXdNUHhN?oc=5",
-      "image": "",
-      "source": "Bloomberg.com",
-      "category": "business",
-      "date": "2026-08-21T08:27:30.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SRFhMSlV4UUNidG5FS05jZGx6WE04cXFUWEhHNkljbWUxUFk4NmFkc1dVN3hUbVZha2ItREUtUGtrRlR3S2h0VDFRZEt5WUU4NzQ2Uk1pSkZvLTdiOWRaN055Z0JUNS1WZmFIbQ?oc=5",
-      "title": "エイベックス松浦会長「AIで仕事が楽になると思ってたけど、真逆」 note記事作成の“苦労”明かす（1/2 ページ）",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SRFhMSlV4UUNidG5FS05jZGx6WE04cXFUWEhHNkljbWUxUFk4NmFkc1dVN3hUbVZha2ItREUtUGtrRlR3S2h0VDFRZEt5WUU4NzQ2Uk1pSkZvLTdiOWRaN055Z0JUNS1WZmFIbQ?oc=5",
-      "image": "",
-      "source": "ITmedia",
-      "category": "business",
-      "date": "2026-08-21T08:09:20.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aNTJDc3hybXhYbjU5SnRvOUU0cWthQTdCWXl6R3dObHlZQi1kdFppbEhNTXhieTJ2Z3I0eHNuNjRGYjlSNm45OEJLOEFURXZOZjZ2RNIBV0FVX3lxTE03bmNDcDdPZFVCNVFxdGhtX2paWEhpU0J1c3pPWEtCTnVqQU5iUjFubzdtY2hOaE9JUmtMSzBvQ0FlYTBiWmR3UWtDTExiNmp4cVViZF83UQ?oc=5",
       "title": "（まとめ）日経平均は200円安の66,016円で反落 来週はエヌビディア決算に注目",
       "description": "",
@@ -1503,6 +1493,16 @@
       "source": "マネクリ",
       "category": "business",
       "date": "2026-08-21T07:36:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TZi0tdUljMl9zVnA2V0dOcXVNcnhrdVRVY3VlQ2Njbzh5UWdwUG13MVM3S1dUem1kd0RHWmQ4NlYybG1ITHRjNC1ZTnJ5ZEFrU3BwZkF4X0NOSG1aZWh2c1E3WjF0ajR0ejlOYg?oc=5",
+      "title": "中国AI「Kimi」が日本進出か 有料プランのプレゼントキャンペーンも 「はじめまして、日本」（1/2 ページ）",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TZi0tdUljMl9zVnA2V0dOcXVNcnhrdVRVY3VlQ2Njbzh5UWdwUG13MVM3S1dUem1kd0RHWmQ4NlYybG1ITHRjNC1ZTnJ5ZEFrU3BwZkF4X0NOSG1aZWh2c1E3WjF0ajR0ejlOYg?oc=5",
+      "image": "",
+      "source": "ITmedia",
+      "category": "business",
+      "date": "2026-08-21T06:54:13.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DdmVlMzMxeEdhQ24zbEhzRE8wMDhsd2UwOTRwcW5vekpxUjc3N1JXNWY5bnFEVWF0WmI1Zy05azBxb3FtOEhudzJ3T0UzRGVtSTNENnlZYnJVYVJhV1VJXw?oc=5",
@@ -1533,16 +1533,6 @@
       "source": "ロイター",
       "category": "business",
       "date": "2026-08-21T05:28:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Lc1ozREFuazR3RERvd3Y2N0lNYk5QbTBWTzlZX3N1UGRKWWJLMVh2UWlaTHg2QWVpaXVibHZXMG9Lek1OMnByV2d6OHNHdEs1X2dTWDNPaTQxZTlqTmpuRHQxdUNRTEdmZHhTTA?oc=5",
-      "title": "都心中古タワマン平均価格、2カ月連続で下落 7月民間調査",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Lc1ozREFuazR3RERvd3Y2N0lNYk5QbTBWTzlZX3N1UGRKWWJLMVh2UWlaTHg2QWVpaXVibHZXMG9Lek1OMnByV2d6OHNHdEs1X2dTWDNPaTQxZTlqTmpuRHQxdUNRTEdmZHhTTA?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "business",
-      "date": "2026-08-21T04:32:55.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sX3BGajBNQkRKZzhRUEVCVEpGRHlkS3IxXzd0b2ZLRDQ4NFJ1Zkl5SWRZMko3M1dRVU9jNTJxd0NSTXd3eVNCQ1l5UDhfcVBZQTdBcg?oc=5",
@@ -1595,14 +1585,14 @@
       "date": "2026-08-21T00:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45LVlWVFdCa3N0TW1oTWF0dENtV2tNWVNRX0x2WlgtX2RvYU9vXzd2UkROVE80azlyNFNZZXRjSV9nalAtbnNxc2dPZEF1VEh2UXVPWTRuMXVMNjloc2FRUDZUdE4wZw?oc=5",
-      "title": "SpaceX、100万機のAI衛星「スターマインド」計画は実現するか?",
+      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41aXFHZjRaa0o2ZVY4Tk5PQkEwVm9DMkhDLUhvd2NxSE9BMDQ4WTcwdTVZbDdtN0E3T0dFdUZPRFRnMEY5X05aRDE5SzU5OE9pRlRkMzJqaEIyQ29EREJOMXhwQkJHX2tXY3IyNXJJRTU1Q2p1eGhn?oc=5",
+      "title": "アンソロピック、IPO規模は過去最大のスペースXに匹敵か上回ると想定",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45LVlWVFdCa3N0TW1oTWF0dENtV2tNWVNRX0x2WlgtX2RvYU9vXzd2UkROVE80azlyNFNZZXRjSV9nalAtbnNxc2dPZEF1VEh2UXVPWTRuMXVMNjloc2FRUDZUdE4wZw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE41aXFHZjRaa0o2ZVY4Tk5PQkEwVm9DMkhDLUhvd2NxSE9BMDQ4WTcwdTVZbDdtN0E3T0dFdUZPRFRnMEY5X05aRDE5SzU5OE9pRlRkMzJqaEIyQ29EREJOMXhwQkJHX2tXY3IyNXJJRTU1Q2p1eGhn?oc=5",
       "image": "",
-      "source": "Impress Watch",
+      "source": "Bloomberg.com",
       "category": "business",
-      "date": "2026-08-21T00:00:00.000Z"
+      "date": "2026-08-20T18:07:59.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnWnY0YzhZS2pieTFOZ0NWT3BBYlNTVm04UUtWZXNmX0oyRGdTQkJBYnkwTzQtM3pKbE9VZlNvNXBXdm9DbzdqUk9TUFFndXUtaHBiMGJIeXFJZU1vVnA1Vk9pX3NtalZs?oc=5",
@@ -1623,6 +1613,16 @@
       "source": "朝日新聞",
       "category": "business",
       "date": "2026-08-20T10:50:15.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52TTFrQk5ybVBFVFp5NDluTGJ1WUd0elVyQ1NxZDZLcXdEdTB3b2dUdjM0eWk2bnF0ZmJqOHh3cm1SVjlxQklQa3k2NzRjX2h2TTFFRmVUcEw?oc=5",
+      "title": "京都府の最低賃金、「時給1180円」答申 58円引き上げ、案採決では労働者側全員が反対",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52TTFrQk5ybVBFVFp5NDluTGJ1WUd0elVyQ1NxZDZLcXdEdTB3b2dUdjM0eWk2bnF0ZmJqOHh3cm1SVjlxQklQa3k2NzRjX2h2TTFFRmVUcEw?oc=5",
+      "image": "",
+      "source": "京都新聞デジタル",
+      "category": "business",
+      "date": "2026-08-20T10:35:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OZ3JXaUtlbUR4clFHckljN1pJODBZRk5fM2V3Y2swd3FjZzdtZXluWmYwY1RJRmFwOVh2UHlQX0ZXM0NmODBTTkFlUHl1QkpLVHY3ekwzelpiZw?oc=5",
@@ -1655,14 +1655,24 @@
       "date": "2026-08-21T14:12:30.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBY29DQjJmdGFwbjdMRWtaWGhuaENDdVFCREp6dUp6MUZsUi05VE5qbzluNlllX2hnTEpkaDZHNHBRNkk2OXh0Yzk1TFY2eTVZUks4YU9wak92clROcWJR?oc=5",
-      "title": "中野サンプラザ再開発 中野区が新たな事業計画の骨子を示す",
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NlBuVnZ2ci05bG4yWjJLdTgzRVdzcGVXbDZlQVVyeWZyeUtLTHV6NzhRc3FRMU9HMEJOdmp1US1TU1lScldySkZ2aGR4dmFXRTliaEVqOXVhdHZRbTZr?oc=5",
+      "title": "非上場企業の株式 新たな評価方式の案を公表 国税庁",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBY29DQjJmdGFwbjdMRWtaWGhuaENDdVFCREp6dUp6MUZsUi05VE5qbzluNlllX2hnTEpkaDZHNHBRNkk2OXh0Yzk1TFY2eTVZUks4YU9wak92clROcWJR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NlBuVnZ2ci05bG4yWjJLdTgzRVdzcGVXbDZlQVVyeWZyeUtLTHV6NzhRc3FRMU9HMEJOdmp1US1TU1lScldySkZ2aGR4dmFXRTliaEVqOXVhdHZRbTZr?oc=5",
       "image": "",
       "source": "NHKニュース",
       "category": "business",
-      "date": "2026-08-21T07:18:00.000Z"
+      "date": "2026-08-20T17:46:40.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jREVDTnJpWWNTVUM1Z3Jpd0tEVEJwWXBIdXVoUkRST2c2Q1plTjQtRHZGUzNPRTNPQzd2SzhHZFBOdHRoUXAxaWxVV1VzZUpQVUthS0NSZWZ5VGxwNTltdVBfOHQwN2UwdC1WdQ?oc=5",
+      "title": "キオクシア株の復活は？新型半導体｢Rubin｣とは ロンドン×東京で語る",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jREVDTnJpWWNTVUM1Z3Jpd0tEVEJwWXBIdXVoUkRST2c2Q1plTjQtRHZGUzNPRTNPQzd2SzhHZFBOdHRoUXAxaWxVV1VzZUpQVUthS0NSZWZ5VGxwNTltdVBfOHQwN2UwdC1WdQ?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "business",
+      "date": "2026-08-21T10:30:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ra2tWaVpMT05ibEY5RS1EWEZ6d2ZBczNwdElCc1VNVTItRkxYUkE4NTlJdG9VWXpNLUF6cTFPOUhwVFhfdU55N1FCVk44UkVweTRoTGUtRXQtblpOUGxsdV9IY0lJUWs?oc=5",
@@ -1685,44 +1695,24 @@
       "category": "business"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TZi0tdUljMl9zVnA2V0dOcXVNcnhrdVRVY3VlQ2Njbzh5UWdwUG13MVM3S1dUem1kd0RHWmQ4NlYybG1ITHRjNC1ZTnJ5ZEFrU3BwZkF4X0NOSG1aZWh2c1E3WjF0ajR0ejlOYg?oc=5",
-      "title": "中国AI「Kimi」が日本進出か 有料プランのプレゼントキャンペーンも 「はじめまして、日本」（1/2 ページ）",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iWkxSTG53R3VQSU53bmhxYnBTZWxQeXVHcllYNGR2RmNrd1ZKdXhzQ0NTbHBFNDJTOVdZeHZTWTNQYU9ERnRpOEFqNmdrVGwzWm5DMlhQUXhKcTdwS0hFa0xBbUtfa2swQ2pLWg?oc=5",
+      "title": "「Claudeの使い方」を無料で学べる公式サイト登場 「Code」「Cowork」などサービスごとに解説（1/2 ページ）",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TZi0tdUljMl9zVnA2V0dOcXVNcnhrdVRVY3VlQ2Njbzh5UWdwUG13MVM3S1dUem1kd0RHWmQ4NlYybG1ITHRjNC1ZTnJ5ZEFrU3BwZkF4X0NOSG1aZWh2c1E3WjF0ajR0ejlOYg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iWkxSTG53R3VQSU53bmhxYnBTZWxQeXVHcllYNGR2RmNrd1ZKdXhzQ0NTbHBFNDJTOVdZeHZTWTNQYU9ERnRpOEFqNmdrVGwzWm5DMlhQUXhKcTdwS0hFa0xBbUtfa2swQ2pLWg?oc=5",
       "image": "",
       "source": "ITmedia",
       "category": "business",
-      "date": "2026-08-21T06:54:13.000Z"
+      "date": "2026-08-21T02:26:13.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fak4xY2Z0RkpqOEx1bG1JcXkzOFRuaEhNcjJNNEgtZXNDVjdvbWVTOXY2YnFBMVFoNUtPcklKTGtnTUlvb19TNWVLZ1NDOEVPN200M9IBV0FVX3lxTE5vMkxsa1VQR01WM1U1NXhvUTRZUTlfaFdMUDYzN2hQTlJTNUUzQi0yUVJFNG1SdU9zbUhDUEh4R1FKT1AxanFscWN3cHJaZEEwdktHcFFNYw?oc=5",
-      "title": "（朝）米国市場は3指数揃って下落 米国債買い戻し拡大による金利下落が一服し上昇したことで株式市場は売り優勢の展開",
+      "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wa3VvUmZiY1FjUDFmRl8xc216dlZGVXU5TnFEVDBzQU9yMU95bmV0YjBWQWhJYlJQX3A5dlE0UnJDNWg5dUYySm1LcDhlX05ERGhHaXpwdEY1cFlZNVltN3JHWndOMkN2RWhlN2Q2Z002MVRvcDNBSw?oc=5",
+      "title": "ＮＹ市場サマリー（20日）ダウ703ドル安、ドル・利回り上昇",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fak4xY2Z0RkpqOEx1bG1JcXkzOFRuaEhNcjJNNEgtZXNDVjdvbWVTOXY2YnFBMVFoNUtPcklKTGtnTUlvb19TNWVLZ1NDOEVPN200M9IBV0FVX3lxTE5vMkxsa1VQR01WM1U1NXhvUTRZUTlfaFdMUDYzN2hQTlJTNUUzQi0yUVJFNG1SdU9zbUhDUEh4R1FKT1AxanFscWN3cHJaZEEwdktHcFFNYw?oc=5",
-      "image": "",
-      "source": "マネクリ",
-      "category": "business",
-      "date": "2026-08-20T23:14:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBZT1JUZmN4WmEtelpQaXhXR3Q4bGV6VWF4WXVvbmVDc0JhT211WF9Eeno3OVNxUUttSHVCdUl3MEkzelc2Z096aFl6Z0tiYU5jR1N4cHdTUFo1SmJRRFZCZXE1WFQxd1BHNTlfQ1l5d0t5Ym9OMktiM2pR?oc=5",
-      "title": "アングル：長期金利3％巡る攻防続く、積極財政を警戒 高止まる利上げ到達点予想",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBZT1JUZmN4WmEtelpQaXhXR3Q4bGV6VWF4WXVvbmVDc0JhT211WF9Eeno3OVNxUUttSHVCdUl3MEkzelc2Z096aFl6Z0tiYU5jR1N4cHdTUFo1SmJRRFZCZXE1WFQxd1BHNTlfQ1l5d0t5Ym9OMktiM2pR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wa3VvUmZiY1FjUDFmRl8xc216dlZGVXU5TnFEVDBzQU9yMU95bmV0YjBWQWhJYlJQX3A5dlE0UnJDNWg5dUYySm1LcDhlX05ERGhHaXpwdEY1cFlZNVltN3JHWndOMkN2RWhlN2Q2Z002MVRvcDNBSw?oc=5",
       "image": "",
       "source": "ロイター",
       "category": "business",
-      "date": "2026-08-21T03:31:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85eV9PTFZlaEMyZno1VkxTaDlEQW1kZWs3T2ZWbXF5RUZoRC1uYlpNeXdCd3k2TjFfNmhlNGdoQm1rTGJ6RkIzYWNnaXNoZjlLN2QtRlY4Q1BNWVpkNVJjaUdlTXZIVjFNMXlOaA?oc=5",
-      "title": "INPEX株価が続伸 米・イランの緊張続きNY原油上昇",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85eV9PTFZlaEMyZno1VkxTaDlEQW1kZWs3T2ZWbXF5RUZoRC1uYlpNeXdCd3k2TjFfNmhlNGdoQm1rTGJ6RkIzYWNnaXNoZjlLN2QtRlY4Q1BNWVpkNVJjaUdlTXZIVjFNMXlOaA?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "business",
-      "date": "2026-08-21T01:41:24.000Z"
+      "date": "2026-08-20T22:20:52.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoZkdUSGdBYWRuWWlhemwybHVreTZ5MjB5OGlQc1ZlbS0wTW5wNE1WcEtQd1FLZll1dkRsMUNsVFdmcUNpXzJYVkE5X0NBWTU2NUhyeExnVkMwdw?oc=5",
@@ -1745,14 +1735,24 @@
       "date": "2026-08-21T10:15:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NlBuVnZ2ci05bG4yWjJLdTgzRVdzcGVXbDZlQVVyeWZyeUtLTHV6NzhRc3FRMU9HMEJOdmp1US1TU1lScldySkZ2aGR4dmFXRTliaEVqOXVhdHZRbTZr?oc=5",
-      "title": "非上場企業の株式 新たな評価方式の案を公表 国税庁",
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iQUxIOU1qYklGQ2o3SFhETVlsNDhwSmh6dWRYRVVRa1pjNEtWSmNJeXNlOEt4VFhBMUFpdnhkeTVRaVZCOWJuV3A3MHFXcGc1TVpqczZWRTFxTFYwLXVv?oc=5",
+      "title": "赤字続く郵便事業 持続的なサービス検討へ 総務省が委員会設置",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41NlBuVnZ2ci05bG4yWjJLdTgzRVdzcGVXbDZlQVVyeWZyeUtLTHV6NzhRc3FRMU9HMEJOdmp1US1TU1lScldySkZ2aGR4dmFXRTliaEVqOXVhdHZRbTZr?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iQUxIOU1qYklGQ2o3SFhETVlsNDhwSmh6dWRYRVVRa1pjNEtWSmNJeXNlOEt4VFhBMUFpdnhkeTVRaVZCOWJuV3A3MHFXcGc1TVpqczZWRTFxTFYwLXVv?oc=5",
       "image": "",
       "source": "NHKニュース",
       "category": "business",
-      "date": "2026-08-20T17:46:40.000Z"
+      "date": "2026-08-20T11:49:10.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mTE5saWUxZVFjSWNRbVIyNHhRTHl4clkwQ2NxY29HV3ZEUHlWRHZrcmdTN01QcW9jYlpmZUJ5RlBIMFpYckdaSmVubVg4YU1yUjE5SWJKTXNSX1plRHo3MVhkRVhtQnNyWTFudw?oc=5",
+      "title": "サムスンがAIマネーで巨額還元、韓国最大の12兆円 利益拡大に圧力",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mTE5saWUxZVFjSWNRbVIyNHhRTHl4clkwQ2NxY29HV3ZEUHlWRHZrcmdTN01QcW9jYlpmZUJ5RlBIMFpYckdaSmVubVg4YU1yUjE5SWJKTXNSX1plRHo3MVhkRVhtQnNyWTFudw?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "business",
+      "date": "2026-08-21T09:31:58.000Z"
     },
     {
       "id": "https://news.livedoor.com/article/detail/32125225/",
@@ -1765,14 +1765,64 @@
       "category": "business"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iWkxSTG53R3VQSU53bmhxYnBTZWxQeXVHcllYNGR2RmNrd1ZKdXhzQ0NTbHBFNDJTOVdZeHZTWTNQYU9ERnRpOEFqNmdrVGwzWm5DMlhQUXhKcTdwS0hFa0xBbUtfa2swQ2pLWg?oc=5",
-      "title": "「Claudeの使い方」を無料で学べる公式サイト登場 「Code」「Cowork」などサービスごとに解説（1/2 ページ）",
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DUy05ZE9zZ1RHeTc1bGdMWVFJNXNhbjlDcW56bF9TNVVOdW5jaE1JUllmWW9OWTB5Ny1CY2tqbXEtc2hKWGwydlo0UWxTX1h4bWotTC00UjlzM0stZnNUdVBIZFdfd3doMVdvMkpUOE05ajNVQWJ0WVpVU0tYa00?oc=5",
+      "title": "20代のNISA買い付け17倍 制度開始の14年比、将来に備え（共同通信）",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iWkxSTG53R3VQSU53bmhxYnBTZWxQeXVHcllYNGR2RmNrd1ZKdXhzQ0NTbHBFNDJTOVdZeHZTWTNQYU9ERnRpOEFqNmdrVGwzWm5DMlhQUXhKcTdwS0hFa0xBbUtfa2swQ2pLWg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DUy05ZE9zZ1RHeTc1bGdMWVFJNXNhbjlDcW56bF9TNVVOdW5jaE1JUllmWW9OWTB5Ny1CY2tqbXEtc2hKWGwydlo0UWxTX1h4bWotTC00UjlzM0stZnNUdVBIZFdfd3doMVdvMkpUOE05ajNVQWJ0WVpVU0tYa00?oc=5",
       "image": "",
-      "source": "ITmedia",
+      "source": "Yahoo!ニュース",
       "category": "business",
-      "date": "2026-08-21T02:26:13.000Z"
+      "date": "2026-08-21T06:13:53.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pWUcxQ1R1dkhwWUM3YlAyTDFOTTZ2WFVZUHhaY0tLaHhWNE1CeUwzcXNvUHNEQ09iWWw0ck0ya05Vc3NvM3NESmx6S1NiUnlvMGkyZGMwNzNPNUllMHo4?oc=5",
+      "title": "円相場 値上がり 米の長期金利低下でドル売り円買い進む",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pWUcxQ1R1dkhwWUM3YlAyTDFOTTZ2WFVZUHhaY0tLaHhWNE1CeUwzcXNvUHNEQ09iWWw0ck0ya05Vc3NvM3NESmx6S1NiUnlvMGkyZGMwNzNPNUllMHo4?oc=5",
+      "image": "",
+      "source": "NHKニュース",
+      "category": "business",
+      "date": "2026-08-20T09:21:27.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Lc1ozREFuazR3RERvd3Y2N0lNYk5QbTBWTzlZX3N1UGRKWWJLMVh2UWlaTHg2QWVpaXVibHZXMG9Lek1OMnByV2d6OHNHdEs1X2dTWDNPaTQxZTlqTmpuRHQxdUNRTEdmZHhTTA?oc=5",
+      "title": "都心中古タワマン平均価格、2カ月連続で下落 7月民間調査",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Lc1ozREFuazR3RERvd3Y2N0lNYk5QbTBWTzlZX3N1UGRKWWJLMVh2UWlaTHg2QWVpaXVibHZXMG9Lek1OMnByV2d6OHNHdEs1X2dTWDNPaTQxZTlqTmpuRHQxdUNRTEdmZHhTTA?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "business",
+      "date": "2026-08-21T04:32:55.000Z"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32125055/",
+      "title": "ローソン 2か月で開店の新店舗",
+      "description": "コンビニ大手のローソンが車として移動することのできる「トレーラーハウス型店舗」を初めて出店します。災害時には被災地へと移動させ、ライフラインを提供することも想定しています。きょう、ローソンが発表したト",
+      "url": "https://news.livedoor.com/article/detail/32125055/",
+      "image": "",
+      "date": "2026-08-21T08:36:34.000Z",
+      "source": "ライブドア経済",
+      "category": "business"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85eV9PTFZlaEMyZno1VkxTaDlEQW1kZWs3T2ZWbXF5RUZoRC1uYlpNeXdCd3k2TjFfNmhlNGdoQm1rTGJ6RkIzYWNnaXNoZjlLN2QtRlY4Q1BNWVpkNVJjaUdlTXZIVjFNMXlOaA?oc=5",
+      "title": "INPEX株価が続伸 米・イランの緊張続きNY原油上昇",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85eV9PTFZlaEMyZno1VkxTaDlEQW1kZWs3T2ZWbXF5RUZoRC1uYlpNeXdCd3k2TjFfNmhlNGdoQm1rTGJ6RkIzYWNnaXNoZjlLN2QtRlY4Q1BNWVpkNVJjaUdlTXZIVjFNMXlOaA?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "business",
+      "date": "2026-08-21T01:41:24.000Z"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32124767/",
+      "title": "クールジャパン機構 廃止へ調整",
+      "description": "日本のアニメや食文化などの海外展開を支援してきた「クールジャパン機構」。経済産業省が廃止する方向で調整に入りました。安倍晋三 総理（当時）「日本のものは素晴らしいと思ってもらえるというのは、日本に",
+      "url": "https://news.livedoor.com/article/detail/32124767/",
+      "image": "",
+      "date": "2026-08-21T08:06:58.000Z",
+      "source": "ライブドア経済",
+      "category": "business"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAydXpkYU9ELXAyRE5iUU9DaHVqZ1kzZ1hqQUhpY0RPbi1FYjR3Mm0xck0zaVh3b21vb3E4VUVqRUdRWlZIWndmVkZha3hLVVRjRFByUjRubC14TnhwNDFLVnREMFAteTZ3RkdiTQ?oc=5",
@@ -1785,32 +1835,12 @@
       "date": "2026-08-20T20:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DUy05ZE9zZ1RHeTc1bGdMWVFJNXNhbjlDcW56bF9TNVVOdW5jaE1JUllmWW9OWTB5Ny1CY2tqbXEtc2hKWGwydlo0UWxTX1h4bWotTC00UjlzM0stZnNUdVBIZFdfd3doMVdvMkpUOE05ajNVQWJ0WVpVU0tYa00?oc=5",
-      "title": "20代のNISA買い付け17倍 制度開始の14年比、将来に備え（共同通信）",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5DUy05ZE9zZ1RHeTc1bGdMWVFJNXNhbjlDcW56bF9TNVVOdW5jaE1JUllmWW9OWTB5Ny1CY2tqbXEtc2hKWGwydlo0UWxTX1h4bWotTC00UjlzM0stZnNUdVBIZFdfd3doMVdvMkpUOE05ajNVQWJ0WVpVU0tYa00?oc=5",
+      "id": "https://news.livedoor.com/article/detail/32121639/",
+      "title": "中川翔子が23区新築マンションの平均価格2.6億円に驚きをあらわに",
+      "description": "ざっくり言うと 東京23区の新築マンション平均価格が過去最高を更新したとTBSが報じた 不動産経済研究所によると7月の平均価格は前年比96％増の約2億6520万円 中川翔子は「3億円、誰が住めるんだろう」と驚きつつも需要の高さに言及した",
+      "url": "https://news.livedoor.com/article/detail/32121639/",
       "image": "",
-      "source": "Yahoo!ニュース",
-      "category": "business",
-      "date": "2026-08-21T06:13:53.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iQUxIOU1qYklGQ2o3SFhETVlsNDhwSmh6dWRYRVVRa1pjNEtWSmNJeXNlOEt4VFhBMUFpdnhkeTVRaVZCOWJuV3A3MHFXcGc1TVpqczZWRTFxTFYwLXVv?oc=5",
-      "title": "赤字続く郵便事業 持続的なサービス検討へ 総務省が委員会設置",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iQUxIOU1qYklGQ2o3SFhETVlsNDhwSmh6dWRYRVVRa1pjNEtWSmNJeXNlOEt4VFhBMUFpdnhkeTVRaVZCOWJuV3A3MHFXcGc1TVpqczZWRTFxTFYwLXVv?oc=5",
-      "image": "",
-      "source": "NHKニュース",
-      "category": "business",
-      "date": "2026-08-20T11:49:10.000Z"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32125055/",
-      "title": "ローソン 2か月で開店の新店舗",
-      "description": "コンビニ大手のローソンが車として移動することのできる「トレーラーハウス型店舗」を初めて出店します。災害時には被災地へと移動させ、ライフラインを提供することも想定しています。きょう、ローソンが発表したト",
-      "url": "https://news.livedoor.com/article/detail/32125055/",
-      "image": "",
-      "date": "2026-08-21T08:36:34.000Z",
+      "date": "2026-08-21T02:25:30.000Z",
       "source": "ライブドア経済",
       "category": "business"
     },
@@ -1825,22 +1855,12 @@
       "date": "2026-08-20T17:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pWUcxQ1R1dkhwWUM3YlAyTDFOTTZ2WFVZUHhaY0tLaHhWNE1CeUwzcXNvUHNEQ09iWWw0ck0ya05Vc3NvM3NESmx6S1NiUnlvMGkyZGMwNzNPNUllMHo4?oc=5",
-      "title": "円相場 値上がり 米の長期金利低下でドル売り円買い進む",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pWUcxQ1R1dkhwWUM3YlAyTDFOTTZ2WFVZUHhaY0tLaHhWNE1CeUwzcXNvUHNEQ09iWWw0ck0ya05Vc3NvM3NESmx6S1NiUnlvMGkyZGMwNzNPNUllMHo4?oc=5",
+      "id": "https://news.livedoor.com/article/detail/32120974/",
+      "title": "個人投資家が教えるAI活用術「業務の9割以上をAIに」",
+      "description": "ざっくり言うと 個人投資家のジョン・シュウギョウ氏がAI投資活用術を解説した 投資業務の9割をAIに任せ、残り1割の最終判断は人間が行うという 短期・スイング・長期でAIの使い方を変えることが重要だとしている",
+      "url": "https://news.livedoor.com/article/detail/32120974/",
       "image": "",
-      "source": "NHKニュース",
-      "category": "business",
-      "date": "2026-08-20T09:21:27.000Z"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32124767/",
-      "title": "クールジャパン機構 廃止へ調整",
-      "description": "日本のアニメや食文化などの海外展開を支援してきた「クールジャパン機構」。経済産業省が廃止する方向で調整に入りました。安倍晋三 総理（当時）「日本のものは素晴らしいと思ってもらえるというのは、日本に",
-      "url": "https://news.livedoor.com/article/detail/32124767/",
-      "image": "",
-      "date": "2026-08-21T08:06:58.000Z",
+      "date": "2026-08-21T01:33:00.000Z",
       "source": "ライブドア経済",
       "category": "business"
     },
@@ -1853,26 +1873,6 @@
       "source": "日本経済新聞",
       "category": "business",
       "date": "2026-08-20T17:00:00.000Z"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32121639/",
-      "title": "中川翔子が23区新築マンションの平均価格2.6億円に驚きをあらわに",
-      "description": "ざっくり言うと 東京23区の新築マンション平均価格が過去最高を更新したとTBSが報じた 不動産経済研究所によると7月の平均価格は前年比96％増の約2億6520万円 中川翔子は「3億円、誰が住めるんだろう」と驚きつつも需要の高さに言及した",
-      "url": "https://news.livedoor.com/article/detail/32121639/",
-      "image": "",
-      "date": "2026-08-21T02:25:30.000Z",
-      "source": "ライブドア経済",
-      "category": "business"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32120974/",
-      "title": "個人投資家が教えるAI活用術「業務の9割以上をAIに」",
-      "description": "ざっくり言うと 個人投資家のジョン・シュウギョウ氏がAI投資活用術を解説した 投資業務の9割をAIに任せ、残り1割の最終判断は人間が行うという 短期・スイング・長期でAIの使い方を変えることが重要だとしている",
-      "url": "https://news.livedoor.com/article/detail/32120974/",
-      "image": "",
-      "date": "2026-08-21T01:33:00.000Z",
-      "source": "ライブドア経済",
-      "category": "business"
     },
     {
       "id": "https://news.livedoor.com/article/detail/32120800/",
@@ -1897,12 +1897,12 @@
   ],
   "entertainment": [
     {
-      "id": "https://www.4gamer.net/games/035/G103536/20260821059/",
-      "title": "犬をくっつけて大きくしていくローグライクデッキビルダー「ドッグパイル」，Switch2 / Switch / スマホ向けに配信開始",
-      "description": "StudioFollyとTootGamesは2026年8月20日，「ドッグパイル（Dogpile）」の配信をNintendoSwitch2/NintendoSwitch/iOS/Android向けに開始した。本作は，かわいい犬たちを合体させて，より大きな犬を作っていくローグライク",
-      "url": "https://www.4gamer.net/games/035/G103536/20260821059/",
+      "id": "https://www.4gamer.net/games/999/G999901/20260821065/",
+      "title": "PC版「みんな大好き塊魂アンコール」が1595円！ Amazonでバンダイナムコエンターテインメント作品のSteamキーコードセールがスタート",
+      "description": "バンダイナムコエンターテインメントは本日（2026年8月21日），Amazon.co.jpの「バンダイナムコエンターテインメントSteamキーコードストア」で，販売中のタイトルを対象とするセールを開始した。「みんな大好き塊魂アンコール+王様プチメモリースペシャルエディション」「パ",
+      "url": "https://www.4gamer.net/games/999/G999901/20260821065/",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -1915,6 +1915,16 @@
       "date": "2026-08-21T15:00:00.000Z",
       "source": "ライブドアエンタメ",
       "category": "entertainment"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1UUs5MGFDMXN3Smx4YmwzLTdMVS1xMk80YUhnSmJ6cEw1b2MyeTRlQ1ZHX3MxblI0bWJVRm5PczUzNE5zdDBTVjFBQkEzVUtkbzNLUlAzOENqT1ZqY0M4?oc=5",
+      "title": "「一番くじ」5枚分で28枚めくりフィギュア詐取か",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1UUs5MGFDMXN3Smx4YmwzLTdMVS1xMk80YUhnSmJ6cEw1b2MyeTRlQ1ZHX3MxblI0bWJVRm5PczUzNE5zdDBTVjFBQkEzVUtkbzNLUlAzOENqT1ZqY0M4?oc=5",
+      "image": "",
+      "source": "ライブドアニュース",
+      "category": "entertainment",
+      "date": "2026-08-21T14:55:15.000Z"
     },
     {
       "id": "https://automaton-media.com/articles/newsjp/20260821-461913/",
@@ -2005,6 +2015,16 @@
       "source": "めざましmedia",
       "category": "entertainment",
       "date": "2026-08-21T09:00:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93eE10Z3lPX0FGRVlQYmkxaG1xMmdfenZJVDFTMVpwVXpCczM1dE5fVUtKcVpURDFvNmstbVV1YWRKT0YzcVFnVmhWSU1zTVVyY2ZYTHMtenF3ZUtYS0ttbndFQUlMTWJJUzR4eg?oc=5",
+      "title": "愛子さま、ボッチャを体験 滋賀の医療福祉施設を訪問",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93eE10Z3lPX0FGRVlQYmkxaG1xMmdfenZJVDFTMVpwVXpCczM1dE5fVUtKcVpURDFvNmstbVV1YWRKT0YzcVFnVmhWSU1zTVVyY2ZYTHMtenF3ZUtYS0ttbndFQUlMTWJJUzR4eg?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "entertainment",
+      "date": "2026-08-21T08:40:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xbW01VGJWX2t6OGVuYjMwb3ktUDAtUi1ISXJpSnhHNi0xeUota0twSVJGTnRMSE14VjNlMG4xY2FsYXhhQU5PMHZnM1JpZHp4Y3NVcQ?oc=5",
@@ -2157,24 +2177,14 @@
       "date": "2026-08-21T02:33:38.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNNXJ4MUxibVJkaURPbVlQZlN1M20wSDlEVUpVeGZWTGdzejFrdUtpNXpJNUI2SF9leElfUHdhaThVQS03SXBGREFQSm5FWDB0NWc?oc=5",
-      "title": "「NARUTO-ナルト-」ハリウッド実写化、はたけカカシ役でチャールズ・メルトンが最終交渉中",
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoTjBuTlc0WjVjS3ZzYXV3M1RZcmlySzN0WFh5Y0ZMRmdKLWptSmdXN1ZuLWpRVzZ2bzZXS21tN0picFRzcTRfb2REczY0VjZRdEE?oc=5",
+      "title": "朝ドラ「風、薫る」直美（上坂樹里）と吾郎（甲斐翔真）が転機を迎える 第22週あらすじ",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNNXJ4MUxibVJkaURPbVlQZlN1M20wSDlEVUpVeGZWTGdzejFrdUtpNXpJNUI2SF9leElfUHdhaThVQS03SXBGREFQSm5FWDB0NWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoTjBuTlc0WjVjS3ZzYXV3M1RZcmlySzN0WFh5Y0ZMRmdKLWptSmdXN1ZuLWpRVzZ2bzZXS21tN0picFRzcTRfb2REczY0VjZRdEE?oc=5",
       "image": "",
       "source": "シネマトゥデイ",
       "category": "entertainment",
-      "date": "2026-08-21T01:14:11.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWalQyakg4d2dNNC16Q2Q3czFBSEJodnA1RDF2UjY3NUd4dVJWeHAyclBCd0hXMkc1V2kzUnR1WVY1SzBiOW9GVk85N29lVVhQ?oc=5",
-      "title": "「工藤静香かと思ったよ」木梨憲武、豪華集合ショット公開 10年ぶり再会の人気タレントに「おきれいになられて」「誰だか分からなかった」",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWalQyakg4d2dNNC16Q2Q3czFBSEJodnA1RDF2UjY3NUd4dVJWeHAyclBCd0hXMkc1V2kzUnR1WVY1SzBiOW9GVk85N29lVVhQ?oc=5",
-      "image": "",
-      "source": "まいどなニュース",
-      "category": "entertainment",
-      "date": "2026-08-20T22:50:00.000Z"
+      "date": "2026-08-20T23:15:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1PcUMyQ2xEVVluYi1Gd1pBNGUzajJ6T29xS3pyZmVXTXJjcFFacFMwTHdGOHc4NVI3UW1tVzd0dkNGa1hVa2poQjJ5bmNRdURpUWpFdjN1SzlwcDhQOHJpekN4dG1hVEo1MVVz?oc=5",
@@ -2185,6 +2195,16 @@
       "source": "日刊スポーツ",
       "category": "entertainment",
       "date": "2026-08-20T22:00:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wYXFlVFFCNUFXUkJaUlpNLUhZT09WbFphbUh1eXRvWWxTdEJ4djFtVVVvSElYLUdZWWdBS3ZSUHhBS0p6RG9rcTJNSlhxNUU?oc=5",
+      "title": "津久井やまゆり園事件、あれから10年後の日常。家族が言った「よくたたかったと讃えたい」こと（FRaU編集部） | FRaU",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wYXFlVFFCNUFXUkJaUlpNLUhZT09WbFphbUh1eXRvWWxTdEJ4djFtVVVvSElYLUdZWWdBS3ZSUHhBS0p6RG9rcTJNSlhxNUU?oc=5",
+      "image": "",
+      "source": "現代ビジネス",
+      "category": "entertainment",
+      "date": "2026-08-20T21:04:40.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oVEJ2cjRfYm1OTnJXUVpXWlR6dmZhUTNoVlNnSGxoMTBDZjNyU3JReUVZWEVTVWdyZ2JGbnhMRTA1cTFJbFBlaWQ1N1JBYzY2dmZydC1uV2FnMzRsUDBodmp0YW4tT2xaTjJLdVRyZ1puWUh3a1E?oc=5",
@@ -2217,22 +2237,12 @@
       "date": "2026-08-20T20:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iaS1WNDUzYjJpSWxIMUdhR2tjNkZxcTh3WWxtdzY4NmZOLTFtWFNvdUdxOFVDWktLNmNTZ1NDRW9FbVZZZU5VbXZfWjVVcWh4eU9LeHd2eXRhYldqaXRCQ0JkX1JDRm1XYjdrZzNlN2I?oc=5",
-      "title": "｢信濃の国」に新しい歌詞誕生 信州ポークから牧秀悟まで“郷土の誇り”ぎっしり 長野県が受賞作発表",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iaS1WNDUzYjJpSWxIMUdhR2tjNkZxcTh3WWxtdzY4NmZOLTFtWFNvdUdxOFVDWktLNmNTZ1NDRW9FbVZZZU5VbXZfWjVVcWh4eU9LeHd2eXRhYldqaXRCQ0JkX1JDRm1XYjdrZzNlN2I?oc=5",
+      "id": "https://www.4gamer.net/games/622/G062211/20260821063/",
+      "title": "「アークナイツ：エンドフィールド」，予告番組で新バージョン「雪氷の幽夢」の情報を公開。新★6オペレーター「ティフォロス」が登場",
+      "description": "GRYPHLINEは本日（2026年8月21日），3Dリアルタイム戦略RPG「アークナイツ：エンドフィールド」の予告番組を配信し，新バージョン「雪氷の幽夢」の情報を公開した。新バージョンでは，新★6オペレーター「ティフォロス」や新エリア「雪松林」などが登場するほか，各種のイベント",
+      "url": "https://www.4gamer.net/games/622/G062211/20260821063/",
       "image": "",
-      "source": "信濃毎日新聞デジタル",
-      "category": "entertainment",
-      "date": "2026-08-20T18:00:00.000Z"
-    },
-    {
-      "id": "https://www.4gamer.net/games/914/G091462/20260821060/",
-      "title": "酔えば酔うほど強くなるデッキ構築型ローグライク「泥酔ローグとおしまいの吸血鬼」，Steamでリリース。デモ版も配信中",
-      "description": "わくわくゲームズは本日（2026年8月21日），26億年スタジオが開発した新作タイトル「泥酔ローグとおしまいの吸血鬼」をSteamでリリースした。本作は，泥酔ローグ・リタと，終焉の吸血鬼・エンドが「吸血王の城」を目指す，デッキ構築型ローグライクゲームだ。",
-      "url": "https://www.4gamer.net/games/914/G091462/20260821060/",
-      "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -2297,14 +2307,14 @@
       "date": "2026-08-21T05:23:32.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JemFhTGdHWnM1eVFvRHhVZEJtbFZGRjNzMFZoM0hrUFlBejJDeVExTVh0bHBtZTFXTDlHMGhMVDEtamFoQTJBeU5kQXg?oc=5",
-      "title": "お台場開催「a-nation」すとぷり、騎士X - Knight X -が初登場",
+      "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kZ21zVzAxZFpDS2x2U1pGMXFweklhZi1YRkZvRk9mN0ZyeS0xV3pDWDRQbWVlZEVBeXFxV0RDU2xXT3BROF9nMjh0RHU?oc=5",
+      "title": "L'Arc-en-Cielが35年間のヒット曲を連発！「サマソニ」3日目にJamiroquaiやLE SSERAFIMも登場（ライブレポート）",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1JemFhTGdHWnM1eVFvRHhVZEJtbFZGRjNzMFZoM0hrUFlBejJDeVExTVh0bHBtZTFXTDlHMGhMVDEtamFoQTJBeU5kQXg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kZ21zVzAxZFpDS2x2U1pGMXFweklhZi1YRkZvRk9mN0ZyeS0xV3pDWDRQbWVlZEVBeXFxV0RDU2xXT3BROF9nMjh0RHU?oc=5",
       "image": "",
       "source": "ナタリー",
       "category": "entertainment",
-      "date": "2026-08-20T11:56:00.000Z"
+      "date": "2026-08-20T09:02:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UUFdPck12M1FybFhrajBsb1RfNmZ5bVBfTlJVTjB6dU9wYXljc0xVT3FwSmdndGU3cDlORHcyQXQ3V2dnaFpSdEpVaWhLTEV4TnRHVA?oc=5",
@@ -2327,22 +2337,22 @@
       "date": "2026-08-21T06:05:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoTjBuTlc0WjVjS3ZzYXV3M1RZcmlySzN0WFh5Y0ZMRmdKLWptSmdXN1ZuLWpRVzZ2bzZXS21tN0picFRzcTRfb2REczY0VjZRdEE?oc=5",
-      "title": "朝ドラ「風、薫る」直美（上坂樹里）と吾郎（甲斐翔真）が転機を迎える 第22週あらすじ",
+      "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoY0pmb3JCcDlZMHREZHUtbjZmbFVZRk5GQ0pUVm5ySG9mWXJKVjd3RjBLdm5pb1BYZHJnTTVSd09LcU9VLVZfSjFZRmVGOUdCZzRRTDVPMEpQMktPQ2VLSGNR?oc=5",
+      "title": "１０周年イヤー「すとぷり」、１０月ａ―ｎａｔｉｏｎ出演発表 莉犬「次の約束、新しい挑戦ができるのはいつも応援してくれる君がいるから」",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoTjBuTlc0WjVjS3ZzYXV3M1RZcmlySzN0WFh5Y0ZMRmdKLWptSmdXN1ZuLWpRVzZ2bzZXS21tN0picFRzcTRfb2REczY0VjZRdEE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoY0pmb3JCcDlZMHREZHUtbjZmbFVZRk5GQ0pUVm5ySG9mWXJKVjd3RjBLdm5pb1BYZHJnTTVSd09LcU9VLVZfSjFZRmVGOUdCZzRRTDVPMEpQMktPQ2VLSGNR?oc=5",
       "image": "",
-      "source": "シネマトゥデイ",
+      "source": "スポーツ報知",
       "category": "entertainment",
-      "date": "2026-08-20T23:15:00.000Z"
+      "date": "2026-08-20T11:00:00.000Z"
     },
     {
-      "id": "https://www.4gamer.net/games/760/G076029/20260821061/",
-      "title": "ホロライブ設立9周年記念の巡回展示会「hololive Grand Reception」が東京，大阪，名古屋，福岡で開催",
-      "description": "2026年8月21日，カバーは，「ホロライブプロダクション」の設立9周年を記念して，全国を巡回する有料の展示会「hololiveGrandReception〜感謝を込めた招待状〜」を10月10日の東京会場を皮切りに，大阪，名古屋，福岡の計4会場で順次開催すると発表した。",
-      "url": "https://www.4gamer.net/games/760/G076029/20260821061/",
+      "id": "https://www.4gamer.net/games/035/G103536/20260821059/",
+      "title": "犬をくっつけて大きくしていくローグライクデッキビルダー「ドッグパイル」，Switch2 / Switch / スマホ向けに配信開始",
+      "description": "StudioFollyとTootGamesは2026年8月20日，「ドッグパイル（Dogpile）」の配信をNintendoSwitch2/NintendoSwitch/iOS/Android向けに開始した。本作は，かわいい犬たちを合体させて，より大きな犬を作っていくローグライク",
+      "url": "https://www.4gamer.net/games/035/G103536/20260821059/",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -2367,14 +2377,14 @@
       "date": "2026-08-21T12:12:01.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsN0JncFNGMm1GYVFtRlQ3QTEwX2VKaUE2VW5Edk9jS0p5SEMyT19qeXJ6S1F5SVVVSG1yTER0Z21nSG1GU2R6VEJfeXJWYjZESzd2ZW0xbUNjWTdCWm9OTVF3Z2dURDY5OFE?oc=5",
-      "title": "１館から５３館に拡大公開！ 異例の大ヒット映画「レンタル家族」 シンデレラボーイの上坂監督「自主映画なんやけどな」",
+      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uTnRwRUkwM0lNa3BPdVdSdDFCRjcwNmVYWTBSTy13ckdSMmRlWXdIN1ZzeXE0VGxoUk90M0p6RzNuR2tHYVFLeXdmR09FeWNnMWJIN1dmaHhIekxyMWpXMlFHLUpyeGNrelE?oc=5",
+      "title": "「めちゃくちゃ美人がいる」Ｗ杯生観戦で反響の元国民的アイドル 「きもちぃ」夏服で髪かき上げ「超絶きゃわいい♥」「良い女過ぎる」久住小春３４歳",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsN0JncFNGMm1GYVFtRlQ3QTEwX2VKaUE2VW5Edk9jS0p5SEMyT19qeXJ6S1F5SVVVSG1yTER0Z21nSG1GU2R6VEJfeXJWYjZESzd2ZW0xbUNjWTdCWm9OTVF3Z2dURDY5OFE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uTnRwRUkwM0lNa3BPdVdSdDFCRjcwNmVYWTBSTy13ckdSMmRlWXdIN1ZzeXE0VGxoUk90M0p6RzNuR2tHYVFLeXdmR09FeWNnMWJIN1dmaHhIekxyMWpXMlFHLUpyeGNrelE?oc=5",
       "image": "",
       "source": "デイリースポーツ",
       "category": "entertainment",
-      "date": "2026-08-21T10:41:00.000Z"
+      "date": "2026-08-21T10:42:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05aGcyakM5RjNWejRnT09tOFkxX2d4RVpwRUh4dHZ3S2hsRGY4N1Nadk1DNFpZX0FCUWFxU1FXMXN0TXN1a29nWlRLM0ZTMnJXM0x1aEpxWV91bF85YmtDZThiSmN4cHFsSHJGRzVoczZHYVk3ZXhQVjRvZ2lPaVE?oc=5",
@@ -2397,16 +2407,6 @@
       "category": "entertainment"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kZ21zVzAxZFpDS2x2U1pGMXFweklhZi1YRkZvRk9mN0ZyeS0xV3pDWDRQbWVlZEVBeXFxV0RDU2xXT3BROF9nMjh0RHU?oc=5",
-      "title": "L'Arc-en-Cielが35年間のヒット曲を連発！「サマソニ」3日目にJamiroquaiやLE SSERAFIMも登場（ライブレポート）",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kZ21zVzAxZFpDS2x2U1pGMXFweklhZi1YRkZvRk9mN0ZyeS0xV3pDWDRQbWVlZEVBeXFxV0RDU2xXT3BROF9nMjh0RHU?oc=5",
-      "image": "",
-      "source": "ナタリー",
-      "category": "entertainment",
-      "date": "2026-08-20T09:02:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBPTjU3Q0RfX2FNTkp0ZEc2ZW43MGt3bEpIdzJyZnEtcUh0d3o2c0U4ejlCUHQzaDBJaG5vMDFtZzRNS2hoZk5rNG1JaGgyb0JNTHhnQw?oc=5",
       "title": "【きょうから】ハリー・ポッター × クリスピー・クリーム・ドーナツのコラボが、日本初上陸 数量限定ステッカーも",
       "description": "",
@@ -2417,12 +2417,22 @@
       "date": "2026-08-20T21:25:46.000Z"
     },
     {
-      "id": "https://www.4gamer.net/games/519/G051905/20260821058/",
-      "title": "「頭文字DAC」，公道最強決定戦4thの地方大会を8月29日より順次開催",
-      "description": "頭文字D THE ARCADE 配信元 セガ フェイブ 配信日 2026/08/21 『頭文字D THE ARCADE』公式全国大会『公道最強決定戦4th』全国7カ所で開催の地方大会 いよ…",
-      "url": "https://www.4gamer.net/games/519/G051905/20260821058/",
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56T1ctUFZXRURjajJXbTVCQUp4eVoxWUJtd0hLZC1KMjhlb2tDTHZTN1RrMDROc1ZJZndlaXNtRDBZRDNPUktRNEhxSFBsQ0pISzc3UVVB?oc=5",
+      "title": "奈緒、北村匠海が演じるDV夫を絶賛 本人は「穏やかな方でした」",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56T1ctUFZXRURjajJXbTVCQUp4eVoxWUJtd0hLZC1KMjhlb2tDTHZTN1RrMDROc1ZJZndlaXNtRDBZRDNPUktRNEhxSFBsQ0pISzc3UVVB?oc=5",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "source": "オリコンニュース",
+      "category": "entertainment",
+      "date": "2026-08-20T11:09:00.000Z"
+    },
+    {
+      "id": "https://www.4gamer.net/games/914/G091462/20260821060/",
+      "title": "酔えば酔うほど強くなるデッキ構築型ローグライク「泥酔ローグとおしまいの吸血鬼」，Steamでリリース。デモ版も配信中",
+      "description": "わくわくゲームズは本日（2026年8月21日），26億年スタジオが開発した新作タイトル「泥酔ローグとおしまいの吸血鬼」をSteamでリリースした。本作は，泥酔ローグ・リタと，終焉の吸血鬼・エンドが「吸血王の城」を目指す，デッキ構築型ローグライクゲームだ。",
+      "url": "https://www.4gamer.net/games/914/G091462/20260821060/",
+      "image": "",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -2447,14 +2457,14 @@
       "category": "entertainment"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90ZnVVQ0puT3Z0T1d2ODZ1OTA1cmpkMEt6SG5CT0d1NTA4anhld0UxRGl6ZjJVS2hSMFFFTHRYMzNNaWg3dk9FUzNOLXJZUGdwUFR1eHEtZXFuWFVPRHlIUXlTc3ZONUF5bjZVUg?oc=5",
-      "title": "「あれ？新メンバーと思ったら」見慣れない“ファイターズガール”次々と登場 「可愛すぎやて」「天使が大量降臨してきた」",
+      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsN0JncFNGMm1GYVFtRlQ3QTEwX2VKaUE2VW5Edk9jS0p5SEMyT19qeXJ6S1F5SVVVSG1yTER0Z21nSG1GU2R6VEJfeXJWYjZESzd2ZW0xbUNjWTdCWm9OTVF3Z2dURDY5OFE?oc=5",
+      "title": "１館から５３館に拡大公開！ 異例の大ヒット映画「レンタル家族」 シンデレラボーイの上坂監督「自主映画なんやけどな」",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90ZnVVQ0puT3Z0T1d2ODZ1OTA1cmpkMEt6SG5CT0d1NTA4anhld0UxRGl6ZjJVS2hSMFFFTHRYMzNNaWg3dk9FUzNOLXJZUGdwUFR1eHEtZXFuWFVPRHlIUXlTc3ZONUF5bjZVUg?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsN0JncFNGMm1GYVFtRlQ3QTEwX2VKaUE2VW5Edk9jS0p5SEMyT19qeXJ6S1F5SVVVSG1yTER0Z21nSG1GU2R6VEJfeXJWYjZESzd2ZW0xbUNjWTdCWm9OTVF3Z2dURDY5OFE?oc=5",
       "image": "",
       "source": "デイリースポーツ",
       "category": "entertainment",
-      "date": "2026-08-21T10:33:00.000Z"
+      "date": "2026-08-21T10:41:00.000Z"
     },
     {
       "id": "https://jp.ign.com/the-duskbloods/84074/the-duskbloodsrpg",
@@ -2467,12 +2477,12 @@
       "category": "entertainment"
     },
     {
-      "id": "https://www.4gamer.net/games/997/G099714/20260821051/",
-      "title": "「新約・怒首領蜂大復活」，8月27日にSteamで発売決定。最大10人で戦う「弾幕対戦モード ロワイヤル」を搭載",
-      "description": "ケイブは本日，弾幕シューティング「新約・怒首領蜂大復活」を2026年8月27日10：00にSteamで発売すると発表した。本作では，最大10人のプレイヤーが参加できる「弾幕対戦モードロワイヤル」をはじめ，新たなステージやキャラクター，BGMなどを収録する。",
-      "url": "https://www.4gamer.net/games/997/G099714/20260821051/",
+      "id": "https://www.4gamer.net/games/760/G076029/20260821061/",
+      "title": "ホロライブ設立9周年記念の巡回展示会「hololive Grand Reception」が東京，大阪，名古屋，福岡で開催",
+      "description": "2026年8月21日，カバーは，「ホロライブプロダクション」の設立9周年を記念して，全国を巡回する有料の展示会「hololiveGrandReception〜感謝を込めた招待状〜」を10月10日の東京会場を皮切りに，大阪，名古屋，福岡の計4会場で順次開催すると発表した。",
+      "url": "https://www.4gamer.net/games/760/G076029/20260821061/",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -2497,14 +2507,14 @@
       "category": "entertainment"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KTFFSUFBQajdRWldXUmxFMXBQY0F3V0V1RENGeWFGbEdqSk5BNUotalNLMHV1R0xCQzI5bjdIMWRqMXNubTkyTDR2ZUE2RnYwZUFaR2U2QW9JN0VzdnRNajJidUY4WGFaQ0E?oc=5",
-      "title": "大久保佳代子 新幹線グリーン車で隣のサラリーマンの気になる行動「あれを見た瞬間から…」と明かす",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90ZnVVQ0puT3Z0T1d2ODZ1OTA1cmpkMEt6SG5CT0d1NTA4anhld0UxRGl6ZjJVS2hSMFFFTHRYMzNNaWg3dk9FUzNOLXJZUGdwUFR1eHEtZXFuWFVPRHlIUXlTc3ZONUF5bjZVUg?oc=5",
+      "title": "「あれ？新メンバーと思ったら」見慣れない“ファイターズガール”次々と登場 「可愛すぎやて」「天使が大量降臨してきた」",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KTFFSUFBQajdRWldXUmxFMXBQY0F3V0V1RENGeWFGbEdqSk5BNUotalNLMHV1R0xCQzI5bjdIMWRqMXNubTkyTDR2ZUE2RnYwZUFaR2U2QW9JN0VzdnRNajJidUY4WGFaQ0E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90ZnVVQ0puT3Z0T1d2ODZ1OTA1cmpkMEt6SG5CT0d1NTA4anhld0UxRGl6ZjJVS2hSMFFFTHRYMzNNaWg3dk9FUzNOLXJZUGdwUFR1eHEtZXFuWFVPRHlIUXlTc3ZONUF5bjZVUg?oc=5",
       "image": "",
       "source": "デイリースポーツ",
       "category": "entertainment",
-      "date": "2026-08-21T08:25:00.000Z"
+      "date": "2026-08-21T10:33:00.000Z"
     },
     {
       "id": "https://jp.ign.com/grand-theft-auto-vi/84080/gta6",
@@ -2517,12 +2527,12 @@
       "category": "entertainment"
     },
     {
-      "id": "https://www.4gamer.net/games/073/G007307/20260821057/",
-      "title": "「ペルソナ4」シリーズ，オンライン音楽イベントを8月28日に開催",
-      "description": "Persona Sound Station Vol.3:Persona 4 Series Music 30-hour Livestream 配信元 セガ 配信日 2026/08/21 一夜…",
-      "url": "https://www.4gamer.net/games/073/G007307/20260821057/",
+      "id": "https://www.4gamer.net/games/519/G051905/20260821058/",
+      "title": "「頭文字DAC」，公道最強決定戦4thの地方大会を8月29日より順次開催",
+      "description": "頭文字D THE ARCADE 配信元 セガ フェイブ 配信日 2026/08/21 『頭文字D THE ARCADE』公式全国大会『公道最強決定戦4th』全国7カ所で開催の地方大会 いよ…",
+      "url": "https://www.4gamer.net/games/519/G051905/20260821058/",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -2547,14 +2557,14 @@
       "category": "entertainment"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95OVBTTGVwcFhvOGdDckJyVDBIMlBsbHVkZlRxMDBqTWZnNjNrZ3hBRHdIM3plYWZfT0JKdDNLNHA4elNYWEFtRUxDOEphV05ZODRERWNOODRueVYwRlV6YmNkLVFpc01XaHc?oc=5",
-      "title": "莉奈（桜井日奈子）が葵（内田有紀）を「ウンと年上のおばさん」呼ばわり 闇落ちひょう変でネット震える【ラストノート】",
+      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KTFFSUFBQajdRWldXUmxFMXBQY0F3V0V1RENGeWFGbEdqSk5BNUotalNLMHV1R0xCQzI5bjdIMWRqMXNubTkyTDR2ZUE2RnYwZUFaR2U2QW9JN0VzdnRNajJidUY4WGFaQ0E?oc=5",
+      "title": "大久保佳代子 新幹線グリーン車で隣のサラリーマンの気になる行動「あれを見た瞬間から…」と明かす",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95OVBTTGVwcFhvOGdDckJyVDBIMlBsbHVkZlRxMDBqTWZnNjNrZ3hBRHdIM3plYWZfT0JKdDNLNHA4elNYWEFtRUxDOEphV05ZODRERWNOODRueVYwRlV6YmNkLVFpc01XaHc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KTFFSUFBQajdRWldXUmxFMXBQY0F3V0V1RENGeWFGbEdqSk5BNUotalNLMHV1R0xCQzI5bjdIMWRqMXNubTkyTDR2ZUE2RnYwZUFaR2U2QW9JN0VzdnRNajJidUY4WGFaQ0E?oc=5",
       "image": "",
       "source": "デイリースポーツ",
       "category": "entertainment",
-      "date": "2026-08-21T02:37:00.000Z"
+      "date": "2026-08-21T08:25:00.000Z"
     },
     {
       "id": "https://jp.ign.com/cyberpunk-edgerunners-2/84075/netflix-2anime-nyc",
@@ -2567,12 +2577,12 @@
       "category": "entertainment"
     },
     {
-      "id": "https://www.4gamer.net/games/035/G103522/20260821056/",
-      "title": "小さな寿司レストランを浜辺の人気店へと成長させる，最大5人協力経営シミュレーション「Deep Blue Sushi」，早期アクセス版を配信開始",
-      "description": "PaperPixelGamesは2026年8月20日，新作タイトル「DeepBlueSushi」の早期アクセス版をSteamでリリースした。本作は，仲間とともに深海へ潜り，捕らえた新鮮な魚介を使って寿司レストランを経営する，最大5人でのマルチプレイに対応した協力型シミュレーション",
-      "url": "https://www.4gamer.net/games/035/G103522/20260821056/",
+      "id": "https://www.4gamer.net/games/997/G099714/20260821051/",
+      "title": "「新約・怒首領蜂大復活」，8月27日にSteamで発売決定。最大10人で戦う「弾幕対戦モード ロワイヤル」を搭載",
+      "description": "ケイブは本日，弾幕シューティング「新約・怒首領蜂大復活」を2026年8月27日10：00にSteamで発売すると発表した。本作では，最大10人のプレイヤーが参加できる「弾幕対戦モードロワイヤル」をはじめ，新たなステージやキャラクター，BGMなどを収録する。",
+      "url": "https://www.4gamer.net/games/997/G099714/20260821051/",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -2597,6 +2607,16 @@
       "category": "entertainment"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95OVBTTGVwcFhvOGdDckJyVDBIMlBsbHVkZlRxMDBqTWZnNjNrZ3hBRHdIM3plYWZfT0JKdDNLNHA4elNYWEFtRUxDOEphV05ZODRERWNOODRueVYwRlV6YmNkLVFpc01XaHc?oc=5",
+      "title": "莉奈（桜井日奈子）が葵（内田有紀）を「ウンと年上のおばさん」呼ばわり 闇落ちひょう変でネット震える【ラストノート】",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95OVBTTGVwcFhvOGdDckJyVDBIMlBsbHVkZlRxMDBqTWZnNjNrZ3hBRHdIM3plYWZfT0JKdDNLNHA4elNYWEFtRUxDOEphV05ZODRERWNOODRueVYwRlV6YmNkLVFpc01XaHc?oc=5",
+      "image": "",
+      "source": "デイリースポーツ",
+      "category": "entertainment",
+      "date": "2026-08-21T02:37:00.000Z"
+    },
+    {
       "id": "https://jp.ign.com/the-duskbloods/84069/switch-2the-duskbloods",
       "title": "フロム・ソフトウェアのSwitch 2独占マルチプレイ作品『The Duskbloods』を先行プレイ 複雑かつ興味深いその内容とは",
       "description": "TRPGのルールと「DARK SOULS」シリーズ風のゲームプレイを融合し、フロム・ソフトウェアにとっても野心的な作品に",
@@ -2607,12 +2627,12 @@
       "category": "entertainment"
     },
     {
-      "id": "https://www.4gamer.net/games/947/G094758/20260821053/",
-      "title": "「龍が如く」シリーズ，ゲーム配信者応援プロジェクト第4期の参加者決定",
-      "description": "『龍が如く』シリーズ “ゲーム配信者” 応援プロジェクト 配信元 セガ 配信日 2026/08/21 『龍が如く』シリーズ “ゲーム配信者” 応援プロジェクト 第4期参加者決定！本日より第…",
-      "url": "https://www.4gamer.net/games/947/G094758/20260821053/",
+      "id": "https://www.4gamer.net/games/073/G007307/20260821057/",
+      "title": "「ペルソナ4」シリーズ，オンライン音楽イベントを8月28日に開催",
+      "description": "Persona Sound Station Vol.3:Persona 4 Series Music 30-hour Livestream 配信元 セガ 配信日 2026/08/21 一夜…",
+      "url": "https://www.4gamer.net/games/073/G007307/20260821057/",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -2647,12 +2667,12 @@
       "category": "entertainment"
     },
     {
-      "id": "https://www.4gamer.net/games/007/G100715/20260821039/",
-      "title": "「にじさんじ」×第四境界コラボARG「PARALLEL CASE: 2434」第1弾「CASE 01：ましろ爻の記録」を本日リリース",
-      "description": "第四境界は本日（2026年8月21日），VTuber/バーチャルライバーグループ「にじさんじ」とのコラボレーションARG「PARALLELCASE:2434」の第1弾として，「CASE01：ましろ爻の記録」をリリースした。本作は独自のSNSを通してライバーたちの活動を追い，やがて",
-      "url": "https://www.4gamer.net/games/007/G100715/20260821039/",
+      "id": "https://www.4gamer.net/games/035/G103522/20260821056/",
+      "title": "小さな寿司レストランを浜辺の人気店へと成長させる，最大5人協力経営シミュレーション「Deep Blue Sushi」，早期アクセス版を配信開始",
+      "description": "PaperPixelGamesは2026年8月20日，新作タイトル「DeepBlueSushi」の早期アクセス版をSteamでリリースした。本作は，仲間とともに深海へ潜り，捕らえた新鮮な魚介を使って寿司レストランを経営する，最大5人でのマルチプレイに対応した協力型シミュレーション",
+      "url": "https://www.4gamer.net/games/035/G103522/20260821056/",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
     },
@@ -2675,36 +2695,16 @@
       "date": "2026-08-21T08:15:51.000Z",
       "source": "AUTOMATON",
       "category": "entertainment"
-    },
-    {
-      "id": "https://jp.ign.com/gaming-device/84054/310hzasus245rog-strix-xg259cmsamazon17",
-      "title": "最大310Hzに対応したASUSの24.5インチゲーミングモニター「ROG Strix XG259CMS」がAmazonにて17％オフでタイムセール中",
-      "description": "sRGB 110%対応のFast IPSパネルを搭載",
-      "url": "https://jp.ign.com/gaming-device/84054/310hzasus245rog-strix-xg259cmsamazon17",
-      "image": "",
-      "date": "2026-08-20T08:37:29.000Z",
-      "source": "IGN Japan",
-      "category": "entertainment"
-    },
-    {
-      "id": "https://www.4gamer.net/games/476/G047609/20260821052/",
-      "title": "「プロセカ」，セカイver.「ハイドアンド・シーク」のフルサイズ2DMVを公開",
-      "description": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク プロジェクトセカイ カラフルステージ！ feat. 初音ミク 配信元 セガ 配信日 2026/08/21 『プロジェクトセカイ…",
-      "url": "https://www.4gamer.net/games/476/G047609/20260821052/",
-      "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
-      "source": "4Gamer",
-      "category": "entertainment"
     }
   ],
   "sports": [
     {
-      "id": "https://news.livedoor.com/article/detail/32127866/",
-      "title": "角田裕毅が緊急出場のスプリント予選でSQ2に進出、入賞圏内も視野に",
-      "description": "ざっくり言うと 角田裕毅がオランダGPのスプリント予選でSQ2に進出し12番手を獲得した レッドブルのハジャール欠場を受け緊急出場し、FP1のみで好走を見せた 22日のスプリントでは入賞も狙える位置につけ、ファンの期待が高まっている",
-      "url": "https://news.livedoor.com/article/detail/32127866/",
+      "id": "https://news.livedoor.com/article/detail/32127985/",
+      "title": "阪神・佐藤輝明が30号、森下と史上初の同一球団同日リーグ最速到達",
+      "description": "ざっくり言うと 阪神・佐藤輝明が8月21日の横浜DeNA戦で30号本塁打を放った 8回に伊勢のフォークをすくい上げ右翼席へ運ぶ技ありの一発を決め 森下との同日30号到達は史上初の快挙で、アベック弾は通算18度目となった",
+      "url": "https://news.livedoor.com/article/detail/32127985/",
       "image": "",
-      "date": "2026-08-21T15:40:03.000Z",
+      "date": "2026-08-21T16:15:00.000Z",
       "source": "ライブドアスポーツ",
       "category": "sports"
     },
@@ -2739,6 +2739,16 @@
       "date": "2026-08-21T13:18:00.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oOGhvbDRGbDVVZFowZC1ncUdBUmxWQlZNQ2RYMlF0X0ZIenprUGp5bTRRWmdNVUl5OWR3N2hkLWJEdU9PR252Sy1hZjdUcWc0WDZKNTlNTWtXalNxSnNiUF84aFhnVFhnS29KSnBKcWs4cGQwVWo4dWcwaGdoN0U?oc=5",
+      "title": "【バレーボール】石川真佑「もったいないところがあった」 ロス五輪切符奪取へ…女子快勝発進も反省の弁（東スポWEB）",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oOGhvbDRGbDVVZFowZC1ncUdBUmxWQlZNQ2RYMlF0X0ZIenprUGp5bTRRWmdNVUl5OWR3N2hkLWJEdU9PR252Sy1hZjdUcWc0WDZKNTlNTWtXalNxSnNiUF84aFhnVFhnS29KSnBKcWs4cGQwVWo4dWcwaGdoN0U?oc=5",
+      "image": "",
+      "source": "Yahoo!ニュース",
+      "category": "sports",
+      "date": "2026-08-21T12:45:31.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85YW5GNzBRQjRXR014WmN5YjlmTWV0MDFnTlFzbXdqUWpVSWgyMkdDN3VnM1k5VC1wMkFtTHpRSlpUOERMX1NUQWZIQlBRREhNMS00WlAwRktOcUhOY0FrcGlnNTN2dkFhWEE?oc=5",
       "title": "「もう虎の新守護神」阪神の快速球右腕が九回をピシャリ 抜群の安定感で３セーブ目 ＳＮＳ沸く「エグすぎ」「無双が始まりました」",
       "description": "",
@@ -2747,16 +2757,6 @@
       "source": "デイリースポーツ",
       "category": "sports",
       "date": "2026-08-21T12:39:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUJYT0dUV2d6dnhXVVJKVUpqSUhyMUxSSGt4RmhQb1Q0ODlNS3JGVDNVV3g4QS03M21GTlhhOGNXVFYwZF9IeHA2bU1YaTZMOXVKZ29XNXgwVnA0X2cwMmx2LTRzck5DZGVnM0Q0aXQzS3RlenY1M2F6dDRtYzVlaXh3Y0N4cVZDbUQzTXoxSklsdEJxdXN6MHdONkQ0ZEVtTUdVSTJxRTNQQW5rYmd0bEVibDU?oc=5",
-      "title": "F1メカ解説｜スプリント開催のオランダGP、半数のチームがアップグレード投入。アストンマーティンはフロントウイングとディフューザー改良 - motorsport.com 日本版｜モータースポーツ情報サイト",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUJYT0dUV2d6dnhXVVJKVUpqSUhyMUxSSGt4RmhQb1Q0ODlNS3JGVDNVV3g4QS03M21GTlhhOGNXVFYwZF9IeHA2bU1YaTZMOXVKZ29XNXgwVnA0X2cwMmx2LTRzck5DZGVnM0Q0aXQzS3RlenY1M2F6dDRtYzVlaXh3Y0N4cVZDbUQzTXoxSklsdEJxdXN6MHdONkQ0ZEVtTUdVSTJxRTNQQW5rYmd0bEVibDU?oc=5",
-      "image": "",
-      "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
-      "category": "sports",
-      "date": "2026-08-21T12:35:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ablVodTJudkdRLW5ZMC05V202NGplRF9oRVRpRDhoQmoyY2JfOXJ5YVRGZUlka0lZWTlKTEJXNXlweHA0SEkwZDBSemMyZmtZaWVNRWNsMy1PWWYwdXJsdHliaUpqT1hqYnc1Zk9BZEfSAXhBVV95cUxNdXN1N2dmM3cwaGl6Ukt0UGNuaGFsQVVZQm1MWkczNDJ2R19uR1hUWTNqTG54NFNIZEJLNlF2TjhTWWdZZm92c2JFVXgtWFA3a0NDZmJ4M0pxVlE2QloxRUZqMTBvcEVKRk5YS3ZCbGotNzdkYk4xY3g?oc=5",
@@ -2777,26 +2777,6 @@
       "source": "targma.jp",
       "category": "sports",
       "date": "2026-08-21T12:15:35.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZkJ5d1lhV3BKemdVUE9uTWh0QmdsMElzQ1dPLXJncWVFVFZJWTVzcl9xQWZWYmMtdEQ1a3VSQXlmZzVTTWdXWGZPLUgzejdvUm14WFJibll2NEhJYmVXZnR3TmpjLW5GU2h2Y0lpUHJ3clVjd2JlVUZCWW1OSzg?oc=5",
-      "title": "横浜・小野主将は青学大に進学希望 3年連続Wドラ1＆リーグ6連覇達成の超名門から「プロに行きたい」（スポニチアネックス）",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZkJ5d1lhV3BKemdVUE9uTWh0QmdsMElzQ1dPLXJncWVFVFZJWTVzcl9xQWZWYmMtdEQ1a3VSQXlmZzVTTWdXWGZPLUgzejdvUm14WFJibll2NEhJYmVXZnR3TmpjLW5GU2h2Y0lpUHJ3clVjd2JlVUZCWW1OSzg?oc=5",
-      "image": "",
-      "source": "Yahoo!ニュース",
-      "category": "sports",
-      "date": "2026-08-21T12:15:20.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xTWxrNUtGdENRQmtkdjJuelY5czJjLVhmdkhDZFpNallVdVhDOFA2N2t5UDE3Y21VLUdxdTVqMlpEN0h6aUVkUTdSV3FLamlGUTByWDZPMWlCZDlOXzVjQUtuT3dsTFNUSUNWSmp3?oc=5",
-      "title": "一時逆転許すも柏、瀬川連発弾&弓場J1初ゴールで開幕3連勝!! 主力多数欠く長崎は2連敗",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xTWxrNUtGdENRQmtkdjJuelY5czJjLVhmdkhDZFpNallVdVhDOFA2N2t5UDE3Y21VLUdxdTVqMlpEN0h6aUVkUTdSV3FLamlGUTByWDZPMWlCZDlOXzVjQUtuT3dsTFNUSUNWSmp3?oc=5",
-      "image": "",
-      "source": "gekisaka.jp",
-      "category": "sports",
-      "date": "2026-08-21T12:04:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JV196Zm1MdmpVckNIWHhlbnAtUTNBOWNxMEFTdXEwSUVSeURFNmtwUk1xa0NRMHZnRWg1Qi1GRU5qS2thLUdjN3ZWbk5JNVlKOE4yNE5IVDBHcHpNYUNF?oc=5",
@@ -2837,6 +2817,16 @@
       "source": "netkeiba",
       "category": "sports",
       "date": "2026-08-21T11:24:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwRl9wbjJPbGF6MkZ1SU1XWTJtcjNUQ3p4NVRZSjRENExvZjNKT3dwcHJsUmRoOWx1d042THAxMEdoRGFvb0RwaHdxMmRac2lxVUJ2NENQZWhtMmFpSXc?oc=5",
+      "title": "バドミントン世界選手権2026 山口茜がメダル確定、カナダ選手をストレートで下す 女子シングルス",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwRl9wbjJPbGF6MkZ1SU1XWTJtcjNUQ3p4NVRZSjRENExvZjNKT3dwcHJsUmRoOWx1d042THAxMEdoRGFvb0RwaHdxMmRac2lxVUJ2NENQZWhtMmFpSXc?oc=5",
+      "image": "",
+      "source": "福井新聞社",
+      "category": "sports",
+      "date": "2026-08-21T10:35:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLR1l2blJBb2MwanlPMmplTEVoSWVWU2Z2TXpmNUg4SjBFdWdIMkJ5bnNSNl8zTnpkNkpGNmtjTkhKNU9mY0JNdFZUQVA1bkVPQnlwV0s2Y3F2QXhlanJyS01Ga3hzbXVRcFHSAX5BVV95cUxOejlUa0pNSjViWXkyQ3dmY3g5N2J3NmRoZnJTWm9XTkZOcDlqenNFbWFuTVFUSkJKODMzS21uU05KZDZEeVl5YlZRZmRDaUNwVzFXQjhCUDRwME5tRnk2MUF2M0pfcXRGTXlaRnVzeGQ4emZENEI0OFh5WmhMVmc?oc=5",
@@ -2899,6 +2889,26 @@
       "date": "2026-08-21T08:29:40.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBSWDhLUlJPdjhhV2JoNTd5Nm9BNS11VWE1cVEwZzZ6MkhWMy1od1JIbUk2NmRWc3JrcEVjYlExdFdDTWY2UnVv?oc=5",
+      "title": "「馬力とラップタイム以外はね」ホンダ待望のアップデートを前に、会見で先手を打った折原GM／現場写真日記",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBSWDhLUlJPdjhhV2JoNTd5Nm9BNS11VWE1cVEwZzZ6MkhWMy1od1JIbUk2NmRWc3JrcEVjYlExdFdDTWY2UnVv?oc=5",
+      "image": "",
+      "source": "autosport web",
+      "category": "sports",
+      "date": "2026-08-21T08:15:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsMDYyaFF1azNRbGg2Y3BfaEZzY214NlFlMWtTTFNFNm40Z3RlOW5DbElsbjZ5eFNzc0QzZjZMV1doYUpRTWJkNjZrLWJmRjlaOHEyNzFKX2Z1cmxnNjE3M0ZOcjNFOVI3Z2JLbW1n?oc=5",
+      "title": "クラセンU-15の準決勝対戦カードが決定!! 前回ファイナリストの神戸U-15とFC LAVIDAは8強敗退:準々決勝全結果",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsMDYyaFF1azNRbGg2Y3BfaEZzY214NlFlMWtTTFNFNm40Z3RlOW5DbElsbjZ5eFNzc0QzZjZMV1doYUpRTWJkNjZrLWJmRjlaOHEyNzFKX2Z1cmxnNjE3M0ZOcjNFOVI3Z2JLbW1n?oc=5",
+      "image": "",
+      "source": "gekisaka.jp",
+      "category": "sports",
+      "date": "2026-08-21T07:40:00.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeDRMT0pPbWdvcXVka19VSnpiZzcwckEyQzJCSVJfZFQ4OVEzeURhUVREOEZ0M2RmeHNZMTMzdXVscXVERmdKUWVaWThrQ3BFQmJwTkR1ZlM0WE8xUlhnclZCckhSX1BPUGc5YWVkWjd0UDFPbndUQTh6ZXF5QzZnZw?oc=5",
       "title": "【夏の甲子園2026】スカウトの投手評「別格」の横浜・織田翔希ほか、「２年後に一軍で投げている」と絶賛されたのは？",
       "description": "",
@@ -2939,6 +2949,16 @@
       "date": "2026-08-21T06:03:41.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KZG1sbUhpWXZiWHpFdTZHVFNxSEhQSk5DUnY1U0R6YjFyQ016UWhMVHRWYmdEenZrR3dhZktZWUtzdzRFXy1UbXp2djAyejJZRDFvQzM1S2FiZDRMcjhFMGVxOHBBNlVkOW81ZXlUeHVOYjlqUnJqaTJTcw?oc=5",
+      "title": "【高校野球】決勝チケット完売発表 3度優勝の智弁和歌山か、初優勝の健大高崎か 両校の出場回数 過去の最高成績は？",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KZG1sbUhpWXZiWHpFdTZHVFNxSEhQSk5DUnY1U0R6YjFyQ016UWhMVHRWYmdEenZrR3dhZktZWUtzdzRFXy1UbXp2djAyejJZRDFvQzM1S2FiZDRMcjhFMGVxOHBBNlVkOW81ZXlUeHVOYjlqUnJqaTJTcw?oc=5",
+      "image": "",
+      "source": "日テレNEWS NNN",
+      "category": "sports",
+      "date": "2026-08-21T04:33:01.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9abFMxeHFmLThTQ3pMTFY2UTJLcmlTZ2N0VDcwdkVUbjVWSVBUNTFGQUZrakI5MEh2XzU5UVliajNhM3o5U3QtWW9uRjVLNTJsSlhlQlBwTENGRDZJOXJjNw?oc=5",
       "title": "【愛媛FC 試合前コメント 第3節松本戦】大木武監督「（天皇杯でメンバーを変えた理由は）暑過ぎる。それに普段練習試合に出てるメンバーも悪くない」",
       "description": "",
@@ -2949,14 +2969,14 @@
       "date": "2026-08-21T04:22:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fMXE4Q2tra1VjQmJrODdWajQydnBIRDdfMDBBTXdtZ0thc1Z3ZjFQZUh2WTZxS0FFR0JVQWdiNmtaN09Gc2FlYlRlSC1xejJocFFOcWpnd19vc2RxQnFoNFlhc1ZSUQ?oc=5",
-      "title": "8/21(金)「ちば興銀プレゼンツマリーンズスペシャルゲーム2026」グッズ第2弾受注販売開始",
+      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wMmxyNlM5TXBQQWV5cjJ2WmRlX3JvNlVjMlgwamhzRVVaVkhKS3V3R25YaGRELU5zeDZ0dkpNejhRRmxHaFpHb2Z2WXFSRFFmbVhiNlFuSE1faXdqWnlXNHpiQWFqdw?oc=5",
+      "title": "8/21(金)マリーンズ夏祭2026グッズ、全選手展開ロゴデザインネーム＆ナンバー半袖・長袖Tシャツ再受注販売開始",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fMXE4Q2tra1VjQmJrODdWajQydnBIRDdfMDBBTXdtZ0thc1Z3ZjFQZUh2WTZxS0FFR0JVQWdiNmtaN09Gc2FlYlRlSC1xejJocFFOcWpnd19vc2RxQnFoNFlhc1ZSUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wMmxyNlM5TXBQQWV5cjJ2WmRlX3JvNlVjMlgwamhzRVVaVkhKS3V3R25YaGRELU5zeDZ0dkpNejhRRmxHaFpHb2Z2WXFSRFFmbVhiNlFuSE1faXdqWnlXNHpiQWFqdw?oc=5",
       "image": "",
       "source": "千葉ロッテマリーンズ",
       "category": "sports",
-      "date": "2026-08-21T02:20:04.000Z"
+      "date": "2026-08-21T01:04:25.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIbFhzQy1XaWc4QWZhU18wb21fN3dzTnQybEpXQlJtZVV3d3FnNHRuanFrR1A1Zmk5M1B1ZHNBZng0Zjd4azBpYmxNTUJlYUU1QWNsR09BZThMVFRDZjdhX2M2a9IBc0FVX3lxTE5NMGVyZTFoZ0RiTTNBVmpYYXBQNEFycGh4T3RaVkZjbjRGbFV6QU85ZmN2NXIwQmRtRENZN2xaNFd6aTZGR1dUT3JVUnhwUnFlN09pU2xZbHBncjdyTlRVLVpteHlFZDR1akl3aDlSRjZNZzg?oc=5",
@@ -2999,12 +3019,12 @@
       "date": "2026-08-20T12:03:00.000Z"
     },
     {
-      "id": "https://news.livedoor.com/article/detail/32127904/",
-      "title": "FIFAがW杯決勝後の暴行を受けパレデスに10試合の出場停止処分",
-      "description": "ざっくり言うと FIFAがW杯2026でのアルゼンチン代表の違反行為に処分を発表した 決勝後の暴行でパレデスに10試合停止、AFA に約5100万円の罰金が科された 処分は今後の代表戦に適用され、通知から10日以内に控訴できるとのこと",
-      "url": "https://news.livedoor.com/article/detail/32127904/",
+      "id": "https://news.livedoor.com/article/detail/32127911/",
+      "title": "アストンマーティンがホンダ新PUを投入もSQで2台そろって低迷",
+      "description": "ざっくり言うと F1アストンマーティンがオランダGPスプリント予選で大不振となった ホンダの新パワーユニット投入初戦でアロンソが最下位、ストロールも19番手と撃沈 ファンからは「大惨事」「メルセデスのエンジンを搭載しろ」と批判が噴出している",
+      "url": "https://news.livedoor.com/article/detail/32127911/",
       "image": "",
-      "date": "2026-08-21T15:15:01.000Z",
+      "date": "2026-08-21T15:55:03.000Z",
       "source": "ライブドアスポーツ",
       "category": "sports"
     },
@@ -3017,6 +3037,16 @@
       "source": "サンスポ",
       "category": "sports",
       "date": "2026-08-21T12:50:44.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZkJ5d1lhV3BKemdVUE9uTWh0QmdsMElzQ1dPLXJncWVFVFZJWTVzcl9xQWZWYmMtdEQ1a3VSQXlmZzVTTWdXWGZPLUgzejdvUm14WFJibll2NEhJYmVXZnR3TmpjLW5GU2h2Y0lpUHJ3clVjd2JlVUZCWW1OSzg?oc=5",
+      "title": "横浜・小野主将は青学大に進学希望 3年連続Wドラ1＆リーグ6連覇達成の超名門から「プロに行きたい」（スポニチアネックス）",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05ZkJ5d1lhV3BKemdVUE9uTWh0QmdsMElzQ1dPLXJncWVFVFZJWTVzcl9xQWZWYmMtdEQ1a3VSQXlmZzVTTWdXWGZPLUgzejdvUm14WFJibll2NEhJYmVXZnR3TmpjLW5GU2h2Y0lpUHJ3clVjd2JlVUZCWW1OSzg?oc=5",
+      "image": "",
+      "source": "Yahoo!ニュース",
+      "category": "sports",
+      "date": "2026-08-21T12:15:20.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiTGRFOW9hTG92NEo2MG40V253Y0gyY2VWSUpLSzZxelFqMElac0RZeDBieXRKU3d2SHVnSU5fbVp5T0diQnVEVzhrUlBQOU1qVTN3cW1FaEdXT2VGMUNTbUdrNTZQZw?oc=5",
@@ -3037,26 +3067,6 @@
       "source": "日刊スポーツ",
       "category": "sports",
       "date": "2026-08-21T08:03:25.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wdE9FcVN3Z0FfWG92eUZvTndDNXFqcjEtNm5HZzA4ZGxYZ3UtbFNWSWNGV3BVR0NER3BTWklrYXNOanhXYjRYcFNVMzE3a1RPRU1ncU9lajg2UFZ1VW1zU0NvR25CUFFsMjI0cnBqOVkzOE10anJIX0lOTjR2d2c?oc=5",
-      "title": "【コンサドーレ】J1昇格ライバル大宮とホームで激突！早くも迎える注目の一戦 川井監督「J2トップのチーム。だからこそやりがいがある」",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wdE9FcVN3Z0FfWG92eUZvTndDNXFqcjEtNm5HZzA4ZGxYZ3UtbFNWSWNGV3BVR0NER3BTWklrYXNOanhXYjRYcFNVMzE3a1RPRU1ncU9lajg2UFZ1VW1zU0NvR25CUFFsMjI0cnBqOVkzOE10anJIX0lOTjR2d2c?oc=5",
-      "image": "",
-      "source": "Yahoo!ニュース",
-      "category": "sports",
-      "date": "2026-08-21T09:56:01.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsMDYyaFF1azNRbGg2Y3BfaEZzY214NlFlMWtTTFNFNm40Z3RlOW5DbElsbjZ5eFNzc0QzZjZMV1doYUpRTWJkNjZrLWJmRjlaOHEyNzFKX2Z1cmxnNjE3M0ZOcjNFOVI3Z2JLbW1n?oc=5",
-      "title": "クラセンU-15の準決勝対戦カードが決定!! 前回ファイナリストの神戸U-15とFC LAVIDAは8強敗退:準々決勝全結果",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsMDYyaFF1azNRbGg2Y3BfaEZzY214NlFlMWtTTFNFNm40Z3RlOW5DbElsbjZ5eFNzc0QzZjZMV1doYUpRTWJkNjZrLWJmRjlaOHEyNzFKX2Z1cmxnNjE3M0ZOcjNFOVI3Z2JLbW1n?oc=5",
-      "image": "",
-      "source": "gekisaka.jp",
-      "category": "sports",
-      "date": "2026-08-21T07:40:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfUEtCOVU5YWJ2R1hTMG95d29nV085bXJNU3ZTbmNTUmE5NzNOZ19WS2xKTGYyeFdsYWowc2tVbDBtWmRRSHNHRzJvRkhTQjlNOXRiS0R2ZVpyYjJyNnZV?oc=5",
@@ -3099,24 +3109,24 @@
       "date": "2026-08-21T05:30:00.000Z"
     },
     {
-      "id": "https://news.livedoor.com/article/detail/32127759/",
-      "title": "世界1位シナーが右膝負傷の影響で全米オープンの欠場を発表",
-      "description": "7月のウィンブルドン選手権で2連覇を果たしたヤニク・シナー＝ウィンブルドン（共同）男子テニスの世界ランキング1位、ヤニク・シナー（イタリア）は21日、右膝の負傷の影響により、四大大会最終戦の全米オープン",
-      "url": "https://news.livedoor.com/article/detail/32127759/",
+      "id": "https://news.livedoor.com/article/detail/32127866/",
+      "title": "角田裕毅が緊急出場のスプリント予選でSQ2に進出、入賞圏内も視野に",
+      "description": "ざっくり言うと 角田裕毅がオランダGPのスプリント予選でSQ2に進出し12番手を獲得した レッドブルのハジャール欠場を受け緊急出場し、FP1のみで好走を見せた 22日のスプリントでは入賞も狙える位置につけ、ファンの期待が高まっている",
+      "url": "https://news.livedoor.com/article/detail/32127866/",
       "image": "",
-      "date": "2026-08-21T15:14:43.000Z",
+      "date": "2026-08-21T15:40:04.000Z",
       "source": "ライブドアスポーツ",
       "category": "sports"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMmZGT1ZJSXVDVXRmdVJhME9tcE5qZVNIVGJoYXZENnZ3LUV2dkZHblJ3eWVvSGRBZVEyVG1Hd1htTXBvTkI5bUlYZ1VubnFGODlfQXFQTTB5VUhIYkNQZzNfRktFSlN1dHJEck9HVTRneUxLbzl3cFF4Y1QtblRnNHRRanFkbDd6SWhGOUtMNVQ5Zmhoc2fSAYoBQVVfeXFMTXRzcnhVajJZbGJJMVVsSXlNQkVZcnZXdEhNUHZoVGtXZUdfS0dWaDdLQUwyMVdIS0FseWFkMDFuRTFDclY5Z2swOTBBTjRWNmM1ekQ5VmxQTk1nM2VzblJEcVpuUllEVi1xVVlzbDljNFpDR1JXdTBMcTJPWWZ5UlJ5TEsxNjdneXdn?oc=5",
-      "title": "【○虎将トーク】阪神・藤川監督、骨折乗り越え来日初勝利のルーカスに「異国でありながらよく本当に頑張ってくれた」 効果的な加点で快勝も「とにかく明日。また明日ですね」",
+      "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wdE9FcVN3Z0FfWG92eUZvTndDNXFqcjEtNm5HZzA4ZGxYZ3UtbFNWSWNGV3BVR0NER3BTWklrYXNOanhXYjRYcFNVMzE3a1RPRU1ncU9lajg2UFZ1VW1zU0NvR25CUFFsMjI0cnBqOVkzOE10anJIX0lOTjR2d2c?oc=5",
+      "title": "【コンサドーレ】J1昇格ライバル大宮とホームで激突！早くも迎える注目の一戦 川井監督「J2トップのチーム。だからこそやりがいがある」",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMmZGT1ZJSXVDVXRmdVJhME9tcE5qZVNIVGJoYXZENnZ3LUV2dkZHblJ3eWVvSGRBZVEyVG1Hd1htTXBvTkI5bUlYZ1VubnFGODlfQXFQTTB5VUhIYkNQZzNfRktFSlN1dHJEck9HVTRneUxLbzl3cFF4Y1QtblRnNHRRanFkbDd6SWhGOUtMNVQ5Zmhoc2fSAYoBQVVfeXFMTXRzcnhVajJZbGJJMVVsSXlNQkVZcnZXdEhNUHZoVGtXZUdfS0dWaDdLQUwyMVdIS0FseWFkMDFuRTFDclY5Z2swOTBBTjRWNmM1ekQ5VmxQTk1nM2VzblJEcVpuUllEVi1xVVlzbDljNFpDR1JXdTBMcTJPWWZ5UlJ5TEsxNjdneXdn?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wdE9FcVN3Z0FfWG92eUZvTndDNXFqcjEtNm5HZzA4ZGxYZ3UtbFNWSWNGV3BVR0NER3BTWklrYXNOanhXYjRYcFNVMzE3a1RPRU1ncU9lajg2UFZ1VW1zU0NvR25CUFFsMjI0cnBqOVkzOE10anJIX0lOTjR2d2c?oc=5",
       "image": "",
-      "source": "サンスポ",
+      "source": "Yahoo!ニュース",
       "category": "sports",
-      "date": "2026-08-21T12:45:25.000Z"
+      "date": "2026-08-21T09:56:01.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PczZiNVFEQ1VmVFVzbGFoYmJFVU54WnB1Ukp1c09SUm5TcXg5OC1mai1kZEc1WW1tV3gzR1hqaFI4cUs2NmR0eHNKWnFpZkU0QmIyTjZ6VWowek1mZ1dobHZlNnVjVEQydTBVT3cwQVZhSWFESHFya25SZ1QzbWPSAYcBQVVfeXFMTjhpaTZmRU9Sckk5anMtRHhaWjlyRFpvMV9VdnZwcWFIMlE1STZTRjR4MlI3R1NpWEVmMFM5R1pyZ3BfcUNXSm5yRnZPcWtsMk8xWVhhUFhDSS1Pc0U0Y3dxSWIzek1PSnE5bUNBOWpzM3kyUHFxWEFhVFM3dF8wYTJVN1FLYWZj?oc=5",
@@ -3139,16 +3149,6 @@
       "date": "2026-08-21T02:36:09.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92NjV4YXFEc1JQd1lwQS1IdVZ0LUV0OVpSM29UOVBFNk8tanRVbHJfNUdzcmtnR3gwUm1hOUZEVFRPeTRnVlg0eGRxRVF0aGYyc3ROY2ZocG5aV296eGEzTFFXZldBd0U?oc=5",
-      "title": "4週連続トップ10の松山英樹に試練 わずかな誤差が響いた苦境の幕開け 【PGAツアー 米国男子】",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92NjV4YXFEc1JQd1lwQS1IdVZ0LUV0OVpSM29UOVBFNk8tanRVbHJfNUdzcmtnR3gwUm1hOUZEVFRPeTRnVlg0eGRxRVF0aGYyc3ROY2ZocG5aV296eGEzTFFXZldBd0U?oc=5",
-      "image": "",
-      "source": "GDOゴルフニュース",
-      "category": "sports",
-      "date": "2026-08-20T23:57:45.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBfNWZCMGZySXM0YmxmUloyaHFwUjFfc2NUbWZacHg0WjJCV2hQaTl5bXVYTHBvMzR1bmNOUTRUVGptbmV1b29jc2FzenpxbWNWcW40N3lhcVNBc2E0SW4w?oc=5",
       "title": "「よくこれアップしたね」〝特大比較ショット〟広瀬すずに「さすが、大きい」「目の保養ですわ」「透明感、凄かった」",
       "description": "",
@@ -3169,12 +3169,12 @@
       "date": "2026-08-21T03:16:00.000Z"
     },
     {
-      "id": "https://news.livedoor.com/article/detail/32127709/",
-      "title": "鈴木彩艶がアストンビラ加入、森保監督「ワクワクする」と喜びを語る",
-      "description": "ざっくり言うと 日本代表の森保一監督が鈴木彩艶のプレミアリーグ移籍を歓迎した 鈴木はパルマからアストンビラへ移籍し、同リーグ初の日本人GKとなった 森保監督は「日本人が少しずつ確実に評価されている」と日本勢を称えた",
-      "url": "https://news.livedoor.com/article/detail/32127709/",
+      "id": "https://news.livedoor.com/article/detail/32127904/",
+      "title": "FIFAがW杯決勝後の暴行を受けパレデスに10試合の出場停止処分",
+      "description": "ざっくり言うと FIFAがW杯2026でのアルゼンチン代表の違反行為に処分を発表した 決勝後の暴行でパレデスに10試合停止、AFA に約5100万円の罰金が科された 処分は今後の代表戦に適用され、通知から10日以内に控訴できるとのこと",
+      "url": "https://news.livedoor.com/article/detail/32127904/",
       "image": "",
-      "date": "2026-08-21T14:45:02.000Z",
+      "date": "2026-08-21T15:15:01.000Z",
       "source": "ライブドアスポーツ",
       "category": "sports"
     },
@@ -3197,6 +3197,26 @@
       "source": "NHKニュース",
       "category": "sports",
       "date": "2026-08-20T13:27:07.000Z"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127759/",
+      "title": "世界1位シナーが右膝負傷の影響で全米オープンの欠場を発表",
+      "description": "7月のウィンブルドン選手権で2連覇を果たしたヤニク・シナー＝ウィンブルドン（共同）男子テニスの世界ランキング1位、ヤニク・シナー（イタリア）は21日、右膝の負傷の影響により、四大大会最終戦の全米オープン",
+      "url": "https://news.livedoor.com/article/detail/32127759/",
+      "image": "",
+      "date": "2026-08-21T15:14:43.000Z",
+      "source": "ライブドアスポーツ",
+      "category": "sports"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127709/",
+      "title": "鈴木彩艶がアストンビラ加入、森保監督「ワクワクする」と喜びを語る",
+      "description": "ざっくり言うと 日本代表の森保一監督が鈴木彩艶のプレミアリーグ移籍を歓迎した 鈴木はパルマからアストンビラへ移籍し、同リーグ初の日本人GKとなった 森保監督は「日本人が少しずつ確実に評価されている」と日本勢を称えた",
+      "url": "https://news.livedoor.com/article/detail/32127709/",
+      "image": "",
+      "date": "2026-08-21T14:45:02.000Z",
+      "source": "ライブドアスポーツ",
+      "category": "sports"
     },
     {
       "id": "https://news.livedoor.com/article/detail/32127551/",
@@ -3257,26 +3277,6 @@
       "date": "2026-08-21T11:57:30.000Z",
       "source": "ライブドアスポーツ",
       "category": "sports"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32126921/",
-      "title": "横浜高・織田翔希投手、世代ナンバーワンの評価でMLB挑戦も視野に",
-      "description": "今春の選抜を制し、夏は松坂大輔を擁した1998年大会以来28年ぶりの全国制覇を目指した横浜高校だったが、無念の準決勝敗退となった。先発した織田翔希投手（3年）は、ここまで大会史上最速となる156kmを連発。だ",
-      "url": "https://news.livedoor.com/article/detail/32126921/",
-      "image": "",
-      "date": "2026-08-21T11:48:33.000Z",
-      "source": "ライブドアスポーツ",
-      "category": "sports"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32126626/",
-      "title": "落合博満氏がブランコの天井弾と複数年契約の弊害を振り返る",
-      "description": "ざっくり言うと 落合博満氏がYouTubeで元中日のトニ・ブランコさんについて語った 天井弾の1本が彼の人生を変えたと落合氏は振り返り高く評価した 複数年契約後の体重超過や助言無視が活躍を妨げたと惜しんでいる",
-      "url": "https://news.livedoor.com/article/detail/32126626/",
-      "image": "",
-      "date": "2026-08-21T11:05:00.000Z",
-      "source": "ライブドアスポーツ",
-      "category": "sports"
     }
   ],
   "it": [
@@ -3311,16 +3311,6 @@
       "date": "2026-08-21T11:10:55.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mTE5saWUxZVFjSWNRbVIyNHhRTHl4clkwQ2NxY29HV3ZEUHlWRHZrcmdTN01QcW9jYlpmZUJ5RlBIMFpYckdaSmVubVg4YU1yUjE5SWJKTXNSX1plRHo3MVhkRVhtQnNyWTFudw?oc=5",
-      "title": "サムスンがAIマネーで巨額還元、韓国最大の12兆円 利益拡大に圧力",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5mTE5saWUxZVFjSWNRbVIyNHhRTHl4clkwQ2NxY29HV3ZEUHlWRHZrcmdTN01QcW9jYlpmZUJ5RlBIMFpYckdaSmVubVg4YU1yUjE5SWJKTXNSX1plRHo3MVhkRVhtQnNyWTFudw?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "it",
-      "date": "2026-08-21T09:31:58.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OVFhEakpxdXZLMERLNUIxSmRSXzNRLWZtSFVFSWtDa0ZtUTB3NEtiTTVBME5CYnUxTUEyVk5PZC1OcEQ1em0wcU5YNkRFMUJyQnBmTkxnSXhUY3IteXZwRndwMA?oc=5",
       "title": "EVFのないカメラでファインダー撮影 Portkeysの外付けオンカメラモニター",
       "description": "",
@@ -3329,6 +3319,16 @@
       "source": "デジカメ Watch",
       "category": "it",
       "date": "2026-08-21T09:19:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LR0dsVWRtTzdxTDFZaHYwVlZBTFdBdzZoaWJWSUhfQngtMDVPS1dUOFZfYjg5UEdURUs3R1RFbWticHBXbE1ZdzFRNWYxRjNRY29mcUFlUHFycThaOXZ6Qk5iMGluV0hkc2oySw?oc=5",
+      "title": "米著名ファンド、AIインフラ銘柄にシフト エヌビディア株は利益確定",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LR0dsVWRtTzdxTDFZaHYwVlZBTFdBdzZoaWJWSUhfQngtMDVPS1dUOFZfYjg5UEdURUs3R1RFbWticHBXbE1ZdzFRNWYxRjNRY29mcUFlUHFycThaOXZ6Qk5iMGluV0hkc2oySw?oc=5",
+      "image": "",
+      "source": "日本経済新聞",
+      "category": "it",
+      "date": "2026-08-21T08:54:25.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FQmtpUFVGLVFNdDJuUF9PZG4wTllLWnp3ejN2anpXYWhXNFc3eTZUSC13RGNSQVdBNWdtNFZxeFFUY1ppRllfeFhWcy1uZFREN2c0eF85RGxhZw?oc=5",
@@ -3421,16 +3421,6 @@
       "date": "2026-08-21T02:39:58.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xYTZPajdXYzJTcjhHNWdFUnViay1jMmx4UkVHNnNCOWpTSDR6YkFpTkRMd21PaXl2NndkUTBKb1BtdTdLeFlSZVh2N0VHdTBqUU5rUk03UQ?oc=5",
-      "title": "PCゲームをDL不要でスマホで遊べる“viviON GAMES”8月26日開始。サブスクではなく買い切りモデルを採用",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xYTZPajdXYzJTcjhHNWdFUnViay1jMmx4UkVHNnNCOWpTSDR6YkFpTkRMd21PaXl2NndkUTBKb1BtdTdLeFlSZVh2N0VHdTBqUU5rUk03UQ?oc=5",
-      "image": "",
-      "source": "ファミ通",
-      "category": "it",
-      "date": "2026-08-20T23:00:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GWG5zOFpDbUhYb2NhTTg0UU1aem9VRDhjVFJ3VXJuLTVLS1BUc0ZselkwcTFYSHgxTVJFOHZjT3ZwNkFzeksyWTBuN21paE4zcW5JWVhXNTFVOGR4SjI2bDFsN055Zw?oc=5",
       "title": "武器を収集しキャラクターを強化。砂漠の惑星で戦闘ロボットや巨大戦闘プラットフォームと戦う協力型ローグライトFPS『Ironsand』Steamにてリリース",
       "description": "",
@@ -3449,6 +3439,16 @@
       "source": "東京新聞",
       "category": "it",
       "date": "2026-08-20T10:15:54.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uYVBtclpxYlRtRWl1S1ZCdUkxMWg5ZFAza1lzMDNOcUpUdDJuTERhTGYwX3BuME5ZOXVkSURjSUNSb0lMVG10c0VmNjNDZTA4WmNCSFpSTk1Wa19oZGdBZFg2cGZaT1dfcFZUUg?oc=5",
+      "title": "DLsite親会社による“PCゲームをスマホで遊べる”サービス「viviON GAMES」8月26日始動へ。ゲーム買い切りで、サクッとスマホから",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uYVBtclpxYlRtRWl1S1ZCdUkxMWg5ZFAza1lzMDNOcUpUdDJuTERhTGYwX3BuME5ZOXVkSURjSUNSb0lMVG10c0VmNjNDZTA4WmNCSFpSTk1Wa19oZGdBZFg2cGZaT1dfcFZUUg?oc=5",
+      "image": "",
+      "source": "AUTOMATON",
+      "category": "it",
+      "date": "2026-08-20T06:50:16.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ONXFab3FHTjJoSnFfZUZHS0V5YnZaaDBIZHJJZ2JrdmJTTzBNeW9lN3BIMC1Vd21KdlJkNEs0WmZxc2ZsWXQ2azNQM0xIR1VHaHJRdkd2MWJOSUFPZ2ZvOGRtbXl0QQ?oc=5",
@@ -3491,24 +3491,24 @@
       "date": "2026-08-21T06:03:55.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LR0dsVWRtTzdxTDFZaHYwVlZBTFdBdzZoaWJWSUhfQngtMDVPS1dUOFZfYjg5UEdURUs3R1RFbWticHBXbE1ZdzFRNWYxRjNRY29mcUFlUHFycThaOXZ6Qk5iMGluV0hkc2oySw?oc=5",
-      "title": "米著名ファンド、AIインフラ銘柄にシフト エヌビディア株は利益確定",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTTHAyRWpkMXBlREJUUGhqM3dPdzlxVUpUaTBJaHVONUVVYU9sX3AteV9wS3IxMGt1OWxmLUI5RzZVOFB6ejlrN3N3T2E3UXMtbDVXOWdjWTFlM1dNczZwcVJ4TER4b1FPYVI3TA?oc=5",
+      "title": "AIか非AIか、悩む投資家 双方で二極化進む「4象限相場」に",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LR0dsVWRtTzdxTDFZaHYwVlZBTFdBdzZoaWJWSUhfQngtMDVPS1dUOFZfYjg5UEdURUs3R1RFbWticHBXbE1ZdzFRNWYxRjNRY29mcUFlUHFycThaOXZ6Qk5iMGluV0hkc2oySw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTTHAyRWpkMXBlREJUUGhqM3dPdzlxVUpUaTBJaHVONUVVYU9sX3AteV9wS3IxMGt1OWxmLUI5RzZVOFB6ejlrN3N3T2E3UXMtbDVXOWdjWTFlM1dNczZwcVJ4TER4b1FPYVI3TA?oc=5",
       "image": "",
       "source": "日本経済新聞",
       "category": "it",
-      "date": "2026-08-21T08:54:25.000Z"
+      "date": "2026-08-21T08:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jZ0xCOVI1bjF4c3lXbjFYN2czV2h1MUFmNnEwVHg1enU5bEU4TXpJdTltVUFqc25xWjdLeGxIUjgtaEs2YzdyMER5RUdBNWNRalZlSElPRFI3dw?oc=5",
-      "title": "中央に「トラックボール」が埋め込まれたキーボードがイーケイジャパンから登場。トラックパッド版も選択可能",
+      "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PVFBnOFJOajBTYlhCaHZGSXd4ZkVob2hDZlFVLVlOV1VkelF5OU4ybnlENVl3QTVUUy12ZWhkLU1ZRFVEQkgzV2c4MHdQTlV0QXZhaWo0aG56Zw?oc=5",
+      "title": "『AIドット絵バトル』8月21日17時より配信開始。「相手に勝てそう」なドット絵モンスターを描いて戦う対戦ゲーム",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jZ0xCOVI1bjF4c3lXbjFYN2czV2h1MUFmNnEwVHg1enU5bEU4TXpJdTltVUFqc25xWjdLeGxIUjgtaEs2YzdyMER5RUdBNWNRalZlSElPRFI3dw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PVFBnOFJOajBTYlhCaHZGSXd4ZkVob2hDZlFVLVlOV1VkelF5OU4ybnlENVl3QTVUUy12ZWhkLU1ZRFVEQkgzV2c4MHdQTlV0QXZhaWo0aG56Zw?oc=5",
       "image": "",
       "source": "電ファミニコゲーマー",
       "category": "it",
-      "date": "2026-08-20T07:44:00.000Z"
+      "date": "2026-08-21T03:28:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9vTUNKYllxUm5xVUs4XzZZUEUtSmI0VTRkLVdKLUZJYTk1dWJfWmpyN2I2SUZ3Z3llRnpfWHA3UEh3UEdlVWIwSGlYRXU4U1h2Uk9uUVktMVY5Mzd2N1hwWTdlTHVTdmZZZmF4OUZzUdIBaEFVX3lxTE1QQUFWMU5tdUFWZ0QyUVpDaUludkxSVkpscWZLOHE0UTE1QldMUFZBMXFBd1BPRnZRa29kQl8tWHJ5OVliSV9fQkFuemJmTi1feV9lSUNTaUM1Tk15M3BYR0w5dW5taWlz?oc=5",
@@ -3541,16 +3541,6 @@
       "date": "2026-08-21T02:30:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBleUk3TG4yeE0wX0daR3lNUlE4ZE9mYm8wZ2JCOFVQNUt4OHR6cDA2eDFtQTFHTmI4bnI2eVNuam5La2piS29aQV92TmxOeFVFSm1hcTVDR3pJSnRxNFlXdzFuTTg3OHBOZW1RYWF1eU45T0dXUkE?oc=5",
-      "title": "[法林岳之・石川温・石野純也・佐藤文彦のスマホ会議（仮）] ahamo、ドコモ miniの増量と「ドコモの銀行」アイコン変更の狙いとは",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBleUk3TG4yeE0wX0daR3lNUlE4ZE9mYm8wZ2JCOFVQNUt4OHR6cDA2eDFtQTFHTmI4bnI2eVNuam5La2piS29aQV92TmxOeFVFSm1hcTVDR3pJSnRxNFlXdzFuTTg3OHBOZW1RYWF1eU45T0dXUkE?oc=5",
-      "image": "",
-      "source": "ケータイ Watch",
-      "category": "it",
-      "date": "2026-08-20T15:00:00.000Z"
-    },
-    {
       "id": "https://gigazine.net/news/20260821&#45;internet&#45;age&#45;checks&#45;boosted&#45;rogue&#45;adult&#45;sites/",
       "title": "インターネット年齢確認の強化により悪質なアダルトサイトが増加したとPornhubが調査結果を公表、「無料ポルノ」の検索結果上位10件のうち7件が規制に準拠していないサイトだった",
       "description": "イギリスにはインターネット上のコンテンツから未成年者を守るための「オンライン安全法」に基づく、年齢確認義務が存在します。この年齢確認義務の登場により、より悪質なアダルトサイトが増加していると、大手ポルノサイトのPornhubが報告しています。",
@@ -3581,14 +3571,24 @@
       "date": "2026-08-21T02:35:14.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTTHAyRWpkMXBlREJUUGhqM3dPdzlxVUpUaTBJaHVONUVVYU9sX3AteV9wS3IxMGt1OWxmLUI5RzZVOFB6ejlrN3N3T2E3UXMtbDVXOWdjWTFlM1dNczZwcVJ4TER4b1FPYVI3TA?oc=5",
-      "title": "AIか非AIか、悩む投資家 双方で二極化進む「4象限相場」に",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CNXpEZFg4NW1PMnRvWklFYncwOGhtNkpTX3JJZUZkUUo2MFZjZzVRdnFSLXBfakNOUFlSNmpCbXFEdUJMOTdOdEFJdFI4a0p5aDVJX2c3YjZBb3BTbks1NHVRaXBVVzR6emM0OA?oc=5",
+      "title": "新興未上場株の売買仲介、スマートラウンドを国が登録 ユニコーン創出",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBTTHAyRWpkMXBlREJUUGhqM3dPdzlxVUpUaTBJaHVONUVVYU9sX3AteV9wS3IxMGt1OWxmLUI5RzZVOFB6ejlrN3N3T2E3UXMtbDVXOWdjWTFlM1dNczZwcVJ4TER4b1FPYVI3TA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CNXpEZFg4NW1PMnRvWklFYncwOGhtNkpTX3JJZUZkUUo2MFZjZzVRdnFSLXBfakNOUFlSNmpCbXFEdUJMOTdOdEFJdFI4a0p5aDVJX2c3YjZBb3BTbks1NHVRaXBVVzR6emM0OA?oc=5",
       "image": "",
       "source": "日本経済新聞",
       "category": "it",
-      "date": "2026-08-21T08:00:00.000Z"
+      "date": "2026-08-21T02:49:32.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jZ0xCOVI1bjF4c3lXbjFYN2czV2h1MUFmNnEwVHg1enU5bEU4TXpJdTltVUFqc25xWjdLeGxIUjgtaEs2YzdyMER5RUdBNWNRalZlSElPRFI3dw?oc=5",
+      "title": "中央に「トラックボール」が埋め込まれたキーボードがイーケイジャパンから登場。トラックパッド版も選択可能",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jZ0xCOVI1bjF4c3lXbjFYN2czV2h1MUFmNnEwVHg1enU5bEU4TXpJdTltVUFqc25xWjdLeGxIUjgtaEs2YzdyMER5RUdBNWNRalZlSElPRFI3dw?oc=5",
+      "image": "",
+      "source": "電ファミニコゲーマー",
+      "category": "it",
+      "date": "2026-08-20T07:44:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwT3VvLTlJdnpsanZ1ZFVMRFVyem5ISmNjVXcyVWZBcmdqWEE0NWNrbVMzaXFoV2FUdU16TXVWM2JsZWVzMFhmR01pdTJUTXdfUnh3VG9heWt1TDRDVVFicUlhMFlVUXl6UnRMTDNMcnJYQQ?oc=5",
@@ -3641,14 +3641,14 @@
       "date": "2026-08-21T01:30:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CNXpEZFg4NW1PMnRvWklFYncwOGhtNkpTX3JJZUZkUUo2MFZjZzVRdnFSLXBfakNOUFlSNmpCbXFEdUJMOTdOdEFJdFI4a0p5aDVJX2c3YjZBb3BTbks1NHVRaXBVVzR6emM0OA?oc=5",
-      "title": "新興未上場株の売買仲介、スマートラウンドを国が登録 ユニコーン創出",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pSjg1MnJucFBJQWFPQWRFVXNoSFdVYjN3V2NhS2dTYmVtMzE4Rk9Fc1FiZ2pBbmtUaE11cENlWEpGRVpYWUI1Wk92MnVEUlRoeUtyZjdXeUlkVnMwV0tlNkJIY1I0eFVMTWxDdQ?oc=5",
+      "title": "NVIDIAがファンド化、顧客20社に8兆円投資 自社GPUの購入資金に",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CNXpEZFg4NW1PMnRvWklFYncwOGhtNkpTX3JJZUZkUUo2MFZjZzVRdnFSLXBfakNOUFlSNmpCbXFEdUJMOTdOdEFJdFI4a0p5aDVJX2c3YjZBb3BTbks1NHVRaXBVVzR6emM0OA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pSjg1MnJucFBJQWFPQWRFVXNoSFdVYjN3V2NhS2dTYmVtMzE4Rk9Fc1FiZ2pBbmtUaE11cENlWEpGRVpYWUI1Wk92MnVEUlRoeUtyZjdXeUlkVnMwV0tlNkJIY1I0eFVMTWxDdQ?oc=5",
       "image": "",
       "source": "日本経済新聞",
       "category": "it",
-      "date": "2026-08-21T02:49:32.000Z"
+      "date": "2026-08-20T20:01:25.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE0tMlJSS1R6ZDlRZS02aEoxYzJlNk9TY0tTcmRCXzZjaGRXcExYQzBOU2ZTQmZLVVB6VWJ5LU9JdTVENFhlREgyejVieElUNTZMNnh4RU1md0dFLWMwSXY5T1RGN0cwN2ZIc283dGZ2bTc3QQ?oc=5",
@@ -3681,20 +3681,20 @@
       "date": "2026-08-21T04:47:02.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pSjg1MnJucFBJQWFPQWRFVXNoSFdVYjN3V2NhS2dTYmVtMzE4Rk9Fc1FiZ2pBbmtUaE11cENlWEpGRVpYWUI1Wk92MnVEUlRoeUtyZjdXeUlkVnMwV0tlNkJIY1I0eFVMTWxDdQ?oc=5",
-      "title": "NVIDIAがファンド化、顧客20社に8兆円投資 自社GPUの購入資金に",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YTFhQQ09xRHRudHBPRmpwM2huTnRUYmloQVhVbUlBNjI3Ymt5UnRYbkdlNk96WkhGQjRLRzFIUXRRb1pHbWlhQkljdm1NWmhvWjh5d3E4TkUzNlhTRjF3S21lZjJDa3RqbERpWA?oc=5",
+      "title": "無色透明の太陽電池 大阪大学など、窓ガラスや農業用ハウスに用途",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pSjg1MnJucFBJQWFPQWRFVXNoSFdVYjN3V2NhS2dTYmVtMzE4Rk9Fc1FiZ2pBbmtUaE11cENlWEpGRVpYWUI1Wk92MnVEUlRoeUtyZjdXeUlkVnMwV0tlNkJIY1I0eFVMTWxDdQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YTFhQQ09xRHRudHBPRmpwM2huTnRUYmloQVhVbUlBNjI3Ymt5UnRYbkdlNk96WkhGQjRLRzFIUXRRb1pHbWlhQkljdm1NWmhvWjh5d3E4TkUzNlhTRjF3S21lZjJDa3RqbERpWA?oc=5",
       "image": "",
       "source": "日本経済新聞",
       "category": "it",
-      "date": "2026-08-20T20:01:25.000Z"
+      "date": "2026-08-20T20:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fS1ltb1VyTVcySzhMdFlfelJaeExuSjJ5VGJzUkY2cTV0MTZSbkdPQk9oVV9GaHNPVXNpSFNIbGtqQ0tJRTVMM2FQOXRDUnpOTTV1TmV1bm9vamZDS0IxMlRqMGdxVm42cEp0bVQ3cw?oc=5",
-      "title": "ソニー、Xperia新モデルを予告 8月25日11時に発表 YouTubeで世界同時配信",
+      "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fS1ltb1VyTVcySzhMdFlfelJaeExuSjJ5VGJzUkY2cTV0MTZSbkdPQk9oVV9GaHNPVXNpSFNIbGtqQ0tJRTVMM2FQOXRDUnpOTTV1TmV1bm9vamZDS0IxMlRqMGdxVm42cEp0bVQ3c9IBaEFVX3lxTE1WM2dEVC1wTG1JQVZSYzJYaUdJSkVPNmxiZGl1UmFsNzdXVEkxV284bnhYQkZMRjdUMnhRUXhEajlBa2xpcEVTV3BqcTNOSmNrczZhcDJFNE43YTFlQ1p4NjNDUXpYTmI2?oc=5",
+      "title": "ソニー、Xperia新モデルを予告 8月25日11時に発表 YouTubeで世界同時配信 - ITmedia Mobile",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fS1ltb1VyTVcySzhMdFlfelJaeExuSjJ5VGJzUkY2cTV0MTZSbkdPQk9oVV9GaHNPVXNpSFNIbGtqQ0tJRTVMM2FQOXRDUnpOTTV1TmV1bm9vamZDS0IxMlRqMGdxVm42cEp0bVQ3cw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fS1ltb1VyTVcySzhMdFlfelJaeExuSjJ5VGJzUkY2cTV0MTZSbkdPQk9oVV9GaHNPVXNpSFNIbGtqQ0tJRTVMM2FQOXRDUnpOTTV1TmV1bm9vamZDS0IxMlRqMGdxVm42cEp0bVQ3c9IBaEFVX3lxTE1WM2dEVC1wTG1JQVZSYzJYaUdJSkVPNmxiZGl1UmFsNzdXVEkxV284bnhYQkZMRjdUMnhRUXhEajlBa2xpcEVTV3BqcTNOSmNrczZhcDJFNE43YTFlQ1p4NjNDUXpYTmI2?oc=5",
       "image": "",
       "source": "ITmedia",
       "category": "it",
@@ -3721,10 +3721,10 @@
       "date": "2026-08-20T23:30:02.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YTFhQQ09xRHRudHBPRmpwM2huTnRUYmloQVhVbUlBNjI3Ymt5UnRYbkdlNk96WkhGQjRLRzFIUXRRb1pHbWlhQkljdm1NWmhvWjh5d3E4TkUzNlhTRjF3S21lZjJDa3RqbERpWA?oc=5",
-      "title": "無色透明の太陽電池 大阪大学など、窓ガラスや農業用ハウスに用途",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iVC1nZVQtRktNenhjRzZva2xKZkdGa2J0cW1OUGI1a3hwU0pncElweGMzNHdCeEFWQUJnUHBkRWx3TTRDcGI5U0V6Ymkwemp5QS05MFhqREdpRk5OWGFYU05GaE0zS2h3UG1rWA?oc=5",
+      "title": "村田製作所や京セラ、AI需要で受注高が過去最高 設備投資の上積みも",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YTFhQQ09xRHRudHBPRmpwM2huTnRUYmloQVhVbUlBNjI3Ymt5UnRYbkdlNk96WkhGQjRLRzFIUXRRb1pHbWlhQkljdm1NWmhvWjh5d3E4TkUzNlhTRjF3S21lZjJDa3RqbERpWA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iVC1nZVQtRktNenhjRzZva2xKZkdGa2J0cW1OUGI1a3hwU0pncElweGMzNHdCeEFWQUJnUHBkRWx3TTRDcGI5U0V6Ymkwemp5QS05MFhqREdpRk5OWGFYU05GaE0zS2h3UG1rWA?oc=5",
       "image": "",
       "source": "日本経済新聞",
       "category": "it",
@@ -3761,10 +3761,10 @@
       "date": "2026-08-20T21:00:48.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iVC1nZVQtRktNenhjRzZva2xKZkdGa2J0cW1OUGI1a3hwU0pncElweGMzNHdCeEFWQUJnUHBkRWx3TTRDcGI5U0V6Ymkwemp5QS05MFhqREdpRk5OWGFYU05GaE0zS2h3UG1rWA?oc=5",
-      "title": "村田製作所や京セラ、AI需要で受注高が過去最高 設備投資の上積みも",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lQ3hLMGRLR0NpY2FxR2UzQnRjb0RnZzYyQWlSTU1tY1hRY0ZaMTIxX19MVXF0dzFISjZERkdVeHdBV1NxU1FLYUoteS10amVHbDVTN1BGME52bUwwNmFTdzFpQS1QaVBKY2pWcA?oc=5",
+      "title": "メルカリ、商品検索のAIモデルを自前開発 山田社長「利用コスト抑制」",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iVC1nZVQtRktNenhjRzZva2xKZkdGa2J0cW1OUGI1a3hwU0pncElweGMzNHdCeEFWQUJnUHBkRWx3TTRDcGI5U0V6Ymkwemp5QS05MFhqREdpRk5OWGFYU05GaE0zS2h3UG1rWA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lQ3hLMGRLR0NpY2FxR2UzQnRjb0RnZzYyQWlSTU1tY1hRY0ZaMTIxX19MVXF0dzFISjZERkdVeHdBV1NxU1FLYUoteS10amVHbDVTN1BGME52bUwwNmFTdzFpQS1QaVBKY2pWcA?oc=5",
       "image": "",
       "source": "日本経済新聞",
       "category": "it",
@@ -3791,14 +3791,14 @@
       "date": "2026-08-20T20:23:28.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lQ3hLMGRLR0NpY2FxR2UzQnRjb0RnZzYyQWlSTU1tY1hRY0ZaMTIxX19MVXF0dzFISjZERkdVeHdBV1NxU1FLYUoteS10amVHbDVTN1BGME52bUwwNmFTdzFpQS1QaVBKY2pWcA?oc=5",
-      "title": "メルカリ、商品検索のAIモデルを自前開発 山田社長「利用コスト抑制」",
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UGwxOGhkTllMd2lwNmVtcTU0Sm56UnBEdkJTOXhyLXp2MFVoTjZuc0dvcG9Pb3J0RVZuR1J3UndmRlBueGNpSmJXbS1xLVdBZFZfNVhjUTlyTUVPTU1wVVpSV1ltZFNNNUVmOA?oc=5",
+      "title": "川崎重工、30年ぶり増資に込めた決意 水素やフィジカルAIで成長へ",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lQ3hLMGRLR0NpY2FxR2UzQnRjb0RnZzYyQWlSTU1tY1hRY0ZaMTIxX19MVXF0dzFISjZERkdVeHdBV1NxU1FLYUoteS10amVHbDVTN1BGME52bUwwNmFTdzFpQS1QaVBKY2pWcA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UGwxOGhkTllMd2lwNmVtcTU0Sm56UnBEdkJTOXhyLXp2MFVoTjZuc0dvcG9Pb3J0RVZuR1J3UndmRlBueGNpSmJXbS1xLVdBZFZfNVhjUTlyTUVPTU1wVVpSV1ltZFNNNUVmOA?oc=5",
       "image": "",
       "source": "日本経済新聞",
       "category": "it",
-      "date": "2026-08-20T20:00:00.000Z"
+      "date": "2026-08-20T19:00:00.000Z"
     },
     {
       "id": "https://gigazine.net/news/20260821&#45;chickenramen&#45;taiwan&#45;mazesoba/",
@@ -3819,16 +3819,6 @@
       "source": "Yahoo!ニュース",
       "category": "it",
       "date": "2026-08-20T17:27:56.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UGwxOGhkTllMd2lwNmVtcTU0Sm56UnBEdkJTOXhyLXp2MFVoTjZuc0dvcG9Pb3J0RVZuR1J3UndmRlBueGNpSmJXbS1xLVdBZFZfNVhjUTlyTUVPTU1wVVpSV1ltZFNNNUVmOA?oc=5",
-      "title": "川崎重工、30年ぶり増資に込めた決意 水素やフィジカルAIで成長へ",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE96UGwxOGhkTllMd2lwNmVtcTU0Sm56UnBEdkJTOXhyLXp2MFVoTjZuc0dvcG9Pb3J0RVZuR1J3UndmRlBueGNpSmJXbS1xLVdBZFZfNVhjUTlyTUVPTU1wVVpSV1ltZFNNNUVmOA?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "it",
-      "date": "2026-08-20T19:00:00.000Z"
     },
     {
       "id": "https://gigazine.net/news/20260821&#45;youtube&#45;malware/",
@@ -3953,6 +3943,16 @@
       "date": "2026-08-21T02:37:02.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45LVlWVFdCa3N0TW1oTWF0dENtV2tNWVNRX0x2WlgtX2RvYU9vXzd2UkROVE80azlyNFNZZXRjSV9nalAtbnNxc2dPZEF1VEh2UXVPWTRuMXVMNjloc2FRUDZUdE4wZw?oc=5",
+      "title": "SpaceX、100万機のAI衛星「スターマインド」計画は実現するか?",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45LVlWVFdCa3N0TW1oTWF0dENtV2tNWVNRX0x2WlgtX2RvYU9vXzd2UkROVE80azlyNFNZZXRjSV9nalAtbnNxc2dPZEF1VEh2UXVPWTRuMXVMNjloc2FRUDZUdE4wZw?oc=5",
+      "image": "",
+      "source": "Impress Watch",
+      "category": "science",
+      "date": "2026-08-21T00:00:00.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jTkNubEtqajBpbDdCQ1h0am9YNXg4N1JGVmYtek13aXQ2TGoxMGotUkE5dHpzN0loNzZNQ3V1U3lUX3ZORHYwX1g3d2JLdFN1aFNwd2hVeFhJNy1TUmo4Z0J2MzlVLXc?oc=5",
       "title": "師匠の吹いた後、楽器自体の音が変わる？ 謎の現象を検証実験 国音",
       "description": "",
@@ -3993,6 +3993,16 @@
       "date": "2026-08-20T11:30:00.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02eGRKTTBXbWMxNXNlXzc4OXU5Z1AyeER0anpmWFdkS1hOM2RLbEF6dXlRN3BrdDFGTUZGQ0JDSVJaMUgxeXJXV3RHNVFRODdhcU4yb1dEWXNNOWRUd3hqMWk3dWE?oc=5",
+      "title": "#138784: 八日月(上弦、月齢7.7) by かあ - 天体写真ギャラリー",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE02eGRKTTBXbWMxNXNlXzc4OXU5Z1AyeER0anpmWFdkS1hOM2RLbEF6dXlRN3BrdDFGTUZGQ0JDSVJaMUgxeXJXV3RHNVFRODdhcU4yb1dEWXNNOWRUd3hqMWk3dWE?oc=5",
+      "image": "",
+      "source": "astroarts.co.jp",
+      "category": "science",
+      "date": "2026-08-20T09:30:17.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1iVTd1dnlleGFJR2FONFMyNmpUb1gtMzBLMWExYTBWR2dxNjlyWkRDNHE4NWVHUG9SaXhVUUxLZkpyUG93aXBvOE1ya3RjbnRjaXI3QjBqcw?oc=5",
       "title": "40代女性が腹痛と発熱の症状...ベロ毒素産生性腸管出血性大腸菌O血清群不明による感染症を確認...健康診断を受診して判明、接触者や感染経路を調査中（岡山・備前保健所管内）",
       "description": "",
@@ -4001,16 +4011,6 @@
       "source": "TBS NEWS DIG",
       "category": "science",
       "date": "2026-08-20T08:47:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1eFdqMFJnX2RsTWNwQTNLN3JWTllzdlpPV3I0Vms5ajhmTTBobXlOMm5fODBVdDVUYlRyTUU3QmEtZGNlVnpwR0hPQTlJRTM1S2JDQllBbDdvM3BhV3dXazU4UlJPdw?oc=5",
-      "title": "いて座に今年3個目の明るい新星が出現",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1eFdqMFJnX2RsTWNwQTNLN3JWTllzdlpPV3I0Vms5ajhmTTBobXlOMm5fODBVdDVUYlRyTUU3QmEtZGNlVnpwR0hPQTlJRTM1S2JDQllBbDdvM3BhV3dXazU4UlJPdw?oc=5",
-      "image": "",
-      "source": "astroarts.co.jp",
-      "category": "science",
-      "date": "2026-08-20T08:20:17.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8ydGN3Q21aQVFHdnNDNjNDWDg5N0E2cEE4dTJmekZzMDV3SUZGV2o3cUdVZk5SNEo5YWw3dzk5S3I3bW1XVWp5U2xCS3Q2ekYyT2FZR1BiWjVWS2JMaG5RWHk4WFZPRlV3R1lhbU9LVVdkSGNnM3c3YW9R?oc=5",
@@ -4163,6 +4163,16 @@
       "date": "2026-08-20T11:00:00.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1eFdqMFJnX2RsTWNwQTNLN3JWTllzdlpPV3I0Vms5ajhmTTBobXlOMm5fODBVdDVUYlRyTUU3QmEtZGNlVnpwR0hPQTlJRTM1S2JDQllBbDdvM3BhV3dXazU4UlJPdw?oc=5",
+      "title": "いて座に今年3個目の明るい新星が出現",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1eFdqMFJnX2RsTWNwQTNLN3JWTllzdlpPV3I0Vms5ajhmTTBobXlOMm5fODBVdDVUYlRyTUU3QmEtZGNlVnpwR0hPQTlJRTM1S2JDQllBbDdvM3BhV3dXazU4UlJPdw?oc=5",
+      "image": "",
+      "source": "astroarts.co.jp",
+      "category": "science",
+      "date": "2026-08-20T08:20:17.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BdlFqckUyQmM3ZUpSN1o4M1lSOWxUVUc2SHZQcUY5V0ViYWpKRnJ4YkMwb2h4SnphMURrbEdCV2wyYzlUdmZIdDJYSUNleUpxblRzR3VpSDRGVmYtQWpZSi13Mk5HcXZJMkRrMEhLaw?oc=5",
       "title": "光照射で機能が切り替わる「分子スイッチ」を開発：紫外線に応答して構造が変化",
       "description": "",
@@ -4201,26 +4211,6 @@
       "source": "Yahoo!ニュース",
       "category": "science",
       "date": "2026-08-21T06:00:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mNTBJSllHSkRFUjJJOVlhSTQyakQ0NVBhYWJZVVlHbW1HSV9LUnhLa1VMU0pna3MwU3pOeHZKNzVZOUJPbU1TQllqWmI5MzNoZEpVQ05jSXVSWGJCOUE?oc=5",
-      "title": "縄文人の祖先は最終氷河期を生き延びるために驚くべき進化をした可能性がある (2/3)",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9mNTBJSllHSkRFUjJJOVlhSTQyakQ0NVBhYWJZVVlHbW1HSV9LUnhLa1VMU0pna3MwU3pOeHZKNzVZOUJPbU1TQllqWmI5MzNoZEpVQ05jSXVSWGJCOUE?oc=5",
-      "image": "",
-      "source": "ナゾロジー",
-      "category": "science",
-      "date": "2026-08-19T13:48:35.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2b25PUkozc3FHV08tamFXeFBGWDNUa0t0SWttZ1VDU2hzaDc0SW5EU0hRUG1HSjVIdUtuamJZSGY5ODVFdVlSTzFGazczdllKYlItMW1PZ0wxVE5yZi1mOU9GTG9vM2NCSVRDeA?oc=5",
-      "title": "「静かな退職」どう防ぐか、心理的背景を見極め対応を 島津明人氏",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2b25PUkozc3FHV08tamFXeFBGWDNUa0t0SWttZ1VDU2hzaDc0SW5EU0hRUG1HSjVIdUtuamJZSGY5ODVFdVlSTzFGazczdllKYlItMW1PZ0wxVE5yZi1mOU9GTG9vM2NCSVRDeA?oc=5",
-      "image": "",
-      "source": "日本経済新聞",
-      "category": "science",
-      "date": "2026-08-18T17:00:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FRkFQbXZVeWdfMU5uWHFVbHNXX1hXczRMSTVZc3hzSk9sNnNaMW9MVFJkZEFXWUlnT09FaG5MZjM0eVhzeEZTM3phTlh6bl9LMnRPRDVyazQ4M2JKNDNScHVMNzNWUWZOSlAteU11NUJMUQ?oc=5",
@@ -4366,16 +4356,6 @@
       "date": "2026-08-21T07:53:08.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMl9QR3hSZFo2OU1JVUx1VU42MHZXVjk1XzdqN2RPclN2M0FnMTlBLUxKZEN6YmR6Q2ZVODhPOXc2QkpobWpwTGhnVTN3eFBmc2xnRVl2b0t1N3lOUHZzbmd1bXBPSkJTSDJXQ3ZwQktPME5icVhRQ1F2cnByNlJ3Q19jSjA?oc=5",
-      "title": "「クリーニング店」の近くに住むと発症リスクが高まる病気とは？",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMl9QR3hSZFo2OU1JVUx1VU42MHZXVjk1XzdqN2RPclN2M0FnMTlBLUxKZEN6YmR6Q2ZVODhPOXc2QkpobWpwTGhnVTN3eFBmc2xnRVl2b0t1N3lOUHZzbmd1bXBPSkJTSDJXQ3ZwQktPME5icVhRQ1F2cnByNlJ3Q19jSjA?oc=5",
-      "image": "",
-      "source": "朝鮮日報",
-      "category": "life",
-      "date": "2026-08-21T07:42:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qbmxKbXhEWGF4ZG90eC1YUi1LZzliSzQtTVpVOHBKeDlXSVR5cE1DLWFVTHp3d3BuTzY1SnpCczhnTi1xODg2Rlp1RU44Mk9PMUM2TnBXRXZPcWdfUWhrTkNaeWZUTUhKajNJ?oc=5",
       "title": "糖尿病学会より注意喚起 PI3Kα阻害剤・リソバリシブ使用時の高血糖発現",
       "description": "",
@@ -4384,6 +4364,16 @@
       "source": "糖尿病リソースガイド",
       "category": "life",
       "date": "2026-08-21T07:16:52.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5JOWl5S294QXJmQmRGbkJWVTQtX2dwTExITnBPX0ZGMHltMk9qTFl4VFRBckxLeV9sRFBiMjRVVGdRTjVqeVd5R1hR?oc=5",
+      "title": "《脳の老化をストップ》ど忘れはすぐ検索、写真はメモ代わりに 医師が指南する「認知症予防するスマホ活用術」 (1/1)",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5JOWl5S294QXJmQmRGbkJWVTQtX2dwTExITnBPX0ZGMHltMk9qTFl4VFRBckxLeV9sRFBiMjRVVGdRTjVqeVd5R1hR?oc=5",
+      "image": "",
+      "source": "介護ポストセブン",
+      "category": "life",
+      "date": "2026-08-21T07:01:36.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91NUl2NjdLaFlDU05Sd3Rmc1VBZ21HM2o5UGpJaW9wTnhKTG1yTG1peEd5M0ZPX3NGR3pNQWc2eVdFNXNnOGwzZlZEQWJZOWM0Q2ZGT2JBNTl5R0dxamFEaERhSnpfUE5TSGpDUHc2SWRZS3Jpc3U1dWg4dw?oc=5",
@@ -4494,16 +4484,6 @@
       "source": "tbsradio.jp",
       "category": "life",
       "date": "2026-08-20T09:30:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ieXB4NUhUYUthM3RqcWZQQlZBa1l6LS0yUGliVWh2cjl0RGVEZmprTFV6MHR4X25JNGhqMjhOck1oYkNrc1IxUktR?oc=5",
-      "title": "《何歳からでも骨は強くなる》かかと落とし、12分の日光浴、ひきわり納豆…整形外科専門医が教える「寝たきりを防ぐ骨強化メソッド」 (1/1)",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ieXB4NUhUYUthM3RqcWZQQlZBa1l6LS0yUGliVWh2cjl0RGVEZmprTFV6MHR4X25JNGhqMjhOck1oYkNrc1IxUktR?oc=5",
-      "image": "",
-      "source": "介護ポストセブン",
-      "category": "life",
-      "date": "2026-08-20T07:00:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1saUNidkhzUzVsdnYxb3k1am1DMlBWRmt5RWJhSnNJLWxOd2otSjVSZnF6VUZZeE5rb0JNNWpfX2lWcUhiVHNkMnBlR2JiY19EX2FGVlVBc1RPbTRTWnFB?oc=5",
@@ -4626,14 +4606,14 @@
       "date": "2026-08-20T00:00:02.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2V2FvTzBnZXNlNWlKT1FvaXcxZjBZRkJRTnQ5UDlsTlVYU2xydTJXV2dfZTJpRVMzUGgwYzlQaF9YeGlCTTVnaEMtWE1jQW95UlRwalMzcDJTc1NhaVdlN3dxaV9jUmh6eFZmNUthQzRnS003bWlUQw?oc=5",
-      "title": "「心臓がボロボロになる」…医師が絶対に食べないという食べ物とは？",
+      "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ieXB4NUhUYUthM3RqcWZQQlZBa1l6LS0yUGliVWh2cjl0RGVEZmprTFV6MHR4X25JNGhqMjhOck1oYkNrc1IxUktR?oc=5",
+      "title": "《何歳からでも骨は強くなる》かかと落とし、12分の日光浴、ひきわり納豆…整形外科専門医が教える「寝たきりを防ぐ骨強化メソッド」 (1/1)",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2V2FvTzBnZXNlNWlKT1FvaXcxZjBZRkJRTnQ5UDlsTlVYU2xydTJXV2dfZTJpRVMzUGgwYzlQaF9YeGlCTTVnaEMtWE1jQW95UlRwalMzcDJTc1NhaVdlN3dxaV9jUmh6eFZmNUthQzRnS003bWlUQw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ieXB4NUhUYUthM3RqcWZQQlZBa1l6LS0yUGliVWh2cjl0RGVEZmprTFV6MHR4X25JNGhqMjhOck1oYkNrc1IxUktR?oc=5",
       "image": "",
-      "source": "朝鮮日報",
+      "source": "介護ポストセブン",
       "category": "life",
-      "date": "2026-08-20T08:17:00.000Z"
+      "date": "2026-08-20T07:00:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFBFUU5QejFrRkttM2g5d1dUU0xUc2tmZGx0R29XZk5RVXF2RUlkbWhrZTN4dlA0c2hPbE5wWFhuenEya0RHTUd5LUpxcHJXTzk4WENxd0pucXV3bzhXemxwQ09yNjlxUlFNdzBEUnJySWRjbDhNSEtPeWlTQVVCYmQzeU5HckNXei1TYWNjN3MweDJrWmRqQk9kaU9ENU1uaDhv?oc=5",
@@ -4674,28 +4654,48 @@
       "source": "ｄメニューニュース",
       "category": "life",
       "date": "2026-08-20T09:30:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM0lqZnNXUHQzWG0tZmFiQlU3Qjk1TGtEMm1RQVdwaFVJU2FwNm1nRlI1YlpaME00ZldwTGQwRkc5SmJxbk1iVjhLb0RiNEw3YWJWdF9FSy1oWURPbDZPUEVxM0JzR0tWTFZ2bUpMZ0dDRElCSmE5d2NVMDhUQ01EN3ZCU3RsVXc?oc=5",
-      "title": "脳の健康には計算ドリルより阪神優勝？ 配偶者の発症でリスク上昇も…認知症予防に「心を動かす機会」が必要なワケ",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM0lqZnNXUHQzWG0tZmFiQlU3Qjk1TGtEMm1RQVdwaFVJU2FwNm1nRlI1YlpaME00ZldwTGQwRkc5SmJxbk1iVjhLb0RiNEw3YWJWdF9FSy1oWURPbDZPUEVxM0JzR0tWTFZ2bUpMZ0dDRElCSmE5d2NVMDhUQ01EN3ZCU3RsVXc?oc=5",
-      "image": "",
-      "source": "Yahoo!ファイナンス",
-      "category": "life",
-      "date": "2026-08-19T22:00:00.000Z"
     }
   ],
   "all": [
     {
-      "id": "https://www.4gamer.net/games/035/G103536/20260821059/",
-      "title": "犬をくっつけて大きくしていくローグライクデッキビルダー「ドッグパイル」，Switch2 / Switch / スマホ向けに配信開始",
-      "description": "StudioFollyとTootGamesは2026年8月20日，「ドッグパイル（Dogpile）」の配信をNintendoSwitch2/NintendoSwitch/iOS/Android向けに開始した。本作は，かわいい犬たちを合体させて，より大きな犬を作っていくローグライク",
-      "url": "https://www.4gamer.net/games/035/G103536/20260821059/",
+      "id": "https://www.4gamer.net/games/999/G999901/20260821065/",
+      "title": "PC版「みんな大好き塊魂アンコール」が1595円！ Amazonでバンダイナムコエンターテインメント作品のSteamキーコードセールがスタート",
+      "description": "バンダイナムコエンターテインメントは本日（2026年8月21日），Amazon.co.jpの「バンダイナムコエンターテインメントSteamキーコードストア」で，販売中のタイトルを対象とするセールを開始した。「みんな大好き塊魂アンコール+王様プチメモリースペシャルエディション」「パ",
+      "url": "https://www.4gamer.net/games/999/G999901/20260821065/",
       "image": "",
-      "date": "2026-08-21T16:28:04.111Z",
+      "date": "2026-08-21T17:01:43.419Z",
       "source": "4Gamer",
       "category": "entertainment"
+    },
+    {
+      "id": "https://www.youtube.com/watch?v=CStZcGLD9nw",
+      "title": "クールジャパン機構廃止へ アニメ・食・カルチャー日本の魅力を伝えるはずが…赤字は540億円に その原因は？【news23】｜TBS NEWS DIG",
+      "description": "日本のアニメや食文化などの海外展開を支援してきた「クールジャパン機構」について、経済産業省が廃止する方向で調整に入りました。膨れあがった赤字は、540億円にのぼっています。 ▼TBS NEWS DIG 公式サイト https://newsdig.tbs.co.jp/ ▼チャンネル",
+      "url": "https://www.youtube.com/watch?v=CStZcGLD9nw",
+      "image": "https://i4.ytimg.com/vi/CStZcGLD9nw/hqdefault.jpg",
+      "date": "2026-08-21T16:45:52.000Z",
+      "source": "TBS NEWS DIG（YouTube）",
+      "category": "domestic"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127985/",
+      "title": "阪神・佐藤輝明が30号、森下と史上初の同一球団同日リーグ最速到達",
+      "description": "ざっくり言うと 阪神・佐藤輝明が8月21日の横浜DeNA戦で30号本塁打を放った 8回に伊勢のフォークをすくい上げ右翼席へ運ぶ技ありの一発を決め 森下との同日30号到達は史上初の快挙で、アベック弾は通算18度目となった",
+      "url": "https://news.livedoor.com/article/detail/32127985/",
+      "image": "",
+      "date": "2026-08-21T16:15:00.000Z",
+      "source": "ライブドアスポーツ",
+      "category": "sports"
+    },
+    {
+      "id": "https://news.livedoor.com/article/detail/32127913/",
+      "title": "関東で天気が急変し局地的な大雨、さいたま市付近で1時間110ミリを観測",
+      "description": "関東では天気が急変し、局地的な大雨となっていて、千葉県では道路の冠水も起きています。また、さいたま市付近では1時間におよそ110ミリの猛烈な雨を観測し、記録的短時間大雨速報が発表されました。■東京23区や埼",
+      "url": "https://news.livedoor.com/article/detail/32127913/",
+      "image": "",
+      "date": "2026-08-21T16:04:01.000Z",
+      "source": "ライブドア国内",
+      "category": "domestic"
     },
     {
       "id": "https://www.youtube.com/watch?v=BK6zAry-y3w",
@@ -4706,36 +4706,6 @@
       "date": "2026-08-21T15:53:06.000Z",
       "source": "ANN テレ朝（YouTube）",
       "category": "domestic"
-    },
-    {
-      "id": "https://www.youtube.com/watch?v=cJ0wzEElAdQ",
-      "title": "来年度予算要求総額130兆円超へ 金利上昇で「国債費」は36兆円台に｜TBS NEWS DIG",
-      "description": "来年度予算案で、各省庁からの要求総額が初めて130兆円を超える見通しであることが分かりました。 高市政権が「責任ある積極財政元年」と位置づける来年度の予算案。各省庁は必要な予算を盛り込んだ「概算要求」を今月末に示しますが、その一般会計の総額が初めて130兆円を超える見通しであるこ",
-      "url": "https://www.youtube.com/watch?v=cJ0wzEElAdQ",
-      "image": "https://i4.ytimg.com/vi/cJ0wzEElAdQ/hqdefault.jpg",
-      "date": "2026-08-21T15:51:37.000Z",
-      "source": "TBS NEWS DIG（YouTube）",
-      "category": "domestic"
-    },
-    {
-      "id": "https://news.livedoor.com/article/detail/32127866/",
-      "title": "角田裕毅が緊急出場のスプリント予選でSQ2に進出、入賞圏内も視野に",
-      "description": "ざっくり言うと 角田裕毅がオランダGPのスプリント予選でSQ2に進出し12番手を獲得した レッドブルのハジャール欠場を受け緊急出場し、FP1のみで好走を見せた 22日のスプリントでは入賞も狙える位置につけ、ファンの期待が高まっている",
-      "url": "https://news.livedoor.com/article/detail/32127866/",
-      "image": "",
-      "date": "2026-08-21T15:40:03.000Z",
-      "source": "ライブドアスポーツ",
-      "category": "sports"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQMzNsamY3SEZvV3RjRnd2T1MzMjZSSGNWU2V1QXI4TWJ6dFB5WmFhdGd3Sk85aUFtT3pqeFZTczd3dW81OUZ1VkNDaHJSX3F3S3E0eUpzaDN3R3o2TnJMT19LY3AyQQ?oc=5",
-      "title": "『マスコレ2』版『メタルギア ソリッド4』では新セリフも？ハード固有演出に変更との報告",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBQMzNsamY3SEZvV3RjRnd2T1MzMjZSSGNWU2V1QXI4TWJ6dFB5WmFhdGd3Sk85aUFtT3pqeFZTczd3dW81OUZ1VkNDaHJSX3F3S3E0eUpzaDN3R3o2TnJMT19LY3AyQQ?oc=5",
-      "image": "",
-      "source": "Game*Spark",
-      "category": "domestic",
-      "date": "2026-08-21T15:30:04.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAwRjJXYzNhUkJSNjFnSEgwVkowVm5kemwyWmNEM1daSXJzRENFT3YzZi1EVE9CR1UyWjNGbEJJZzFMY1dlV2xoNjktMVV3enVKUEU2aUZJNHNpZXh5NG1n?oc=5",
@@ -4758,16 +4728,6 @@
       "date": "2026-08-21T15:28:18.000Z"
     },
     {
-      "id": "https://news.livedoor.com/article/detail/32127788/",
-      "title": "関東など各地で天気が急変し、局地的大雨による冠水被害が相次ぐ",
-      "description": "関東など各地で天気が急変し、局地的な大雨で冠水被害が相次ぎました。関東各地を襲った“危険な雨”。さいたま市付近では1時間におよそ110ミリの猛烈な雨を観測。記録的短時間大雨速報が発表されました。この影響で",
-      "url": "https://news.livedoor.com/article/detail/32127788/",
-      "image": "",
-      "date": "2026-08-21T15:15:01.000Z",
-      "source": "ライブドア国内",
-      "category": "domestic"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vRnRRcktuU2o5THUzMU1EaGs5MG9KQm1pRTNqajR0cGk2Vmljc1RXdHg2TW5OMEFHZExvSEVvZFpZT1hrSkRGZnFnMFQ2R01aLU1jeHJ4MHdyZDFvdm1mZXRKbVBpdw?oc=5",
       "title": "劇物入りマフィン食べさせ知人男性を殺害しようとした疑い、派遣社員の女逮捕…「殺すつもりはなかった」",
       "description": "",
@@ -4778,16 +4738,6 @@
       "date": "2026-08-21T15:13:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZDhhdXdjQ0UzN2x1T002SUVuaXpkVDcxYnA5X2xxMmh2YnRyVjZoV2d5VW9GN2pBRi13amlJVnRUcU9LVHMxMk9WQmVOUHVKUU1veDBR?oc=5",
-      "title": "【続報】バスの10人救急搬送、1人が重症、2人中等症 鳥栖IC付近で玉突き事故 21日夕 バスには樟南高校（鹿児島）女子剣道部 佐賀県鳥栖市 | 事件・事故 | 佐賀県のニュース",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZDhhdXdjQ0UzN2x1T002SUVuaXpkVDcxYnA5X2xxMmh2YnRyVjZoV2d5VW9GN2pBRi13amlJVnRUcU9LVHMxMk9WQmVOUHVKUU1veDBR?oc=5",
-      "image": "",
-      "source": "佐賀新聞",
-      "category": "domestic",
-      "date": "2026-08-21T15:05:06.000Z"
-    },
-    {
       "id": "https://news.livedoor.com/article/detail/32127757/",
       "title": "スピードワゴン小沢一敬が2年8か月ぶりにバラエティ復帰",
       "description": "ざっくり言うと スピードワゴン小沢一敬が2年8か月ぶりにバラエティへ復帰した ABEMAの『脳汁じゅ～す』に出演し「820連休した」とブランクを告白 矢口真理のアドバイスを受け「ボコボコにしてくれ」と狩野英孝らに訴えた",
@@ -4796,6 +4746,16 @@
       "date": "2026-08-21T15:00:00.000Z",
       "source": "ライブドアエンタメ",
       "category": "entertainment"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1UUs5MGFDMXN3Smx4YmwzLTdMVS1xMk80YUhnSmJ6cEw1b2MyeTRlQ1ZHX3MxblI0bWJVRm5PczUzNE5zdDBTVjFBQkEzVUtkbzNLUlAzOENqT1ZqY0M4?oc=5",
+      "title": "「一番くじ」5枚分で28枚めくりフィギュア詐取か",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA1UUs5MGFDMXN3Smx4YmwzLTdMVS1xMk80YUhnSmJ6cEw1b2MyeTRlQ1ZHX3MxblI0bWJVRm5PczUzNE5zdDBTVjFBQkEzVUtkbzNLUlAzOENqT1ZqY0M4?oc=5",
+      "image": "",
+      "source": "ライブドアニュース",
+      "category": "entertainment",
+      "date": "2026-08-21T14:55:15.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uaFZDa0xGdHBORTI0amRKcWg2MDFBY2Q0MTAzRjIzQzVXRHY0SWRmS0NNVU1lYXc1MGxXbTBVNk9GTkkxeUh5ZjIwd2U4Zzk4SG02U3ItbEpsNWpzMXJVWnNHWno2OTV3aVNjcUlodHXSAXhBVV95cUxPUkEzZGIxNmc2Q2hsbUc4RlpNSHJZUjJYZldNR0YzdE5jUVV3V3llQVhUT01YQTVDTFRXcWpWM3dNTDNYTVE1QXA1bDRMcW1DWmp3R0pIbTNKS3l1a1B6enZZRzlGMzBVYnl6anFlejRPVWk3TmxKaHk?oc=5",
@@ -4848,16 +4808,6 @@
       "category": "it"
     },
     {
-      "id": "https://news.livedoor.com/article/detail/32127518/",
-      "title": "「となりのトトロ」冒頭のオート三輪とすれ違うバスに「実在する」文字",
-      "description": "ざっくり言うと 映画『となりのトトロ』が21日に金曜ロードショーで放送された 冒頭バスのシーンに東京都東村山市実在の「八国山」の文字があるという 宮崎駿監督は舞台を意図的に特定しておらず、複数の実在地名が登場している",
-      "url": "https://news.livedoor.com/article/detail/32127518/",
-      "image": "",
-      "date": "2026-08-21T13:52:22.000Z",
-      "source": "ライブドアニュース",
-      "category": "domestic"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaHZtOHhoWlZJaDVZcWpnN1pPcC1JQ2Q0dVRCVnV1QzczaWFBai1sRzdsQmpWQzlKZXRXR3FUS0d4Yk9aQ1VmZlN1elJ2dFdocVpPOHNFb2tiS1EtRktISmU3UGRRck1SWjJXRzZyYmZFVHZDdDI1N0xVdzVZWUk3cUxIYzVWTWJmbkZZM014eVFmMGhsWHc?oc=5",
       "title": "阪神・ルーカス「『なにを落ち込んでいるの』と怒られたこともあった」尻をたたくため？再来日した妻ブルックさんに届けた来日初勝利",
       "description": "",
@@ -4898,16 +4848,6 @@
       "date": "2026-08-21T12:39:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUJYT0dUV2d6dnhXVVJKVUpqSUhyMUxSSGt4RmhQb1Q0ODlNS3JGVDNVV3g4QS03M21GTlhhOGNXVFYwZF9IeHA2bU1YaTZMOXVKZ29XNXgwVnA0X2cwMmx2LTRzck5DZGVnM0Q0aXQzS3RlenY1M2F6dDRtYzVlaXh3Y0N4cVZDbUQzTXoxSklsdEJxdXN6MHdONkQ0ZEVtTUdVSTJxRTNQQW5rYmd0bEVibDU?oc=5",
-      "title": "F1メカ解説｜スプリント開催のオランダGP、半数のチームがアップグレード投入。アストンマーティンはフロントウイングとディフューザー改良 - motorsport.com 日本版｜モータースポーツ情報サイト",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWUJYT0dUV2d6dnhXVVJKVUpqSUhyMUxSSGt4RmhQb1Q0ODlNS3JGVDNVV3g4QS03M21GTlhhOGNXVFYwZF9IeHA2bU1YaTZMOXVKZ29XNXgwVnA0X2cwMmx2LTRzck5DZGVnM0Q0aXQzS3RlenY1M2F6dDRtYzVlaXh3Y0N4cVZDbUQzTXoxSklsdEJxdXN6MHdONkQ0ZEVtTUdVSTJxRTNQQW5rYmd0bEVibDU?oc=5",
-      "image": "",
-      "source": "motorsport.com 日本版｜モータースポーツ情報サイト",
-      "category": "sports",
-      "date": "2026-08-21T12:35:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15bFZzRXVKck5DbzJmclJDaXdiX3Z6WmhWRzJqM0c0dDA2S2xTUTVVcXM2eEkxd3RVM1BYTk8wbE44dG5EdEMwMy1KcWZibm8tcUxER2dnQ19jN3ZxOG5mRGgyTHVjUFhU?oc=5",
       "title": "【監督・選手コメント】J1-3[A] ファジアーノ岡山戦に向けて ～城福監督、山田、平川、鈴木～（26.8.21）",
       "description": "",
@@ -4944,8 +4884,18 @@
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93UWZiRF9sSjhCNzdabWNkLXZHdjBFN0p3REFGUjYtQWhwX2NXZmx6SjFDckV5Umx5VjdQcHg0S2dQT083elluaTF6aw?oc=5",
       "image": "",
       "source": "47NEWS",
-      "category": "world",
+      "category": "domestic",
       "date": "2026-08-21T12:09:33.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53MExaQmJNSTVndnF2SmpQcVp3LUM3VWZpNVBJa2hHbGtfZF9nSm1OemJvN0tyOHZmUUlKMF9KeDBvRzRqVzF2cEdEV2tTaWdGYzNDdVY0YVJ3ajE5X09ieThyU1k0akRGaUd3VEJONXc1TUhOV1Zv?oc=5",
+      "title": "米国債の長期金利抑制策、失敗ならリスク資産に売り圧力－BofA",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE53MExaQmJNSTVndnF2SmpQcVp3LUM3VWZpNVBJa2hHbGtfZF9nSm1OemJvN0tyOHZmUUlKMF9KeDBvRzRqVzF2cEdEV2tTaWdGYzNDdVY0YVJ3ajE5X09ieThyU1k0akRGaUd3VEJONXc1TUhOV1Zv?oc=5",
+      "image": "",
+      "source": "Bloomberg.com",
+      "category": "domestic",
+      "date": "2026-08-21T12:09:14.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85amFsdnRVZjJjbzRtRmgxbkRtd3I5clkzdWh2cVFRb0hoWDBUVzdCWjZSb2ZLZ0VWei1HQU1TeG94MklsUmVMeGo2SDI3bkc1ZlI2Zmlrc3dHcGs?oc=5",
@@ -4974,7 +4924,7 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xTWxrNUtGdENRQmtkdjJuelY5czJjLVhmdkhDZFpNallVdVhDOFA2N2t5UDE3Y21VLUdxdTVqMlpEN0h6aUVkUTdSV3FLamlGUTByWDZPMWlCZDlOXzVjQUtuT3dsTFNUSUNWSmp3?oc=5",
       "image": "",
       "source": "gekisaka.jp",
-      "category": "sports",
+      "category": "domestic",
       "date": "2026-08-21T12:04:00.000Z"
     },
     {
@@ -5128,6 +5078,16 @@
       "date": "2026-08-21T10:36:00.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwRl9wbjJPbGF6MkZ1SU1XWTJtcjNUQ3p4NVRZSjRENExvZjNKT3dwcHJsUmRoOWx1d042THAxMEdoRGFvb0RwaHdxMmRac2lxVUJ2NENQZWhtMmFpSXc?oc=5",
+      "title": "バドミントン世界選手権2026 山口茜がメダル確定、カナダ選手をストレートで下す 女子シングルス",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAwRl9wbjJPbGF6MkZ1SU1XWTJtcjNUQ3p4NVRZSjRENExvZjNKT3dwcHJsUmRoOWx1d042THAxMEdoRGFvb0RwaHdxMmRac2lxVUJ2NENQZWhtMmFpSXc?oc=5",
+      "image": "",
+      "source": "福井新聞社",
+      "category": "sports",
+      "date": "2026-08-21T10:35:00.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9iS3ZVMGFnYzVpakQ0aVhWZmV4dG1HWVlPYXplbEhnNTFRb3RSakwwdG9nMkZDN2tZUkd1akhfaE5sejBqNGhhdUZORWRPSFB6VTlUZGtPTnFrM1Z4dVhlMVh0MGN2TlZyc3N3Sw?oc=5",
       "title": "神戸市灘区でレッカー車が単独事故 信号柱に衝突、積み荷散乱 一時交通規制、六甲山から続く下り坂",
       "description": "",
@@ -5136,6 +5096,16 @@
       "source": "神戸新聞",
       "category": "domestic",
       "date": "2026-08-21T10:31:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZDhhdXdjQ0UzN2x1T002SUVuaXpkVDcxYnA5X2xxMmh2YnRyVjZoV2d5VW9GN2pBRi13amlJVnRUcU9LVHMxMk9WQmVOUHVKUU1veDBR?oc=5",
+      "title": "【続報】バスの10人救急搬送、1人が重症、2人中等症 鳥栖IC付近で玉突き事故 21日夕 バスには樟南高校（鹿児島）女子剣道部 佐賀県鳥栖市 | 事件・事故 | 佐賀県のニュース",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZDhhdXdjQ0UzN2x1T002SUVuaXpkVDcxYnA5X2xxMmh2YnRyVjZoV2d5VW9GN2pBRi13amlJVnRUcU9LVHMxMk9WQmVOUHVKUU1veDBR?oc=5",
+      "image": "",
+      "source": "佐賀新聞",
+      "category": "domestic",
+      "date": "2026-08-21T10:29:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1MY1dhUG1kWGhFdVZkeFd4UWR6eVRSNmtnUWI0VkdGYW5hbng1aTYtR3hmVVVyaHJBWkFCblB2Zk9MbmtibHU4?oc=5",
@@ -5238,16 +5208,6 @@
       "date": "2026-08-21T09:38:32.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCeXpHelhQN2JDWWNmdERuYlc0NEEyT0xITU0xb1VTaG1ITTFReE43RjY1eUNiZVhWWDhIVDNTVHNXc3F4bko4MzBRc08wYnpzVFUyNVo3Ql9GZDdFeEE?oc=5",
-      "title": "台風19号発生へ…気象庁の予想進路、米軍・ヨーロッパの見方 日本への影響は",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCeXpHelhQN2JDWWNmdERuYlc0NEEyT0xITU0xb1VTaG1ITTFReE43RjY1eUNiZVhWWDhIVDNTVHNXc3F4bko4MzBRc08wYnpzVFUyNVo3Ql9GZDdFeEE?oc=5",
-      "image": "",
-      "source": "福井新聞社",
-      "category": "domestic",
-      "date": "2026-08-21T09:32:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSV1pYcXVJd3VvRF83SVV6OWlaZDkyNTZmY29NYTdfMDFxSUExblFXeU85bFRmVjJMYnMwSURrSXFINXRnSzdaMjE2anNWVnhWSFBSZFp2bndyN2VsTktSSk5QXzlzZw?oc=5",
       "title": "「Amazon スマイルセール」、8月28日9時から開催 ポイントアップキャンペーンのエントリー受付もスタート",
       "description": "",
@@ -5286,16 +5246,6 @@
       "source": "FNNプライムオンライン",
       "category": "world",
       "date": "2026-08-21T09:18:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4Z1BKZVcwV0tNdVE1alQzZzJuTTRNVVhrVlRsa1A0ZzJwamJQbzJwNnotdnpOaV9xMWl2TjYzT01HSm1aeENNQlpEXzlVVmNNNHRHRnM5eENJSHdOclFVeG1fLUtvYkRwVkFvNU5iS2VwUdIBd0FVX3lxTE5fQ1ByQUtDcWQ4Uzk4NEVnejlsSTNNVU02b2hEWDF5RF8waWUyNExGNUhPTmFOSDNQSnRLbGQ4VzJxd3NDaUdsYkhINkRvbDlLeUtsTTdDME5WNjNjOHhFR0JlVGVDSmdjR1Rtd3F4SURsU21mbndN?oc=5",
-      "title": "今後ダブル台風発生へ 台風18号は24日以降に沖縄直撃へ 警報級大雨や暴風の恐れ(気象予報士 田中 正史 2026年08月21日)",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4Z1BKZVcwV0tNdVE1alQzZzJuTTRNVVhrVlRsa1A0ZzJwamJQbzJwNnotdnpOaV9xMWl2TjYzT01HSm1aeENNQlpEXzlVVmNNNHRHRnM5eENJSHdOclFVeG1fLUtvYkRwVkFvNU5iS2VwUdIBd0FVX3lxTE5fQ1ByQUtDcWQ4Uzk4NEVnejlsSTNNVU02b2hEWDF5RF8waWUyNExGNUhPTmFOSDNQSnRLbGQ4VzJxd3NDaUdsYkhINkRvbDlLeUtsTTdDME5WNjNjOHhFR0JlVGVDSmdjR1Rtd3F4SURsU21mbndN?oc=5",
-      "image": "",
-      "source": "tenki.jp",
-      "category": "domestic",
-      "date": "2026-08-21T09:10:02.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsdUJCQml0SWJFQmlNSmJfdXRtWGZ0dDNZUlFxSkVPQTBBdHhIQWszRFNqZ29ER0p2MzhwZ1JJQzZVaEtWZVZiWVZ2OWJkVW5zbVluUldvUUFoOVhVaVI00gFkQVVfeXFMTmNIYWFDWnZ5Nnc3dVEzcTljdEsyakRDUHlYUUlVVEJSM3JGMXk5NFhKLV9hUm9BVUtEYk4yR0R6VEkzZzNiaGJSM180WjdzVmozQVo5ZF8tQXVuRUF4VThUZnpibg?oc=5",
@@ -5368,16 +5318,6 @@
       "date": "2026-08-21T09:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVjF1cDA0WDg5OUwtSEJUbW9qbWdKV0pTdTh5Z053aGgzZUR1VjJtZ3pjVzVlamM4UGhsTzdIbnJEQ0NGLTdGUG5LU25YZUhMNTR2RVhfZURRRFVoLWVUNWwxUHZ1c0h5bEhHZDBXRjNFS3Etb2tGVEduVlN5ZW4wU1JYajhKSEtuckt5R0pBYlJuSjYxZ0Uzb2dGMWhhNWZxNm13VEJSd2pIRzRjc1N5Zy1lUHZyS2Vna2ViX0dMTGwybFBlRG1GbUtWYkFEUS1HZThiZFlGYlBCcUkwZUJyT1Z3?oc=5",
-      "title": "米海軍の中東海域における兵站が破綻、対イラン作戦参加中の艦艇補給に失敗",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVjF1cDA0WDg5OUwtSEJUbW9qbWdKV0pTdTh5Z053aGgzZUR1VjJtZ3pjVzVlamM4UGhsTzdIbnJEQ0NGLTdGUG5LU25YZUhMNTR2RVhfZURRRFVoLWVUNWwxUHZ1c0h5bEhHZDBXRjNFS3Etb2tGVEduVlN5ZW4wU1JYajhKSEtuckt5R0pBYlJuSjYxZ0Uzb2dGMWhhNWZxNm13VEJSd2pIRzRjc1N5Zy1lUHZyS2Vna2ViX0dMTGwybFBlRG1GbUtWYkFEUS1HZThiZFlGYlBCcUkwZUJyT1Z3?oc=5",
-      "image": "",
-      "source": "航空万能論GF",
-      "category": "domestic",
-      "date": "2026-08-21T08:52:13.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IWXduUUR2YWtWUXRpVlEwSFpPdElxbU9TTkZFTkhURDAwMEZzNkNnUzRsblNTYjh2b0Q3aV96N29vZFNwQTdiS0xFSHNOajNCNTBlY19WaUtFUDZKYmJnNw?oc=5",
       "title": "来週の株式相場に向けて＝「エヌビディア」と「ジャクソンホール」に視線集中",
       "description": "",
@@ -5386,6 +5326,16 @@
       "source": "株探",
       "category": "business",
       "date": "2026-08-21T08:47:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZaU1UUnhadVBsaVYtRU85VXFvWUpIOWZXM3lGcXBpWU41a1pwdzY5WGczN0J5TTZmYmJZWDl2dThNTlRMaFY0TDM5LU90bVNteDFDeA?oc=5",
+      "title": "『S.T.A.L.K.E.R. 2』大型拡張コンテンツ「Cost of Hope」配信開始！ゾーンの様子を描いた最新トレーラーも公開",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZaU1UUnhadVBsaVYtRU85VXFvWUpIOWZXM3lGcXBpWU41a1pwdzY5WGczN0J5TTZmYmJZWDl2dThNTlRMaFY0TDM5LU90bVNteDFDeA?oc=5",
+      "image": "",
+      "source": "ASCII.jp",
+      "category": "domestic",
+      "date": "2026-08-21T08:45:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QNTd2bTVWX2t4RzlXRnMzRXFIQXdFMVJmSEZpSnRLN3JYLTZId3QyQkMyMTRybTF2REJZdERDVkNyU2hxci13Tll6SUZDMkdFNkp4a2JJb1V1YXV1Y0RB?oc=5",
@@ -5418,16 +5368,6 @@
       "date": "2026-08-21T08:30:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxcXRFWXRqaGRybUhpakZxdUZPdEdBVnlKdHl0Tk5zX0ltVmpDTVRBN1Zqa3VQckp3bGxZeHQyYndFdDhtUHA3WkVjcW5sQ2ItNEsxQmgxdEN5UUJQT2hHOGlyVQ?oc=5",
-      "title": "Update 2.0で進化した「S.T.A.L.K.E.R. 2」の30％オフセールは26日まで！ メタ2Dアクション「ICEY」は413円！「今週のすべり込みセール情報」",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAxcXRFWXRqaGRybUhpakZxdUZPdEdBVnlKdHl0Tk5zX0ltVmpDTVRBN1Zqa3VQckp3bGxZeHQyYndFdDhtUHA3WkVjcW5sQ2ItNEsxQmgxdEN5UUJQT2hHOGlyVQ?oc=5",
-      "image": "",
-      "source": "4Gamer.net",
-      "category": "domestic",
-      "date": "2026-08-21T08:29:57.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNUtpS3JSUFJKMVpvZnBCMC1TdTZfQUphdERiTVZVWWx4Ynk3Mmx6a05Pcnl1X1JKTXpHdkppTkE0Z2dhX0VxOWlyblg4dWtBdlhlSWFzdGJUUENqczdkSEdQRTJLTklYd055QU9hNng4eXpCRHRJS09vTjZfTGExZEwtbTg5eW1sU3I1dkpxR1BYMkxxUkZVMHNhVFdCdV9fbndfNmI5UVhOX3MxT2xjRVFhcWZnb19xSmo5QWt5dFdsQ3pFMlZYZmtqUVI3dklSel81MWdIQkoyd1FGczZfT29HMEpNbDhKNFIxM2RSUGFSQ0l3WkRv?oc=5",
       "title": "【動画】「この光景がどれだけ凄いことか」 WNBA・山本麻衣の“愛されぶり”に反響 「なんだこの微笑ましさは」",
       "description": "",
@@ -5436,16 +5376,6 @@
       "source": "sportingnews.com",
       "category": "sports",
       "date": "2026-08-21T08:29:40.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EZ3hDa3lPWkxaNWZnalliWjBOQWpqTWRoaWpPYzk4cDlBb2lZOXlneFhVN0M1LW5Da1gwZU95VVllQTNKaTQ1dXJNelBqZjYtb0w4aFlpY3pHTE5ydG8zNVlDbE51alJ4MGhuYUIteFl1LXdNUHhN?oc=5",
-      "title": "サムスン電子、26年の株主還元額は最大110兆ウォンと予想",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9EZ3hDa3lPWkxaNWZnalliWjBOQWpqTWRoaWpPYzk4cDlBb2lZOXlneFhVN0M1LW5Da1gwZU95VVllQTNKaTQ1dXJNelBqZjYtb0w4aFlpY3pHTE5ydG8zNVlDbE51alJ4MGhuYUIteFl1LXdNUHhN?oc=5",
-      "image": "",
-      "source": "Bloomberg.com",
-      "category": "business",
-      "date": "2026-08-21T08:27:30.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xbW01VGJWX2t6OGVuYjMwb3ktUDAtUi1ISXJpSnhHNi0xeUota0twSVJGTnRMSE14VjNlMG4xY2FsYXhhQU5PMHZnM1JpZHp4Y3NVcQ?oc=5",
@@ -5458,6 +5388,16 @@
       "date": "2026-08-21T08:21:37.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15N2thTk82UGRfWmdlUFhhQWR4LVZqVEdYbC13WHNIZlZnN1dRcEF5WE9lNVRTczRHUGItbkJ5WllEZWFmUGJVZmJXYXpLbjZneklLeTJKSXh1UVdvaHRLd0k0bw?oc=5",
+      "title": "「ポケモンカードゲーム」30周年記念商品の追加抽選販売を実施決定。8月28日12：00より抽選応募受付を開始",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15N2thTk82UGRfWmdlUFhhQWR4LVZqVEdYbC13WHNIZlZnN1dRcEF5WE9lNVRTczRHUGItbkJ5WllEZWFmUGJVZmJXYXpLbjZneklLeTJKSXh1UVdvaHRLd0k0bw?oc=5",
+      "image": "",
+      "source": "4Gamer.net",
+      "category": "entertainment",
+      "date": "2026-08-21T08:20:19.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4SkIteWdHN1o5eU83Qm9nRWJlX0g0R0JfU2dfbmIwZVpBM3NpZVBYMFNuOXhRTUFOVVI1dGVHSi1idjJrWWUzUUF6Z0prZFRiQnVBcDdLMEE?oc=5",
       "title": "【速報】近畿地方、あす22日午後から警報級大雨の可能性 京阪神で急な激しい雷雨恐れ",
       "description": "",
@@ -5468,16 +5408,6 @@
       "date": "2026-08-21T08:20:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2X1dHdmJucVRSX0FGSWZTNmhfRmRZUFBVSlZ5SmZETWJZeFRjSVBEc19YMzBSZTZBaDBqeHU4VER2UHJsLVR6VURQTFBpSTgxQXU5T0tJQQ?oc=5",
-      "title": "【速報】車内で頭部から血を流した変死体が見つかる 20代から30代の外国人男性か 沖縄・名護市",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2X1dHdmJucVRSX0FGSWZTNmhfRmRZUFBVSlZ5SmZETWJZeFRjSVBEc19YMzBSZTZBaDBqeHU4VER2UHJsLVR6VURQTFBpSTgxQXU5T0tJQQ?oc=5",
-      "image": "",
-      "source": "TBS NEWS DIG",
-      "category": "domestic",
-      "date": "2026-08-21T08:16:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFByNTRsOFRNa2JxRVpHNHNDV2h1QV9Fa2FBNnNUWmdJOThKY0tVZFgyeTNvREs3OGFLN2RjRE1OUkNpUWplbF96blYwWU9CT1F5Zks4OVE1RDRkQlJqZ3pfbFF3?oc=5",
       "title": "【先ヨミ・デジタル】Mrs. GREEN APPLE「Brand New」引き続きストリーミング・ソング首位走行中 【エビライ】影響で「Yes! 東京」好調続く／TXT新曲登場なるか",
       "description": "",
@@ -5486,16 +5416,6 @@
       "source": "Billboard JAPAN",
       "category": "entertainment",
       "date": "2026-08-21T08:10:00.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SRFhMSlV4UUNidG5FS05jZGx6WE04cXFUWEhHNkljbWUxUFk4NmFkc1dVN3hUbVZha2ItREUtUGtrRlR3S2h0VDFRZEt5WUU4NzQ2Uk1pSkZvLTdiOWRaN055Z0JUNS1WZmFIbQ?oc=5",
-      "title": "エイベックス松浦会長「AIで仕事が楽になると思ってたけど、真逆」 note記事作成の“苦労”明かす（1/2 ページ）",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SRFhMSlV4UUNidG5FS05jZGx6WE04cXFUWEhHNkljbWUxUFk4NmFkc1dVN3hUbVZha2ItREUtUGtrRlR3S2h0VDFRZEt5WUU4NzQ2Uk1pSkZvLTdiOWRaN055Z0JUNS1WZmFIbQ?oc=5",
-      "image": "",
-      "source": "ITmedia",
-      "category": "business",
-      "date": "2026-08-21T08:09:20.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE41QnFnZ0pKWmpFOFZXSUFhUmRPWVhYbUU1SUNJSHpLbDdDby1CZWw5M3p4TlJxUGpKM3U5Z1lSaTdIVVg5N2JZUVFHeDlmWHAzaTk5NUxydmo?oc=5",
@@ -5516,16 +5436,6 @@
       "source": "PR TIMES",
       "category": "life",
       "date": "2026-08-21T07:53:08.000Z"
-    },
-    {
-      "id": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMl9QR3hSZFo2OU1JVUx1VU42MHZXVjk1XzdqN2RPclN2M0FnMTlBLUxKZEN6YmR6Q2ZVODhPOXc2QkpobWpwTGhnVTN3eFBmc2xnRVl2b0t1N3lOUHZzbmd1bXBPSkJTSDJXQ3ZwQktPME5icVhRQ1F2cnByNlJ3Q19jSjA?oc=5",
-      "title": "「クリーニング店」の近くに住むと発症リスクが高まる病気とは？",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMl9QR3hSZFo2OU1JVUx1VU42MHZXVjk1XzdqN2RPclN2M0FnMTlBLUxKZEN6YmR6Q2ZVODhPOXc2QkpobWpwTGhnVTN3eFBmc2xnRVl2b0t1N3lOUHZzbmd1bXBPSkJTSDJXQ3ZwQktPME5icVhRQ1F2cnByNlJ3Q19jSjA?oc=5",
-      "image": "",
-      "source": "朝鮮日報",
-      "category": "life",
-      "date": "2026-08-21T07:42:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5aNTJDc3hybXhYbjU5SnRvOUU0cWthQTdCWXl6R3dObHlZQi1kdFppbEhNTXhieTJ2Z3I0eHNuNjRGYjlSNm45OEJLOEFURXZOZjZ2RNIBV0FVX3lxTE03bmNDcDdPZFVCNVFxdGhtX2paWEhpU0J1c3pPWEtCTnVqQU5iUjFubzdtY2hOaE9JUmtMSzBvQ0FlYTBiWmR3UWtDTExiNmp4cVViZF83UQ?oc=5",
@@ -5566,6 +5476,26 @@
       "source": "糖尿病リソースガイド",
       "category": "life",
       "date": "2026-08-21T07:16:52.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5JOWl5S294QXJmQmRGbkJWVTQtX2dwTExITnBPX0ZGMHltMk9qTFl4VFRBckxLeV9sRFBiMjRVVGdRTjVqeVd5R1hR?oc=5",
+      "title": "《脳の老化をストップ》ど忘れはすぐ検索、写真はメモ代わりに 医師が指南する「認知症予防するスマホ活用術」 (1/1)",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5JOWl5S294QXJmQmRGbkJWVTQtX2dwTExITnBPX0ZGMHltMk9qTFl4VFRBckxLeV9sRFBiMjRVVGdRTjVqeVd5R1hR?oc=5",
+      "image": "",
+      "source": "介護ポストセブン",
+      "category": "life",
+      "date": "2026-08-21T07:01:36.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TZi0tdUljMl9zVnA2V0dOcXVNcnhrdVRVY3VlQ2Njbzh5UWdwUG13MVM3S1dUem1kd0RHWmQ4NlYybG1ITHRjNC1ZTnJ5ZEFrU3BwZkF4X0NOSG1aZWh2c1E3WjF0ajR0ejlOYg?oc=5",
+      "title": "中国AI「Kimi」が日本進出か 有料プランのプレゼントキャンペーンも 「はじめまして、日本」（1/2 ページ）",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1TZi0tdUljMl9zVnA2V0dOcXVNcnhrdVRVY3VlQ2Njbzh5UWdwUG13MVM3S1dUem1kd0RHWmQ4NlYybG1ITHRjNC1ZTnJ5ZEFrU3BwZkF4X0NOSG1aZWh2c1E3WjF0ajR0ejlOYg?oc=5",
+      "image": "",
+      "source": "ITmedia",
+      "category": "business",
+      "date": "2026-08-21T06:54:13.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41SFJ1b2d1blRUNGZiRlpmMU56R1lTbnJnaEtTRzlfN1VxRV9Za3hnZjlGaVBIdmVTWUtQaFROQkpsS3dHR3hGMG9lRG1WVDVXY0NFbXZWczFJNjll?oc=5",
@@ -5628,16 +5558,6 @@
       "date": "2026-08-21T05:54:04.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tWVRhVHJqeXdZMVFGXzU5bExyaTEyS250UjRGQjYtWmFQSGRZQS03Zmc5YXk2czlUaHRCdmRtd2NyYkJkVWxrUGNfYjl6SFE?oc=5",
-      "title": "火星衛星探査１０月２０日出発／ＭＭＸ、Ｈ３ロケットで",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tWVRhVHJqeXdZMVFGXzU5bExyaTEyS250UjRGQjYtWmFQSGRZQS03Zmc5YXk2czlUaHRCdmRtd2NyYkJkVWxrUGNfYjl6SFE?oc=5",
-      "image": "",
-      "source": "AGARA紀伊民報",
-      "category": "domestic",
-      "date": "2026-08-21T05:30:00.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0RERGdzBLeTFLN1dnNTJRV0hFOWZHN1NUT0VfeVFzbjlua3ZZNWRTN2V5YnhSalR0TnBmanJrU1J0d0NHU21UeTRfY1ZrRkhYaldxa0RmN08?oc=5",
       "title": "【試写会】実写映画『ルックバック』 藤本タツキによる青春漫画を『万引き家族』『怪物』の是枝裕和監督が映画化",
       "description": "",
@@ -5676,6 +5596,16 @@
       "source": "中日新聞Web",
       "category": "domestic",
       "date": "2026-08-21T04:51:21.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xZjRpVVMtMjdpR3l5b1F6anNSYmtuT2x2S1RRMnBib3liRmVhTHZCT2JENHE2VXJQY1FKenQ2ODQ4S3h6eXh0NQ?oc=5",
+      "title": "JAXA、火星衛星探査機を10月20日打上げ",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xZjRpVVMtMjdpR3l5b1F6anNSYmtuT2x2S1RRMnBib3liRmVhTHZCT2JENHE2VXJQY1FKenQ2ODQ4S3h6eXh0NQ?oc=5",
+      "image": "",
+      "source": "航空新聞社",
+      "category": "domestic",
+      "date": "2026-08-21T04:44:06.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iNGFEampPMG4tdlZyZG5IR0RRQXl1TWJGXzc3aDlqcHpSZ1NVdW0xbFRvOENLUmllREd4TXhMa0h4a0RLU053SHA1VGFFcU5qbk1TLTdhV1VOVTdCWFBMMDFR?oc=5",
@@ -5788,16 +5718,6 @@
       "date": "2026-08-21T02:33:38.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fMXE4Q2tra1VjQmJrODdWajQydnBIRDdfMDBBTXdtZ0thc1Z3ZjFQZUh2WTZxS0FFR0JVQWdiNmtaN09Gc2FlYlRlSC1xejJocFFOcWpnd19vc2RxQnFoNFlhc1ZSUQ?oc=5",
-      "title": "8/21(金)「ちば興銀プレゼンツマリーンズスペシャルゲーム2026」グッズ第2弾受注販売開始",
-      "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fMXE4Q2tra1VjQmJrODdWajQydnBIRDdfMDBBTXdtZ0thc1Z3ZjFQZUh2WTZxS0FFR0JVQWdiNmtaN09Gc2FlYlRlSC1xejJocFFOcWpnd19vc2RxQnFoNFlhc1ZSUQ?oc=5",
-      "image": "",
-      "source": "千葉ロッテマリーンズ",
-      "category": "sports",
-      "date": "2026-08-21T02:20:04.000Z"
-    },
-    {
       "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FTGtiQlI3Zk9qeXh4dEVPMTJJMkFrNXNYTlUwSTg4OERYZVE3cXR6N2NJdVp0MERrUHk3QlpGMDRRMU5aR25Bb0ZMVW5pY2RQQTZLbzJJVGlmaGdFR3M5NVBvR05ZaWRHczkxWGszakw?oc=5",
       "title": "長野県北部で大雨 大糸線と飯山線が運転見合わせ",
       "description": "",
@@ -5808,14 +5728,14 @@
       "date": "2026-08-21T01:18:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNNXJ4MUxibVJkaURPbVlQZlN1M20wSDlEVUpVeGZWTGdzejFrdUtpNXpJNUI2SF9leElfUHdhaThVQS03SXBGREFQSm5FWDB0NWc?oc=5",
-      "title": "「NARUTO-ナルト-」ハリウッド実写化、はたけカカシ役でチャールズ・メルトンが最終交渉中",
+      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wMmxyNlM5TXBQQWV5cjJ2WmRlX3JvNlVjMlgwamhzRVVaVkhKS3V3R25YaGRELU5zeDZ0dkpNejhRRmxHaFpHb2Z2WXFSRFFmbVhiNlFuSE1faXdqWnlXNHpiQWFqdw?oc=5",
+      "title": "8/21(金)マリーンズ夏祭2026グッズ、全選手展開ロゴデザインネーム＆ナンバー半袖・長袖Tシャツ再受注販売開始",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBNNXJ4MUxibVJkaURPbVlQZlN1M20wSDlEVUpVeGZWTGdzejFrdUtpNXpJNUI2SF9leElfUHdhaThVQS03SXBGREFQSm5FWDB0NWc?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wMmxyNlM5TXBQQWV5cjJ2WmRlX3JvNlVjMlgwamhzRVVaVkhKS3V3R25YaGRELU5zeDZ0dkpNejhRRmxHaFpHb2Z2WXFSRFFmbVhiNlFuSE1faXdqWnlXNHpiQWFqdw?oc=5",
       "image": "",
-      "source": "シネマトゥデイ",
-      "category": "entertainment",
-      "date": "2026-08-21T01:14:11.000Z"
+      "source": "千葉ロッテマリーンズ",
+      "category": "sports",
+      "date": "2026-08-21T01:04:25.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBIbFhzQy1XaWc4QWZhU18wb21fN3dzTnQybEpXQlJtZVV3d3FnNHRuanFrR1A1Zmk5M1B1ZHNBZng0Zjd4azBpYmxNTUJlYUU1QWNsR09BZThMVFRDZjdhX2M2a9IBc0FVX3lxTE5NMGVyZTFoZ0RiTTNBVmpYYXBQNEFycGh4T3RaVkZjbjRGbFV6QU85ZmN2NXIwQmRtRENZN2xaNFd6aTZGR1dUT3JVUnhwUnFlN09pU2xZbHBncjdyTlRVLVpteHlFZDR1akl3aDlSRjZNZzg?oc=5",
@@ -5854,18 +5774,18 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45LVlWVFdCa3N0TW1oTWF0dENtV2tNWVNRX0x2WlgtX2RvYU9vXzd2UkROVE80azlyNFNZZXRjSV9nalAtbnNxc2dPZEF1VEh2UXVPWTRuMXVMNjloc2FRUDZUdE4wZw?oc=5",
       "image": "",
       "source": "Impress Watch",
-      "category": "business",
+      "category": "science",
       "date": "2026-08-21T00:00:00.000Z"
     },
     {
-      "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWalQyakg4d2dNNC16Q2Q3czFBSEJodnA1RDF2UjY3NUd4dVJWeHAyclBCd0hXMkc1V2kzUnR1WVY1SzBiOW9GVk85N29lVVhQ?oc=5",
-      "title": "「工藤静香かと思ったよ」木梨憲武、豪華集合ショット公開 10年ぶり再会の人気タレントに「おきれいになられて」「誰だか分からなかった」",
+      "id": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoTjBuTlc0WjVjS3ZzYXV3M1RZcmlySzN0WFh5Y0ZMRmdKLWptSmdXN1ZuLWpRVzZ2bzZXS21tN0picFRzcTRfb2REczY0VjZRdEE?oc=5",
+      "title": "朝ドラ「風、薫る」直美（上坂樹里）と吾郎（甲斐翔真）が転機を迎える 第22週あらすじ",
       "description": "",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBWalQyakg4d2dNNC16Q2Q3czFBSEJodnA1RDF2UjY3NUd4dVJWeHAyclBCd0hXMkc1V2kzUnR1WVY1SzBiOW9GVk85N29lVVhQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBoTjBuTlc0WjVjS3ZzYXV3M1RZcmlySzN0WFh5Y0ZMRmdKLWptSmdXN1ZuLWpRVzZ2bzZXS21tN0picFRzcTRfb2REczY0VjZRdEE?oc=5",
       "image": "",
-      "source": "まいどなニュース",
+      "source": "シネマトゥデイ",
       "category": "entertainment",
-      "date": "2026-08-20T22:50:00.000Z"
+      "date": "2026-08-20T23:15:00.000Z"
     },
     {
       "id": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBfSjV6QWNVSXdQanBUajVYakowY2NQRll0dkpBTFZlRUQxV3lWVnQ2eTFuRmphU3VVeGZB?oc=5",
@@ -5878,6 +5798,26 @@
       "date": "2026-08-20T22:33:18.000Z"
     },
     {
+      "id": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GWG5zOFpDbUhYb2NhTTg0UU1aem9VRDhjVFJ3VXJuLTVLS1BUc0ZselkwcTFYSHgxTVJFOHZjT3ZwNkFzeksyWTBuN21paE4zcW5JWVhXNTFVOGR4SjI2bDFsN055Zw?oc=5",
+      "title": "武器を収集しキャラクターを強化。砂漠の惑星で戦闘ロボットや巨大戦闘プラットフォームと戦う協力型ローグライトFPS『Ironsand』Steamにてリリース",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1GWG5zOFpDbUhYb2NhTTg0UU1aem9VRDhjVFJ3VXJuLTVLS1BUc0ZselkwcTFYSHgxTVJFOHZjT3ZwNkFzeksyWTBuN21paE4zcW5JWVhXNTFVOGR4SjI2bDFsN055Zw?oc=5",
+      "image": "",
+      "source": "Game*Spark",
+      "category": "it",
+      "date": "2026-08-20T22:00:03.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wYXFlVFFCNUFXUkJaUlpNLUhZT09WbFphbUh1eXRvWWxTdEJ4djFtVVVvSElYLUdZWWdBS3ZSUHhBS0p6RG9rcTJNSlhxNUU?oc=5",
+      "title": "津久井やまゆり園事件、あれから10年後の日常。家族が言った「よくたたかったと讃えたい」こと（FRaU編集部） | FRaU",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wYXFlVFFCNUFXUkJaUlpNLUhZT09WbFphbUh1eXRvWWxTdEJ4djFtVVVvSElYLUdZWWdBS3ZSUHhBS0p6RG9rcTJNSlhxNUU?oc=5",
+      "image": "",
+      "source": "現代ビジネス",
+      "category": "entertainment",
+      "date": "2026-08-20T21:04:40.000Z"
+    },
+    {
       "id": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tbFpUR0E2TjdNWDdMYVJVMFNQTjFvR1dFZ3lvTnlmQkU0RHpOV1NzZElXcldLdFI0SXQ5UnFKTVVNMWRocEl2S3d6RkpBU1VkT0FYYlpR?oc=5",
       "title": "ロシア、中国の「失地回復」の狙いは？共同通信・川北省吾氏が語る",
       "description": "",
@@ -5886,6 +5826,36 @@
       "source": "JBpress",
       "category": "world",
       "date": "2026-08-20T21:00:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZSXZRMEF4RzhWbWFaV2ZPVnVaOHEyNWcxVkRnS3dJNlliMk5IakFYbjJ3akZPdVZWWnp0NjdIOWFFdHNaQVROdVU2bkNJSmVJU3BXZG5Eak50OHo5cEpWY3QtZw?oc=5",
+      "title": "「ぼくの地球を守って」Prime Videoで実写ドラマ化。主演は広瀬アリス",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ZSXZRMEF4RzhWbWFaV2ZPVnVaOHEyNWcxVkRnS3dJNlliMk5IakFYbjJ3akZPdVZWWnp0NjdIOWFFdHNaQVROdVU2bkNJSmVJU3BXZG5Eak50OHo5cEpWY3QtZw?oc=5",
+      "image": "",
+      "source": "AV Watch",
+      "category": "entertainment",
+      "date": "2026-08-20T21:00:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUNHctaVdxQ2pGTmR6Yzl0ZFpzOHc4TGxiQ3N6YkVDSC1GUUpGa0sxNV9FUVlRcUNTbU51dXFRWGdsYzhZZnFBZXp5Z3NSYWNjMUZJV2k5RjBJZTJaMjVSbUpvVVcyV1A4?oc=5",
+      "title": "有望高校球児の進路事情に異変！ 青学大は「ドラフト指名と同等の価値」「明大より上」とプロスカウト",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUNHctaVdxQ2pGTmR6Yzl0ZFpzOHc4TGxiQ3N6YkVDSC1GUUpGa0sxNV9FUVlRcUNTbU51dXFRWGdsYzhZZnFBZXp5Z3NSYWNjMUZJV2k5RjBJZTJaMjVSbUpvVVcyV1A4?oc=5",
+      "image": "",
+      "source": "日刊ゲンダイDIGITAL",
+      "category": "science",
+      "date": "2026-08-20T21:00:00.000Z"
+    },
+    {
+      "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5odFdGNWNPR0hpRGVmR01oaWdLa2Q1Mzc0d3J6UmZFSnNxQURKSDZKX0wxZmFxRThVYU1RdjltUFNHRkhUMzBZektfXzhYNmdDMEVxbV9aRE82dw?oc=5",
+      "title": "羽生結弦×くまのプーさん、本人コメント動画＆直筆コメント到着！「これからもずっと共にいようね」",
+      "description": "",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5odFdGNWNPR0hpRGVmR01oaWdLa2Q1Mzc0d3J6UmZFSnNxQURKSDZKX0wxZmFxRThVYU1RdjltUFNHRkhUMzBZektfXzhYNmdDMEVxbV9aRE82dw?oc=5",
+      "image": "",
+      "source": "推し楽",
+      "category": "entertainment",
+      "date": "2026-08-20T20:00:00.000Z"
     }
   ]
 }
